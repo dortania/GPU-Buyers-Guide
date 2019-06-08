@@ -4,12 +4,12 @@ So it's that time of year again, a new version of macOS has been released and th
 
 **What GPUs are supported with macOS 10.15 Catalina?**
 
-Well you've come to right place, I'll give a quick run down on the situation and go into more detail on exact GPUs we recommend. For those intrested, you can find my old Mojave GPU Buyer's Guide [here](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/)
+Well you've come to the right place, I'll give a quick rundown on the situation and go into more detail on exact GPUs we recommend. For those interested, you can find my old Mojave GPU Buyer's Guide [here](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/)
 
 
 # A quick refresher with Nvidia and WebDrivers
 
-Well currently as of the time of writing, we've gone a full OS cycle without official drivers from Nvidia for their Maxwell, Pascal or Turing GPUs. What this means is that users of these GPUs have no support for either Mojave or Catalina so are stuck with macOS 10.13 High Sierra. Who's to blame? Well it's 2 giant, egotistical companines who both refuse to work together so the blame can go both ways. Do keep in mind that the WebDrivers have a VRAM leakage issue that they've yet to address, so a theory to why Apple refuses Nvidia drivers in macOS may be due to how Nvidia refuses to hand over the driver stack. Think it's a coincidence that both AMD and intle have open-sourced drivers? Well either way it doesn't change the fact there's no support. 
+Well currently as of the time of writing, we've gone a full OS cycle without official drivers from Nvidia for their Maxwell, Pascal or Turing GPUs. What this means is that users of these GPUs have no support for either Mojave or Catalina so are stuck with macOS 10.13 High Sierra. Who's to blame? Well it's 2 giant, egotistical companies who both refuse to work together so the blame can go both ways. Do keep in mind that the WebDrivers have a VRAM leakage issue that they've yet to address, so a theory to why Apple refuses Nvidia drivers in macOS may be due to how Nvidia refuses to hand over the driver stack. Think it's a coincidence that both AMD and intel have open-sourced drivers? Welll, either way, it doesn't change the fact there's no support. 
 
 Users with Kepler based GPUs are in the clear though, they utilize Apple's native drivers
 
@@ -20,16 +20,16 @@ So there’s still 2 routes for discrete GPUs you can go, either AMD or Nvidia(Y
 
 Things to remember:
 
-* macOS does not support either SLI, Crossfire or GPUs will multiple main cores(like the Radeon Pro Duo). Tjis may change with the release of the Radeon Pro Vega II Duo in the Mac Pro
+* macOS does not support either SLI, Crossfire or GPUs will multiple main cores(like the Radeon Pro Duo). This may change with the release of the Radeon Pro Vega II Duo in the Mac Pro
 * Getting audio through HDMI/DisplayPort may require extra work with both AppleALC.kext and some other IO-REG edits
 * GPU Overclocking is limited to Vega 10 GPUs with [PyVega](https://github.com/corpnewt/PyVega)
-* Running a supported GPU with an unsupported GPU can have wierd concequences as unsupported GPUs run offf VESA drivers which have the issue in whcih it can break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://www.reddit.com/r/hackintosh/comments/bu1wf8/how_to_disable_your_unsupported_gpu_for_macos/) for more info
+* Running a supported GPU with an unsupported GPU can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://www.reddit.com/r/hackintosh/comments/bu1wf8/how_to_disable_your_unsupported_gpu_for_macos/) for more info
 
 # AMD GPUs
 
 **Vega 20 series Highest Supported OS: Current/Catalina**
 
-So all Vega based GPUs are natively supported in macOS with Vega 20 GPUs starting in Mojave. While natively supported, it's recommended to still have WhateverGreen.kext installed as this helps with proper framebuffer connectins and fixes other odd issues like proper ACPI mapping and such
+So all Vega based GPUs are natively supported in macOS with Vega 20 GPUs starting in Mojave. While natively supported, it's recommended to still have WhateverGreen.kext installed as this helps with proper framebuffer connections and fixes other odd issues like proper ACPI mapping and such
 
 Supported Cards:
 
@@ -43,11 +43,11 @@ Needed kexts:
 
 **Vega 10 series Highest Supported OS: Current/Catalina**
 
-Just like with Vega 20, Vega 10 GPUs are natively supported in macOS though these card's support starts in High Sierra. Similar to Vega 20, it's recommended to still have WhateverGreen.kext installed as this helps with proper framebuffer connectins and fixes other odd issues like proper ACPI mapping and such.
+Just like with Vega 20, Vega 10 GPUs are natively supported in macOS though these card's support starts in High Sierra. Similar to Vega 20, it's recommended to still have WhateverGreen.kext installed as this helps with proper framebuffer connections and fixes other odd issues like proper ACPI mapping and such.
 
 And for those who want to overclock/undervolt, check out [PyVega](https://github.com/corpnewt/PyVega)
 
-The only brand of GPUs to **avoid with Vega 10 are XFX and Sapphire**. Reason being is VBIOS communication issues which can't be easily solved with a reference BIOS due to how Vega's powerplay table interacts between the OS and GPU.
+The only brand of GPUs to **avoid with Vega 10 are XFX and Sapphire**. The reason being is VBIOS communication issues which can't be easily solved with a reference BIOS due to how Vega's powerplay table interacts between the OS and GPU.
 
 Supported Cards:
 
@@ -67,7 +67,7 @@ Needed kexts:
 
 Regarding Polaris, basically every model of card is supported as long as it’s running a Polaris core(lower end cards like the RX550 run a Lexa core meaning no support in macOS).
 
-The only brand of GPU **you should** **avoid with the Polaris series would be XFX and ASRock** as many users have had issues with these cards with viewing Clover and macOS booting but other users have found fixes/work arounds(though nothing consictent). This seems to be caused by having an odd VBIOS that doesn't communicate well with macOS and the only real solution is flashing another VBIOS which is not ideal for most users.
+The only brand of GPU **you should** **avoid with the Polaris series would be XFX and ASRock** as many users have had issues with these cards with viewing Clover and macOS booting but other users have found fixes/workarounds(though nothing consistent). This seems to be caused by having an odd VBIOS that doesn't communicate well with macOS and the only real solution is flashing another VBIOS which is not ideal for most users.
 
 Supported cards:
 
@@ -90,11 +90,11 @@ Needed kexts:
 
 **GCN 3 and older based Cards**
 
-Regarding GCN 3 and older, cards from these generations theoretically will have support for Metal in Cataina but due to how fragmented some of the product stack became meant that some cards may not have support. Generally, HD 7XXX series of GPUs and up are metal compatible but I’ll only list GPUs that have been proven to work.
+Regarding GCN 3 and older, cards from these generations theoretically will have support for Metal in Catalina but due to how fragmented some of the product stack became meant that some cards may not have support. Generally, HD 7XXX series of GPUs and up are metal compatible but I’ll only list GPUs that have been proven to work.
 
 **Radeon R9 3xx (Fiji) Current/Catalina**
 
-Fiji is also natively supported in Catalina without much issue but we cannot guarantee the success of R5 and R7 cards due to not having many reports of success soon them. Also be wary that differing from the reference design of these cards have many more issues that require a lot of work to get them to run properly
+Fiji is also natively supported in Catalina without much issue but we cannot guarantee the success of R5 and R7 cards due to not having many reports of success soon them. Also, be wary that differing from the reference design of these cards have many more issues that require a lot of work to get them to run properly
 
 Supported cards:
 
@@ -123,8 +123,7 @@ Needed kexts
 
 **Navi Series (RX 5000) Highest Supported OS: None**
 
-Currently as of writing, Apple has not released any Navi based drivers for macOS. Because of this, you'll need to 
-to block out the GPU if you want to use another GPU as VESA drivers that unsupported GPUs runs off of break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://www.reddit.com/r/hackintosh/comments/bu1wf8/how_to_disable_your_unsupported_gpu_for_macos/)
+Currently as of writing, Apple has not released any Navi based drivers for macOS. Because of this, you'll need to block out the GPU if you want to use another GPU as VESA drivers that unsupported GPUs runs off of break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://www.reddit.com/r/hackintosh/comments/bu1wf8/how_to_disable_your_unsupported_gpu_for_macos/)
 
 Unsupported Cards:
 
@@ -197,7 +196,7 @@ Needed kexts:
 
 **Turing Series (GTX 20xx, 16xx) Highest Supported OS:NONE**
 
-Unfortunately no support in any version of macOS as no drivers were ever written even for High Sierra. Not much else to add.
+Unfortunately, no support in any version of macOS as no drivers were ever written even for High Sierra. Not much else to add.
 
 These cards include:
 
@@ -218,7 +217,7 @@ Quadro:
 
 **Volta Series Highest Supported OS:NONE**
 
-Same idea as Turing, no drivers were ever written
+The same idea as Turing, no drivers were ever written
 
 These cards include:
 
@@ -232,7 +231,7 @@ Quadro:
 
 **Pascal Series (GTX 10xx) Highest Supported OS: High Sierra 10.13.6**
 
-Well pretty sure most users know what going on with Pascal and Maxwell but I’ll just mention it quick here. No support for these cards in Mojave/Catalina but macOS High Sierra 10.13.6 do support these cards with the combination of Nvidia’s somewhat shotty drivers and Lilu+WhateverGreen
+Well pretty sure most users know what going on with Pascal and Maxwell but I’ll just mention it quickly here. No support for these cards in Mojave/Catalina but macOS High Sierra 10.13.6 do support these cards with the combination of Nvidia’s somewhat shotty drivers and Lilu+WhateverGreen
 
 Supported cards:
 
