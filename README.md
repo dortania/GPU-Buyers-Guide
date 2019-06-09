@@ -296,3 +296,197 @@ Needed kexts:
 * [Nvidia’s Web drivers](https://www.nvidia.com/download/driverResults.aspx/125379/en-us)
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+
+# Intel's Integrated Graphics
+
+So I'll be going over the compatible iGPUs present in intel's CPUs, main thing to note is that you'll need to apply the FrameBuffer patch to your system to get things to work properly. [Please refer to this post for more info on Framebuffer patching as it goes in depth on how to get your system running](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271). We will also be excluding iGPUs present in Pentiums, Celerons and Atom CPUs as these generally have never been supported natively and require quite a bit of extra work to get them working
+
+
+**Westmere i3/5/7-xxx Highest Supported OS: High Sierra 10.13.6**
+
+Unfortunately Mojave dropped support for these iGPUs but luckily using a similar method to Fermi we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won't link any of the files myself so do be wary when downloading kexts off the internet
+
+* HD Graphics (yup, that's all they called them)
+
+Files needed:
+
+* GPUSupport.framework
+* OpenGL.framework
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+* [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+
+
+**Sandy Bridge i3/5/7-2XXX Highest Supported OS: High Sierra 10.13.6(With a bit of work, current/Catalina)**
+
+Unfortunately Mojave dropped support for these iGPUs but luckily using a similar method to Fermi we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won't link any of the files myself so do be wary when downloading kexts off the internet
+
+Supported iGPUs:
+
+* HD 2000
+* HD 3000
+
+Files needed for HD 2000:
+
+* AppleIntelHDGraphicsFB.kext
+* AppleIntelHDGraphicsGA.plugin
+* AppleIntelHDGraphicsGLDriver.bundle
+* AppleIntelHDGraphicsVADriver.bundle
+
+Files needed for HD 3000:
+
+* AppleIntelHD3000Graphics.kext
+* AppleIntelHD3000GraphicsGA.plugin
+* AppleIntelHD3000GraphicsGLDriver.bundle
+* AppleIntelHD3000GraphicsVADriver.bundle
+* AppleIntelSNBGraphicsFB.kext
+* AppleIntelSNBVA.bundle
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+* [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+
+
+**Ivy Bridge i3/5/7-3XXX Highest Supported OS: Current/Catalina**
+
+Regarding the HD 4000, it's completely native with Catalina. The HD 2500 on the other hand only has partial support in Mojave for quick sync features as hardware acceleration is [unsupported](https://olarila.com/forum/viewtopic.php?t=7714)
+
+Supported iGPUs:
+
+* HD 2500
+* HD 4000
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+* [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+
+
+**Haswell i3/5/7-4XXX Highest Supported OS: Current/Catalina**
+
+Most iGPUs are supported here, only one to be concerned about is the HD4400 which requires either a spoofed DeviceID + FakePCIID.kext + FakePCIID_HDGraphics.kext or a modfied APCI path
+
+Supported iGPUs:
+
+* HD 4200
+* HD 4400(FakeID required for this iGPU)
+* HD 4600
+* HD 5000
+* HD 5100
+* HD P4600(Theoretically)
+* HD P4700(Theoretically)
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+* [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+
+
+**Broadwell i3/5/7-5XXX Highest Supported OS: Current/Mojave 10.14.4**
+
+All iGPUs are supported here, no issues to report
+
+Supported iGPUs:
+
+* HD 5300
+* HD 5500
+* HD 5600
+* HD 6000
+* HD 6100
+* HD 6200
+* HD P5700(Theoretically)
+* Iris Pro P6300
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+* [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+
+
+**Skylake i3/5/7-6XXX Highest Supported OS: Current/Mojave 10.14.4**
+
+All iGPUs are supported here, no issues to report
+
+Supported iGPUs:
+
+* HD 510
+* HD 515
+* HD 520
+* HD 530
+* HD P530
+* Iris 540
+* Iris 550
+* Iris Pro 580
+* Iris Pro P555
+* Iris Pro P580
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+* [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+
+
+**Kabylake i3/5/7-7XXX Highest Supported OS: Current/Mojave 10.14.4**
+
+Most iGPUs are supported here excluding the HD 610 present in the Pentium G4560
+
+Supported iGPUs:
+
+* HD 615
+* HD 620
+* HD 630
+* Iris Plus 640
+* Iris Plus 650
+
+&#x200B;
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+* [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+
+
+**Kabylake refresh/ Coffeelake i3/5/7-8XXX/9XXX Highest Supported OS: Current/Mojave 10.14.4**
+
+All iGPUs are supported here, though pay attention as the i3 8100 and 8350k use a different UHD 630 than the rest of the CPU family
+
+* UHD 610
+* UHD 620
+* UHD 630
+* Iris Plus 655
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+* [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+
+# AMD's Integrated Graphics
+
+Well I was originally just gonna say incompatible but they're not. Much more research will need to be done but will add to this later
+
+# Hey I'm lazy, just tell me what to buy
+
+So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx) or newer as GCN 3 and older can loose support at any time and the same applies for Kepler. Here's the cards we recommend and do remember that reference cards are generally the safest solution **(AVOID XFX AT ALL COSTS)**:
+
+* Rx 460/560
+* Rx 470/570
+* Rx 480/580
+* Rx 590
+* Rx Vega 56
+* Rx Vega 64
+* Rx Vega VII
+
+Hopefully this little guide helps you, if you have anything else you'd like to add feel free to mention and I'll look into it
+
+\- Your local neighbourhood Hackintosh Slav
