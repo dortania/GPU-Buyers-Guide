@@ -4,7 +4,7 @@ So it's that time of year again, a new version of macOS has been released and th
 
 **What GPUs are supported with macOS 10.15 Catalina?**
 
-Well you've come to the right place, I'll give a quick rundown on the situation and go into more detail on exact GPUs we recommend. For those interested, you can find my old Mojave GPU Buyer's Guide [here](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/)
+Well you've come to the right place, I'll give a quick rundown on the situation and go into more detail on exact GPUs we recommend. While this is named the Catalina GPU Buyers guide, this has info for High Sierra, Mojave and Catalina. And for those interested, you can find my old Mojave GPU Buyer's Guide [here](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/)
 
 
 # A quick refresher with Nvidia and WebDrivers
@@ -12,6 +12,10 @@ Well you've come to the right place, I'll give a quick rundown on the situation 
 Well currently as of the time of writing, we've gone a full OS cycle without official drivers from Nvidia for their Maxwell, Pascal or Turing GPUs. What this means is that users of these GPUs have no support for either Mojave or Catalina so are stuck with macOS 10.13 High Sierra. Who's to blame? Well it's 2 giant, egotistical companies who both refuse to work together so the blame can go both ways. Do keep in mind that the WebDrivers have a VRAM leakage issue that they've yet to address, so a theory to why Apple refuses Nvidia drivers in macOS may be due to how Nvidia refuses to hand over the driver stack. Think it's a coincidence that both AMD and intel have open-sourced drivers? Welll, either way, it doesn't change the fact there's no support. 
 
 Users with Kepler based GPUs are in the clear though, they utilize Apple's native drivers
+
+# So if my GPU is natively supported, why do i need Lilu and WhateverGreen?
+
+This is a question comes up quite a bit in the hackintosh community, and for good reason as why in the world would these GPUs work out of box on a mac and not a hackintosh? Well the reason being is that PCs and Macs have different internal wiring and so the ACPI layouts in a PC don't work well with Macs in different senarios. To get around this, we use [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) and it's commanion [Lilu](https://github.com/acidanthera/Lilu/releases) to patch different parts of our hackintosh like renaming devices, assisting in framebuffer connections, patching audio connectors, allowing modifications to aty_config, aty_properties, cail_properties via ACPI and so many more. With such a large feature set and developed by someone who knows what they're doing, there's no reason not to use it
 
 # So what GPU should I buy?
 
