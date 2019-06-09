@@ -29,7 +29,7 @@ Things to remember:
 * GPU Overclocking is limited to Vega 10 GPUs with [PyVega](https://github.com/corpnewt/PyVega)
 * Running a supported GPU with an unsupported GPU can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://www.reddit.com/r/hackintosh/comments/bu1wf8/how_to_disable_your_unsupported_gpu_for_macos/) for more info
 
-# AMD GPUs
+# Native AMD GPUs
 
 **Vega 20 series Highest Supported OS: Current/Catalina**
 
