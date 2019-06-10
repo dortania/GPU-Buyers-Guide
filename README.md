@@ -1,6 +1,5 @@
 # Catalina-GPU-Buyers-Guide
 
-# Hyperlinks
 * [A quick refresher with Nvidia and WebDrivers](README.md#a-quick-refresher-with-Nvidia-and-WebDrivers)
 * [So if my GPU is natively supported, why do i need Lilu and WhateverGreen?](README.md#So-if-my-GPU-is-natively-supported,-why-do-i-need-Lilu-and-WhateverGreen?)
 * [So what are my options?](README.md#So-what-are-my-options?)
