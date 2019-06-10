@@ -489,13 +489,13 @@ Needed kexts:
 
 So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx) or newer as GCN 3 and older can loose support at any time and the same applies for Kepler. Here are the cards we recommend and do remember that reference cards are generally the safest solution **(AVOID XFX AT ALL COSTS)**:
 
-* Rx 460/560
-* Rx 470/570
-* Rx 480/580
-* Rx 590
-* Rx Vega 56
-* Rx Vega 64
-* Rx Vega VII
+* RX 460/560
+* RX 470/570
+* RX 480/580
+* RX 590
+* RX Vega 56
+* RX Vega 64
+* RX Vega VII
 
 Hopefully this little guide helps you, if you have anything else you'd like to add feel free to mention and I'll look into it
 
