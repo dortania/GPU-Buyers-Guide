@@ -8,7 +8,7 @@
 * [Unsupported AMD GPUs](README.md#Unsupported-AMD-GPUs)
 * [Native nVidia GPUs](README.md#Native-nVidia-GPUs)
 * [Unsupported nVidia GPUs](README.md#Unsupported-nVidia-GPUs)
-* [Intel’s Integrated Graphics](README.md#Intel’s-Integrated-Graphics)
+* [Intel’s Integrated Graphics](README.md#Intels-Integrated-Graphics)
 * [Hey I'm lazy, just tell me what to buy](README.md#Hey-Im-lazy-just-tell-me-what-to-buy)
 
 So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
