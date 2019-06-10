@@ -21,13 +21,13 @@ Well you've come to the right place, I'll give a quick rundown on the situation 
 
 # A quick refresher with Nvidia and WebDrivers
 
-Well currently as of the time of writing, we've gone a full OS cycle without official drivers from Nvidia for their Maxwell, Pascal or Turing GPUs. What this means is that users of these GPUs have no support for either Mojave or Catalina so are stuck with macOS 10.13 High Sierra. Who's to blame? Well it's 2 giant, egotistical companies who both refuse to work together so the blame can go both ways. Do keep in mind that the WebDrivers have a VRAM leakage issue that they've yet to address, so a theory to why Apple refuses Nvidia drivers in macOS may be due to how Nvidia refuses to hand over the driver stack. Think it's a coincidence that both AMD and intel have open-sourced drivers? Welll, either way, it doesn't change the fact there's no support. 
+Well currently as of the time of writing, we've gone a full OS cycle without official drivers from Nvidia for their Maxwell, Pascal or Turing GPUs. What this means is that users of these GPUs have no support for either Mojave or Catalina so are stuck with macOS 10.13 High Sierra. Who's to blame? Well it's 2 giant, egotistical companies who both refuse to work together so the blame can go both ways. Do keep in mind that the WebDrivers have a VRAM leakage issue that they've yet to address, so a theory to why Apple refuses Nvidia drivers in macOS may be due to how Nvidia refuses to hand over the driver stack. Think it's a coincidence that both AMD and intel have open-sourced drivers? Well, either way, it doesn't change the fact there's no support. 
 
 Users with Kepler based GPUs are in the clear though, they utilize Apple's native drivers
 
 # So if my GPU is natively supported, why do i need Lilu and WhateverGreen?
 
-This is a question comes up quite a bit in the hackintosh community, and for good reason as why in the world would these GPUs work out of box on a mac and not a hackintosh? Well the reason being is that PCs and Macs have different internal wiring and so the ACPI layouts in a PC don't work well with Macs in different senarios. To get around this, we use [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) and it's commanion [Lilu](https://github.com/acidanthera/Lilu/releases) to patch different parts of our hackintosh like renaming devices, assisting in framebuffer connections, patching audio connectors, allowing modifications to aty_config, aty_properties, cail_properties via ACPI and so many more. With such a large feature set and developed by someone who knows what they're doing, there's no reason not to use it
+This is a question comes up quite a bit in the Hackintosh community, and for good reason as to why in the world would these GPUs work out of the box on a mac and not a Hackintosh? Well, the reason being is that PCs and Macs have different internal wiring and so the ACPI layouts in a PC don't work well with Macs in different scenarios. To get around this, we use [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) and it's companion [Lilu](https://github.com/acidanthera/Lilu/releases) to patch different parts of our Hackintosh like renaming devices, assisting in framebuffer connections, patching audio connectors, allowing modifications to aty_config, aty_properties, cail_properties via ACPI and so many more. With such a large feature set and developed by someone who knows what they're doing, there's no reason not to use it
 
 # So what are my options?
 
@@ -139,7 +139,7 @@ Needed kexts
 
 **Navi Series (RX 5000) Highest Supported OS: None**
 
-Currently as of writing, Apple has not released any Navi based drivers for macOS. Because of this, you'll need to block out the GPU if you want to use another GPU as VESA drivers that unsupported GPUs runs off of break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://www.reddit.com/r/hackintosh/comments/bu1wf8/how_to_disable_your_unsupported_gpu_for_macos/)
+Currently, as of writing, Apple has not released any Navi based drivers for macOS. Because of this, you'll need to block out the GPU if you want to use another GPU as VESA drivers that unsupported GPUs runs off of break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://www.reddit.com/r/hackintosh/comments/bu1wf8/how_to_disable_your_unsupported_gpu_for_macos/)
 
 Unsupported Cards:
 
@@ -311,12 +311,12 @@ Needed kexts:
 
 # Intel's Integrated Graphics
 
-So I'll be going over the compatible iGPUs present in intel's CPUs, main thing to note is that you'll need to apply the FrameBuffer patch to your system to get things to work properly. [Please refer to this post for more info on Framebuffer patching as it goes in depth on how to get your system running](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271). We will also be excluding iGPUs present in Pentiums, Celerons and Atom CPUs as these generally have never been supported natively and require quite a bit of extra work to get them working
+So I'll be going over the compatible iGPUs present in intel's CPUs, the main thing to note is that you'll need to apply the FrameBuffer patch to your system to get things to work properly. [Please refer to this post for more info on Framebuffer patching as it goes in depth on how to get your system running](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271). We will also be excluding iGPUs present in Pentiums, Celerons and Atom CPUs as these generally have never been supported natively and require quite a bit of extra work to get them working
 
 
 **Westmere i3/5/7-xxx Highest Supported OS: High Sierra 10.13.6**
 
-Unfortunately Mojave dropped support for these iGPUs but luckily using a similar method to Fermi we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won't link any of the files myself so do be wary when downloading kexts off the internet
+Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won't link any of the files myself so do be wary when downloading kexts off the internet
 
 * HD Graphics (yup, that's all they called them)
 
@@ -334,8 +334,7 @@ Needed kexts:
 
 **Sandy Bridge i3/5/7-2XXX Highest Supported OS: High Sierra 10.13.6(With a bit of work, current/Catalina)**
 
-Unfortunately Mojave dropped support for these iGPUs but luckily using a similar method to Fermi we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won't link any of the files myself so do be wary when downloading kexts off the internet
-
+Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won't link any of the files myself so do be wary when downloading kexts off the internet
 Supported iGPUs:
 
 * HD 2000
@@ -485,7 +484,7 @@ Needed kexts:
 
 # Hey I'm lazy, just tell me what to buy
 
-So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx) or newer as GCN 3 and older can loose support at any time and the same applies for Kepler. Here's the cards we recommend and do remember that reference cards are generally the safest solution **(AVOID XFX AT ALL COSTS)**:
+So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx) or newer as GCN 3 and older can loose support at any time and the same applies for Kepler. Here are the cards we recommend and do remember that reference cards are generally the safest solution **(AVOID XFX AT ALL COSTS)**:
 
 * Rx 460/560
 * Rx 470/570
