@@ -1,5 +1,16 @@
 # Catalina-GPU-Buyers-Guide
 
+# Hyperlinks
+* [A quick refresher with Nvidia and WebDrivers](README.md#a-quick-refresher-with-Nvidia-and-WebDrivers)
+* [So if my GPU is natively supported, why do i need Lilu and WhateverGreen?](README.md#So-if-my-GPU-is-natively-supported,-why-do-i-need-Lilu-and-WhateverGreen?)
+* [So what are my options?](README.md#So-what-are-my-options?)
+* [Native AMD GPUs](README.md#Native-AMD-GPUs)
+* [Unsupported AMD GPUs](README.md#Unsupported-AMD-GPUs)
+* [Native nVidia GPUs](README.md#Native-nVidia-GPUs)
+* [Unsupported nVidia GPUs](README.md#Unsupported-nVidia-GPUs)
+* [Intel’s Integrated Graphics](README.md#Intel’s-Integrated-Graphics)
+* [Hey I'm lazy, just tell me what to buy](README.md#Hey-I'm-lazy,-just-tell-me-what-to-buy)
+
 So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
 
 **What GPUs are supported with macOS 10.15 Catalina?**
@@ -17,7 +28,7 @@ Users with Kepler based GPUs are in the clear though, they utilize Apple's nativ
 
 This is a question comes up quite a bit in the hackintosh community, and for good reason as why in the world would these GPUs work out of box on a mac and not a hackintosh? Well the reason being is that PCs and Macs have different internal wiring and so the ACPI layouts in a PC don't work well with Macs in different senarios. To get around this, we use [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) and it's commanion [Lilu](https://github.com/acidanthera/Lilu/releases) to patch different parts of our hackintosh like renaming devices, assisting in framebuffer connections, patching audio connectors, allowing modifications to aty_config, aty_properties, cail_properties via ACPI and so many more. With such a large feature set and developed by someone who knows what they're doing, there's no reason not to use it
 
-# So what GPU should I buy?
+# So what are my options?
 
 
 So there’s still 2 routes for discrete GPUs you can go, either AMD or Nvidia(Yes, there’s actually natively supported Nvidia cards in Catalina). So I’ll be going over what GPUs are compatible and what features/drawbacks they hold.
@@ -470,10 +481,6 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 * [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
-
-# AMD's Integrated Graphics
-
-Well I was originally just gonna say incompatible but they're not. Much more research will need to be done but will add to this later
 
 # Hey I'm lazy, just tell me what to buy
 
