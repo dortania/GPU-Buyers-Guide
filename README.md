@@ -147,6 +147,7 @@ Unsupported Cards:
 
 * RX 5700
 * RX 5700 XT
+* RX 5700 XT 50th Anniversary Edition
 
 **Lexa Series (RX 400/500) Highest Supported OS: None**
 
