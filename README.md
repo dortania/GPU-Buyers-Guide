@@ -1,5 +1,7 @@
 # Catalina-GPU-Buyers-Guide
 
+**This is currently a rough draft for what will be posted near the end of September with the release of macOS 10.15 Catalina**
+
 * [A quick refresher with Nvidia and WebDrivers](README.md#a-quick-refresher-with-Nvidia-and-WebDrivers)
 * [So if my GPU is natively supported, why do i need Lilu and WhateverGreen?](README.md#So-if-my-GPU-is-natively-supported,-why-do-i-need-Lilu-and-WhateverGreen?)
 * [So what are my options?](README.md#So-what-are-my-options?)
