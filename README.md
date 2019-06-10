@@ -146,6 +146,7 @@ Currently, as of writing, Apple has not released any Navi based drivers for macO
 Unsupported Cards:
 
 * RX 5700
+* RX 5700 XT
 
 **Lexa Series (RX 400/500) Highest Supported OS: None**
 
