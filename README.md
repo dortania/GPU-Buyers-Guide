@@ -1,7 +1,5 @@
 # Catalina-GPU-Buyers-Guide
 
-**This is currently a rough draft for what will be posted near the end of September with the release of macOS 10.15 Catalina. More info with nVidia's super GPUs and AMD's Navi GPUs will be added as news comes out**
-
 **Disclaimer: I mention Turing, Pascal and Maxwell to help educate users on what versions of MacOs they're supported on but if you accidentally fell on this page thinking your RTX card is supported, please read carefully**
 
 * [A quick refresher with Nvidia and WebDrivers](README.md#a-quick-refresher-with-Nvidia-and-WebDrivers)
