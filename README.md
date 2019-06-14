@@ -219,9 +219,9 @@ Unfortunately, no support in any version of macOS as no drivers were ever writte
 These cards include:
 
 * Titan RTX
-* RTX 2080/Ti/Super
-* RTX 2070/Super
-* RTX 2060/Super
+* RTX 2080/Ti
+* RTX 2070
+* RTX 2060
 * GTX 1660/Ti
 * GTX 1650/Ti
 
