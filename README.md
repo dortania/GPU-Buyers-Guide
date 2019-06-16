@@ -385,7 +385,7 @@ Needed kexts:
 
 **Haswell i3/5/7-4XXX Highest Supported OS: Current/Catalina**
 
-Most iGPUs are supported here, only one to be concerned about is the HD4400 which requires either a spoofed DeviceID + FakePCIID.kext + FakePCIID_HDGraphics.kext or a modfied APCI path
+Most iGPUs are supported here, only one to be concerned about is the HD4400 which requires either a spoofed DeviceID with WhateverGreen or a modfied APCI path
 
 Supported iGPUs:
 
