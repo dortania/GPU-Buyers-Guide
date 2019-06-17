@@ -1,6 +1,6 @@
 # Catalina-GPU-Buyers-Guide
 
-**Disclaimer: I mention Turing, Pascal and Maxwell to help educate users on what versions of MacOs they're supported on but if you accidentally fell on this page thinking your RTX card is supported, please read carefully**
+**Disclaimer: I mention Turing, Pascal and Maxwell to help educate users on what versions of macOS they're supported on but if you accidentally fell on this page thinking your RTX card is supported, please read carefully**
 
 * [A quick refresher with Nvidia and WebDrivers](README.md#a-quick-refresher-with-Nvidia-and-WebDrivers)
 * [So if my GPU is natively supported, why do i need Lilu and WhateverGreen?](README.md#So-if-my-GPU-is-natively-supported,-why-do-i-need-Lilu-and-WhateverGreen?)
