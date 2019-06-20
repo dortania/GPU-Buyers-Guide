@@ -404,7 +404,7 @@ Needed kexts:
 * [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 
 
-**Broadwell i3/5/7-5XXX Highest Supported OS: Current/Mojave 10.14.4**
+**Broadwell i3/5/7-5XXX Highest Supported OS: Current/Catalina**
 
 All iGPUs are supported here, no issues to report
 
@@ -426,7 +426,7 @@ Needed kexts:
 * [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 
 
-**Skylake i3/5/7-6XXX Highest Supported OS: Current/Mojave 10.14.4**
+**Skylake i3/5/7-6XXX Highest Supported OS: Current/Catalina**
 
 All iGPUs are supported here, no issues to report
 
@@ -450,7 +450,7 @@ Needed kexts:
 * [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 
 
-**Kabylake i3/5/7-7XXX Highest Supported OS: Current/Mojave 10.14.4**
+**Kabylake i3/5/7-7XXX Highest Supported OS: Current/Catalina**
 
 Most iGPUs are supported here excluding the HD 610 present in the Pentium G4560
 
@@ -471,9 +471,9 @@ Needed kexts:
 * [IntelFrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 
 
-**Kabylake refresh/ Coffeelake i3/5/7-8XXX/9XXX Highest Supported OS: Current/Mojave 10.14.4**
+**Kabylake refresh/ Coffeelake i3/5/7-8XXX/9XXX Highest Supported OS: Current/Catalina**
 
-All iGPUs are supported here, though pay attention as the i3 8100 and 8350k use a different UHD 630 than the rest of the CPU family
+All iGPUs are supported here, though pay attention as the [i3 8100 and 8350k use a different UHD 630(184 shader units vs 192)](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Whiskey_Lake) than the rest of the CPU family which requires spoofing for support in High Sierra(generally wanted for headless rendering on a Maxwell/Pascal GPUs)
 
 * UHD 610
 * UHD 620
