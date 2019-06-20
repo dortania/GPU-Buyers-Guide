@@ -6,7 +6,7 @@
 * [So if my GPU is natively supported, why do i need Lilu and WhateverGreen?](README.md#So-if-my-GPU-is-natively-supported,-why-do-i-need-Lilu-and-WhateverGreen?)
 * [So what are my options?](README.md#So-what-are-my-options?)
 * [Native AMD GPUs](README.md#Native-AMD-GPUs)
-   * [Vega 20 series]()
+   * [Vega 20 series](README.md**Vega 20 series Highest Supported OS: Current/Catalina**)
    * [Vega 10 series]()
    * [Radeon 400/500 series (Polaris)]()
    * [GCN 3 and older based Cards]()
