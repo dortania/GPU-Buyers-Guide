@@ -69,9 +69,11 @@ The only brand of GPUs to **avoid with Vega 10 are XFX and Sapphire**. The reaso
 
 Supported Cards:
 
-* Vega 56
-* Vega 64
 * Vega 64 Liquid
+* Vega 64
+* Vega 56
+
+Radeon Pro:
 * Vega Frontier Edition
 * Radeon Pro WX 9100
 * Radeon Pro WX 7100
@@ -89,15 +91,28 @@ The only brand of GPU **you should** **avoid with the Polaris series would be XF
 
 Supported cards:
 
-* RX 460/560/X
-* RX 470/570/X
+400 Series:
+
+* RX 480
 * RX 470D
-* RX 480/580/X
+* RX 470
+* RX 460
+
+500 Series:
 * RX 590
-* WX 2100
-* WX 3100
-* WX 4100
+* RX 580X
+* RX 580
+* RX 570X
+* RX 570
+* RX 560X
+* RX 560
+
+Radeon Pro:
+
 * WX 5100
+* WX 4100
+* WX 3100
+* WX 2100
 
 
 Needed kexts:
@@ -116,21 +131,21 @@ Fiji is also natively supported in Catalina without much issue but we cannot gua
 
 Supported cards:
 
-* R7 240
-* R7 250
-* R9 260/360
-* R7 260x/360x
-* R7 265
-* R7 270/370
-* R9 270X/370X
-* R9 280/380
-* R9 280x/380x
-* R9 290/390(FakeID needed)
-* R9 290X/390X
-* R9 390(FakeID needed)
-* R9 Nano
-* R9 Fury
 * R9 Fury X
+* R9 Fury
+* R9 Nano
+* R9 390(FakeID needed)
+* R9 290X/390X
+* R9 290/390(FakeID needed)
+* R9 280x/380x
+* R9 280/380
+* R9 270X/370X
+* R7 270/370
+* R7 265
+* R7 260x/360x
+* R9 260/360
+* R7 250
+* R7 240
 
 Needed kexts
 
@@ -149,14 +164,26 @@ Unsupported Cards:
 * RX 5700 XT
 * RX 5700 XT 50th Anniversary Edition
 
-**Lexa Series (RX 400/500) Highest Supported OS: None**
+**Lexa Series (RX 500) Highest Supported OS: None**
 
 While these GPUs may share the same family name as the Polaris GPUs, these cards are drastically different meaning no support in any version of macOS. Similar to Navi and unsupported Nvidia GPUs, you'll need to disable the Lexa GPU due to how the Vesa drivers that unsupported GPUs run off of break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://www.reddit.com/r/hackintosh/comments/bu1wf8/how_to_disable_your_unsupported_gpu_for_macos/)
 
 Unsupported Cards:
 
-* RX 540/X
-* RX 550/X
+* RX 550X
+* RX 550
+* RX 540X
+* RX 540
+
+**AMD APUs (ALL VARIENTS) Highest Supported OS: None**
+
+The integrated GPU found on lower end AMD CPUs have unfortunatly never had offical support with community support quite lacking. While possible to get a display out with some work, graphics acceleration is basically imposiible making these APUs more of a hazard to macOS
+
+Unsupported APUs:
+* Vega 11(Zen)
+* Vega 8(Zen)
+* GCN 3(Escavator Gen 2, Steamroller) 
+* GCN 2(Escavator Gen 1, Puma, Puma +)
 
 
 # Native nVidia GPUs
@@ -172,9 +199,11 @@ Kepler Gen 2:
 * GTX Titan (GK 110 Maxwell core)
 * GTX Titan Black(GK 110 Maxwell core)
 * GTX Titan Z (One of the few dual GPU cards supported in MacOs)
-* GTX 780/Ti
+* GTX 780 Ti
+* GTX 780
 * GTX 770
-* GTX 760/Ti
+* GTX 760 Ti
+* GTX 760
 * GT 740
 * GT 730(GK208 variant)
 * GT 720
@@ -188,7 +217,7 @@ Kepler Gen 1:
 * GTX 690(Another dual GPU card compatible with macOS)
 * GTX 680
 * GTX 670
-* GTX 660Ti
+* GTX 660 Ti
 * GTX 660(MUST BE RUNNING A GK 104 core, NOT GK 106)
 * GTX 650(GK 107 core)
 * GT 640(Kepler edition, GK 107/208 core)
@@ -196,15 +225,17 @@ Kepler Gen 1:
 
 Quadro:
 
-* Quadro 410
-* Quadro K420
-* Quadro K600
-* Quadro K2000/D
-* Quadro K4000/D
-* Quadro K4200
-* Quadro K5000
-* Quadro K5200
 * Quadro K6000
+* Quadro K5200
+* Quadro K5000
+* Quadro K4200
+* Quadro K4000D
+* Quadro K4000
+* Quadro K2000D
+* Quadro K2000
+* Quadro K600
+* Quadro K420
+* Quadro 410
 
 Needed kexts:
 
@@ -221,18 +252,20 @@ Unfortunately, no support in any version of macOS as no drivers were ever writte
 These cards include:
 
 * Titan RTX
-* RTX 2080/Ti
+* RTX 2080 Ti
+* RTX 2080
 * RTX 2070
 * RTX 2060
-* GTX 1660/Ti
-* GTX 1650/Ti
+* GTX 1660 Ti
+* GTX 1660
+* GTX 1650
 
 Quadro:
 
-* Quadro RTX 4000
-* Quadro RTX 5000
-* Quadro RTX 6000
 * Quadro RTX 8000
+* Quadro RTX 6000
+* Quadro RTX 5000
+* Quadro RTX 4000
 
 
 **Volta Series Highest Supported OS:NONE**
@@ -257,23 +290,26 @@ Supported cards:
 
 * GTX Titan X(GP 102-400 Pascal core)
 * GTX Titan Xp(GP 102-450 Pascal core)
-* GTX 1080/Ti
-* GTX 1070/Ti
+* GTX 1080 Ti
+* GTX 1080
+* GTX 1070 Ti
+* GTX 1070
 * GTX 1060
-* GTX 1050/Ti
+* GTX 1050 Ti
+* GTX 1050
 * GT 1030
 
 Quadro:
 
-* Quadro P400
-* Quadro P600
-* Quadro P620
-* Quadro P1000
-* Quadro P2000
-* Quadro P4000
-* Quadro P5000
-* Quadro P6000
 * Quadro GP100
+* Quadro P6000
+* Quadro P5000
+* Quadro P4000
+* Quadro P2000
+* Quadro P1000
+* Quadro P620
+* Quadro P600
+* Quadro P400
 
 Needed kexts:
 
@@ -289,22 +325,24 @@ Same idea as Pascal, though the naming scheme is a bit odd as the GTX 745, 750 a
 Supported cards:
 
 * GTX Titan X(GM 200 Maxwell core)
-* GTX 980/ti
+* GTX 980 Ti
+* GTX 980
 * GTX 970
 * GTX 960
 * GTX 950
-* GTX 750/ti
+* GTX 750 Ti
+* GTX 750
 * GTX 745
 
 Quadro:
 
-* Quadro K620
-* Quadro K1200
-* Quadro K220
-* Quadro M2000
-* Quadro M4000
-* Quadro M5000
 * Quadro M6000
+* Quadro M5000
+* Quadro M4000
+* Quadro M2000
+* Quadro K220
+* Quadro K1200
+* Quadro K620
 * NVS 510
 
 Needed kexts:
