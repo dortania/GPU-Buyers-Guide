@@ -429,7 +429,7 @@ Needed kexts:
 
 **Ivy Bridge i3/5/7-3XXX Highest Supported OS: Current/Catalina**
 
-Regarding the HD 4000, it's completely native with Catalina. The HD 2500 on the other hand only has partial support in Mojave for quick sync features as hardware acceleration is [unsupported](https://olarila.com/forum/viewtopic.php?t=7714)
+Regarding the HD 4000, it's completely native with Catalina. The HD 2500 on the other hand only has partial support in Mojave for quick sync features as hardware acceleration is [unsupported](https://olarila.com/forum/viewtopic.php?t=7714) so you will need a compataible GPU for display purposes
 
 Supported iGPUs:
 
