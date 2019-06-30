@@ -404,6 +404,10 @@ Supported iGPUs:
 * HD 2000
 * HD 3000
 
+Framebuffer
+* AAPL,snb-platform-id (desktop): 0x00030010 (default)
+* AAPL,snb-platform-id (laptop): 0x00010000 (default)
+
 Files needed for HD 2000:
 
 * AppleIntelHDGraphicsFB.kext
@@ -436,6 +440,16 @@ Supported iGPUs:
 * HD 2500
 * HD 4000
 
+Framebuffer:
+
+* AAPL,ig-platform-id (desktop):
+   * 0x0166000A (default)
+   * 0x01620005
+* AAPL,ig-platform-id (laptop): 
+   * 0x01660003 (default)
+   * 0x01660009
+   * 0x01660004
+
 Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
@@ -456,6 +470,14 @@ Supported iGPUs:
 * HD 5100
 * HD P4600(Theoretically)
 * HD P4700(Theoretically)
+
+Framebuffer:
+
+* AAPL,ig-platform-id (desktop): 
+   * 0x0D220003 (default)
+* AAPL,ig-platform-id (laptop): 
+   * 0x0A160000 (default)
+   * 0x0A260005 (recommended)
 
 Needed kexts:
 
@@ -478,6 +500,13 @@ Supported iGPUs:
 * HD 6200
 * HD P5700(Theoretically)
 * Iris Pro P6300
+
+Framebuffer:
+
+* AAPL,ig-platform-id (desktop): 
+   * 0x16220007 (default)
+* AAPL,ig-platform-id (laptop): 
+   * 0x16260006 (default)
 
 Needed kexts:
 
@@ -503,6 +532,12 @@ Supported iGPUs:
 * Iris Pro P555
 * Iris Pro P580
 
+Framebuffer:
+* AAPL,ig-platform-id (desktop): 
+   * 0x19120000 (default)
+* AAPL,ig-platform-id (laptop): 
+   * 0x19160000 (default)
+
 Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
@@ -522,7 +557,11 @@ Supported iGPUs:
 * Iris Plus 640
 * Iris Plus 650
 
-&#x200B;
+Framebuffer:
+* AAPL,ig-platform-id (desktop): 
+   * 0x59160000 (default)
+* AAPL,ig-platform-id (laptop): 
+   * 0x591B0000 (default)
 
 Needed kexts:
 
@@ -539,6 +578,13 @@ All iGPUs are supported here, though pay attention as the [i3 8100 and 8350k use
 * UHD 620
 * UHD 630
 * Iris Plus 655
+
+Framebuffer:
+* AAPL,ig-platform-id (desktop): 
+   * 0x3EA50000 (default) 
+   * 0x3E9B0007 (recommended)
+* AAPL,ig-platform-id (laptop): 
+   * 0x3EA50009 (default)
 
 Needed kexts:
 
