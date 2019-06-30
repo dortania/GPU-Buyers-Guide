@@ -318,7 +318,6 @@ First generation Kepler:
 
 Quadro:
 
-* K4000D
 * K4000
 
 **Pascal Series (GTX 10xx) Highest Supported OS: High Sierra 10.13.6**
