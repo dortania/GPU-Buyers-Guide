@@ -630,7 +630,8 @@ Vega
 Polaris
 * [Asus Strix RX 580](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RX580-O8G-GAMING/)
 * [ASUS Dual series RX 580](https://www.asus.com/ca-en/Graphics-Cards/DUAL-RX580-O4G/)
-* Sapphire Pulse/Nitro RX 580
+* [Sapphire Pulse RX 580](https://www.sapphiretech.com/en/consumer/pulse-rx-580-8g-g5)
+* [Sapphire Nitro RX 580](https://www.sapphiretech.com/en/consumer/nitro-rx-580-8g-g5)
 * [Gigabyte RX 580 Gaming](https://www.gigabyte.com/Graphics-Card/GV-RX580GAMING-8GD-rev-10-11-12#kf)
 
 **Single Slot GPUs**
