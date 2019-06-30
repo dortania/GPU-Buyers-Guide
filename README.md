@@ -29,7 +29,7 @@
    * Skylake i3/5/7-6XXX
    * Kabylake i3/5/7-7XXX
    * Kabylake refresh/ Coffeelake i3/5/7-8XXX/9XXX
-* [GPUs for different Use Cases](README.md##GPUs-for-different-Use-Cases)
+* [GPUs for different Use Cases](README.md#GPUs-for-different-Use-Cases)
    * Fanless GPUs(0DB)
    * Single Slot GPUs
    * Half-height GPUs
