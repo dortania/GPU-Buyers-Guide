@@ -614,6 +614,8 @@ Needed kexts:
 * [Intel FrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 # GPUs for different Use Cases
 
+So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx) or newer as GCN 3 and older can loose support at any time and the same applies for Nvidia's Kepler. Here are the cards we recommend and do remember that reference cards are generally the safest solution **(AVOID XFX AT ALL COSTS)**
+
 **Fanless GPUs(0DB)**
 
 Unfortunalty the variety for fanless GPUs are quite small, while there are many GPUs with fan-stop these aren't perfect solutions. Models with no fan at all are limited to either GT 1030s which are unsupported past High Sierra or the GT 710 which could loose support some time soon
@@ -645,11 +647,20 @@ Polaris
 * [Radeon pro WX 4100](https://www.amd.com/en/products/professional-graphics/radeon-pro-wx-4100)
 * GT 710(basically every model is single slot, half height and many are fanless)
 
-**The most powerful GPUs**
+**The Most Powerful GPUs**
+
+While it may seem obvious that the most powerful GPU would be the Radeon VII, do keep in mind drivers aren't as mature as Vega 10's drivers. For the best reliablity you'll want to either grab a Vega 10 series GPU(RX Vega 64) or wait for the issues with the MacPro 7,1 to be ironed out
 
 * [Radeon VII](https://www.amd.com/en/products/graphics/amd-radeon-vii)
+* [Asus Strix Vega 64](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RXVEGA64-O8G-GAMING/)
+* [Gigabyte RX Vega 64 Gaming](https://www.gigabyte.com/Graphics-Card/GV-RXVEGA64GAMING-OC-8GD#kf)
+* [MSI Airboost Vega 64](https://www.msi.com/Graphics-card/Radeon-RX-Vega-64-Air-Boost-8G-OC)
 
-**Overall best Hackintosh GPUs**
+**Cheapest Hackintosh GPUs
+
+* 
+
+**Overall Best Hackintosh GPUs**
 
 Polaris:
 * [Sapphire Pulse RX 580](https://www.sapphiretech.com/en/consumer/pulse-rx-580-8g-g5)
@@ -668,11 +679,8 @@ So you just want a GPU recommendation? Well honestly in the current situation th
 
 * RX 460/560
 * RX 470/570
-* RX 480/580
 * RX 590
-* RX Vega 56
-* RX Vega 64
-* RX Vega VII
+
 
 Hopefully this little guide helps you, if you have anything else you'd like to add feel free to mention and I'll look into it
 
