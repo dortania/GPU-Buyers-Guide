@@ -29,6 +29,12 @@
    * Skylake i3/5/7-6XXX
    * Kabylake i3/5/7-7XXX
    * Kabylake refresh/ Coffeelake i3/5/7-8XXX/9XXX
+* [GPUs for different Use Cases](README.md##GPUs-for-different-Use-Cases)
+   * Fanless GPUs(0DB)
+   * Single Slot GPUs
+   * Half-height GPUs
+   * The most powerful GPUs
+   * Overall best Hackintosh GPUs
 * [Hey I'm lazy, just tell me what to buy](README.md#Hey-Im-lazy-just-tell-me-what-to-buy)
 
 So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
@@ -608,14 +614,52 @@ Needed kexts:
 * [Intel FrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 # GPUs for different Use Cases
 
-**The quiestest GPUs**
+**Fanless GPUs(0DB)**
 
-**The smallest GPUs**
+Unfortunalty the variety for fanless GPUs are quite small, while there are many GPUs with fan-stop these aren't perfect solutions. Models with no fan at all are limited to either GT 1030s which are unsupported past High Sierra or the GT 710 which could loose support some time soon
 
-* [Sapphire Pulse RX 550 640SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1)
-* GT 710(basically every model is single slot and half height
+Fanless models:
+* GT 710(basically every model is single slot, half height and many are fanless)
+
+Fan-Stop models(no fan spin under 50/60C generally):
+
+Vega
+* [Asus Strix Vega 56/64](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RXVEGA64-O8G-GAMING/)
+* [Gigabyte RX Vega 56/64 Gaming](https://www.gigabyte.com/Graphics-Card/GV-RXVEGA64GAMING-OC-8GD#kf)
+
+Polaris
+* [Asus Strix RX 580](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RX580-O8G-GAMING/)
+* [ASUS Dual series RX 580](https://www.asus.com/ca-en/Graphics-Cards/DUAL-RX580-O4G/)
+* Sapphire Pulse/Nitro RX 580
+* [Gigabyte RX 580 Gaming](https://www.gigabyte.com/Graphics-Card/GV-RX580GAMING-8GD-rev-10-11-12#kf)
+
+**Single Slot GPUs**
+
+* [Sapphire Pulse RX 550 640SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1)(make sure it's Polaris based, this is one of the first RX 550 models that run a "true" polaris chip)
+* [Radeon Pro WX 4100](https://www.amd.com/en/products/professional-graphics/radeon-pro-wx-4100)
+* GT 710(basically every model is single slot, half height and many are fanless)
+
+**Half-height GPUs**
+
+* [Radeon pro WX 4100](https://www.amd.com/en/products/professional-graphics/radeon-pro-wx-4100)
+* GT 710(basically every model is single slot, half height and many are fanless)
 
 **The most powerful GPUs**
+
+* [Radeon VII](https://www.amd.com/en/products/graphics/amd-radeon-vii)
+
+**Overall best Hackintosh GPUs**
+
+Polaris:
+* [Sapphire Pulse RX 580](https://www.sapphiretech.com/en/consumer/pulse-rx-580-8g-g5)
+* [MSI Armor RX 580](https://www.msi.com/Graphics-card/Radeon-RX-580-ARMOR-8G-OC.html)
+* [Asus Strix RX 580](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RX580-O8G-GAMING/)
+
+Vega:
+* [Asus Strix Vega 56/64](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RXVEGA64-O8G-GAMING/)
+* [Gigabyte RX Vega 56/64 Gaming](https://www.gigabyte.com/Graphics-Card/GV-RXVEGA64GAMING-OC-8GD#kf)
+* [MSI Airboost Vega 56/64](https://www.msi.com/Graphics-card/Radeon-RX-Vega-64-Air-Boost-8G-OC)
+* [Radeon VII](https://www.amd.com/en/products/graphics/amd-radeon-vii)
 
 # Hey I'm lazy, just tell me what to buy
 
