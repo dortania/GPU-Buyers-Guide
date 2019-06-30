@@ -606,6 +606,16 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 * [Intel FrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+# GPUs for different Use Cases
+
+**The quiestest GPUs**
+
+**The smallest GPUs**
+
+* [Sapphire Pulse RX 550 640SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1)
+* GT 710(basically every model is single slot and half height
+
+**The most powerful GPUs**
 
 # Hey I'm lazy, just tell me what to buy
 
