@@ -248,8 +248,6 @@ Quadro:
 * Quadro K5200
 * Quadro K5000
 * Quadro K4200
-* Quadro K4000D
-* Quadro K4000
 * Quadro K2000D
 * Quadro K2000
 * Quadro K600
@@ -303,6 +301,25 @@ Quadro:
 
 * Quadro GV100
 
+**Kepler Series(GK 106 Variants)**
+
+GPUs running the GK 106 core have the unfortunate concequene of having a serious issue regarding VRAM leakage. This means that there's a high chance of disotrion and overall instabilty when running these GPUs which unfortuanty have no real solution as even installing web drivers has no affect. A list of GPUs with this core can be found [here](https://www.techpowerup.com/gpu-specs/nvidia-gk106.g186)
+
+Second generation Kepler:
+
+* GT 740
+
+First generation Kepler:
+
+* GTX 660
+* GTX 650 Ti
+* GTX 650
+* GTX 645
+
+Quadro:
+
+* K4000D
+* K4000
 
 **Pascal Series (GTX 10xx) Highest Supported OS: High Sierra 10.13.6**
 
