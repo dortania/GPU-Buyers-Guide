@@ -30,6 +30,7 @@
    * Kabylake i3/5/7-7XXX
    * Kabylake refresh/ Coffeelake i3/5/7-8XXX/9XXX
 * [GPUs for different Use Cases](README.md#GPUs-for-different-Use-Cases)
+   * GPUs To Avoid
    * Fanless GPUs(0 DB)
    * Single Slot GPUs
    * Half-height GPUs
@@ -615,7 +616,32 @@ Needed kexts:
 * [Intel FrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 # GPUs for different Use Cases
 
-So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx) or newer as GCN 3 and older can loose support at any time and the same applies for Nvidia's Kepler. Here are the cards we recommend and do remember that reference cards are generally the safest solution **(AVOID XFX AT ALL COSTS)**
+So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx) or newer as GCN 3 and older can loose support at any time and the same applies for Nvidia's Kepler. Here are the cards we recommend and do remember that reference cards are generally the safest solution
+
+**GPUs To Avoid**
+
+With GPUs to avoid it's a bit of a mixed bag, the speific brands to avoid 100% are Powercolor and XFX regardless of what core they run. They're the most common GPUs to have instabiltiy issues and many users will outright not get any video out past the Clover bootscreen making a macOS install virtually impossible. And while Sapphire may be the best brand for Polaris GPUs, Vega GPUs are quite a bit of a different story. While many have working systems with Sapphire Vega, a good chunk of users also experience instability and issues with macOS functioning correctly. 
+
+And for those who are wondering why this list contradicts [Tonymacx86's buyers guide](https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/#AMD_Graphics_Cards), remember that their bottom line is to get users to  buy hardware through their affiliate program. This is also the same website that recommended Pascal GPUs [5 months after Mojave's release](https://web.archive.org/web/20190213211919/https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/), would you really trust a website that's neither kept up-to date and offers *shivers* the [beast tools](https://github.com/khronokernel/Tonymcx86-stance)?
+
+Powercolor(**ALL MODELS**)
+
+* [PowerColor Red Devil RX VEGA 56/64](https://www.powercolor.com/product?id=1511340918)
+* [PowerColor Red Dragon/Devil RX 580](https://www.powercolor.com/products?id=1492658578&type=1493173705)
+* [PowerColor Red Dragon RX 560/570](https://www.powercolor.com/products?id=1492658578&type=1493173679)
+
+XFX(**ALL MODELS**)
+
+* [XFX Reference RX Vega 56/64](http://xfxforce.com/en-us/products/amd-radeon-vega#*)
+* [XFX Vega 56 Double Dissipation](http://xfxforce.com/en-us/products/amd-radeon-vega/amd-radeon-rx-vega-56-hbm2-8gb-3xdp-hdmi-double-dissipation-rx-vegaldff6)
+* [XFX RX 590 Fatboy](http://xfxforce.com/en-us/products/amd-radeon-rx-500-series#*)
+* [XFX RX 580/570/560](http://xfxforce.com/en-us/products/amd-radeon-rx-500-series#*)
+
+Sapphire(**ONLY VEGA MODELS**)
+
+* [Sapphire Reference Vega 56/64](https://www.sapphiretech.com/en/consumer/21275-02-radeon-rx-vega64-8g-hbm2)
+* [Sapphire NITRO+ RX VEGA 56/64](https://www.sapphiretech.com/en/consumer/nitro-rx-vega64-8g-hbm2)
+* [Sapphire Pulse Vega 56](https://www.sapphiretech.com/en/consumer/pulse-rx-vega56-8g-hbm2)
 
 **Fanless GPUs(0 DB)**
 
@@ -638,6 +664,7 @@ Polaris
 * [Gigabyte RX 580 Gaming](https://www.gigabyte.com/Graphics-Card/GV-RX580GAMING-8GD-rev-10-11-12#kf)
 
 **Single Slot GPUs**
+
 Polaris
 
 * [Sapphire Pulse RX 550 640SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1)(make sure it's Polaris based, this is one of the first RX 550 models that run a "true" polaris chip)
