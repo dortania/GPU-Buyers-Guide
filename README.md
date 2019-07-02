@@ -270,7 +270,7 @@ Needed kexts:
 
 # Unsupported nVidia GPUs
 
-**Turing Series (GTX 20xx, 16xx) Highest Supported OS:NONE**
+**Turing Series (RTX 20xx, GTX 16xx) Highest Supported OS:NONE**
 
 Unfortunately, no support in any version of macOS as no drivers were ever written even for High Sierra. Not much else to add.
 
