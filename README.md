@@ -5,6 +5,7 @@
 * [A quick refresher with Nvidia and WebDrivers](README.md#a-quick-refresher-with-Nvidia-and-WebDrivers)
 * [So if my GPU is natively supported, why do i need Lilu and WhateverGreen?](README.md#So-if-my-GPU-is-natively-supported,-why-do-i-need-Lilu-and-WhateverGreen?)
 * [So what are my options?](README.md#So-what-are-my-options?)
+* [Can I run an unsupported GPU in my hack?](README.md#Can-I-run-an-unsupported-GPU-in-my-hack?)
 * [Native AMD GPUs](README.md#Native-AMD-GPUs)
    * Vega 20 series
    * Vega 10 series
@@ -68,7 +69,15 @@ Things to remember:
 * macOS does not support either SLI, Crossfire or GPUs will multiple main cores(like the Radeon Pro Duo). This may change with the release of the Radeon Pro Vega II Duo in the Mac Pro
 * Getting audio through HDMI/DisplayPort may require extra work with both AppleALC.kext and some other IO-REG edits
 * GPU Overclocking is limited to Vega 10 GPUs with [PyVega](https://github.com/corpnewt/PyVega)
-* Running a supported GPU with an unsupported GPU can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://www.reddit.com/r/hackintosh/comments/bu1wf8/how_to_disable_your_unsupported_gpu_for_macos/) for more info
+* Running a supported GPU with an unsupported GPU can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://github.com/khronokernel/How-to-disable-your-unsupported-GPU-for-MacOS) for more info
+
+# Can I run an unsupported GPU in my hack?
+
+So something to keep in mind when running an unsupported GPU in macOS is will fall back on VESA drivers when no real drivers are present. These are very simple, CPU based drivers that are used as a stop-gap while you wait to install the correct drivers but many baisc functions of macOS are broken when running this way including sleep and general stability. And since these GPUs have no drivers even outside of Apple, we need some way to stop the unsupported GPU from being recognized in macOS. So what do we do? Well I'm glad you ask. With my patent pending [How to disable your unsupported GPU for macOS Guide](https://github.com/khronokernel/How-to-disable-your-unsupported-GPU-for-MacOS/blob/master/README.md), even a simpleton like you can experience the glories of Mojave and beyond!
+
+`But can render macOS on my iGPU but use the video outs on my unsupported GPU?`
+
+Unfortunately not, and the reason being is actually quite similar to how Nvidia's Optimus technology functions. You would first need a way to grab/encode the iGPU's signal, send it towards the discrete GPU, then have said GPU decode the signal and display it. One small problem, decoding the signal would require proper GPU acceleration which your unsupported GPU doesn't have. So you will need to use your motherboard's video out ports no matter what
 
 # Native AMD GPUs
 
