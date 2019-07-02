@@ -3,7 +3,7 @@
 **Disclaimer: I mention Turing, Pascal and Maxwell to help educate users on what versions of macOS they're supported on but if you accidentally fell on this page thinking your RTX card is supported, please read carefully**
 
 * [A quick refresher with Nvidia and WebDrivers](README.md#a-quick-refresher-with-Nvidia-and-WebDrivers)
-* [So if my GPU is natively supported, why do i need Lilu and WhateverGreen?](README.md#so-if-my-GPU-is-natively-supported,-why-do-i-need-Lilu-and-WhateverGreen)
+* [So if my GPU is natively supported, why do i need Lilu and WhateverGreen?](README.md#so-if-my-GPU-is-natively-supported-why-do-i-need-Lilu-and-WhateverGreen)
 * [So what are my options?](README.md#so-what-are-my-options)
 * [Can I run an unsupported GPU in my hack?](README.md#can-I-run-an-unsupported-GPU-in-my-hack)
 * [Native AMD GPUs](README.md#Native-AMD-GPUs)
