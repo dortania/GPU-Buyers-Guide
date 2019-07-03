@@ -287,6 +287,7 @@ These cards include:
 
 * Titan RTX
 * RTX 2080 Ti
+* RTX 2080 Super
 * RTX 2080
 * RTX 2070 Super
 * RTX 2070
