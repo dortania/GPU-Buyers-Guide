@@ -1,6 +1,6 @@
 # Table of contents
 
-* [An introduction](initial.md)
+* [An introduction](Intitial.md)
 * [AMD GPUs](AMD-GPU.md)
 * [Nvidia GPUs](NVIDIA-GPU.md)
 * [Intel GPUs](INTEL-GPU.md)
