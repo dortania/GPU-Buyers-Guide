@@ -29,8 +29,11 @@ Supported iGPUs:
 * HD 3000
 
 Framebuffer
-* AAPL,snb-platform-id (desktop): 0x00030010 (default)
-* AAPL,snb-platform-id (laptop): 0x00010000 (default)
+* AAPL,snb-platform-id (desktop): 
+   * 0x00030010 (default)
+      * 10000300(hex swapped)
+* AAPL,snb-platform-id (laptop): 
+   * 0x00010000 (default)
 
 Files needed for HD 2000:
 
