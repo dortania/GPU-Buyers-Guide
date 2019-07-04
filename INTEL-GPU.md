@@ -31,9 +31,10 @@ Supported iGPUs:
 Framebuffer
 * AAPL,snb-platform-id (desktop): 
    * 0x00030010 (default)
-      * 10000300(hex swapped)
+      * 10000300 (hex swapped)
 * AAPL,snb-platform-id (laptop): 
    * 0x00010000 (default)
+      * 00000100 (hex swapped)
 
 Files needed for HD 2000:
 
@@ -71,11 +72,16 @@ Framebuffer:
 
 * AAPL,ig-platform-id (desktop):
    * 0x0166000A (default)
+      * 0A006601 (hex swapped)
    * 0x01620005
+      * 05006201 (hex swapped)
 * AAPL,ig-platform-id (laptop): 
    * 0x01660003 (default)
+      * 03006601 (hex swapped)
    * 0x01660009
+      * 09006601 (hex swapped)
    * 0x01660004
+      * 04006601 (hex swapped)
 
 Needed kexts:
 
@@ -102,9 +108,12 @@ Framebuffer:
 
 * AAPL,ig-platform-id (desktop): 
    * 0x0D220003 (default)
+      * 0300220D (hex swapped)
 * AAPL,ig-platform-id (laptop): 
    * 0x0A160000 (default)
+      * 0000160A (hex swapped)
    * 0x0A260005 (recommended)
+      * 0500260A (hex swapped)
 
 Needed kexts:
 
@@ -132,8 +141,10 @@ Framebuffer:
 
 * AAPL,ig-platform-id (desktop): 
    * 0x16220007 (default)
+      * 07002216 (hex swapped)
 * AAPL,ig-platform-id (laptop): 
    * 0x16260006 (default)
+      * 06002616 (hex swapped)
 
 Needed kexts:
 
@@ -162,8 +173,12 @@ Supported iGPUs:
 Framebuffer:
 * AAPL,ig-platform-id (desktop): 
    * 0x19120000 (default)
+      * 00001219 (hex swapped)
+   * 0x19120001 (Headless)
+      * 01001219 (hex swapped)
 * AAPL,ig-platform-id (laptop): 
    * 0x19160000 (default)
+      * 00001619 (hex swapped)
 
 Needed kexts:
 
@@ -187,8 +202,12 @@ Supported iGPUs:
 Framebuffer:
 * AAPL,ig-platform-id (desktop): 
    * 0x59160000 (default)
+      * 00001659 (hex swapped)
+   * 0x59120003 (Headless)
+      * 03001259 (hex swapped)
 * AAPL,ig-platform-id (laptop): 
    * 0x591B0000 (default)
+      * 00001B59 (hex swapped)
 
 Needed kexts:
 
@@ -209,9 +228,14 @@ All iGPUs are supported here, though pay attention as the [i3 8100 and 8350k use
 Framebuffer:
 * AAPL,ig-platform-id (desktop): 
    * 0x3EA50000 (default) 
+      * 0000A53E (hex swapped)
    * 0x3E9B0007 (recommended)
+      * 07009B3E (hex swapped)
+   * 0x3E920003 (Headless)
+      * 0300923E (hex swapped)
 * AAPL,ig-platform-id (laptop): 
    * 0x3EA50009 (default)
+      * 0900A53E (hex swapped)
 
 Needed kexts:
 
