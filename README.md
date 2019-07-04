@@ -6,22 +6,22 @@
 * [So if my GPU is natively supported, why do i need Lilu and WhateverGreen?](README.md#so-if-my-GPU-is-natively-supported-why-do-i-need-Lilu-and-WhateverGreen)
 * [So what are my options?](README.md#so-what-are-my-options)
 * [Can I run an unsupported GPU in my hack?](README.md#can-I-run-an-unsupported-GPU-in-my-hack)
-* [Native AMD GPUs](README.md#Native-AMD-GPUs)
+* [Native AMD GPUs](AMD-GPU.md)
    * Vega 20 series
    * Vega 10 series
    * Radeon 400/500 series (Polaris)
    * GCN 3 and older based Cards
-* [Unsupported AMD GPUs](README.md#Unsupported-AMD-GPUs)
+* [Unsupported AMD GPUs](AMD-GPU.md#Unsupported-AMD-GPUs)
    * Navi 10 Series
    * Lexa Series
    * AMD APUs
-* [Native nVidia GPUs](README.md#Native-nVidia-GPUs)
+* [Native nVidia GPUs](NVIDIA-GPU.md)
    * Kepler Series
-* [Unsupported nVidia GPUs](README.md#Unsupported-nVidia-GPUs)
+* [Unsupported nVidia GPUs](NVIDIA-GPU.md#Unsupported-nVidia-GPUs)
    * Turing Series
    * Pascal Series
    * Maxwell Series
-* [Intel’s Integrated Graphics](README.md#Intels-Integrated-Graphics)
+* [Intel’s Integrated Graphics](INTEL-GPU#Intels-Integrated-Graphics)
    * Westmere i3/5/7-xxx
    * Sandy Bridge i3/5/7-2XXX
    * Ivy Bridge i3/5/7-3XXX
@@ -30,7 +30,7 @@
    * Skylake i3/5/7-6XXX
    * Kabylake i3/5/7-7XXX
    * Kabylake refresh/ Coffeelake i3/5/7-8XXX/9XXX
-* [GPUs for different Use Cases](README.md#GPUs-for-different-Use-Cases)
+* [What-GPU-To-Get.md](README.md#GPUs-for-different-Use-Cases)
    * GPUs To Avoid
    * Fanless GPUs(0 DB)
    * Single Slot GPUs
