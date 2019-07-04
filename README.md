@@ -2,7 +2,7 @@
 
 **Disclaimer: I mention Turing, Pascal and Maxwell to help educate users on what versions of macOS they're supported on but if you accidentally fell on this page thinking your RTX card is supported, please read carefully**
 
-![](https://i.imgur.com/bLfav9g.jpg)
+![](https://i.imgur.com/2Wa6ugV.jpg)
 
 * [A quick refresher with Nvidia and WebDrivers](README.md#A-quick-refresher-with-Nvidia-and-WebDrivers)
 * [So if my GPU is natively supported, why do i need Lilu and WhateverGreen?](README.md#so-if-my-GPU-is-natively-supported-why-do-i-need-Lilu-and-WhateverGreen)
