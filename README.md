@@ -32,7 +32,7 @@
    * Skylake i3/5/7-6XXX
    * Kabylake i3/5/7-7XXX
    * Kabylake refresh/ Coffeelake i3/5/7-8XXX/9XXX
-* [What-GPU-To-Get.md](README.md#GPUs-for-different-Use-Cases)
+* [What GPU To Get](What-GPU-To-Get.md)
    * GPUs To Avoid
    * Fanless GPUs(0 DB)
    * Single Slot GPUs
@@ -40,7 +40,6 @@
    * The most powerful GPUs
    * Cheapest Hackintosh GPUs
    * Overall best Hackintosh GPUs
-* [Hey I'm lazy, just tell me what to buy](README.md#Hey-Im-lazy-just-tell-me-what-to-buy)
 
 So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
 
