@@ -25,7 +25,7 @@ Unfortunately, Mojave dropped support for these iGPUs but luckily we can actuall
 
 Supported iGPUs:
 
-* HD 2000(Can only be used for Quicksync tasks, no full acceeration)
+* HD 2000(Can only be used for Quicksync tasks, no full acceleration)
 * HD 3000
 
 Framebuffer
