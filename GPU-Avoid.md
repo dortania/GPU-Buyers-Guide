@@ -1,4 +1,4 @@
-#GPUs To Avoid
+# GPUs To Avoid
 
 With GPUs to avoid it's a bit of a mixed bag, the speific brands to avoid 100% are Powercolor and XFX regardless of what core they run. They're the most common GPUs to have instabiltiy issues and many users will outright not get any video out past the Clover bootscreen making a macOS install virtually impossible. And while Sapphire may be the best brand for Polaris GPUs, Vega GPUs are quite a bit of a different story. While many have working systems with Sapphire Vega, a good chunk of users also experience instability and issues with macOS functioning correctly. 
 
