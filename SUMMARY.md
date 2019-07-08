@@ -1,9 +1,13 @@
 # Table of contents
 
-* [AMD GPUs](AMD-GPU.md)
-* [Nvidia GPUs](NVIDIA-GPU.md)
-* [Intel GPUs](INTEL-GPU.md)
-* [What GPUs to avoid](GPU-Avoid.md)
-* [What GPU to get](What-GPU-To-Get.md)
+* [Introduction](README.md)
+* [AMD GPUs](amd-gpu.md)
+* [Nvidia GPUs](nvidia-gpu.md)
+* [Intel GPUs](intel-gpu.md)
+* [What GPUs to avoid](gpu-avoid.md)
+* [What GPU to get](what-gpu-to-get.md)
 
-* [Credit](Credit.md)
+## Misc
+
+* [Credit](misc/credit.md)
+
