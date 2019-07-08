@@ -1,6 +1,8 @@
 # What GPUs to avoid
 
-With GPUs to avoid it's a bit of a mixed bag, the speific brands to avoid 100% are Powercolor and XFX regardless of what core they run. They're the most common GPUs to have instabiltiy issues and many users will outright not get any video out past the Clover bootscreen making a macOS install virtually impossible\(Though it is possible to get the XFX RX 460/560 working with a VBIOS Flash, it's not recommended\). And while Sapphire may be the best brand for Polaris GPUs, Vega GPUs are quite a bit of a different story. While many have working systems with Sapphire Vega, a good chunk of users also experience instability and issues with macOS functioning correctly.
+With GPUs to avoid it's a bit of a mixed bag - the specific brand to avoid 100% is Powercolor regardless of what core it runs. They're the most common GPUs to have instability issues and many users will outright not get any video out past the Clover bootscreen making a macOS install virtually impossible. XFX should also be avoided if you can, because people also have trouble with it, although most XFX cards will work with CSM/legacy mode turned off (XFX cards have an issue with VBIOS, but the UEFI VBIOS is fine.) (Though it is possible to get the XFX RX 460/560 working with a VBIOS flash, it's risky and not recommended). And while Sapphire may be the best brand for Polaris GPUs, Vega GPUs are quite a bit of a different story. While many have working systems with Sapphire Vega, a good chunk of users also experience instability and issues with macOS functioning correctly.
+
+All 550s will **not** work except for the Sapphire Pulse 550, as the other 550s are Lexa core, while the Sapphire Pulse 550 is Polaris.
 
 And for those who are wondering why this list contradicts [Tonymacx86's buyers guide](https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/#AMD_Graphics_Cards), remember that their bottom line is to get users to buy hardware through their affiliate program. This is also the same website that recommended Pascal GPUs [5 months after Mojave's release](https://web.archive.org/web/20190213211919/https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/), would you really trust a website that's neither kept up-to date and offers _shivers_ the [beast tools](https://github.com/khronokernel/Tonymcx86-stance)?
 
@@ -15,6 +17,7 @@ XFX\(**ALL MODELS**\)
 * [XFX Reference RX Vega 56/64](http://xfxforce.com/en-us/products/amd-radeon-vega#*)
 * [XFX Vega 56 Double Dissipation](http://xfxforce.com/en-us/products/amd-radeon-vega/amd-radeon-rx-vega-56-hbm2-8gb-3xdp-hdmi-double-dissipation-rx-vegaldff6)
 * [XFX RX 590 Fatboy](http://xfxforce.com/en-us/products/amd-radeon-rx-500-series#*)
+* [XFX 560](http://xfxforce.com/en-us/products/amd-radeon-rx-500-series#*)
 * [XFX RX 580/570/560](http://xfxforce.com/en-us/products/amd-radeon-rx-500-series#*)
 
 Sapphire\(**ONLY VEGA MODELS**\)
