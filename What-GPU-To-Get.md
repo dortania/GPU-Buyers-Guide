@@ -27,7 +27,7 @@ Sapphire(**ONLY VEGA MODELS**)
 * [Sapphire NITRO+ RX VEGA 56/64](https://www.sapphiretech.com/en/consumer/nitro-rx-vega64-8g-hbm2)
 * [Sapphire Pulse Vega 56](https://www.sapphiretech.com/en/consumer/pulse-rx-vega56-8g-hbm2)
 
-# GPUs To Avoid
+# GPUs To Buy
 
 **Fanless GPUs(0 DB)**
 
