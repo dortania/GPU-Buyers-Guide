@@ -6,3 +6,4 @@
 * [What GPUs to avoid](GPU-Avoid.md)
 * [What GPU to get](What-GPU-To-Get.md)
 
+* [Credit](Credit.md)
