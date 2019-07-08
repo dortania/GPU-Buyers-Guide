@@ -2,8 +2,8 @@
 
 No good guide is made by one man, here's credit to those who've helped out:
 
-* [DhinakG\#9721](credit.md)
-  * Did a stuff
+* [DhinakG](https://github.com/dhinakg)
+  * Cleaned up XFX GPU section
 
 And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) that this was built off:
 
