@@ -83,7 +83,6 @@ While it may seem obvious that the most powerful GPU would be the Radeon VII, do
 
 **Cheapest Hackintosh GPUs**
 
-* RX 460/560
 * Litterally whatever iGPU came with your CPU
 
 **Overall Best Hackintosh GPUs**
