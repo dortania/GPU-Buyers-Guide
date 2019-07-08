@@ -16,4 +16,4 @@ And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackint
 * [trs96](https://www.tonymacx86.com/members/trs96.507278/)
   * Added NVS 510
 
-And special thanks to [MacFriedIntel](https://www.insanelymac.com/forum/profile/2126916-macfriedintel/) for stealing this guide, [rehosting it on his own site](https://boards.osx86.io/t/gpu-buyers-guide-june-2019/56), [blocking me from the insanelymac discord](https://imgur.com/a/DLBFhKS) and removing all credit from me. You are the people that make this hackintosh community what it is
+And special thanks to [MacFriedIntel](https://www.insanelymac.com/forum/profile/2126916-macfriedintel/) for stealing this guide, [rehosting it on his own site](https://boards.osx86.io/t/gpu-buyers-guide-june-2019/56), [blocking me from the insanelymac discord](https://imgur.com/a/DLBFhKS) and removing all credit from me. You are the people that make this hackintosh community what it is. But I guess there's one positive, who would steal a shitty guide?
