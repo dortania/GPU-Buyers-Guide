@@ -4,8 +4,6 @@
 
 So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx) or newer as GCN 3 and older can loose support at any time and the same applies for Nvidia's Kepler. Here are the cards we recommend and do remember that reference cards are generally the safest solution
 
-And for those who are wondering why this list contradicts [Tonymacx86's buyers guide](https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/#AMD_Graphics_Cards), remember that their bottom line is to get users to  buy hardware through their affiliate program. This is also the same website that recommended Pascal GPUs [5 months after Mojave's release](https://web.archive.org/web/20190213211919/https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/), would you really trust a website that's neither kept up-to date and offers *shivers* the [beast tools](https://github.com/khronokernel/Tonymcx86-stance)?
-
 **Fanless GPUs(0 DB)**
 
 Unfortunalty the variety for fanless GPUs are quite small, while there are many GPUs with fan-stop these aren't perfect solutions. Models with no fan at all are limited to either GT 1030s which are unsupported past High Sierra or the GT 710 which could loose support some time soon
