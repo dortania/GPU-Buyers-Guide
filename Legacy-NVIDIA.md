@@ -1,0 +1,21 @@
+**GeForce 500 series**
+
+**GeForce 400 series**
+
+**GeForce 300 series**
+
+**GeForce 200 series**
+
+**GeForce 100 series**
+
+**GeForce 9 (9xxx) series**
+
+**GeForce 8 (8xxx) series**
+
+**GeForce 7 (7xxx) series**
+
+**GeForce 6 (6xxx) series**
+
+**GeForce FX (5xxx) series**
+
+
