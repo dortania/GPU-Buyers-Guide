@@ -9,7 +9,7 @@ And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackint
 
 * [u/bankopf](https://www.reddit.com/u/bankopf/)
   * non X variants of the R9 series are not native and need to use a FakeID
-* [u/midi1996](credit.md)
+* [u/midi1996](https://www.reddit.com/u/midi1996/)
   * Highest Supported OS
   * Changed order of nVidia GPUs for native cards first
   * Adding intel HD graphics
