@@ -30,9 +30,14 @@ So what's this section for? Well quite a fe users have been wondering what the h
 
 **Radeon HD 6000 Series\(6XXX\) Highest Supported OS: High Sierra**
 
+* HD 6790
+* HD 6850
+* HD 6870
+
 **Radeon HD 5000 Series\(5XXX\) Highest Supported OS: High Sierra**
 
 * HD 5770
+* HD 5850
 * HD 5870 
 
 **Radeon HD 4000 Series\(4XXX\) Highest Supported OS: High Sierra**
