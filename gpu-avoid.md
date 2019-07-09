@@ -12,7 +12,7 @@ Powercolor\(**AVOID ALL MODELS**\)
 * [PowerColor Red Dragon/Devil RX 580](https://www.powercolor.com/products?id=1492658578&type=1493173705)
 * [PowerColor Red Dragon RX 560/570](https://www.powercolor.com/products?id=1492658578&type=1493173679)
 
-XFX\(**AVOID ALL MODELS**\)
+XFX\(**AVOID VEGA AND 560/460 MODELS**\)
 
 * [XFX Reference RX Vega 56/64](http://xfxforce.com/en-us/products/amd-radeon-vega#*)
 * [XFX Vega 56 Double Dissipation](http://xfxforce.com/en-us/products/amd-radeon-vega/amd-radeon-rx-vega-56-hbm2-8gb-3xdp-hdmi-double-dissipation-rx-vegaldff6)
