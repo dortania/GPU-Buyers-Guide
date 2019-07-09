@@ -19,8 +19,9 @@ XFX\(**AVOID ALL MODELS**\)
 * [XFX RX 590 Fatboy](http://xfxforce.com/en-us/products/amd-radeon-rx-500-series#*)
 * [XFX RX 580/570](http://xfxforce.com/en-us/products/amd-radeon-rx-500-series#*)
 * [XFX RX 560](http://xfxforce.com/en-us/products/amd-radeon-rx-500-series#*)
+* [XFX RX 460](http://xfxforce.com/en-us/products/amd-radeon-rx-400-series#*)
 
-Sapphire\(**ONLY VEGA MODELS**\)
+Sapphire\(**AVOID ONLY VEGA MODELS**\)
 
 * [Sapphire Reference Vega 56/64](https://www.sapphiretech.com/en/consumer/21275-02-radeon-rx-vega64-8g-hbm2)
 * [Sapphire NITRO+ RX VEGA 56/64](https://www.sapphiretech.com/en/consumer/nitro-rx-vega64-8g-hbm2)
