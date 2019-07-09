@@ -19,3 +19,16 @@ And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackint
 And special thanks to [MacFriedIntel](https://www.insanelymac.com/forum/profile/2126916-macfriedintel/) for stealing this guide, [rehosting it on his own site](https://boards.osx86.io/t/gpu-buyers-guide-june-2019/56), [blocking me from the insanelymac discord](https://imgur.com/a/DLBFhKS) and removing all credit from me. You are the people that make this hackintosh community what it is. But I guess there's one positive, who would steal a shitty guide?
 
 And for anyone who wants to make updates or corrections to this guide either fork it or open up issues on the github [here](https://github.com/khronokernel/Catalina-GPU-Buyers-Guide)
+
+
+
+Other sources:
+
+* [List of AMD graphics processing units](https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_X700_&_X800_Series)
+* [List of Nvidia graphics processing units](https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_FX_(5xxx)_series)
+* [Intel Graphics Technology](https://en.wikipedia.org/wiki/Intel_Graphics_Technology)
+* [GK106 GPUs](https://www.techpowerup.com/gpu-specs/nvidia-gk106.g186)
+* [Intel Framebuffer Patching](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+* [Radeon Compatibility Guide - ATI/AMD Graphics Cards](https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/)
+* [Running HD 2500 in Mojave](https://olarila.com/forum/viewtopic.php?t=7714)
+
