@@ -23,7 +23,7 @@ And for anyone who wants to make updates or corrections to this guide either for
 
 
 Other sources:
-* [List of Nvidia graphics processing units](https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_FX_(5xxx)_series)
+* [List of Nvidia GPUs](https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_FX_(5xxx)_series)
 
 * [List of AMD graphics processing units](https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_X700_&_X800_Series)
 
