@@ -1,9 +1,5 @@
 # Introduction
 
-## Catalina-GPU-Buyers-Guide
-
-**Disclaimer: I mention Turing, Pascal and Maxwell to help educate users on what versions of macOS they're supported on but if you accidentally fell on this page thinking your RTX card is supported, please read carefully**
-
 ![](https://i.imgur.com/2Wa6ugV.jpg)
 
 * [A quick refresher with Nvidia and WebDrivers](./#A-quick-refresher-with-Nvidia-and-WebDrivers)
@@ -34,6 +30,18 @@
   * Skylake i3/5/7-6XXX
   * Kabylake i3/5/7-7XXX
   * Kabylake refresh/ Coffeelake i3/5/7-8XXX/9XXX
+* [Legacy AMD](Legacy-AMD.md)
+   * HD 8000
+   * HD 7000
+   * HD 6000
+   * HD 5000
+   * HD 4000
+   * HD 3000
+   * HD 2000
+   * X1000
+* [Legacy Nvidia](Legacy-NVIDIA.md)
+   * Fermi Series
+   * Tesla Series
 * [What GPU To Get](what-gpu-to-get.md)
   * GPUs To Avoid
   * Fanless GPUs\(0 DB\)
