@@ -40,7 +40,7 @@ Similar to Fermi, these GPUs are supported by High Sierra but users have experin
 
 * 8800 GT
 
-**GeForce 7 \(7xxx\) series Highest Supported OS: High Sierra**
+**GeForce 7 \(7xxx\) series Highest Supported OS: El Capitan**
 
 * 7300 GT
 
