@@ -1,6 +1,6 @@
 # Intel GPUs
 
-So I'll be going over the compatible iGPUs present in intel's CPUs, the main thing to note is that you'll need to apply the FrameBuffer patch to your system to get things to work properly. [Please refer to this post for more info on Framebuffer patching as it goes in depth on how to get your system running](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271). We will also be excluding iGPUs present in Pentiums, Celerons and Atom CPUs as these generally have never been supported natively and require quite a bit of extra work to get them working
+So I'll be going over the compatible iGPUs present in intel's CPUs, the main thing to note is that you'll need to apply the FrameBuffer patch to your system to get things to work properly. [Please refer to this post for more info on Framebuffer patching as it goes in depth on how to get your system running](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271). We will also be excluding iGPUs present in Pentiums, Celerons and Atom CPUs as these generally have never been supported natively and require quite a bit of extra work to get them working(to be more specific, GT1 based iGPUs don't work, Apple only uses GT2 and up in their macs)
 
 **Westmere i3/5/7-xxx Highest Supported OS: High Sierra 10.13.6**
 
