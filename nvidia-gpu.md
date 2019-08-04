@@ -8,16 +8,15 @@ Currently the only 100% native Nvidia architecture that works with Catalina. Use
 
 Also keep in mind that the following systems have a kepler GPU meaning that support will likely stay until all pre-skylake hardware is dropped(so anything without USB-C):
 
-```
-iMac13,1               GT 640M
-iMac13,2               GT 660M
-iMac14,1               GT 750M  
-iMac14,2               GT 755M
-
-MacBookPro9,1          GT 650M
-MacBookPro10,1         GT 650M
-MacBookPro11,3         GT 750M
-```
+|SMBIOS|GPU|Initial Release|Discontinued|
+|:-|:-|:-|:-|
+|iMac13,1|GT 640M|October 23, 2012/March 5, 2013|September 24, 2013/June 18, 2014|
+|iMac13,2|GT 660M|October 23, 2012|September 24, 2013|
+|iMac14,1|GT 750M|September 24, 2013|October 13, 2015|
+|iMac14,2|GT 755M|September 24, 2013|October 13, 2015/May 19, 2015|
+|MacBookPro9,1|GT 650M|June 11, 2012|October 22, 2013|
+|MacBookPro10,1|GT 650M|June 11, 2012/February 13, 2013|October 22, 2013/February 13, 2013|
+|MacBookPro11,3|GT 750M|October 22, 2013/July 29, 2014|July 29, 2014/May 19, 2015|
 
 Supported cards:
 
