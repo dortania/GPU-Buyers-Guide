@@ -1,4 +1,4 @@
-**4th Gen GMA**
+**4th Gen GMA Highest Supported OS:Lion**
 
 Native(Lion):
 
