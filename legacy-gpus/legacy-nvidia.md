@@ -4,13 +4,15 @@ So what's this section for? Well a decent chunk of users have been wondering wha
 
 Also to note: InjectNvidia may be required for these GPUs
 
+And for those wondering, it is possible to run Mojave or even Catalina with these GPUs with a bit of work. Do keep in mind stability is not garunteed and requires you to modify the macOS file system. Try at your own risk: [source](https://www.insanelymac.com/forum/topic/339035-pre-release-macos-catalina/?page=21&tab=comments#comment-2677545)
+
 **Fermi series (4xx, 5xx) Highest Supported OS: High Sierra**
 
 Something to note with Fermi GPUs is while they may be supported in macOS High Sierra users have experienced issues with stabilty. If you're expericing instabilty as well you'll want to downgrade to Sierra
 
 **Tesla series (1xx, 2xx, 3xx) Highest Supported OS: High Sierra**
 
-Similar to Fermi, these GPUs are supported by High Sierra but users have experinced issues with these GPUs. If you experince instability as well you can downgrade to High Sierra
+Similar to Fermi, these GPUs are supported by High Sierra but don't generally experience the same issues that Fermi does in High Sierra
 
 300 series:
 
