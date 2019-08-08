@@ -11,6 +11,7 @@
 
 * [Legacy AMD](legacy-gpus/legacy-amd.md)
 * [Legacy Nvidia](legacy-gpus/legacy-nvidia.md)
+* [Legacy Intel](legacy-gpus/legacy-intel.md)
 
 ## Misc
 
