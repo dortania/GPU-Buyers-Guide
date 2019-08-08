@@ -1,6 +1,9 @@
 # Table of contents
 
 * [Introduction](README.md)
+
+## Modern GPUs
+
 * [AMD GPUs](amd-gpu.md)
 * [Nvidia GPUs](nvidia-gpu.md)
 * [Intel GPUs](intel-gpu.md)
