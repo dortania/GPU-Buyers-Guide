@@ -44,7 +44,7 @@ Needed kexts:
 
 Regarding Polaris, basically every model of card is supported as long as it’s running a Polaris core\(lower end cards like the RX550 run a Lexa core meaning no support in macOS\).
 
-The only brand of GPU **you should** **avoid with the Polaris series would be XFX and ASRock** as many users have had issues with these cards with viewing Clover and macOS booting but other users have found fixes/workarounds\(though nothing consistent\). This seems to be caused by having an odd VBIOS that doesn't communicate well with macOS and the only real solution is flashing another VBIOS which is not ideal for most users.
+The only brand of GPU **you should** **avoid with the Polaris series would be XFX and PowerColour** as many users have had issues with these cards with viewing Clover and macOS booting but other users have found fixes/workarounds\(though nothing consistent\). This seems to be caused by having an odd VBIOS that doesn't communicate well with macOS and the only real solution is flashing another VBIOS which is not ideal for most users.
 
 Supported cards:
 
