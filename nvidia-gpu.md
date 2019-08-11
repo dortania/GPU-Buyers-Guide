@@ -66,6 +66,10 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
+Extras:
+
+* `shikigva=40` boot flag: Swaps boardID to iMac14,2 for better Nvidia Support and whitelists patches
+
 ## Unsupported nVidia GPUs
 
 **Turing Series \(RTX 20xx, GTX 16xx\) Highest Supported OS:NONE**
@@ -160,6 +164,11 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
+Extras:
+
+* `shikigva=40` boot flag: Swaps boardID to iMac14,2 for better Nvidia Support and whitelists patches
+* NvidiaWeb property: Forces `nvda_drv=1` on each boot, required for systems with non-native NVRAM(EmuVariableUEFI)
+
 **Maxwell Series \(GTX 9xx, 745, 750 and ti variant\) Highest Supported OS: High Sierra 10.13.6**
 
 Same idea as Pascal, though the naming scheme is a bit odd as the GTX 745, 750 and 750ti are all Maxwell based even though they’re being marketed with the Kepler line so be wary when buying
@@ -193,3 +202,7 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
+Extras:
+
+* `shikigva=40` boot flag: Swaps boardID to iMac14,2 for better Nvidia Support and whitelists patches
+* NvidiaWeb property: Forces `nvda_drv=1` on each boot, required for systems with non-native NVRAM(EmuVariableUEFI)
