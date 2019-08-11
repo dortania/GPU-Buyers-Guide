@@ -40,6 +40,7 @@ Needed kexts:
 * [lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
+
 **Radeon 400/500 series \(Polaris\) Highest Supported OS: Current/Catalina**
 
 Regarding Polaris, basically every model of card is supported as long as it’s running a Polaris core\(lower end cards like the RX550 run a Lexa core meaning no support in macOS\).
@@ -107,6 +108,13 @@ Needed kexts
 
 * [lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+
+Extras:
+
+
+* `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initiaization)
+* `-raddvi` boot flag: Fixes DVI, required for 290X, 370, etc
+* InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
 
 ## Unsupported AMD GPUs
 
