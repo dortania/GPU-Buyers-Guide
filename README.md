@@ -30,7 +30,7 @@
   * Skylake i3/5/7-6XXX
   * Kabylake i3/5/7-7XXX
   * Kabylake refresh/ Coffeelake i3/5/7-8XXX/9XXX
-* [Legacy AMD](Legacy-AMD.md)
+* [Legacy AMD](legacy-gpus/Legacy-AMD.md)
    * HD 8000
    * HD 7000
    * HD 6000
@@ -39,9 +39,12 @@
    * HD 3000
    * HD 2000
    * X1000
-* [Legacy Nvidia](Legacy-NVIDIA.md)
+* [Legacy Nvidia](legacy-gpus/Legacy-NVIDIA.md)
    * Fermi Series
    * Tesla Series
+* [Legacy Intel](legacy-gpus/legacy-intel.md)
+   * 4th Gen GMA
+   * 3rd Gen GMA
 * [What GPU To Get](what-gpu-to-get.md)
   * GPUs To Avoid
   * Fanless GPUs\(0 DB\)
