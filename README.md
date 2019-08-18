@@ -30,7 +30,7 @@
   * Skylake i3/5/7-6XXX
   * Kabylake i3/5/7-7XXX
   * Kabylake refresh/ Coffeelake i3/5/7-8XXX/9XXX
-* [Legacy AMD](legacy-gpus/Legacy-AMD.md)
+* [Legacy AMD](legacy-gpus/legacy-amd.md)
    * HD 8000
    * HD 7000
    * HD 6000
@@ -39,7 +39,7 @@
    * HD 3000
    * HD 2000
    * X1000
-* [Legacy Nvidia](legacy-gpus/Legacy-NVIDIA.md)
+* [Legacy Nvidia](legacy-gpus/legacy-nvidia.md)
    * Fermi Series
    * Tesla Series
 * [Legacy Intel](legacy-gpus/legacy-intel.md)
