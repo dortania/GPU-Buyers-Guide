@@ -22,4 +22,5 @@
 
 ## Misc
 
+* [Boot Flags](bootflag.md)
 * [Credit](misc/credit.md)
