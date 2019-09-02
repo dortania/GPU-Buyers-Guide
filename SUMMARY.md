@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Table of Contents](Table-of-Contents.md)
 
 ## Modern GPUs
 
