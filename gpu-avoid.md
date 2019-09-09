@@ -13,7 +13,7 @@ Powercolor\(**AVOID ALL MODELS**\)
 * [PowerColor Red Dragon/Devil RX 580](https://www.powercolor.com/products?id=1492658578&type=1493173705)
 * [PowerColor Red Dragon RX 560/570](https://www.powercolor.com/products?id=1492658578&type=1493173679)
 
-XFX\(**AVOID VEGA AND 560/460 MODELS**\)
+XFX\(**AVOID VEGA AND 590/560/460 MODELS**\)
 
 * [XFX Reference RX Vega 56/64](http://xfxforce.com/en-us/products/amd-radeon-vega#*)
 * [XFX Vega 56 Double Dissipation](http://xfxforce.com/en-us/products/amd-radeon-vega/amd-radeon-rx-vega-56-hbm2-8gb-3xdp-hdmi-double-dissipation-rx-vegaldff6)
@@ -21,4 +21,10 @@ XFX\(**AVOID VEGA AND 560/460 MODELS**\)
 * [XFX RX 580/570](http://xfxforce.com/en-us/products/amd-radeon-rx-500-series#*)
 * [XFX RX 560](http://xfxforce.com/en-us/products/amd-radeon-rx-500-series#*)
 * [XFX RX 460](http://xfxforce.com/en-us/products/amd-radeon-rx-400-series#*)
+
+HIS\(**AVOID ALL MODELS**)
+
+* [HIS RX 580 IceQ X² OC](http://www.hisdigital.com/gb/product2-943.shtml)
+* [HIS RX 570 IceQ X² OC](http://www.hisdigital.com/gb/product2-945.shtml)
+* [HIS RX 560 iCooler OC](http://www.hisdigital.com/un/product2-958.shtml)
 
