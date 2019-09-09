@@ -21,7 +21,7 @@ Just like with Vega 20, Vega 10 GPUs are natively supported in macOS though thes
 
 And for those who want to overclock/undervolt, check out [PyVega](https://github.com/corpnewt/PyVega)
 
-The only brand of GPUs to **avoid with Vega 10 are XFX and Sapphire**. The reason being is VBIOS communication issues which can't be easily solved with a reference BIOS due to how Vega's powerplay table interacts between the OS and GPU.
+The only brand of GPUs to **avoid with Vega 10 are XFX and Sapphire**. The reason being is VBIOS communication issues which can't be easily solved with a reference BIOS due to how Vega's powerplay table interacts between the OS and GPU. Sapphire Vega support seems to have been mostly resolved with the advent of macOS 10.14.5 but do note that there were issues that can come back in the future.
 
 Supported Cards:
 
