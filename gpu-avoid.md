@@ -1,6 +1,7 @@
 # What GPUs to avoid
 
-With GPUs to avoid it's a bit of a mixed bag - the specific brand to avoid 100% is Powercolor regardless of what core it runs. They're the most common GPUs to have instability issues and many users will outright not get any video out past the Clover bootscreen making a macOS install virtually impossible. XFX should also be avoided if you can, because people also have trouble with it, although most XFX cards will work with CSM/legacy mode turned off \(XFX cards have an issue with VBIOS, but the UEFI VBIOS is fine.\) \(Though it is possible to get the XFX RX 460/560 working with a VBIOS flash, it's risky and not recommended\). And while Sapphire may be the best brand for Polaris GPUs, Vega GPUs are quite a bit of a different story. While many have working systems with Sapphire Vega, a good chunk of users also experience instability and issues with macOS functioning correctly.
+With GPUs to avoid it's a bit of a mixed bag - the specific brand to avoid 100% is Powercolor regardless of what core it runs. They're the most common GPUs to have instability issues and many users will outright not get any video out past the Clover bootscreen making a macOS install virtually impossible. XFX should also be avoided if you can, because people also have trouble with it, although most XFX cards will work with CSM/legacy mode turned off \(XFX cards have an issue with VBIOS, but the UEFI VBIOS is fine.\) \(Though it is possible to get the XFX RX 460/560 working with a VBIOS flash, it's risky and not recommended\). And while Sapphire may be the best brand for Polaris GPUs, Vega GPUs are quite a bit of a different story. While many have working systems with Sapphire Vega, a good chunk of users also experience instability and issues with macOS functioning correctly. 
+**Update**: With the advent of macOS 10.14.5, support for Sapphire Vega has been greatly improved. But do note that these issues were quite serious so tread lightly as all the kinks may not have been truly resolved
 
 All 550s will **not** work except for the [Sapphire Pulse 550 640 SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1), as the other 550s are Lexa core, while the Sapphire Pulse 550 640 SP is Polaris.
 
@@ -20,10 +21,4 @@ XFX\(**AVOID VEGA AND 560/460 MODELS**\)
 * [XFX RX 580/570](http://xfxforce.com/en-us/products/amd-radeon-rx-500-series#*)
 * [XFX RX 560](http://xfxforce.com/en-us/products/amd-radeon-rx-500-series#*)
 * [XFX RX 460](http://xfxforce.com/en-us/products/amd-radeon-rx-400-series#*)
-
-Sapphire\(**AVOID ONLY VEGA MODELS**\)
-
-* [Sapphire Reference Vega 56/64](https://www.sapphiretech.com/en/consumer/21275-02-radeon-rx-vega64-8g-hbm2)
-* [Sapphire NITRO+ RX VEGA 56/64](https://www.sapphiretech.com/en/consumer/nitro-rx-vega64-8g-hbm2)
-* [Sapphire Pulse Vega 56](https://www.sapphiretech.com/en/consumer/pulse-rx-vega56-8g-hbm2)
 
