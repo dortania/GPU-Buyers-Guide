@@ -18,6 +18,8 @@ Vega
 
 * [Asus Strix Vega 56/64](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RXVEGA64-O8G-GAMING/)
 * [Gigabyte RX Vega 56/64 Gaming](https://www.gigabyte.com/Graphics-Card/GV-RXVEGA64GAMING-OC-8GD#kf)
+* [Sapphire NITRO+ RX VEGA 56/64](https://www.sapphiretech.com/en/consumer/nitro-rx-vega64-8g-hbm2)
+* [Sapphire Pulse Vega 56](https://www.sapphiretech.com/en/consumer/pulse-rx-vega56-8g-hbm2)
 
 Polaris
 
@@ -77,12 +79,13 @@ Quadro
 
 **The Most Powerful GPUs**
 
-While it may seem obvious that the most powerful GPU would be the Radeon VII, do keep in mind drivers aren't as mature as Vega 10's drivers. For the best reliablity you'll want to either grab a Vega 10 series GPU\(RX Vega 64\) or wait for the issues with the MacPro 7,1 to be ironed out
+While it may seem obvious that the most powerful GPU would be the Radeon VII, do keep in mind drivers aren't as mature as Vega 10's drivers. For the best reliablity you'll want to either grab a Vega 10 series GPU\(RX Vega 64\) or wait for the issues with the MacPro 7,1 to be ironed out.
 
 * [Radeon VII](https://www.amd.com/en/products/graphics/amd-radeon-vii)
 * [Asus Strix Vega 64](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RXVEGA64-O8G-GAMING/)
 * [Gigabyte RX Vega 64 Gaming](https://www.gigabyte.com/Graphics-Card/GV-RXVEGA64GAMING-OC-8GD#kf)
 * [MSI Airboost Vega 64](https://www.msi.com/Graphics-card/Radeon-RX-Vega-64-Air-Boost-8G-OC)
+* [Sapphire Reference Vega 64](https://www.sapphiretech.com/en/consumer/21275-02-radeon-rx-vega64-8g-hbm2)
 
 **Cheapest Hackintosh GPUs**
 
