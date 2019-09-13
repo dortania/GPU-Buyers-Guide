@@ -4,7 +4,8 @@ No good guide is made by one man, here's credit to those who've helped out:
 
 * [DhinakG](https://github.com/dhinakg)
   * Cleaned up XFX GPU section
-
+* [MacHeadSK](https://www.reddit.com/user/MacHeadSK/)
+   * Correction on Sapphire Vega GPUs
 And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) that this was built off:
 
 * [u/bankopf](https://www.reddit.com/u/bankopf/)
