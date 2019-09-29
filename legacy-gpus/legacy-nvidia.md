@@ -42,7 +42,9 @@ Similar to Fermi, these GPUs are supported by High Sierra but don't generally ex
 
 * 8800 GT
 
-**GeForce 7 \(7xxx\) series Highest Supported OS: El Capitan**
+**GeForce 7 \(7xxx\) series Highest Supported OS: Lion**
+
+Reason for this is due to the kexts only being 32bit
 
 * 7300 GT
 
