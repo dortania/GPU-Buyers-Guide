@@ -6,6 +6,9 @@ No good guide is made by one man, here's credit to those who've helped out:
   * Cleaned up XFX GPU section
 * [MacHeadSK](https://www.reddit.com/user/MacHeadSK/)
    * Correction on Sapphire Vega GPUs
+* [Goldfish64](https://github.com/Goldfish64)
+   * Correction on Geforce 7 series support
+
 And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) that this was built off:
 
 * [u/bankopf](https://www.reddit.com/u/bankopf/)
@@ -16,8 +19,6 @@ And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackint
   * Adding intel HD graphics
 * [trs96](https://www.tonymacx86.com/members/trs96.507278/)
   * Added NVS 510
-
-And special thanks to [MacFriedIntel](https://www.insanelymac.com/forum/profile/2126916-macfriedintel/) for stealing this guide, [rehosting it on his own site](https://boards.osx86.io/t/gpu-buyers-guide-june-2019/56), [blocking me from the insanelymac discord](https://imgur.com/a/DLBFhKS) and removing all credit from me. You are the people that make this hackintosh community what it is. But I guess there's one positive, who would steal a shitty guide?
 
 And for anyone who wants to make updates or corrections to this guide either fork it or open up issues on the github [here](https://github.com/khronokernel/Catalina-GPU-Buyers-Guide)
 
