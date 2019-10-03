@@ -28,3 +28,8 @@ HIS\(**AVOID ALL MODELS**)
 * [HIS RX 570 IceQ X² OC](http://www.hisdigital.com/gb/product2-945.shtml)
 * [HIS RX 560 iCooler OC](http://www.hisdigital.com/un/product2-958.shtml)
 
+VisionTek\(**AVOID ALL MODELS**)
+
+* [VisionTek RX 590 OC Limited Edition](https://www.visiontek.com/radeon-rx-590-oc-limited-edition.html)
+* [VisionTek OCPC RX 580](https://www.visiontek.com/ocpc-radeon-rx-580-8gb-gddr5-metallic-shroud.html)
+* [VisionTek RX 560 Overclocked](https://www.visiontek.com/radeon-rx-560-2gb-gddr5-oc.html)
