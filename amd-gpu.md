@@ -120,7 +120,7 @@ Extras:
 
 **Navi 10 Series \(RX 5000\) Highest Supported OS: None**
 
-Currently, as of 10.15 Developers Beta 3, Apple has not released any Navi based drivers for macOS. While there are references to the RX 5700, 5400 and 5100 within the AMDRadeonX5000HWServices.kext they do nothing but this signifies that there will likely be support for Navi down the line.
+Currently, as of 10.15.0, Apple has not released any Navi based drivers for macOS. While there are references to the RX 5700, 5400 and 5100 within the AMDRadeonX5000HWServices.kext they do nothing but this signifies that there will likely be support for Navi down the line.
 
 But because of this, you'll need to block out the GPU if you want to use another GPU as VESA drivers that unsupported GPUs runs off of break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://www.reddit.com/r/hackintosh/comments/bu1wf8/how_to_disable_your_unsupported_gpu_for_macos/)
 
