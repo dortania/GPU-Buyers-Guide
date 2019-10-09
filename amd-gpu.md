@@ -70,7 +70,6 @@ Radeon Pro:
 
 * WX 5100
 * WX 4100
-* WX 3100
 * WX 2100
 
 Needed kexts:
@@ -136,6 +135,7 @@ While these GPUs may share the same family name as the Polaris GPUs, these cards
 
 Unsupported Cards:
 
+* WX 3100
 * RX 550X
 * RX 550
 * RX 540X
