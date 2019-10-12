@@ -119,7 +119,7 @@ Extras:
 
 **Navi 10 Series \(RX 5000\) Highest Supported OS: None**
 
-Currently, as of 10.15.1 Developer beta 1, Apple has released the Navi based drivers for macOS. Due to these drivers still being in beta, we recommened holding off until these drivers have been added to 10.15.1 offically
+Currently, as of 10.15.1 Developer beta 1, Apple has updated the GPU framework to support RDNA, but unfortunately drivers have yet to add the Navi based drivers for macOS.
 
 Soon to be Cards:
 
