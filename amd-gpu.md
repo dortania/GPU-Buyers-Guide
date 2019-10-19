@@ -127,7 +127,7 @@ Soon to be Cards:
 * RX 5700 XT
 * RX 5700 XT 50th Anniversary Edition
 
-Note: 5500 series hasn't been added yet as I have yet to check validity with the PCI ID match in the drivers. Once done I will update this portion
+Note: 5500 series haven't been added to the IOPCIMatch property in the AMDRadeonX6000.kext, this may change but currently on the 5700 series is supported.
 
 **Lexa Series \(RX 500\) Highest Supported OS: None**
 
