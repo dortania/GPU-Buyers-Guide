@@ -17,8 +17,7 @@ And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackint
   * Highest Supported OS
   * Changed order of nVidia GPUs for native cards first
   * Adding intel HD graphics
-* [trs96](https://www.tonymacx86.com/members/trs96.507278/)
-  * Added NVS 510
+
 
 And for anyone who wants to make updates or corrections to this guide either fork it or open up issues on the github [here](https://github.com/khronokernel/Catalina-GPU-Buyers-Guide)
 
