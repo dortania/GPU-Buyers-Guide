@@ -37,9 +37,6 @@ Kepler Gen 2:
 
 Kepler Gen 1:
 
-* GTX Titan \(GK 110 Maxwell core\)
-* GTX Titan Black\(GK 110 Maxwell core\)
-* GTX Titan Z \(One of the few dual GPU cards supported in MacOs, unfortunately was never truly utilized\)
 * GTX 690\(Another dual GPU card compatible with macOS\)
 * GTX 680
 * GTX 670
