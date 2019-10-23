@@ -15,6 +15,7 @@ This little section here is a short explainer on some of the more commonly usefu
 
 * `-radvesa`
    * Forces GPU into VESA mode(no GPU acceleration), useful for troubleshooting
+   * Apple's built in version of this flag is `-amd_no_dgpu_accel`
 
 * `agdpmod=vit9696`
    * Disables `board-id` check, may be needed for when screen turns black after finishing booting
@@ -25,7 +26,7 @@ This little section here is a short explainer on some of the more commonly usefu
    * A boot flag that refuses to die, **STOP USING IT**. Used for enabling Nvidia's WebDrivers pre-macOS Sierra but no longer works as it was moved to an NVRAM variable instead, use `NvidiaWeb` under `System Parameters` in your config.plist
 
 * `nv_disable=1`
-   * Forces GPU into VESA mode(no GPU acceleration), useful for troubleshooting and when having issues installing Nvidia's WebDrivers
+   * Forces GPU into VESA mode(no GPU acceleration), useful for troubleshooting and when having issues installing Nvidia's WebDrivers. This is a macOS flag so WEG is not needed.
 
 * `shikigva=40`
    * Swaps boardID with iMac14,2
