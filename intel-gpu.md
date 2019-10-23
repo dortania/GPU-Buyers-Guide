@@ -75,12 +75,14 @@ Framebuffer:
   * 0x01620005
     * 05006201 \(hex swapped\)
 * AAPL,ig-platform-id \(laptop\): 
-  * 0x01660003 \(default\)
-    * 03006601 \(hex swapped\)
-  * 0x01660009
-    * 09006601 \(hex swapped\)
-  * 0x01660004
+
+  * 0x01660004 \(Recommended, 1600x900 screens or higher\)
     * 04006601 \(hex swapped\)
+  * 0x01660009 \(Alternative, eDP or autodetect\)
+    * 09006601 \(hex swapped\)
+  * 0x01660003 \(1366x768 screens\)
+    * 03006601 \(hex swapped\)
+
 
 Needed kexts:
 
