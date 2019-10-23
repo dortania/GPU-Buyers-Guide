@@ -117,7 +117,7 @@ Extras:
 
 ## Unsupported AMD GPUs
 
-**Navi 10 Series \(RX 5000\) Highest Supported OS: None**
+**Navi 10 Series \(RX 5000\) Highest Supported OS: Catalina**
 
 Currently, as of 10.15.1 Developer beta 2, Apple has updated the GPU framework to support RDNA and fortunately drivers have been added for Navi !
 
