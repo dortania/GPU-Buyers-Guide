@@ -19,6 +19,12 @@ This little section here is a short explainer on some of the more commonly usefu
 
 * `agdpmod=vit9696`
    * Disables `board-id` check, may be needed for when screen turns black after finishing booting
+   
+* `-radcfg` 
+   * Fixes Navi support for WhateverName.app
+
+* `-radgl`
+   * Forces OpenGL, useful for debugging
 
 # Nvidia Boot Arguments
 
