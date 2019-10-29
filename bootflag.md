@@ -20,6 +20,8 @@ This little section here is a short explainer on some of the more commonly usefu
 * `agdpmod=vit9696`
    * Disables `board-id` check, may be needed for when screen turns black after finishing booting
    
+* `agdpmod=pikera`
+   * Renames `board-id` to `board-ix` effectively disabling boardID checks, this is an alternative when `agdpmod=vit9696` either is broken or doesn't work like with macOS 10.15.1(WhateverGreen 1.3.4 no longer requires this)
 * `-radcfg` 
    * Fixes Navi support for WhateverName.app
 
