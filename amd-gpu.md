@@ -2,6 +2,18 @@
 
 ## Native AMD GPUs
 
+**Navi 10 Series \(RX 5700\) Highest Supported OS: Catalina**
+
+Currently, as of 10.15.1, Apple has finally added RDNA and Navi support!
+
+Supported Cards:
+
+* RX 5700
+* RX 5700 XT
+* RX 5700 XT 50th Anniversary Edition
+
+Note: 5500 series haven't been added to the IOPCIMatch property in the AMDRadeonX6000.kext, this may change but currently only the 5700 series is supported.
+
 **Vega 20 series Highest Supported OS: Current/Catalina**
 
 So all Vega based GPUs are natively supported in macOS with Vega 20 GPUs starting in Mojave. While natively supported, it's recommended to still have WhateverGreen.kext installed as this helps with proper framebuffer connections and fixes other odd issues like proper ACPI mapping and such
@@ -116,17 +128,13 @@ Extras:
 
 ## Unsupported AMD GPUs
 
-**Navi 10 Series \(RX 5000\) Highest Supported OS: Catalina**
+**Navi 10 Series \(RX 5500\) Highest Supported OS: None**
 
-Currently, as of 10.15.1 Developer beta 2, Apple has updated the GPU framework to support RDNA and fortunately drivers have been added for Navi !
+While 10.15.1 added support for Navi, not all cards were included:
 
-Soon to be Cards:
+Unsupported Cards:
 
-* RX 5700
-* RX 5700 XT
-* RX 5700 XT 50th Anniversary Edition
-
-Note: 5500 series haven't been added to the IOPCIMatch property in the AMDRadeonX6000.kext, this may change but currently on the 5700 series is supported.
+* RX 5500
 
 **Lexa Series \(RX 500\) Highest Supported OS: None**
 
@@ -143,7 +151,7 @@ Unsupported Cards:
 
 **AMD APUs \(ALL VARIENTS\) Highest Supported OS: None**
 
-The integrated GPU found on lower end AMD CPUs have unfortunatly never had offical support with community support quite lacking. While possible to get a display out with some work, graphics acceleration is basically imposiible making these APUs more of a hazard to macOS
+The integrated GPU found on lower end AMD CPUs have unfortunatly never had offical support with community support quite lacking. While possible to get a display out with some work, graphics acceleration is basically imposiible making these APUs more of a hazard to macOS.
 
 Unsupported APUs:
 
