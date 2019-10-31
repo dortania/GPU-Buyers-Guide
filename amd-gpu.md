@@ -12,7 +12,14 @@ Supported Cards:
 * RX 5700 XT
 * RX 5700 XT 50th Anniversary Edition
 
-Note: 5500 series haven't been added to the IOPCIMatch property in the AMDRadeonX6000.kext, this may change but currently only the 5700 series is supported.
+Note: Most Navi cards currently require the boot argument `agdpmod=pikera` to get proper display out, also keep in mind DisplayPort can be a hit or miss as WhateverGreen needs to be adapted
+
+Needed kexts:
+
+* [lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+
+
 
 **Vega 20 series Highest Supported OS: Current/Catalina**
 
