@@ -8,6 +8,8 @@ No good guide is made by one man, here's credit to those who've helped out:
    * Correction on Sapphire Vega GPUs
 * [Goldfish64](https://github.com/Goldfish64)
    * Correction on Geforce 7 series support
+* [u/vostokhost](https://www.reddit.com/user/vostokhost)
+   * Correction on GT 710 core
 
 And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) that this was built off:
 

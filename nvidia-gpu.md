@@ -33,7 +33,7 @@ Kepler Gen 2:
 * GT 740
 * GT 730\(GK208 variant\)
 * GT 720
-* GT 710
+* GT 710(GK208 variant)
 
 Kepler Gen 1:
 
@@ -115,6 +115,7 @@ Second generation Kepler:
 
 * GT 740
 
+
 First generation Kepler:
 
 * GTX 660
@@ -125,6 +126,22 @@ First generation Kepler:
 Quadro:
 
 * K4000
+
+**Fermi rebranded(GF108, GF117 and GF119)**
+
+Well of course Nvidia can't keep naming straight, some 
+
+* GT 730(GF108 variant)
+* GT 720A
+* GT 710(GF119 variant)
+* GT 705
+
+* 
+* GT 640(GF108 and GF116)
+* GT 630(GF108 variant)
+* GT 620
+* GT 610
+
 
 **Pascal Series \(GTX 10xx\) Highest Supported OS: High Sierra 10.13.6**
 
