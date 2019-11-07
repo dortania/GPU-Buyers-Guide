@@ -1,8 +1,5 @@
 # Understanding what discrete laptop GPUs work
 
-
-**Work in Progress**
-
 This is a little subsection to talk about how you can find out if your dGPU would work in macOS.
 
 # What in the world is a MUX chip?
@@ -15,4 +12,4 @@ Most laptops on the market *don't* have this chip, instead opting for a software
 
 > So how do I find out if my laptop has a MUX chips?
 
-This is the difficult part as most laptop vendors won't even mention it at all anywhere even if they have one, 
+This is the difficult part as most laptop vendors won't even mention it at all anywhere even if they have one, easiest way to tell is if the display outs are directly tied to the dGPU. ainly alienware and Razer include such chips but most manufatures opt for the lower price software solution for both AMD and Nvidia GPUs.

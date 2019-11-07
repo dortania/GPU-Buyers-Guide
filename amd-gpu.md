@@ -2,24 +2,23 @@
 
 ## Native AMD GPUs
 
-**Navi 10 Series \(RX 5700\) Highest Supported OS: Catalina**
+**Navi 10 Series \(RX 5000\) Highest Supported OS: Catalina**
 
 Currently, as of 10.15.1, Apple has finally added RDNA and Navi support!
 
 Supported Cards:
 
+* RX 5500(10.15.2 beta 1)
 * RX 5700
 * RX 5700 XT
 * RX 5700 XT 50th Anniversary Edition
 
-Note: Most Navi cards currently require the boot argument `agdpmod=pikera` to get proper display out, also keep in mind DisplayPort can be a hit or miss as WhateverGreen needs to be adapted
+Note: Most Navi cards currently require the boot argument `agdpmod=pikera` to get proper display out, also keep in mind DisplayPort can be a hit or miss as WhateverGreen needs to be adapted. 
 
 Needed kexts:
 
 * [lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
-
-
 
 **Vega 20 series Highest Supported OS: Current/Catalina**
 
@@ -134,14 +133,6 @@ Extras:
 * InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
 
 ## Unsupported AMD GPUs
-
-**Navi 10 Series \(RX 5500\) Highest Supported OS: None**
-
-While 10.15.1 added support for Navi, not all cards were included:
-
-Unsupported Cards:
-
-* RX 5500
 
 **Lexa Series \(RX 500\) Highest Supported OS: None**
 

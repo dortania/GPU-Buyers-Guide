@@ -24,4 +24,5 @@
 ## Misc
 
 * [Boot Flags](bootflag.md)
+* [Laptop dGPU support](misc/discrete-laptops)
 * [Credit](misc/credit.md)
