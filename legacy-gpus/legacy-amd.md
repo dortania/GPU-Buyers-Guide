@@ -4,32 +4,6 @@ So what's this section for? Well a decent chunk of users have been wondering wha
 
 Also to note: InjectATI may be required for these GPUs
 
-**Radeon HD 8000 Series(8xxx) Highest Supported OS: Mojave**
-
-* HD 8740
-* HD 8760
-* HD 8770
-* HD 8850
-* HD 8870
-* HD 8890
-* HD 8950
-* HD 8970
-
-**Radeon HD 7000 Series(7xxx) Highest Supported OS: Mojave**
-
-* Dual AMD FirePro D300
-* Dual AMD FirePro D500
-* Dual AMD FirePro D700
-* HD 7730
-* HD 7750
-* HD 7770
-* HD 7790
-* HD 7850
-* HD 7870
-* HD 7870 XT
-* HD 7950
-* HD 7970
-
 **Radeon HD 6000 Series\(6xxx\) Highest Supported OS: High Sierra**
 
 * HD 6790

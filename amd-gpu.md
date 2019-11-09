@@ -98,7 +98,7 @@ Needed kexts:
 
 Regarding GCN 3 and older, cards from these generations theoretically will have support for Metal in Catalina but due to how fragmented some of the product stack became meant that some cards may not have support. Generally, HD 7XXX series of GPUs and up are metal compatible but I’ll only list GPUs that have been proven to work.
 
-**Radeon R9 3xx \(Fiji\) Current/Catalina**
+**Radeon R7/R9 \(Fiji\) Current/Catalina**
 
 Fiji is also natively supported in Catalina without much issue but we cannot guarantee the success of R5 and R7 cards due to not having many reports of success soon them. Also, be wary that differing from the reference design of these cards have many more issues that require a lot of work to get them to run properly
 
@@ -131,6 +131,44 @@ Extras:
 * `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initiaization)
 * `-raddvi` boot flag: Fixes DVI, required for 290X, 370, etc
 * InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
+
+**Radeon HD 8000 Series(8xxx) Highest Supported OS: Catalina**
+
+* HD 8740
+* HD 8760
+* HD 8770
+* HD 8850
+* HD 8870
+* HD 8890
+* HD 8950
+* HD 8970
+
+**Radeon HD 7000 Series(7xxx) Highest Supported OS: Catalina**
+
+* Dual AMD FirePro D300
+* Dual AMD FirePro D500
+* Dual AMD FirePro D700
+* HD 7730
+* HD 7750
+* HD 7770
+* HD 7790
+* HD 7850
+* HD 7870
+* HD 7870 XT
+* HD 7950
+* HD 7970
+
+Needed kexts
+
+* [lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+
+Extras:
+
+
+* `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initiaization)
+* InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
+
 
 ## Unsupported AMD GPUs
 
