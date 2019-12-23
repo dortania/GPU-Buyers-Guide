@@ -14,6 +14,12 @@ Fanless models:
 
 Fan-Stop models\(no fan spin under 50/60C generally\):
 
+Navi 
+
+* [Sapphire Nitro+ RX 5700 XT](https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-5700-xt-8g-gddr6)
+* [Sapphire Pulse RX 5700 XT](https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-5700-xt-8g-gddr6)
+
+
 Vega
 
 * [Asus Strix Vega 56/64](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RXVEGA64-O8G-GAMING/)
@@ -86,6 +92,8 @@ While it may seem obvious that the most powerful GPU would be the Radeon VII, do
 * [Gigabyte RX Vega 64 Gaming](https://www.gigabyte.com/Graphics-Card/GV-RXVEGA64GAMING-OC-8GD#kf)
 * [MSI Airboost Vega 64](https://www.msi.com/Graphics-card/Radeon-RX-Vega-64-Air-Boost-8G-OC)
 * [Sapphire Reference Vega 64](https://www.sapphiretech.com/en/consumer/21275-02-radeon-rx-vega64-8g-hbm2)
+* [Sapphire Nitro+ RX 5700 XT](https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-5700-xt-8g-gddr6)
+* [Sapphire Pulse RX 5700 XT](https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-5700-xt-8g-gddr6)
 
 **Cheapest Hackintosh GPUs**
 

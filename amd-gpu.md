@@ -8,10 +8,11 @@ Currently, as of 10.15.1, Apple has finally added RDNA and Navi support!
 
 Supported Cards:
 
-* RX 5500(10.15.2 beta 1)
+* RX 5500
 * RX 5700
 * RX 5700 XT
 * RX 5700 XT 50th Anniversary Edition
+* Radeon Pro W5700
 
 Note: Most Navi cards currently require the boot argument `agdpmod=pikera` to get proper display out, also keep in mind DisplayPort can be a hit or miss as WhateverGreen needs to be adapted. 
 
