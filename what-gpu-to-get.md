@@ -18,6 +18,10 @@ Navi
 
 * [Sapphire Nitro+ RX 5700 XT](https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-5700-xt-8g-gddr6)
 * [Sapphire Pulse RX 5700 XT](https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-5700-xt-8g-gddr6)
+* [Gigabyte Gaming OC RX 5700 XT](https://www.gigabyte.com/ca/Graphics-Card/GV-R57XTGAMING-OC-8GD#kf)
+* [Asus Strix RX 5700 XT](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RX5700XT-O8G-GAMING/)
+* [MSI Gaming RX 5700 XT](https://www.msi.com/Graphics-card/Radeon-RX-5700-XT-GAMING-X)
+
 
 
 Vega
@@ -88,12 +92,18 @@ Quadro
 While it may seem obvious that the most powerful GPU would be the Radeon VII, do keep in mind drivers aren't as mature as Vega 10's drivers. For the best reliablity you'll want to either grab a Vega 10 series GPU\(RX Vega 64\) or wait for the issues with the MacPro 7,1 to be ironed out.
 
 * [Radeon VII](https://www.amd.com/en/products/graphics/amd-radeon-vii)
+
+* [Sapphire Nitro+ RX 5700 XT](https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-5700-xt-8g-gddr6)
+* [Sapphire Pulse RX 5700 XT](https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-5700-xt-8g-gddr6)
+* [Gigabyte Gaming OC RX 5700 XT](https://www.gigabyte.com/ca/Graphics-Card/GV-R57XTGAMING-OC-8GD#kf)
+* [Asus Strix RX 5700 XT](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RX5700XT-O8G-GAMING/)
+* [MSI Gaming RX 5700 XT](https://www.msi.com/Graphics-card/Radeon-RX-5700-XT-GAMING-X)
+
 * [Asus Strix Vega 64](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RXVEGA64-O8G-GAMING/)
 * [Gigabyte RX Vega 64 Gaming](https://www.gigabyte.com/Graphics-Card/GV-RXVEGA64GAMING-OC-8GD#kf)
 * [MSI Airboost Vega 64](https://www.msi.com/Graphics-card/Radeon-RX-Vega-64-Air-Boost-8G-OC)
 * [Sapphire Reference Vega 64](https://www.sapphiretech.com/en/consumer/21275-02-radeon-rx-vega64-8g-hbm2)
-* [Sapphire Nitro+ RX 5700 XT](https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-5700-xt-8g-gddr6)
-* [Sapphire Pulse RX 5700 XT](https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-5700-xt-8g-gddr6)
+
 
 **Cheapest Hackintosh GPUs**
 
@@ -113,6 +123,14 @@ Vega:
 * [Gigabyte RX Vega 56/64 Gaming](https://www.gigabyte.com/Graphics-Card/GV-RXVEGA64GAMING-OC-8GD#kf)
 * [MSI Airboost Vega 56/64](https://www.msi.com/Graphics-card/Radeon-RX-Vega-64-Air-Boost-8G-OC)
 * [Radeon VII](https://www.amd.com/en/products/graphics/amd-radeon-vii)
+
+Navi:
+
+* [Sapphire Nitro+ RX 5700 XT](https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-5700-xt-8g-gddr6)
+* [Sapphire Pulse RX 5700 XT](https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-5700-xt-8g-gddr6)
+* [Gigabyte Gaming OC RX 5700 XT](https://www.gigabyte.com/ca/Graphics-Card/GV-R57XTGAMING-OC-8GD#kf)
+* [Asus Strix RX 5700 XT](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RX5700XT-O8G-GAMING/)
+* [MSI Gaming RX 5700 XT](https://www.msi.com/Graphics-card/Radeon-RX-5700-XT-GAMING-X)
 
 Hopefully this little guide helps you, if you have anything else you'd like to add feel free to mention and I'll look into it
 
