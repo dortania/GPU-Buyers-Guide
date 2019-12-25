@@ -53,8 +53,6 @@ Radeon Pro Polaris
 
 * [Radeon Pro WX 5100](https://www.amd.com/en/products/professional-graphics/radeon-pro-wx-5100)
 * [Radeon Pro WX 4100](https://www.amd.com/en/products/professional-graphics/radeon-pro-wx-4100)
-* [Radeon Pro WX 3100](https://www.amd.com/en/products/professional-graphics/radeon-pro-wx-3100)
-* [Radeon Pro WX 2100](https://www.amd.com/en/products/professional-graphics/radeon-pro-wx-2100)
 
 Nvidia
 
