@@ -3,6 +3,7 @@
 * [So what are my options?](./#so-what-are-my-options)
 * [Can I run an unsupported GPU in my hack?](./#can-I-run-an-unsupported-GPU-in-my-hack)
 * [Native AMD GPUs](amd-gpu.md)
+  * Navi 10 series
   * Vega 20 series
   * Vega 10 series
   * Radeon 400/500 series \(Polaris\)
