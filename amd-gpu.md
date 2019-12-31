@@ -122,7 +122,7 @@ Supported cards:
 * R9 255
 * R7 250X
 * R7 250\(FakeID may be required depending on model\)
-* R7 240
+* R7 240\(Requires fakeID\)
 
 Needed kexts
 
