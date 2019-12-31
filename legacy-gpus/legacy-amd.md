@@ -6,12 +6,31 @@ Also to note: InjectATI may be required for these GPUs
 
 **Radeon HD 6000 Series\(6xxx\) Highest Supported OS: High Sierra**
 
+* HD 6230
+* HD 6250
+* HD 6350
+* HD 6450
+* HD 6570
+* HD 6510
+* HD 6610
+* HD 6670
 * HD 6790
 * HD 6850
 * HD 6870
+* HD 6950
+* HD 6970
+
+* FirePro V7900
 
 **Radeon HD 5000 Series\(5xxx\) Highest Supported OS: High Sierra**
 
+* HD 5450
+* HD 5470
+* HD 5570
+* HD 5630
+* HD 5670
+* HD 5690
+* HD 5730
 * HD 5770
 * HD 5850
 * HD 5870 

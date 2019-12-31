@@ -89,6 +89,7 @@ Radeon Pro:
 
 * WX 5100
 * WX 4100
+* E9550
 
 Needed kexts:
 
@@ -118,7 +119,9 @@ Supported cards:
 * R7 265
 * R7 260x/360x
 * R9 260/360\(FakeID may be required depending on model\)
-* R7 250
+* R9 255
+* R7 250X
+* R7 250\(FakeID may be required depending on model\)
 * R7 240
 
 Needed kexts
@@ -137,6 +140,7 @@ Extras:
 
 * HD 8740
 * HD 8760
+* HD 8760
 * HD 8770
 * HD 8850
 * HD 8870
@@ -149,6 +153,9 @@ Extras:
 * Dual AMD FirePro D300
 * Dual AMD FirePro D500
 * Dual AMD FirePro D700
+* FirePro W7000
+* FirePro W9000
+* HD 7700
 * HD 7730
 * HD 7750
 * HD 7770
