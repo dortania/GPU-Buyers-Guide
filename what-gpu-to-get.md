@@ -1,6 +1,6 @@
 # What GPU to get
 
-**Please make sure to read** [**GPUs to Avoid First**](what-gpu-to-get.md) **as there's important info there**
+**Please make sure to read** [**GPUs to Avoid First**](gpu-avoid.md) **as there's important info there**
 
 So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris\(Rx 4xx, 5xx\) or newer as GCN 3 and older can loose support at any time and the same applies for Nvidia's Kepler. Here are the cards we recommend and do remember that reference cards are generally the safest solution
 
