@@ -14,7 +14,9 @@ Supported Cards:
 * RX 5700 XT 50th Anniversary Edition
 * Radeon Pro W5700
 
-Note: Most Navi cards currently require the boot argument `agdpmod=pikera` to get proper display out, also keep in mind DisplayPort can be a hit or miss as WhateverGreen needs to be adapted. 
+Note: Most Navi cards currently require the boot argument `agdpmod=pikera` to get proper display out, also keep in mind DisplayPort can be a hit or miss as WhateverGreen needs to be adapted.
+
+RX 5600/XT Note: Looking at the PCI ID repo shows us that the 5600 series uses the same PCI ID as the RX 5700 series meaning we should have support when the GPU releases on January 21
 
 Needed kexts:
 
