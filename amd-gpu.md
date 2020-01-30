@@ -9,14 +9,15 @@ Currently, as of 10.15.1, Apple has finally added RDNA and Navi support!
 Supported Cards:
 
 * RX 5500
+* RX 5500 XT
+* RX 5600
+* RX 5600 XT
 * RX 5700
 * RX 5700 XT
 * RX 5700 XT 50th Anniversary Edition
 * Radeon Pro W5700
 
 Note: Most Navi cards currently require the boot argument `agdpmod=pikera` to get proper display out, also keep in mind DisplayPort can be a hit or miss as WhateverGreen needs to be adapted. See here for more info: [RX5700XT: No dual monitor with WEG](https://github.com/acidanthera/bugtracker/issues/617)
-
-RX 5600/XT Note: Looking at the [PCI ID repo](https://pci-ids.ucw.cz/read/PC/1002/731f) shows us that the 5600 series uses the same PCI ID as the RX 5700 series meaning we should have support when the GPU releases on January 21
 
 Needed kexts:
 
