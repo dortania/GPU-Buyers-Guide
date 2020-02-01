@@ -164,7 +164,6 @@ All iGPUs are supported here, no issues to report. Intial supported introduced w
 
 Supported iGPUs:
 
-* HD 510
 * HD 515
 * HD 520
 * HD 530
@@ -225,9 +224,11 @@ Needed kexts:
 
 All iGPUs are supported here, though pay attention as the [i3 8100 and 8350k use a different UHD 630\(184 shader units vs 192\)](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Whiskey_Lake) than the rest of the CPU family which requires spoofing for support in High Sierra\(generally wanted for headless rendering on a Maxwell/Pascal GPUs\). Intial supported introduced with macOS 10.13.6
 
-* UHD 610
+* UHD 615
+* UHD 617
 * UHD 620
 * UHD 630
+* Iris Plus 645
 * Iris Plus 655
 
 Framebuffer:
