@@ -15,6 +15,9 @@ Supported Cards:
 * RX 5700
 * RX 5700 XT
 * RX 5700 XT 50th Anniversary Edition
+
+Radeon Pro:
+
 * Radeon Pro W5700
 
 Note: Most Navi cards currently require the boot argument `agdpmod=pikera` to get proper display out, also keep in mind DisplayPort can be a hit or miss as WhateverGreen needs to be adapted. See here for more info: [RX5700XT: No dual monitor with WEG](https://github.com/acidanthera/bugtracker/issues/617)
@@ -43,7 +46,7 @@ Just like with Vega 20, Vega 10 GPUs are natively supported in macOS though thes
 
 And for those who want to overclock/undervolt, check out [PyVega](https://github.com/corpnewt/PyVega)
 
-The only brand of GPUs to **avoid with Vega 10 are XFX and Sapphire**. The reason being is VBIOS communication issues which can't be easily solved with a reference BIOS due to how Vega's powerplay table interacts between the OS and GPU. Sapphire Vega support seems to have been mostly resolved with the advent of macOS 10.14.5 but do note that there were issues that can come back in the future.
+The only brand of GPUs to **avoid with Vega 10 are XFX**. The reason being is VBIOS communication issues which can't be easily solved with a reference BIOS due to how Vega's powerplay table interacts between the OS and GPU.
 
 Supported Cards:
 
@@ -103,9 +106,9 @@ Needed kexts:
 
 Regarding GCN 3 and older, cards from these generations theoretically will have support for Metal in Catalina but due to how fragmented some of the product stack became meant that some cards may not have support. Generally, HD 7XXX series of GPUs and up are metal compatible but I’ll only list GPUs that have been proven to work.
 
-**Radeon R7/R9 \(Fiji\) Current/Catalina**
+**Radeon R7/R9 Current/Catalina**
 
-Fiji is also natively supported in Catalina without much issue but we cannot guarantee the success of R5 and R7 cards due to not having many reports of success soon them. Also, be wary that differing from the reference design of these cards have many more issues that require a lot of work to get them to run properly
+R7/R9 is also natively supported in Catalina without too much issue but we cannot guarantee the success of R5 and R7 cards due to not having many reports of success with them. Also, be wary that differing from the reference design of these cards have many more issues that require a lot of work to get them to run properly. Sapphire cards are your best bet
 
 Supported cards:
 
@@ -116,16 +119,16 @@ Supported cards:
 * R9 290X/390X
 * R9 290/390\(FakeID needed\)
 * R9 280x/380x
-* R9 280/380\(FakeID may be required depending on model\)
+* R9 280/380\(FakeID needed\)
 * R9 270X/370X
-* R7 270/370\(FakeID may be required depending on model\)
+* R7 270/370\(FakeID needed\)
 * R7 265
 * R7 260x/360x
 * R9 260/360\(FakeID may be required depending on model\)
 * R9 255
 * R7 250X
-* R7 250\(FakeID may be required depending on model\)
-* R7 240\(Requires fakeID\)
+* R7 250\(FakeID needed\)
+* R7 240\(FakeID needed\)
 
 Needed kexts
 
@@ -138,6 +141,7 @@ Extras:
 * `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initiaization)
 * `-raddvi` boot flag: Fixes DVI, required for 290X, 370, etc
 * InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
+* [Applying a FakeID Guide](https://khronokernel.github.io/Getting-Started-With-ACPI/Universal/spoof.html)
 
 **Radeon HD 8000 Series(8xxx) Highest Supported OS: Catalina**
 
