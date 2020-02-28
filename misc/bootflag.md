@@ -31,6 +31,7 @@ This little section here is a short explainer on some of the more commonly usefu
 
 * `nvda_drv=1`
    * A boot flag that refuses to die, **STOP USING IT**. Used for enabling Nvidia's WebDrivers pre-macOS Sierra but no longer works as it was moved to an NVRAM variable instead, use `NvidiaWeb` under `System Parameters` in your config.plist
+   * The WebDrivers in Sierra and High Sierra also support another boot argument called `nvda_drv_vrl=1`, this will actually do the same thing as `nvda_drv=1` did in previous versions
 
 * `nv_disable=1`
    * Forces GPU into VESA mode(no GPU acceleration), useful for troubleshooting and when having issues installing Nvidia's WebDrivers. This is a macOS flag so WEG is not needed.
