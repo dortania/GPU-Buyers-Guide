@@ -65,7 +65,6 @@ Needed kexts:
 * [lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
-
 **Radeon 400/500 series \(Polaris\) Highest Supported OS: Current/Catalina**
 
 Regarding Polaris, basically every model of card is supported as long as it’s running a Polaris core\(lower end cards like the RX550 run a Lexa core meaning no support in macOS\).
@@ -137,13 +136,12 @@ Needed kexts
 
 Extras:
 
-
-* `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initiaization)
+* `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initiaization\)
 * `-raddvi` boot flag: Fixes DVI, required for 290X, 370, etc
 * InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
 * [Applying a FakeID Guide](https://khronokernel.github.io/Getting-Started-With-ACPI/Universal/spoof.html)
 
-**Radeon HD 8000 Series(8xxx) Highest Supported OS: Catalina**
+**Radeon HD 8000 Series\(8xxx\) Highest Supported OS: Catalina**
 
 * HD 8740
 * HD 8760
@@ -155,7 +153,7 @@ Extras:
 * HD 8950
 * HD 8970
 
-**Radeon HD 7000 Series(7xxx) Highest Supported OS: Catalina**
+**Radeon HD 7000 Series\(7xxx\) Highest Supported OS: Catalina**
 
 * Dual AMD FirePro D300
 * Dual AMD FirePro D500
@@ -180,10 +178,8 @@ Needed kexts
 
 Extras:
 
-
-* `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initiaization)
+* `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initiaization\)
 * InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
-
 
 ## Unsupported AMD GPUs
 

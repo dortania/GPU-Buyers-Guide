@@ -6,17 +6,17 @@
 
 Currently the only 100% native Nvidia architecture that works with Catalina. Users have reported issues with the GTX 650Ti, 660, 660ti but this is caused by a driver issue on Apple’s end by not supporting the GK106 core\(or quite poorly as the issue seems to be memory leakage which also affects real Macs\). Another issue with this generation is lower end products marketed as first generation Kepler are actually using a Fermi core but have identical counterparts running Kepler cores as well\(GF 116 vs GK 107 found in the GT 640\). **AND PLEASE NOTICE THAT GTX 745, 750 and ti VARIANTS ARE NOT INCLUDED, THEY'RE NOT KEPLER**
 
-Also keep in mind that the following systems have a kepler GPU meaning that support will likely stay until all pre-skylake hardware is dropped(so anything without USB-C):
+Also keep in mind that the following systems have a kepler GPU meaning that support will likely stay until all pre-skylake hardware is dropped\(so anything without USB-C\):
 
-|SMBIOS|GPU|Initial Release|Discontinued|
-|:-|:-|:-|:-|
-|iMac13,1|GT 640M|October 23, 2012|June 18, 2014|
-|iMac13,2|GT 660M|October 23, 2012|September 24, 2013|
-|iMac14,1|GT 750M|September 24, 2013|October 13, 2015|
-|iMac14,2|GT 755M|September 24, 2013|October 13, 2015|
-|MacBookPro9,1|GT 650M|June 11, 2012|October 22, 2013|
-|MacBookPro10,1|GT 650M|June 11, 2012|October 22, 2013|
-|MacBookPro11,3|GT 750M|October 22, 2013|May 19, 2015|
+| SMBIOS | GPU | Initial Release | Discontinued |
+| :--- | :--- | :--- | :--- |
+| iMac13,1 | GT 640M | October 23, 2012 | June 18, 2014 |
+| iMac13,2 | GT 660M | October 23, 2012 | September 24, 2013 |
+| iMac14,1 | GT 750M | September 24, 2013 | October 13, 2015 |
+| iMac14,2 | GT 755M | September 24, 2013 | October 13, 2015 |
+| MacBookPro9,1 | GT 650M | June 11, 2012 | October 22, 2013 |
+| MacBookPro10,1 | GT 650M | June 11, 2012 | October 22, 2013 |
+| MacBookPro11,3 | GT 750M | October 22, 2013 | May 19, 2015 |
 
 Supported cards:
 
@@ -33,7 +33,7 @@ Kepler Gen 2:
 * GT 740
 * GT 730\(GK208 variant\)
 * GT 720
-* GT 710(GK208 variant)
+* GT 710\(GK208 variant\)
 
 Kepler Gen 1:
 
@@ -115,7 +115,6 @@ Second generation Kepler:
 
 * GT 740
 
-
 First generation Kepler:
 
 * GTX 660
@@ -127,21 +126,18 @@ Quadro:
 
 * K4000
 
-**Fermi rebranded(GF108, GF117 and GF119)**
+**Fermi rebranded\(GF108, GF117 and GF119\)**
 
-Well of course Nvidia can't keep naming straight, some 
+Well of course Nvidia can't keep naming straight, some
 
-* GT 730(GF108 variant)
+* GT 730\(GF108 variant\)
 * GT 720A
-* GT 710(GF119 variant)
+* GT 710\(GF119 variant\)
 * GT 705
-
-* 
-* GT 640(GF108 and GF116)
-* GT 630(GF108 variant)
+* * GT 640\(GF108 and GF116\)
+* GT 630\(GF108 variant\)
 * GT 620
 * GT 610
-
 
 **Pascal Series \(GTX 10xx\) Highest Supported OS: High Sierra 10.13.6**
 
@@ -181,7 +177,7 @@ Needed kexts:
 Extras:
 
 * `shikigva=40` boot flag: Swaps boardID to iMac14,2 for better Nvidia Support and whitelists patches
-* NvidiaWeb property: Forces `nvda_drv=1` on each boot, required for systems with non-native NVRAM(EmuVariableUEFI)
+* NvidiaWeb property: Forces `nvda_drv=1` on each boot, required for systems with non-native NVRAM\(EmuVariableUEFI\)
 
 **Maxwell Series \(GTX 9xx, 745, 750 and ti variant\) Highest Supported OS: High Sierra 10.13.6**
 
@@ -219,4 +215,5 @@ Needed kexts:
 Extras:
 
 * `shikigva=40` boot flag: Swaps boardID to iMac14,2 for better Nvidia Support and whitelists patches
-* NvidiaWeb property: Forces `nvda_drv=1` on each boot, required for systems with non-native NVRAM(EmuVariableUEFI)
+* NvidiaWeb property: Forces `nvda_drv=1` on each boot, required for systems with non-native NVRAM\(EmuVariableUEFI\)
+

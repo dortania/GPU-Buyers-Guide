@@ -19,7 +19,6 @@ Also to note: InjectATI may be required for these GPUs
 * HD 6870
 * HD 6950
 * HD 6970
-
 * FirePro V7900
 
 **Radeon HD 5000 Series\(5xxx\) Highest Supported OS: High Sierra**

@@ -5,13 +5,13 @@ No good guide is made by one man, here's credit to those who've helped out:
 * [DhinakG](https://github.com/dhinakg)
   * Cleaned up XFX GPU section
 * [MacHeadSK](https://www.reddit.com/user/MacHeadSK/)
-   * Correction on Sapphire Vega GPUs
+  * Correction on Sapphire Vega GPUs
 * [Goldfish64](https://github.com/Goldfish64)
-   * Correction on Geforce 7 series support
+  * Correction on Geforce 7 series support
 * [u/vostokhost](https://www.reddit.com/user/vostokhost)
-   * Correction on GT 710 core
+  * Correction on GT 710 core
 * [1Revenger1](https://github.com/1Revenger1)
-   * Correction on legacy AMD GPUs
+  * Correction on legacy AMD GPUs
 
 And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackintosh/comments/b91vf5/mojave_gpu_buyers_guide/) that this was built off:
 
@@ -21,7 +21,6 @@ And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackint
   * Highest Supported OS
   * Changed order of nVidia GPUs for native cards first
   * Adding intel HD graphics
-
 
 And for anyone who wants to make updates or corrections to this guide either fork it or open up issues on the github [here](https://github.com/khronokernel/Catalina-GPU-Buyers-Guide)
 
