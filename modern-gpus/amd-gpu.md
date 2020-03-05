@@ -67,7 +67,7 @@ Needed kexts:
 
 **Radeon 400/500 series \(Polaris\) Highest Supported OS: Current/Catalina**
 
-Regarding Polaris, basically every model of card is supported as long as it’s running a Polaris core\(lower end cards like the RX550 run a Lexa core meaning no support in macOS\).
+Regarding Polaris, basically every model of card is supported as long as it’s running either a Polaris or Baffin core\(lower end cards like the RX550 run a Lexa core meaning no support in macOS\).
 
 The only brand of GPU **you should** **avoid with the Polaris series would be XFX, PowerColour, HIS and VisionTek** as many users have had issues with these cards with viewing Clover and macOS booting but other users have found fixes/workarounds\(though nothing consistent\). This seems to be caused by having an odd VBIOS that doesn't communicate well with macOS and the only real solution is flashing another VBIOS which is not ideal for most users.
 

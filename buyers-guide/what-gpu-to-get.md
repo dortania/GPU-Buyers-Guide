@@ -41,7 +41,7 @@ Polaris
 
 Polaris
 
-* [Sapphire Pulse RX 550 640SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1)\(make sure it's Polaris based, this is one of the first RX 550 models that run a "true" polaris chip\)
+* [Sapphire Pulse RX 550 640SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1)\(make sure it's Polaris or Baffin based, this is one of the first RX 550 models that run a baffin core instead of Lexa\)
 
 Radeon pro Vega
 
