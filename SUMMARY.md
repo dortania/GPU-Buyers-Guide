@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Table of Contents](table-of-contents.md)
 
 ## Modern GPUs
 
@@ -24,5 +23,6 @@
 
 * [Boot Flags](misc/bootflag.md)
 * [Laptop dGPUs](misc/discrete-laptops.md)
+* [Commom GPU Issues](common-issues.md)
 * [Credit](misc/credit.md)
 
