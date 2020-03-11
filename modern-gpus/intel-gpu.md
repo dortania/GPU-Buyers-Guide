@@ -8,61 +8,7 @@ More info:
 
 * [WhateverGreen's DRM Chart](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md)
 
-**Westmere i3/5/7-xxx Highest Supported OS: High Sierra 10.13.6**
-
-Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts\(though no Metal support so things are a bit iffy\). I won't link any of the files myself so do be wary when downloading kexts off the internet
-
-* HD Graphics \(yup, that's all they called them\)
-
-Files needed:
-
-* GPUSupport.framework
-* OpenGL.framework
-
-Needed kexts:
-
-* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
-* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
-
-**Sandy Bridge i3/5/7-2XXX Highest Supported OS: High Sierra 10.13.6\(With a bit of work, current/Catalina\)**
-
-Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts\(though no Metal support so things are a bit iffy\). I won't link any of the files myself so do be wary when downloading kexts off the internet. Intial supported introduced with macOS 10.7 and is not supported by the [Intel framebuffer patch](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
-
-Supported iGPUs:
-
-* HD 2000\(Can only be used for Quicksync tasks, no full acceleration\)
-* HD 3000
-
-Framebuffer
-
-* AAPL,snb-platform-id \(desktop\): 
-  * 0x00030010 \(default\)
-    * 10000300 \(hex swapped\)
-* AAPL,snb-platform-id \(laptop\): 
-  * 0x00010000 \(default\)
-    * 00000100 \(hex swapped\)
-
-Files needed for HD 2000:
-
-* AppleIntelHDGraphicsFB.kext
-* AppleIntelHDGraphicsGA.plugin
-* AppleIntelHDGraphicsGLDriver.bundle
-* AppleIntelHDGraphicsVADriver.bundle
-
-Files needed for HD 3000:
-
-* AppleIntelHD3000Graphics.kext
-* AppleIntelHD3000GraphicsGA.plugin
-* AppleIntelHD3000GraphicsGLDriver.bundle
-* AppleIntelHD3000GraphicsVADriver.bundle
-* AppleIntelSNBGraphicsFB.kext
-* AppleIntelSNBVA.bundle
-
-Needed kexts:
-
-* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
-* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
-* [Intel FrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+## Native Intel iGPUs
 
 **Ivy Bridge i3/5/7-3XXX Highest Supported OS: Current/Catalina**
 
@@ -72,6 +18,7 @@ Supported iGPUs:
 
 * HD 2500
 * HD 4000
+* HD P4000
 
 Framebuffer:
 
@@ -101,7 +48,7 @@ Most iGPUs are supported here, only one to be concerned about is the HD4400 whic
 Supported iGPUs:
 
 * HD 4200
-* HD 4400\(FakeID required for this iGPU\)
+* HD 4400\(HD 4600 FakeID required for this iGPU\)
 * HD 4600
 * HD 5000
 * HD 5100
@@ -221,6 +168,8 @@ Needed kexts:
 
 All iGPUs are supported here, though pay attention as the [i3 8100 and 8350k use a different UHD 630\(184 shader units vs 192\)](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Whiskey_Lake) than the rest of the CPU family which requires spoofing for support in High Sierra\(generally wanted for headless rendering on a Maxwell/Pascal GPUs\). Intial supported introduced with macOS 10.13.6
 
+Supported:
+
 * UHD 615
 * UHD 617
 * UHD 620
@@ -247,3 +196,47 @@ Needed kexts:
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 * [Intel FrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 
+
+## Unsupported Intel iGPUs
+
+
+All GPUs listed here are GT1 based meaning no support whatsoever
+
+**Braswell Highest Supported OS: None**:
+
+Unsupported:
+
+* HD 400
+* HD 405
+
+**Skylake Highest Supported OS: None**:
+
+Unsupported:
+
+* HD 510
+
+**Apollo Lake Highest Supported OS: None**:
+
+Unsupported:
+
+* HD 500
+* HD 505
+
+**Kabylake Highest Supported OS: None**:
+
+Unsupported:
+
+* HD 610
+
+**Kabylake refresh/ Coffeelake i3/5/7-8XXX/9XXX Highest Supported OS: None**:
+
+Unsupported:
+
+* UHD 610
+
+**Gemini Lake Highest Supported OS: None**:
+
+Unsupported:
+
+* UHD 600
+* UHD 605
