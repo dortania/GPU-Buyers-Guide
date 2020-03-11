@@ -57,6 +57,7 @@ Quadro:
 * Quadro K600
 * Quadro K420
 * Quadro 410
+* NVS 510
 
 Needed kexts:
 
@@ -204,7 +205,6 @@ Quadro:
 * Quadro K220
 * Quadro K1200
 * Quadro K620
-* NVS 510
 
 Needed kexts:
 
