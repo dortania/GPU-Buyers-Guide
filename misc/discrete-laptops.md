@@ -14,7 +14,11 @@ Most laptops on the market _don't_ have this chip, instead opting for a software
 
 > So how do I find out if my laptop has a MUX chips?
 
-This is the difficult part as most laptop vendors won't even mention it at all anywhere even if they have one, easiest way to tell is if the display outs are directly tied to the dGPU. Mainly Alienware and Razer include such chips but most manufatures opt for the lower price software solution for both AMD and Nvidia GPUs.
+This is the difficult part as most laptop vendors won't even mention it at all anywhere even if they have one, easiest way to tell is if the display outs are directly tied to the dGPU. Mainly Alienware and Razer include such chips but most manufacturers opt for the lower price software solution for both AMD and Nvidia GPUs.
+
+Luckily for us, the GPU passthrough site has a decent sized list with which GPUs have a MUX and how they work
+
+* [Notebook Compatibility List](https://gpu-passthrough.com)
 
 ![MUX Configurations](https://media.discordapp.net/attachments/573338411503714324/653771022696185895/LaptopGPUs.png)
 
