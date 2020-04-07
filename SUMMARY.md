@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [GPU Buyers Guide](README.md)
 
 ## Modern GPUs
 
