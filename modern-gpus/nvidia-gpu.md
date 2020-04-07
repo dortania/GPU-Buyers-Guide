@@ -135,7 +135,7 @@ Well of course Nvidia can't keep naming straight, some
 * GT 720A
 * GT 710\(GF119 variant\)
 * GT 705
-* * GT 640\(GF108 and GF116\)
+* GT 640\(GF108 and GF116\)
 * GT 630\(GF108 variant\)
 * GT 620
 * GT 610
