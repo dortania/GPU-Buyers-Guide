@@ -10,7 +10,6 @@
             "branch": "master"
         },
         "favicon": "/icons/favicon.ico",
-        "appleTouchIconPrecomposed152": "/icons/appleTouchIconPrecomposed152.png",
         "output": "_book"
     },
     "links": {
