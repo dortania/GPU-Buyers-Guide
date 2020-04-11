@@ -20,5 +20,5 @@ Luckily for us, the GPU passthrough site has a decent sized list with which GPUs
 
 * [Notebook Compatibility List](https://gpu-passthrough.com)
 
-![MUX Configurations](https://media.discordapp.net/attachments/573338411503714324/653771022696185895/LaptopGPUs.png)
+![MUX Configurations](/images/laptopGPUs.png)
 

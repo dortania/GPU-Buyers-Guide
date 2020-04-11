@@ -2,7 +2,7 @@
 
 
 
-![](https://i.imgur.com/2Wa6ugV.jpg)
+![](/images/logo.jpg)
 
 So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
 
@@ -12,7 +12,7 @@ Well you've come to the right place, I'll give a quick rundown on the situation 
 
 ## A quick refresher with Nvidia and WebDrivers
 
-![WebDrivers](/WebDrivers.gif)
+![WebDrivers](/images/WebDrivers.gif)
 
 Well currently as of the time of writing, we've gone a full OS cycle without official drivers from Nvidia for their Maxwell, Pascal or Turing GPUs. What this means is that users of these GPUs have no support for either Mojave or Catalina so are stuck with macOS 10.13 High Sierra. Who's to blame? Well it's 2 giant, egotistical companies who both refuse to work together so the blame can go both ways. Do keep in mind that the WebDrivers have a VRAM leakage issue that they've yet to address, so a theory to why Apple refuses Nvidia drivers in macOS may be due to how Nvidia refuses to hand over the driver stack. Think it's a coincidence that both AMD and intel have open-sourced drivers? Well, either way, it doesn't change the fact there's no support.
 
