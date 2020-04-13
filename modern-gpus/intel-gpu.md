@@ -164,7 +164,7 @@ Needed kexts:
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 * [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
-**Kabylake refresh/ Coffeelake/ Cometlake i3/5/7-8XXX/9XXX Highest Supported OS: Current/Catalina**
+**Kabylake refresh/ Coffee Lake/ Cometlake i3/5/7-8XXX/9XXX Highest Supported OS: Current/Catalina**
 
 All iGPUs are supported here, though pay attention as the [i3 8100 and 8350k use a different UHD 630\(184 shader units vs 192\)](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Whiskey_Lake) than the rest of the CPU family which requires spoofing for support in High Sierra\(generally wanted for headless rendering on a Maxwell/Pascal GPUs\). Intial supported introduced with macOS 10.13.6
 
@@ -248,7 +248,7 @@ Unsupported:
 
 * HD 610
 
-**Kabylake refresh/ Coffeelake/ Cometlake i3/5/7-8XXX/9XXX Highest Supported OS: None**:
+**Kabylake refresh/ Coffee Lake/ Cometlake i3/5/7-8XXX/9XXX Highest Supported OS: None**:
 
 Unsupported:
 

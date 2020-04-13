@@ -198,7 +198,7 @@ Unsupported Cards:
 
 **AMD APUs \(ALL VARIENTS\) Highest Supported OS: None**
 
-The integrated GPU found on lower end AMD CPUs have unfortunatly never had offical support with community support quite lacking. While possible to get a display out with some work, graphics acceleration is basically imposiible making these APUs more of a hazard to macOS.
+The integrated GPU found on lower end AMD CPUs have unfortunatly never had official support with community support quite lacking. While possible to get a display out with some work, graphics acceleration is basically imposiible making these APUs more of a hazard to macOS.
 
 Unsupported APUs:
 
