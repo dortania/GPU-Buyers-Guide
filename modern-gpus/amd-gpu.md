@@ -170,6 +170,7 @@ Extras:
 * HD 7870 XT
 * HD 7950
 * HD 7970
+* HD 7990
 
 Needed kexts
 
