@@ -22,7 +22,7 @@ And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackint
   * Changed order of nVidia GPUs for native cards first
   * Adding intel HD graphics
 
-And for anyone who wants to make updates or corrections to this guide either fork it or open up issues on the github [here](https://github.com/khronokernel/Catalina-GPU-Buyers-Guide)
+And for anyone who wants to make updates or corrections to this guide either fork it or open up issues on the github [here](https://github.com/dortania/GPU-Buyers-Guide)
 
 Other sources:
 

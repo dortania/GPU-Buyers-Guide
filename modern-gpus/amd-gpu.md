@@ -139,7 +139,7 @@ Extras:
 * `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initiaization\)
 * `-raddvi` boot flag: Fixes DVI, required for 290X, 370, etc
 * InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
-* [Applying a FakeID Guide](https://khronokernel.github.io/Getting-Started-With-ACPI/Universal/spoof.html)
+* [Applying a FakeID Guide](https://dortania.github.io/Getting-Started-With-ACPI/Universal/spoof.html)
 
 **Radeon HD 8000 Series\(8xxx\) Highest Supported OS: Catalina**
 

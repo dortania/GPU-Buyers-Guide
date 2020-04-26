@@ -26,4 +26,4 @@ So some things to verify:
 
 ## Broken GPU Acceleration on R7/R9 GPUs
 
-See [GPU Spoofing Guide](https://khronokernel.github.io/Getting-Started-With-ACPI/Universal/spoof.html) on how to fix accleration
+See [GPU Spoofing Guide](https://dortania.github.io/Getting-Started-With-ACPI/Universal/spoof.html) on how to fix accleration
