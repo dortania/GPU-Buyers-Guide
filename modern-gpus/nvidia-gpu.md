@@ -152,7 +152,7 @@ Supported cards:
 * GTX 1080
 * GTX 1070 Ti
 * GTX 1070
-* GTX 1060
+* GTX 1060( **Note** that GP104/GDDR5X variants are not supported by the web drivers)
 * GTX 1050 Ti
 * GTX 1050
 * GT 1030

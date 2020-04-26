@@ -20,7 +20,7 @@ And From the original [Mojave GPU Buyers Guide](https://www.reddit.com/r/hackint
 * [u/midi1996](https://www.reddit.com/u/midi1996/)
   * Highest Supported OS
   * Changed order of nVidia GPUs for native cards first
-  * Adding intel HD graphics
+  * Adding Intel HD graphics
 
 And for anyone who wants to make updates or corrections to this guide either fork it or open up issues on the github [here](https://github.com/dortania/GPU-Buyers-Guide)
 
