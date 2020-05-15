@@ -345,24 +345,9 @@
                                 <section class="normal markdown-section">
                                 
                                 <blockquote>
-<p><em>Last modified: Sun Apr 26 2020 15:33:53 GMT+0000 (Coordinated Universal Time)</em></p>
+<p><em>Last modified: Fri May 15 2020 23:16:33 GMT+0000 (Coordinated Universal Time)</em></p>
 </blockquote>
 <h1 id="legacy-intel"><a name="legacy-intel" class="plugin-anchor" href="#legacy-intel"><i class="fa fa-link" aria-hidden="true"></i></a>Legacy Intel</h1>
-<p><strong>Westmere i3/5/7-xxx Highest Supported OS: High Sierra 10.13.6</strong></p>
-<p>Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won&apos;t link any of the files myself so do be wary when downloading kexts off the internet</p>
-<ul>
-<li>HD Graphics (yup, that&apos;s all they called them)</li>
-</ul>
-<p>Files needed:</p>
-<ul>
-<li>GPUSupport.framework</li>
-<li>OpenGL.framework</li>
-</ul>
-<p>Needed kexts:</p>
-<ul>
-<li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank">Lilu.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank">WhateverGreen.kext</a></li>
-</ul>
 <p><strong>Sandy Bridge i3/5/7-2XXX Highest Supported OS: High Sierra 10.13.6(With a bit of work, current/Catalina)</strong></p>
 <p>Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won&apos;t link any of the files myself so do be wary when downloading kexts off the internet. Intial supported introduced with macOS 10.7 and is not supported by the <a href="https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271" target="_blank">Intel framebuffer patch</a></p>
 <p>Supported iGPUs:</p>
@@ -409,6 +394,21 @@
 <li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank">Lilu.kext</a></li>
 <li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank">WhateverGreen.kext</a></li>
 <li><a href="https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271" target="_blank">Intel FrameBuffer Patching guide</a></li>
+</ul>
+<p><strong>Westmere i3/5/7-xxx Highest Supported OS: High Sierra 10.13.6</strong></p>
+<p>Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won&apos;t link any of the files myself so do be wary when downloading kexts off the internet</p>
+<ul>
+<li>HD Graphics (yup, that&apos;s all they called them)</li>
+</ul>
+<p>Files needed:</p>
+<ul>
+<li>GPUSupport.framework</li>
+<li>OpenGL.framework</li>
+</ul>
+<p>Needed kexts:</p>
+<ul>
+<li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank">Lilu.kext</a></li>
+<li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank">WhateverGreen.kext</a></li>
 </ul>
 <p><strong>4th Gen GMA Highest Supported OS:Lion</strong></p>
 <p>Native(Lion):</p>
@@ -488,7 +488,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Legacy Intel","level":"3.3","depth":1,"next":{"title":"What GPUs to avoid","level":"4.1","depth":1,"path":"buyers-guide/gpu-avoid.md","ref":"buyers-guide/gpu-avoid.md","articles":[]},"previous":{"title":"Legacy Nvidia","level":"3.2","depth":1,"path":"legacy-gpus/legacy-nvidia.md","ref":"legacy-gpus/legacy-nvidia.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","-lunr","-search","search-plus","addcssjs","favicon-plus","github-edit","anchors","last-modified","medium-zoom"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"last-modified":{},"output":"_book","addcssjs":{"css":[],"js":[]},"medium-zoom":{},"fontsettings":{"family":"sans","size":2,"theme":"night"},"favicon-plus":{"appleTouchIconPrecomposed152":"","favicon":"","output":"_book"},"highlight":{},"github-edit":{"repo":"dortania/GPU-Buyers-Guide","branch":"master"},"favicon":"/icons/favicon.ico","appleTouchIconPrecomposed152":"/icons/appleTouchIconPrecomposed152.png","sharing":{"all":[],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"anchors":{},"search-plus":{}},"theme":"default","medium-zoom":{"margin":24,"background":"#363b40","scrollOffset":0},"pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"links":{"sharing":{"google":false,"facebook":false,"twitter":false,"weibo":false,"all":false}},"gitbook":"*"},"file":{"path":"legacy-gpus/legacy-intel.md","mtime":"2020-04-26T15:33:53.419Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-26T15:35:59.700Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Legacy Intel","level":"3.3","depth":1,"next":{"title":"What GPUs to avoid","level":"4.1","depth":1,"path":"buyers-guide/gpu-avoid.md","ref":"buyers-guide/gpu-avoid.md","articles":[]},"previous":{"title":"Legacy Nvidia","level":"3.2","depth":1,"path":"legacy-gpus/legacy-nvidia.md","ref":"legacy-gpus/legacy-nvidia.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","-lunr","-search","search-plus","addcssjs","favicon-plus","github-edit","anchors","last-modified","medium-zoom"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"last-modified":{},"output":"_book","addcssjs":{"css":[],"js":[]},"medium-zoom":{},"fontsettings":{"family":"sans","size":2,"theme":"night"},"favicon-plus":{"appleTouchIconPrecomposed152":"","favicon":"","output":"_book"},"highlight":{},"github-edit":{"repo":"dortania/GPU-Buyers-Guide","branch":"master"},"favicon":"/icons/favicon.ico","appleTouchIconPrecomposed152":"/icons/appleTouchIconPrecomposed152.png","sharing":{"all":[],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"anchors":{},"search-plus":{}},"theme":"default","medium-zoom":{"margin":24,"background":"#363b40","scrollOffset":0},"pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"links":{"sharing":{"google":false,"facebook":false,"twitter":false,"weibo":false,"all":false}},"gitbook":"*"},"file":{"path":"legacy-gpus/legacy-intel.md","mtime":"2020-05-15T23:16:33.276Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-15T23:18:46.791Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -345,14 +345,22 @@
                                 <section class="normal markdown-section">
                                 
                                 <blockquote>
-<p><em>Last modified: Sun Apr 26 2020 15:33:53 GMT+0000 (Coordinated Universal Time)</em></p>
+<p><em>Last modified: Fri May 15 2020 23:16:33 GMT+0000 (Coordinated Universal Time)</em></p>
 </blockquote>
 <h1 id="legacy-nvidia"><a name="legacy-nvidia" class="plugin-anchor" href="#legacy-nvidia"><i class="fa fa-link" aria-hidden="true"></i></a>Legacy Nvidia</h1>
-<p>So what&apos;s this section for? Well a decent chunk of users have been wondering what the highest supported OS would be for their GPU if Mojave/Catalina isn&apos;t supported. While this isn&apos;t a definitive list it&apos;ll be more as a jumping off point as it&apos;s easier to say what architecture is supported instead of what OS is supported. The GPUs listed have <strong>theoretical</strong> support but keep in mind that they&apos;re not garunteed unless shipped in a <a href="https://support.apple.com/en-lamr/HT201805" target="_blank">Mac Pro</a> with even that being flacky. Also keep in mind that this list will likely change as I furthur deeper into old drivers to see what PCI IDs are even supported</p>
-<p>Also to note: InjectNvidia may be required for these GPUs</p>
-<p>And for those wondering, it is possible to run Mojave or even Catalina with these GPUs with a bit of work. Do keep in mind stability is not garunteed and requires you to modify the macOS file system. Try at your own risk: <a href="https://www.insanelymac.com/forum/topic/339035-pre-release-macos-catalina/?page=21&amp;tab=comments#comment-2677545" target="_blank">source</a></p>
+<p>So what&apos;s this section for? Well a decent chunk of users have been wondering what the highest supported OS would be for their GPU if Mojave/Catalina isn&apos;t supported. While this isn&apos;t a definitive list it&apos;ll be more as a jumping off point as it&apos;s easier to say what architecture is supported instead of what OS is supported. The GPUs listed have <strong>theoretical</strong> support but keep in mind that they&apos;re not guaranteed unless shipped in a <a href="https://support.apple.com/en-lamr/HT201805" target="_blank">Mac Pro</a> with even that being flaky. Also keep in mind that this list will likely change as I further deeper into old drivers to see what PCI IDs are even supported</p>
+<p>Also to note: InjectNvidia may be required for these GPUs, for OpenCore users you&apos;ll need to create some <a href="http://forum.netkas.org/index.php?topic=222.0" target="_blank">EFI Strings</a></p>
+<p>And for those wondering, it is possible to run Mojave or even Catalina with these GPUs with a bit of work. Do keep in mind stability is not guaranteed and requires you to modify the macOS file system. Try at your own risk: <a href="https://www.insanelymac.com/forum/topic/339035-pre-release-macos-catalina/?page=21&amp;tab=comments#comment-2677545" target="_blank">source</a></p>
 <p><strong>Fermi series (4xx, 5xx) Highest Supported OS: High Sierra</strong></p>
-<p>Something to note with Fermi GPUs is while they may be supported in macOS High Sierra users have experienced issues with stabilty. If you&apos;re expericing instabilty as well you&apos;ll want to downgrade to Sierra</p>
+<p>Something to note with Fermi GPUs is while they may be supported in macOS High Sierra users have experienced issues with stability. If you&apos;re experiencing instability as well you&apos;ll want to downgrade to Sierra</p>
+<p>500 series:</p>
+<ul>
+<li>GTX 570</li>
+</ul>
+<p>400 series:</p>
+<ul>
+<li>GTX 470</li>
+</ul>
 <p><strong>Tesla series (1xx, 2xx, 3xx) Highest Supported OS: High Sierra</strong></p>
 <p>Similar to Fermi, these GPUs are supported by High Sierra but don&apos;t generally experience the same issues that Fermi does in High Sierra</p>
 <p>300 series:</p>
@@ -378,14 +386,33 @@
 <li>GT 120</li>
 </ul>
 <p><strong>GeForce 9 (9xxx) series Highest Supported OS: High Sierra</strong></p>
+<ul>
+<li>9800 GT</li>
+<li>9600 GT</li>
+<li>9400 GT</li>
+<li>9300 GT</li>
+</ul>
 <p><strong>GeForce 8 (8xxx) series Highest Supported OS: High Sierra</strong></p>
 <ul>
-<li>8800 GT</li>
+<li>GeForce 8800</li>
+</ul>
+<p>Quadro:</p>
+<ul>
+<li>FX 5600</li>
 </ul>
 <p><strong>GeForce 7 (7xxx) series Highest Supported OS: Lion</strong></p>
 <p>Reason for this is due to the kexts only being 32bit</p>
 <ul>
+<li>7600 GT</li>
 <li>7300 GT</li>
+</ul>
+<p>Quadro: </p>
+<ul>
+<li>FX 4500</li>
+</ul>
+<p><strong>GeForce 6 (6xxx) series Highest Supported OS: Lion</strong></p>
+<ul>
+<li>6600 GT </li>
 </ul>
 
                                 
@@ -430,7 +457,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Legacy Nvidia","level":"3.2","depth":1,"next":{"title":"Legacy Intel","level":"3.3","depth":1,"path":"legacy-gpus/legacy-intel.md","ref":"legacy-gpus/legacy-intel.md","articles":[]},"previous":{"title":"Legacy AMD","level":"3.1","depth":1,"path":"legacy-gpus/legacy-amd.md","ref":"legacy-gpus/legacy-amd.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","-lunr","-search","search-plus","addcssjs","favicon-plus","github-edit","anchors","last-modified","medium-zoom"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"last-modified":{},"output":"_book","addcssjs":{"css":[],"js":[]},"medium-zoom":{},"fontsettings":{"family":"sans","size":2,"theme":"night"},"favicon-plus":{"appleTouchIconPrecomposed152":"","favicon":"","output":"_book"},"highlight":{},"github-edit":{"repo":"dortania/GPU-Buyers-Guide","branch":"master"},"favicon":"/icons/favicon.ico","appleTouchIconPrecomposed152":"/icons/appleTouchIconPrecomposed152.png","sharing":{"all":[],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"anchors":{},"search-plus":{}},"theme":"default","medium-zoom":{"margin":24,"background":"#363b40","scrollOffset":0},"pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"links":{"sharing":{"google":false,"facebook":false,"twitter":false,"weibo":false,"all":false}},"gitbook":"*"},"file":{"path":"legacy-gpus/legacy-nvidia.md","mtime":"2020-04-26T15:33:53.419Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-26T15:35:59.700Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Legacy Nvidia","level":"3.2","depth":1,"next":{"title":"Legacy Intel","level":"3.3","depth":1,"path":"legacy-gpus/legacy-intel.md","ref":"legacy-gpus/legacy-intel.md","articles":[]},"previous":{"title":"Legacy AMD","level":"3.1","depth":1,"path":"legacy-gpus/legacy-amd.md","ref":"legacy-gpus/legacy-amd.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","-lunr","-search","search-plus","addcssjs","favicon-plus","github-edit","anchors","last-modified","medium-zoom"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"last-modified":{},"output":"_book","addcssjs":{"css":[],"js":[]},"medium-zoom":{},"fontsettings":{"family":"sans","size":2,"theme":"night"},"favicon-plus":{"appleTouchIconPrecomposed152":"","favicon":"","output":"_book"},"highlight":{},"github-edit":{"repo":"dortania/GPU-Buyers-Guide","branch":"master"},"favicon":"/icons/favicon.ico","appleTouchIconPrecomposed152":"/icons/appleTouchIconPrecomposed152.png","sharing":{"all":[],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"anchors":{},"search-plus":{}},"theme":"default","medium-zoom":{"margin":24,"background":"#363b40","scrollOffset":0},"pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"links":{"sharing":{"google":false,"facebook":false,"twitter":false,"weibo":false,"all":false}},"gitbook":"*"},"file":{"path":"legacy-gpus/legacy-nvidia.md","mtime":"2020-05-15T23:16:33.276Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-15T23:18:46.791Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
