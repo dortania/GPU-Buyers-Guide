@@ -40,11 +40,16 @@ Also to note: InjectATI may be required for these GPUs
 
 **Radeon HD 3000 Series\(3xxx\) Highest Supported OS: High Sierra**
 
+* HD 3870
+
 **Radeon HD 2000 Series\(2xxx\) Highest Supported OS: High Sierra**
 
 * HD 2600 XT
+* HD 2400 XT
 
 **Radeon X1000 Series\(1xxx\) Highest Supported OS: El Capitan**
 
 * X1900 XT
+* X1600
+* X1300
 

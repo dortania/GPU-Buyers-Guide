@@ -1,22 +1,5 @@
 # Legacy Intel
 
-
-**Westmere i3/5/7-xxx Highest Supported OS: High Sierra 10.13.6**
-
-Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts\(though no Metal support so things are a bit iffy\). I won't link any of the files myself so do be wary when downloading kexts off the internet
-
-* HD Graphics \(yup, that's all they called them\)
-
-Files needed:
-
-* GPUSupport.framework
-* OpenGL.framework
-
-Needed kexts:
-
-* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
-* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
-
 **Sandy Bridge i3/5/7-2XXX Highest Supported OS: High Sierra 10.13.6\(With a bit of work, current/Catalina\)**
 
 Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts\(though no Metal support so things are a bit iffy\). I won't link any of the files myself so do be wary when downloading kexts off the internet. Intial supported introduced with macOS 10.7 and is not supported by the [Intel framebuffer patch](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
@@ -57,6 +40,23 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 * [Intel FrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+
+
+**Westmere i3/5/7-xxx Highest Supported OS: High Sierra 10.13.6**
+
+Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts\(though no Metal support so things are a bit iffy\). I won't link any of the files myself so do be wary when downloading kexts off the internet
+
+* HD Graphics \(yup, that's all they called them\)
+
+Files needed:
+
+* GPUSupport.framework
+* OpenGL.framework
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 
 **4th Gen GMA Highest Supported OS:Lion**
