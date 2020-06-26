@@ -158,6 +158,7 @@ Extras:
 * Dual AMD FirePro D300
 * Dual AMD FirePro D500
 * Dual AMD FirePro D700
+* FirePro W5100\(FakeID needed\)
 * FirePro W7000
 * FirePro W9000
 * HD 7700
