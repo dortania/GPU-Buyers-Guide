@@ -6,6 +6,11 @@ All 550s will **not** work except for the [Sapphire Pulse 550 640 SP](https://ww
 
 And for those who are wondering why this list contradicts [Tonymacx86's buyers guide](https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/#AMD_Graphics_Cards), remember that their bottom line is to get users to buy hardware through their affiliate program. This is also the same website that recommended Pascal GPUs [5 months after Mojave's release](https://web.archive.org/web/20190213211919/https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/), would you really trust a website that's neither kept up-to date and offers _shivers_ the [beast tools](https://github.com/khronokernel/Tonymcx86-stance)?
 
+**Important note for MSI Navi users**: 
+
+* Apple currently has a VBIOS bug which crashes installers if an MIS Navi card is present, see here for more details: [Installer not working with 5700XT #901](https://github.com/acidanthera/bugtracker/issues/901)
+* MSI's Polaris and Vega line are not affected by this bug
+
 Powercolor\(**AVOID ALL MODELS**\)
 
 * [PowerColor Red Devil RX VEGA 56/64](https://www.powercolor.com/product?id=1511340918)

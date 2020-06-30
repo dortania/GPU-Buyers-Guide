@@ -6,7 +6,7 @@ So you just want a GPU recommendation? Well honestly in the current situation th
 
 **Fanless GPUs\(0 DB\)**
 
-Unfortunalty the variety for fanless GPUs are quite small, while there are many GPUs with fan-stop these aren't perfect solutions. Models with no fan at all are limited to either GT 1030s which are unsupported past High Sierra or the GT 710 which could loose support some time soon
+Unfortunately the variety for fanless GPUs are quite small, while there are many GPUs with fan-stop these aren't perfect solutions. Models with no fan at all are limited to either GT 1030s which are unsupported past High Sierra or the GT 710 which could loose support some time soon
 
 Fanless models:
 
