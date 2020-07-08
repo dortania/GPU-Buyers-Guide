@@ -8,7 +8,7 @@ And for those who are wondering why this list contradicts [Tonymacx86's buyers g
 
 **Important note for MSI Navi users**: 
 
-* Apple currently has a VBIOS bug which crashes installers if an MIS Navi card is present, see here for more details: [Installer not working with 5700XT #901](https://github.com/acidanthera/bugtracker/issues/901)
+* Apple currently has a VBIOS bug which crashes installers if an MSI Navi card is present, see here for more details: [Installer not working with 5700XT #901](https://github.com/acidanthera/bugtracker/issues/901)
 * MSI's Polaris and Vega line are not affected by this bug
 
 Powercolor\(**AVOID ALL MODELS**\)
