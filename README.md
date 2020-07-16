@@ -18,7 +18,7 @@ Well currently as of the time of writing, we've gone a full OS cycle without off
 
 Users with Kepler based GPUs are in the clear though, they utilize Apple's native drivers
 
-And for thoe who want some reading to do: [When will the Nvidia Web Drivers be released for macOS Mojave 10.14 ](https://devtalk.nvidia.com/default/topic/1042520/drivers/-when-will-the-nvidia-web-drivers-be-released-for-macos-mojave-10-14-/post/5358999/#5358999)
+And for those who want some reading to do: [When will the Nvidia Web Drivers be released for macOS Mojave 10.14 ](https://devtalk.nvidia.com/default/topic/1042520/drivers/-when-will-the-nvidia-web-drivers-be-released-for-macos-mojave-10-14-/post/5358999/#5358999)
 
 Great read as it shows how even upper management doesn't have a good answer for customers
 
