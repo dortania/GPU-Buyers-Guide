@@ -1,737 +1,88 @@
-
-<!DOCTYPE HTML>
-<html lang="" >
-    <head>
-        <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Intel GPUs · GitBook</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.3">
-        
-        
-        
-    
-    
-    <link rel="stylesheet" href="../gitbook/style.css">
-
-    
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-medium-zoom/plugin.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
-                
-            
-        
-
-    
-
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-        <link rel="stylesheet" href="../styles/website.css">
-        
-    
-
-    
-
-        
-    
-    
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Intel GPUs | GPU Guyers Guide</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="&#39;stylesheet" href="/GPU-Buyers-Guide/styles/website.css">
+    <meta name="description" content="">
+    <meta name="theme-color" content="#3eaf7c">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
-
-    
-    <link rel="next" href="../legacy-gpus/legacy-amd.html" />
-    
-    
-    <link rel="prev" href="nvidia-gpu.html" />
-    
-
-    </head>
-    <body>
-        
-<div class="book">
-    <div class="book-summary">
-        
-            
-<div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
-</div>
-
-            
-                <nav role="navigation">
-                
-
-
-<ul class="summary">
-    
-    
-
-    
-
-    
-        
-        
-    
-        <li class="chapter " data-level="1.1" data-path="../">
-            
-                <a href="../">
-            
-                    
-                    GPU Buyers Guide
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-        
-        <li class="header">Modern GPUs</li>
-        
-        
-    
-        <li class="chapter " data-level="2.1" data-path="amd-gpu.html">
-            
-                <a href="amd-gpu.html">
-            
-                    
-                    AMD GPUs
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.2" data-path="nvidia-gpu.html">
-            
-                <a href="nvidia-gpu.html">
-            
-                    
-                    Nvidia GPUs
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter active" data-level="2.3" data-path="intel-gpu.html">
-            
-                <a href="intel-gpu.html">
-            
-                    
-                    Intel GPUs
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-        
-        <li class="header">Legacy GPUs</li>
-        
-        
-    
-        <li class="chapter " data-level="3.1" data-path="../legacy-gpus/legacy-amd.html">
-            
-                <a href="../legacy-gpus/legacy-amd.html">
-            
-                    
-                    Legacy AMD
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.2" data-path="../legacy-gpus/legacy-nvidia.html">
-            
-                <a href="../legacy-gpus/legacy-nvidia.html">
-            
-                    
-                    Legacy Nvidia
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.3" data-path="../legacy-gpus/legacy-intel.html">
-            
-                <a href="../legacy-gpus/legacy-intel.html">
-            
-                    
-                    Legacy Intel
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-        
-        <li class="header">Buyers Guide</li>
-        
-        
-    
-        <li class="chapter " data-level="4.1" data-path="../buyers-guide/gpu-avoid.html">
-            
-                <a href="../buyers-guide/gpu-avoid.html">
-            
-                    
-                    What GPUs to avoid
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="4.2" data-path="../buyers-guide/what-gpu-to-get.html">
-            
-                <a href="../buyers-guide/what-gpu-to-get.html">
-            
-                    
-                    What GPU to get
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-        
-        <li class="header">Misc</li>
-        
-        
-    
-        <li class="chapter " data-level="5.1" data-path="../misc/bootflag.html">
-            
-                <a href="../misc/bootflag.html">
-            
-                    
-                    Boot Flags
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="5.2" data-path="../misc/discrete-laptops.html">
-            
-                <a href="../misc/discrete-laptops.html">
-            
-                    
-                    Laptop dGPUs
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="5.3" data-path="../misc/common-issues.html">
-            
-                <a href="../misc/common-issues.html">
-            
-                    
-                    Commom GPU Issues
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="5.4" data-path="../misc/credit.html">
-            
-                <a href="../misc/credit.html">
-            
-                    
-                    Credit
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-
-    <li class="divider"></li>
-
-    <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
-        </a>
-    </li>
-</ul>
-
-
-                </nav>
-            
-        
-    </div>
-
-    <div class="book-body">
-        
-            <div class="body-inner">
-                
-                    
-
-<div class="book-header" role="navigation">
-    
-
-    <!-- Title -->
-    <h1>
-        <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Intel GPUs</a>
-    </h1>
-</div>
-
-
-
-
-                    <div class="page-wrapper" tabindex="-1" role="main">
-                        <div class="page-inner">
-                            
-<div class="search-plus" id="book-search-results">
-    <div class="search-noresults">
-    
-                                <section class="normal markdown-section">
-                                
-                                <blockquote>
-<p><em>Last modified: Thu Jul 16 2020 04:28:11 GMT+0000 (Coordinated Universal Time)</em></p>
-</blockquote>
-<h1 id="intel-gpus"><a name="intel-gpus" class="plugin-anchor" href="#intel-gpus"><i class="fa fa-link" aria-hidden="true"></i></a>Intel GPUs</h1>
-<p>So I&apos;ll be going over the compatible iGPUs present in Intel&apos;s CPUs, the main thing to note is that you&apos;ll need to apply the FrameBuffer patch to your system to get things to work properly. <a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank">Please refer to this post for more info on Framebuffer patching as it goes in depth on how to get your system running</a>. We will also be excluding iGPUs present in Pentiums, Celerons and Atom CPUs as these generally have never been supported natively and require quite a bit of extra work to get them working(to be more specific, GT1 based iGPUs don&apos;t work, Apple only uses GT2 and up in their macs)</p>
-<p><strong>DRM Issues</strong>: With Haswell and newer iGPUs, DRM is outright broken on them with macOS Catalina. This includes iTunes Movies, Apple TV+, Amazon Prime and Netflix, the only fix is getting a supported dGPU preferably Polaris or newer that supports HEVC.</p>
-<p>More info:</p>
-<ul>
-<li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md" target="_blank">WhateverGreen&apos;s DRM Chart</a></li>
-</ul>
-<h2 id="native-intel-igpus"><a name="native-intel-igpus" class="plugin-anchor" href="#native-intel-igpus"><i class="fa fa-link" aria-hidden="true"></i></a>Native Intel iGPUs</h2>
-<p><strong>Ivy Bridge i3/5/7-3XXX Highest Supported OS: Current/Catalina</strong></p>
-<p>Regarding the HD 4000, it&apos;s completely native with Catalina. The HD 2500 on the other hand only has partial support in Mojave for quick sync features as hardware acceleration is <a href="https://olarila.com/forum/viewtopic.php?t=7714" target="_blank">unsupported</a> so you will need a compataible dGPU for display purposes. Intial supported introduced with macOS 10.8</p>
-<p>Supported iGPUs:</p>
-<ul>
-<li>HD 2500</li>
-<li>HD 4000</li>
-<li>HD P4000</li>
-</ul>
-<p>Framebuffer:</p>
-<ul>
-<li>AAPL,ig-platform-id (desktop):<ul>
-<li>0x0166000A (default)<ul>
-<li>0A006601 (hex swapped)</li>
-</ul>
-</li>
-<li>0x01620005<ul>
-<li>05006201 (hex swapped)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>AAPL,ig-platform-id (laptop):<ul>
-<li>0x01660004 (Recommended, 1600x900 screens or higher)<ul>
-<li>04006601 (hex swapped)</li>
-</ul>
-</li>
-<li>0x01660009 (Alternative, eDP or autodetect)<ul>
-<li>09006601 (hex swapped)</li>
-</ul>
-</li>
-<li>0x01660003 (1366x768 screens)<ul>
-<li>03006601 (hex swapped)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Needed kexts:</p>
-<ul>
-<li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank">Lilu.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank">WhateverGreen.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank">Intel FrameBuffer Patching guide</a></li>
-</ul>
-<p><strong>Haswell i3/5/7-4XXX Highest Supported OS: Current/Catalina</strong></p>
-<p>Most iGPUs are supported here, only one to be concerned about is the HD4400 which requires either a spoofed DeviceID with WhateverGreen or a modfied APCI path. Intial supported introduced with macOS 10.9</p>
-<p>Supported iGPUs:</p>
-<ul>
-<li>HD 4200</li>
-<li>HD 4400(HD 4600 FakeID required for this iGPU)</li>
-<li>HD 4600</li>
-<li>HD 5000</li>
-<li>HD 5100</li>
-<li>HD P4600(Theoretically)</li>
-<li>HD P4700(Theoretically)</li>
-</ul>
-<p>Framebuffer:</p>
-<ul>
-<li>AAPL,ig-platform-id (desktop): <ul>
-<li>0x0D220003 (default)<ul>
-<li>0300220D (hex swapped)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>AAPL,ig-platform-id (laptop): <ul>
-<li>0x0A160000 (default)<ul>
-<li>0000160A (hex swapped)</li>
-</ul>
-</li>
-<li>0x0A260005 (recommended)<ul>
-<li>0500260A (hex swapped)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Needed kexts:</p>
-<ul>
-<li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank">Lilu.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank">WhateverGreen.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank">Intel FrameBuffer Patching guide</a></li>
-</ul>
-<p><strong>Broadwell i3/5/7-5XXX Highest Supported OS: Current/Catalina</strong></p>
-<p>All iGPUs are supported here, no issues to report. Intial supported introduced with macOS 10.10.2</p>
-<p>Supported iGPUs:</p>
-<ul>
-<li>HD 5300</li>
-<li>HD 5500</li>
-<li>HD 5600</li>
-<li>HD 6000</li>
-<li>HD 6100</li>
-<li>HD 6200</li>
-<li>HD P5700(Theoretically)</li>
-<li>Iris Pro P6300</li>
-</ul>
-<p>Framebuffer:</p>
-<ul>
-<li>AAPL,ig-platform-id (desktop): <ul>
-<li>0x16220007 (default)<ul>
-<li>07002216 (hex swapped)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>AAPL,ig-platform-id (laptop): <ul>
-<li>0x16260006 (default)<ul>
-<li>06002616 (hex swapped)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Needed kexts:</p>
-<ul>
-<li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank">Lilu.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank">WhateverGreen.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank">Intel FrameBuffer Patching guide</a></li>
-</ul>
-<p><strong>Skylake i3/5/7-6XXX Highest Supported OS: Current/Catalina</strong></p>
-<p>All iGPUs are supported here, no issues to report. Intial supported introduced with macOS 10.11.4</p>
-<p>Supported iGPUs:</p>
-<ul>
-<li>HD 515</li>
-<li>HD 520</li>
-<li>HD 530</li>
-<li>HD P530</li>
-<li>Iris 540</li>
-<li>Iris 550</li>
-<li>Iris Pro 580</li>
-<li>Iris Pro P555</li>
-<li>Iris Pro P580</li>
-</ul>
-<p>Framebuffer:</p>
-<ul>
-<li>AAPL,ig-platform-id (desktop): <ul>
-<li>0x19120000 (default)<ul>
-<li>00001219 (hex swapped)</li>
-</ul>
-</li>
-<li>0x19120001 (Headless)<ul>
-<li>01001219 (hex swapped)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>AAPL,ig-platform-id (laptop): <ul>
-<li>0x19160000 (default)<ul>
-<li>00001619 (hex swapped)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Needed kexts:</p>
-<ul>
-<li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank">Lilu.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank">WhateverGreen.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank">Intel FrameBuffer Patching guide</a></li>
-</ul>
-<p><strong>Kabylake i3/5/7-7XXX Highest Supported OS: Current/Catalina</strong></p>
-<p>Most iGPUs are supported here excluding the HD 610 present in the Pentium G4560, initial support was introduced with macOS 10.12.6</p>
-<p>Supported iGPUs:</p>
-<ul>
-<li>HD 615</li>
-<li>HD 620</li>
-<li>HD 630</li>
-<li>Iris Plus 640</li>
-<li>Iris Plus 650</li>
-</ul>
-<p>Framebuffer:</p>
-<ul>
-<li>AAPL,ig-platform-id (desktop): <ul>
-<li>0x59160000 (default)<ul>
-<li>00001659 (hex swapped)</li>
-</ul>
-</li>
-<li>0x59120003 (Headless)<ul>
-<li>03001259 (hex swapped)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>AAPL,ig-platform-id (laptop): <ul>
-<li>0x591B0000 (default)<ul>
-<li>00001B59 (hex swapped)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Needed kexts:</p>
-<ul>
-<li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank">Lilu.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank">WhateverGreen.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank">Intel FrameBuffer Patching guide</a></li>
-</ul>
-<p><strong>Kabylake refresh/ Coffee Lake/ Cometlake i3/5/7-8XXX/9XXX Highest Supported OS: Current/Catalina</strong></p>
-<p>All iGPUs are supported here, though pay attention as the <a href="https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Whiskey_Lake" target="_blank">i3 8100 and 8350k use a different UHD 630(184 shader units vs 192)</a> than the rest of the CPU family which requires spoofing for support in High Sierra(generally wanted for headless rendering on a Maxwell/Pascal GPUs). Intial supported introduced with macOS 10.13.6</p>
-<p>Supported:</p>
-<ul>
-<li>UHD 615</li>
-<li>UHD 617</li>
-<li>UHD 620</li>
-<li>UHD 630</li>
-<li>Iris Plus 645</li>
-<li>Iris Plus 655</li>
-</ul>
-<p>Framebuffer:</p>
-<ul>
-<li>AAPL,ig-platform-id (desktop): <ul>
-<li>0x3EA50000 (default) <ul>
-<li>0000A53E (hex swapped)</li>
-</ul>
-</li>
-<li>0x3E9B0007 (desktop, recommended)<ul>
-<li>07009B3E (hex swapped)</li>
-</ul>
-</li>
-<li>0x3E920003 (Headless)<ul>
-<li>0300923E (hex swapped)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>AAPL,ig-platform-id (laptop): <ul>
-<li>0x3EA50009 (default)<ul>
-<li>0900A53E (hex swapped)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Needed kexts:</p>
-<ul>
-<li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank">Lilu.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank">WhateverGreen.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank">Intel FrameBuffer Patching guide</a></li>
-</ul>
-<p><strong>Icelake Highest Supported OS: Current/Catalina</strong></p>
-<p>All iGPUs present here have support starting in macOS 10.15.4, note that support is still quite early so there&apos;s likely still bugs to clean up and WhateverGreen will need some time to find and adapt patches to best suit these new iGPUs</p>
-<p>Supported:</p>
-<ul>
-<li>Iris Plus G7</li>
-<li>Iris Plus G4</li>
-</ul>
-<p>Framebuffer:</p>
-<ul>
-<li>Currently no available</li>
-</ul>
-<p>Needed kexts:</p>
-<ul>
-<li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank">Lilu.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank">WhateverGreen.kext</a></li>
-<li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank">Intel FrameBuffer Patching guide</a><ul>
-<li>Guide needs to be updated to support Icelake framebuffers</li>
-</ul>
-</li>
-</ul>
-<h2 id="unsupported-intel-igpus"><a name="unsupported-intel-igpus" class="plugin-anchor" href="#unsupported-intel-igpus"><i class="fa fa-link" aria-hidden="true"></i></a>Unsupported Intel iGPUs</h2>
-<p>All GPUs listed here are GT1 based meaning no support as display out whatsoever</p>
-<p><strong>Braswell Highest Supported OS: None</strong>:</p>
-<p>Unsupported:</p>
-<ul>
-<li>HD 400</li>
-<li>HD 405</li>
-</ul>
-<p><strong>Skylake Highest Supported OS: None</strong>:</p>
-<p>Unsupported:</p>
-<ul>
-<li>HD 510</li>
-</ul>
-<p><strong>Apollo Lake Highest Supported OS: None</strong>:</p>
-<p>Unsupported:</p>
-<ul>
-<li>HD 500</li>
-<li>HD 505</li>
-</ul>
-<p><strong>Kabylake Highest Supported OS: None</strong>:</p>
-<p>Unsupported:</p>
-<ul>
-<li>HD 610</li>
-</ul>
-<p><strong>Kabylake refresh/ Coffee Lake/ Cometlake i3/5/7-8XXX/9XXX Highest Supported OS: None</strong>:</p>
-<p>Unsupported:</p>
-<ul>
-<li>UHD 610</li>
-</ul>
-<p><strong>Gemini Lake Highest Supported OS: None</strong>:</p>
-<p>Unsupported:</p>
-<ul>
-<li>UHD 600</li>
-<li>UHD 605</li>
-</ul>
-
-                                
-                                </section>
-                            
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
-</div>
-
-                        </div>
-                    </div>
-                
-            </div>
-
-            
-                
-                <a href="nvidia-gpu.html" class="navigation navigation-prev " aria-label="Previous page: Nvidia GPUs">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
-                
-                <a href="../legacy-gpus/legacy-amd.html" class="navigation navigation-next " aria-label="Next page: Legacy AMD">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
-            
-        
-    </div>
-
-    <script>
-        var gitbook = gitbook || [];
-        gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Intel GPUs","level":"2.3","depth":1,"next":{"title":"Legacy AMD","level":"3.1","depth":1,"path":"legacy-gpus/legacy-amd.md","ref":"legacy-gpus/legacy-amd.md","articles":[]},"previous":{"title":"Nvidia GPUs","level":"2.2","depth":1,"path":"modern-gpus/nvidia-gpu.md","ref":"modern-gpus/nvidia-gpu.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","-lunr","-search","search-plus","addcssjs","favicon-plus","github-edit","anchors","last-modified","medium-zoom"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"last-modified":{},"output":"_book","addcssjs":{"css":[],"js":[]},"medium-zoom":{},"fontsettings":{"family":"sans","size":2,"theme":"night"},"favicon-plus":{"appleTouchIconPrecomposed152":"","favicon":"","output":"_book"},"highlight":{},"github-edit":{"repo":"dortania/GPU-Buyers-Guide","branch":"master"},"favicon":"/icons/favicon.ico","appleTouchIconPrecomposed152":"/icons/appleTouchIconPrecomposed152.png","sharing":{"all":[],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":false},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"anchors":{},"search-plus":{}},"theme":"default","medium-zoom":{"margin":24,"background":"#363b40","scrollOffset":0},"pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"links":{"sharing":{"google":false,"facebook":false,"twitter":false,"weibo":false,"all":false}},"gitbook":"*"},"file":{"path":"modern-gpus/intel-gpu.md","mtime":"2020-07-16T04:28:11.870Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-16T04:30:16.538Z"},"basePath":"..","book":{"language":""}});
-        });
-    </script>
-</div>
-
-        
-    
-    <script src="../gitbook/gitbook.js"></script>
-    <script src="../gitbook/theme.js"></script>
-    
-        
-        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-github-edit/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-medium-zoom/medium-zoom.min.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-medium-zoom/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-        
-    
-
-    
-
-    </body>
+    <link rel="preload" href="/GPU-Buyers-Guide/assets/css/0.styles.f2dd84b9.css" as="style"><link rel="preload" href="/GPU-Buyers-Guide/assets/js/app.da6a7e48.js" as="script"><link rel="preload" href="/GPU-Buyers-Guide/assets/js/2.80765d56.js" as="script"><link rel="preload" href="/GPU-Buyers-Guide/assets/js/22.791051aa.js" as="script"><link rel="preload" href="/GPU-Buyers-Guide/assets/js/9.67ff4766.js" as="script"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/10.d7a49be7.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/11.882d9d23.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/12.22be8535.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/13.32e036f8.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/14.7255d2fc.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/15.8bbb6fcd.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/16.635fcf96.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/17.a6da151d.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/18.e6b8ee1f.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/19.e6768e1e.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/20.454bc462.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/21.a7e0d85c.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/23.1464b1e9.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/3.b79e5ed4.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/4.55804b1d.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/5.ec3c650e.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/6.f4b5cc99.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/7.d89c4518.js"><link rel="prefetch" href="/GPU-Buyers-Guide/assets/js/8.151ddfd7.js">
+    <link rel="stylesheet" href="/GPU-Buyers-Guide/assets/css/0.styles.f2dd84b9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/GPU-Buyers-Guide/" class="home-link router-link-active"><img src="/GPU-Buyers-Guide/homepage.png" alt="GPU Guyers Guide" class="logo"> <span class="site-name can-hide">GPU Guyers Guide</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Dortania Guides</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://dortania.github.io/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Home Site
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://dortania.github.io/Getting-Started-With-ACPI/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Getting Started With ACPI
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://dortania.github.io/OpenCore-Desktop-Guide/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  OpenCore Install Guide
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://dortania.github.io/OpenCore-Post-Install/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  OpenCore Post-Install
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://dortania.github.io/Wireless-Buyers-Guide/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Wireless Buyers Guide
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Anti Buyers Guide
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <div class="nav-item"><a role="button" aria-label="Switch to light mode" class="nav-link"><span>Switch theme</span></a></div> <a href="https://github.com/dortania/GPU-Buyers-Guide" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Dortania Guides</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://dortania.github.io/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Home Site
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://dortania.github.io/Getting-Started-With-ACPI/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Getting Started With ACPI
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://dortania.github.io/OpenCore-Desktop-Guide/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  OpenCore Install Guide
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://dortania.github.io/OpenCore-Post-Install/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  OpenCore Post-Install
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://dortania.github.io/Wireless-Buyers-Guide/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Wireless Buyers Guide
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Anti Buyers Guide
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <div class="nav-item"><a role="button" aria-label="Switch to light mode" class="nav-link"><span>Switch theme</span></a></div> <a href="https://github.com/dortania/GPU-Buyers-Guide" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Introduction</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/GPU-Buyers-Guide/" aria-current="page" class="sidebar-link">Introduction</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Modern GPUs</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/GPU-Buyers-Guide/modern-gpus/amd-gpu.html" class="sidebar-link">AMD GPUs</a></li><li><a href="/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html" class="sidebar-link">Nvidia GPUs</a></li><li><a href="/GPU-Buyers-Guide/modern-gpus/intel-gpu.html" aria-current="page" class="active sidebar-link">Intel GPUs</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/GPU-Buyers-Guide/modern-gpus/intel-gpu.html#native-intel-igpus" class="sidebar-link">Native Intel iGPUs</a></li><li class="sidebar-sub-header"><a href="/GPU-Buyers-Guide/modern-gpus/intel-gpu.html#unsupported-intel-igpus" class="sidebar-link">Unsupported Intel iGPUs</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Legacy GPUs</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/GPU-Buyers-Guide/legacy-gpus/legacy-amd.html" class="sidebar-link">Legacy AMD</a></li><li><a href="/GPU-Buyers-Guide/legacy-gpus/legacy-nvidia.html" class="sidebar-link">Legacy Nvidia</a></li><li><a href="/GPU-Buyers-Guide/legacy-gpus/legacy-intel.html" class="sidebar-link">Legacy Intel</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Buyers Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/GPU-Buyers-Guide/buyers-guide/gpu-avoid.html" class="sidebar-link">What GPUs to avoid</a></li><li><a href="/GPU-Buyers-Guide/buyers-guide/what-gpu-to-get.html" class="sidebar-link">What GPU to get</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Misc</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/GPU-Buyers-Guide/misc/bootflag.html" class="sidebar-link">Boot Flags</a></li><li><a href="/GPU-Buyers-Guide/misc/discrete-laptops.html" class="sidebar-link">Laptop dGPUs</a></li><li><a href="/GPU-Buyers-Guide/misc/common-issues.html" class="sidebar-link">Common GPU issues</a></li><li><a href="/GPU-Buyers-Guide/misc/credit.html" class="sidebar-link">Credit</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-succinct-content content__default"><h1 id="intel-gpus"><a href="#intel-gpus" class="header-anchor">#</a> Intel GPUs</h1> <p>So I'll be going over the compatible iGPUs present in Intel's CPUs, the main thing to note is that you'll need to apply the FrameBuffer patch to your system to get things to work properly. <a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank" rel="noopener noreferrer">Please refer to this post for more info on Framebuffer patching as it goes in depth on how to get your system running<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>. We will also be excluding iGPUs present in Pentiums, Celerons and Atom CPUs as these generally have never been supported natively and require quite a bit of extra work to get them working(to be more specific, GT1 based iGPUs don't work, Apple only uses GT2 and up in their macs)</p> <p><strong>DRM Issues</strong>: With Haswell and newer iGPUs, DRM is outright broken on them with macOS Catalina. This includes iTunes Movies, Apple TV+, Amazon Prime and Netflix, the only fix is getting a supported dGPU preferably Polaris or newer that supports HEVC.</p> <p>More info:</p> <ul><li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md" target="_blank" rel="noopener noreferrer">WhateverGreen's DRM Chart<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <h2 id="native-intel-igpus"><a href="#native-intel-igpus" class="header-anchor">#</a> Native Intel iGPUs</h2> <p><strong>Ivy Bridge i3/5/7-3XXX Highest Supported OS: Current/Catalina</strong></p> <p>Regarding the HD 4000, it's completely native with Catalina. The HD 2500 on the other hand only has partial support in Mojave for quick sync features as hardware acceleration is <a href="https://olarila.com/forum/viewtopic.php?t=7714" target="_blank" rel="noopener noreferrer">unsupported<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> so you will need a compataible dGPU for display purposes. Intial supported introduced with macOS 10.8</p> <p>Supported iGPUs:</p> <ul><li>HD 2500</li> <li>HD 4000</li> <li>HD P4000</li></ul> <p>Framebuffer:</p> <ul><li>AAPL,ig-platform-id (desktop):
+<ul><li>0x0166000A (default)
+<ul><li>0A006601 (hex swapped)</li></ul></li> <li>0x01620005
+<ul><li>05006201 (hex swapped)</li></ul></li></ul></li> <li>AAPL,ig-platform-id (laptop):
+<ul><li>0x01660004 (Recommended, 1600x900 screens or higher)
+<ul><li>04006601 (hex swapped)</li></ul></li> <li>0x01660009 (Alternative, eDP or autodetect)
+<ul><li>09006601 (hex swapped)</li></ul></li> <li>0x01660003 (1366x768 screens)
+<ul><li>03006601 (hex swapped)</li></ul></li></ul></li></ul> <p>Needed kexts:</p> <ul><li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank" rel="noopener noreferrer">Lilu.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank" rel="noopener noreferrer">WhateverGreen.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank" rel="noopener noreferrer">Intel FrameBuffer Patching guide<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <p><strong>Haswell i3/5/7-4XXX Highest Supported OS: Current/Catalina</strong></p> <p>Most iGPUs are supported here, only one to be concerned about is the HD4400 which requires either a spoofed DeviceID with WhateverGreen or a modfied APCI path. Intial supported introduced with macOS 10.9</p> <p>Supported iGPUs:</p> <ul><li>HD 4200</li> <li>HD 4400(HD 4600 FakeID required for this iGPU)</li> <li>HD 4600</li> <li>HD 5000</li> <li>HD 5100</li> <li>HD P4600(Theoretically)</li> <li>HD P4700(Theoretically)</li></ul> <p>Framebuffer:</p> <ul><li>AAPL,ig-platform-id (desktop):
+<ul><li>0x0D220003 (default)
+<ul><li>0300220D (hex swapped)</li></ul></li></ul></li> <li>AAPL,ig-platform-id (laptop):
+<ul><li>0x0A160000 (default)
+<ul><li>0000160A (hex swapped)</li></ul></li> <li>0x0A260005 (recommended)
+<ul><li>0500260A (hex swapped)</li></ul></li></ul></li></ul> <p>Needed kexts:</p> <ul><li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank" rel="noopener noreferrer">Lilu.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank" rel="noopener noreferrer">WhateverGreen.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank" rel="noopener noreferrer">Intel FrameBuffer Patching guide<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <p><strong>Broadwell i3/5/7-5XXX Highest Supported OS: Current/Catalina</strong></p> <p>All iGPUs are supported here, no issues to report. Intial supported introduced with macOS 10.10.2</p> <p>Supported iGPUs:</p> <ul><li>HD 5300</li> <li>HD 5500</li> <li>HD 5600</li> <li>HD 6000</li> <li>HD 6100</li> <li>HD 6200</li> <li>HD P5700(Theoretically)</li> <li>Iris Pro P6300</li></ul> <p>Framebuffer:</p> <ul><li>AAPL,ig-platform-id (desktop):
+<ul><li>0x16220007 (default)
+<ul><li>07002216 (hex swapped)</li></ul></li></ul></li> <li>AAPL,ig-platform-id (laptop):
+<ul><li>0x16260006 (default)
+<ul><li>06002616 (hex swapped)</li></ul></li></ul></li></ul> <p>Needed kexts:</p> <ul><li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank" rel="noopener noreferrer">Lilu.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank" rel="noopener noreferrer">WhateverGreen.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank" rel="noopener noreferrer">Intel FrameBuffer Patching guide<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <p><strong>Skylake i3/5/7-6XXX Highest Supported OS: Current/Catalina</strong></p> <p>All iGPUs are supported here, no issues to report. Intial supported introduced with macOS 10.11.4</p> <p>Supported iGPUs:</p> <ul><li>HD 515</li> <li>HD 520</li> <li>HD 530</li> <li>HD P530</li> <li>Iris 540</li> <li>Iris 550</li> <li>Iris Pro 580</li> <li>Iris Pro P555</li> <li>Iris Pro P580</li></ul> <p>Framebuffer:</p> <ul><li>AAPL,ig-platform-id (desktop):
+<ul><li>0x19120000 (default)
+<ul><li>00001219 (hex swapped)</li></ul></li> <li>0x19120001 (Headless)
+<ul><li>01001219 (hex swapped)</li></ul></li></ul></li> <li>AAPL,ig-platform-id (laptop):
+<ul><li>0x19160000 (default)
+<ul><li>00001619 (hex swapped)</li></ul></li></ul></li></ul> <p>Needed kexts:</p> <ul><li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank" rel="noopener noreferrer">Lilu.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank" rel="noopener noreferrer">WhateverGreen.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank" rel="noopener noreferrer">Intel FrameBuffer Patching guide<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <p><strong>Kabylake i3/5/7-7XXX Highest Supported OS: Current/Catalina</strong></p> <p>Most iGPUs are supported here excluding the HD 610 present in the Pentium G4560, initial support was introduced with macOS 10.12.6</p> <p>Supported iGPUs:</p> <ul><li>HD 615</li> <li>HD 620</li> <li>HD 630</li> <li>Iris Plus 640</li> <li>Iris Plus 650</li></ul> <p>Framebuffer:</p> <ul><li>AAPL,ig-platform-id (desktop):
+<ul><li>0x59160000 (default)
+<ul><li>00001659 (hex swapped)</li></ul></li> <li>0x59120003 (Headless)
+<ul><li>03001259 (hex swapped)</li></ul></li></ul></li> <li>AAPL,ig-platform-id (laptop):
+<ul><li>0x591B0000 (default)
+<ul><li>00001B59 (hex swapped)</li></ul></li></ul></li></ul> <p>Needed kexts:</p> <ul><li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank" rel="noopener noreferrer">Lilu.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank" rel="noopener noreferrer">WhateverGreen.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank" rel="noopener noreferrer">Intel FrameBuffer Patching guide<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <p><strong>Kabylake refresh/ Coffee Lake/ Cometlake i3/5/7-8XXX/9XXX Highest Supported OS: Current/Catalina</strong></p> <p>All iGPUs are supported here, though pay attention as the <a href="https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Whiskey_Lake" target="_blank" rel="noopener noreferrer">i3 8100 and 8350k use a different UHD 630(184 shader units vs 192)<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> than the rest of the CPU family which requires spoofing for support in High Sierra(generally wanted for headless rendering on a Maxwell/Pascal GPUs). Intial supported introduced with macOS 10.13.6</p> <p>Supported:</p> <ul><li>UHD 615</li> <li>UHD 617</li> <li>UHD 620</li> <li>UHD 630</li> <li>Iris Plus 645</li> <li>Iris Plus 655</li></ul> <p>Framebuffer:</p> <ul><li>AAPL,ig-platform-id (desktop):
+<ul><li>0x3EA50000 (default)
+<ul><li>0000A53E (hex swapped)</li></ul></li> <li>0x3E9B0007 (desktop, recommended)
+<ul><li>07009B3E (hex swapped)</li></ul></li> <li>0x3E920003 (Headless)
+<ul><li>0300923E (hex swapped)</li></ul></li></ul></li> <li>AAPL,ig-platform-id (laptop):
+<ul><li>0x3EA50009 (default)
+<ul><li>0900A53E (hex swapped)</li></ul></li></ul></li></ul> <p>Needed kexts:</p> <ul><li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank" rel="noopener noreferrer">Lilu.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank" rel="noopener noreferrer">WhateverGreen.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank" rel="noopener noreferrer">Intel FrameBuffer Patching guide<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <p><strong>Icelake Highest Supported OS: Current/Catalina</strong></p> <p>All iGPUs present here have support starting in macOS 10.15.4, note that support is still quite early so there's likely still bugs to clean up and WhateverGreen will need some time to find and adapt patches to best suit these new iGPUs</p> <p>Supported:</p> <ul><li>Iris Plus G7</li> <li>Iris Plus G4</li></ul> <p>Framebuffer:</p> <ul><li>Currently no available</li></ul> <p>Needed kexts:</p> <ul><li><a href="https://github.com/acidanthera/Lilu/releases" target="_blank" rel="noopener noreferrer">Lilu.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/releases" target="_blank" rel="noopener noreferrer">WhateverGreen.kext<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md" target="_blank" rel="noopener noreferrer">Intel FrameBuffer Patching guide<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <ul><li>Guide needs to be updated to support Icelake framebuffers</li></ul></li></ul> <h2 id="unsupported-intel-igpus"><a href="#unsupported-intel-igpus" class="header-anchor">#</a> Unsupported Intel iGPUs</h2> <p>All GPUs listed here are GT1 based meaning no support as display out whatsoever</p> <p><strong>Braswell Highest Supported OS: None</strong>:</p> <p>Unsupported:</p> <ul><li>HD 400</li> <li>HD 405</li></ul> <p><strong>Skylake Highest Supported OS: None</strong>:</p> <p>Unsupported:</p> <ul><li>HD 510</li></ul> <p><strong>Apollo Lake Highest Supported OS: None</strong>:</p> <p>Unsupported:</p> <ul><li>HD 500</li> <li>HD 505</li></ul> <p><strong>Kabylake Highest Supported OS: None</strong>:</p> <p>Unsupported:</p> <ul><li>HD 610</li></ul> <p><strong>Kabylake refresh/ Coffee Lake/ Cometlake i3/5/7-8XXX/9XXX Highest Supported OS: None</strong>:</p> <p>Unsupported:</p> <ul><li>UHD 610</li></ul> <p><strong>Gemini Lake Highest Supported OS: None</strong>:</p> <p>Unsupported:</p> <ul><li>UHD 600</li> <li>UHD 605</li></ul></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">4/26/2020, 3:32:38 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ⟵
+      <a href="/GPU-Buyers-Guide/modern-gpus/nvidia-gpu.html" class="prev">
+        Nvidia GPUs
+      </a></span> <span class="next"><a href="/GPU-Buyers-Guide/legacy-gpus/legacy-amd.html">
+        Legacy AMD
+      </a>
+      ⟶
+    </span></p></div> </main></div><div class="global-ui"><div style="visibility:hidden;display:none;"></div><!----></div></div>
+    <script src="/GPU-Buyers-Guide/assets/js/app.da6a7e48.js" defer></script><script src="/GPU-Buyers-Guide/assets/js/2.80765d56.js" defer></script><script src="/GPU-Buyers-Guide/assets/js/22.791051aa.js" defer></script><script src="/GPU-Buyers-Guide/assets/js/9.67ff4766.js" defer></script>
+  </body>
 </html>
-
