@@ -1,6 +1,6 @@
 # Boot Flags
 
-This little section here is a short explainer on some of the more commonly useful boot flags used for getting your GPU working. Do note, most of these bootflags are from [WhateverGreen](https://github.com/acidanthera/WhateverGreen) so refer to their [FAQ](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/) for a complete list of boot flags. And for a list of all `shikigva boot arguments`, see [here](https://github.com/acidanthera/WhateverGreen/blob/master/WhateverGreen/kern_shiki.hpp#L35-L74) and DRM bootflags can be found here: [WhateverGreen's DRM chart](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md)
+This little section here is a short explainer on some of the more commonly useful boot flags used for getting your GPU working. Do note, most of these boot-flags are from [WhateverGreen](https://github.com/acidanthera/WhateverGreen) so refer to their [FAQ](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/) for a complete list of boot flags. And for a list of all `shikigva boot arguments`, see [here](https://github.com/acidanthera/WhateverGreen/blob/master/WhateverGreen/kern_shiki.hpp#L35-L74) and DRM boot-flags can be found here: [WhateverGreen's DRM chart](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md)
 
 ## AMD Boot Arguments
 
@@ -8,7 +8,7 @@ This little section here is a short explainer on some of the more commonly usefu
   * Swaps boardID with iMacPro1,1
   * Allows for Polaris, Vega and Navi GPUs to handle all types of rendering, useful for SMBIOS which expect an iGPU
 * `radpg=15`
-  * Fixes initilization for HD 7730/7750/7770/R7 250/R7 250X
+  * Fixes initialization for HD 7730/7750/7770/R7 250/R7 250X
 * `-raddvi`
   * Fixes DVI `connector-type` for  290X, 370, etc
 * `-radvesa`
@@ -48,7 +48,7 @@ This little section here is a short explainer on some of the more commonly usefu
 * `-igfxnohdmi`
   * Disables DisplayPort to HDMI Audio Conversion
 * `-cdfon`
-  * Performs numerous patches required for enabing HDMI 2.0 support
+  * Performs numerous patches required for enabling HDMI 2.0 support
 * `-igfxvesa`
   * Forces GPU into VESA mode\(no GPU acceleration\), useful for troubleshooting
 

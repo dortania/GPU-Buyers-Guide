@@ -83,7 +83,7 @@ Quadro
 
 **The Most Powerful GPUs**
 
-While it may seem obvious that the most powerful GPU would be the Radeon VII, do keep in mind drivers aren't as mature as Vega 10's drivers. For the best reliablity you'll want to either grab a Vega 10 series GPU\(RX Vega 64\) or wait for the issues with the MacPro 7,1 to be ironed out.
+While it may seem obvious that the most powerful GPU would be the Radeon VII, do keep in mind drivers aren't as mature as Vega 10's drivers. For the best reliability you'll want to either grab a Vega 10 series GPU\(RX Vega 64\) or wait for the issues with the MacPro 7,1 to be ironed out.
 
 * [Radeon VII](https://www.amd.com/en/products/graphics/amd-radeon-vii)
 * [Sapphire Nitro+ RX 5700 XT](https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-5700-xt-8g-gddr6)
@@ -98,7 +98,7 @@ While it may seem obvious that the most powerful GPU would be the Radeon VII, do
 
 **Cheapest Hackintosh GPUs**
 
-* Litterally whatever iGPU came with your CPU
+* Literally whatever iGPU came with your CPU
 
 **Overall Best Hackintosh GPUs**
 

@@ -2,7 +2,7 @@
 
 
 
-![](/images/logo.jpg)
+![](/logo.jpg)
 
 So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
 
@@ -12,9 +12,9 @@ Well you've come to the right place, I'll give a quick rundown on the situation 
 
 ## A quick refresher with Nvidia and WebDrivers
 
-![WebDrivers](/images/WebDrivers.gif)
+![WebDrivers](/WebDrivers.gif)
 
-Well currently as of the time of writing, we've gone a full OS cycle without official drivers from Nvidia for their Maxwell, Pascal or Turing GPUs. What this means is that users of these GPUs have no support for either Mojave or Catalina so are stuck with macOS 10.13 High Sierra. Who's to blame? Well it's 2 giant, egotistical companies who both refuse to work together so the blame can go both ways. Do keep in mind that the WebDrivers have a VRAM leakage issue that they've yet to address, so a theory to why Apple refuses Nvidia drivers in macOS may be due to how Nvidia refuses to hand over the driver stack. Think it's a coincidence that both AMD and Intel have open-sourced drivers? Well, either way, it doesn't change the fact there's no support.
+Well currently as of the time of writing, we've gone a full OS cycle without official drivers from Nvidia for their Maxwell, Pascal or Turing GPUs. What this means is that users of these GPUs have no support for either Mojave or Catalina so are stuck with macOS 10.13 High Sierra. Who's to blame? Well it's 2 giant, egotistical companies who both refuse to work together so the blame can go both ways. Do keep in mind that the WebDrivers have a VRAM leakage issue that they've yet to address, so a theory to why Apple refuses Nvidia drivers in macOS may be due to how Nvidia refuses to hand over the driver stack. Think it's a coincidence that both AMD and Intel have open-sourced drivers? Well, either wa/y, it doesn't change the fact there's no support.
 
 Users with Kepler based GPUs are in the clear though, they utilize Apple's native drivers
 
@@ -35,11 +35,11 @@ Things to remember:
 * macOS does not support either SLI, Crossfire or GPUs will multiple main cores\(like the Radeon Pro Duo\). This may change with the release of the Radeon Pro Vega II Duo in the Mac Pro
 * Getting audio through HDMI/DisplayPort may require extra work with both AppleALC.kext and some other IO-REG edits
 * GPU Overclocking is limited to Vega 10 GPUs with [PyVega](https://github.com/corpnewt/PyVega)
-* Running a supported GPU with an unsupported GPU can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://github.com/khronokernel/How-to-disable-your-unsupported-GPU-for-MacOS) for more info
+* Running a supported GPU with an unsupported GPU can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://dortania.github.io/OpenCore-Desktop-Guide/extras/spoof.htmlS) for more info
 
 ## Can I run an unsupported GPU in my hack?
 
-So something to keep in mind when running an unsupported GPU in macOS is will fall back on VESA drivers when no real drivers are present. These are very simple, CPU based drivers that are used as a stop-gap while you wait to install the correct drivers but many basic functions of macOS are broken when running this way including sleep and general stability. And since these GPUs have no drivers even outside of Apple, we need some way to stop the unsupported GPU from being recognized in macOS. So what do we do? Well I'm glad you ask. With my patent pending [How to disable your unsupported GPU for macOS Guide](https://github.com/khronokernel/How-to-disable-your-unsupported-GPU-for-MacOS/blob/master/README.md), even a simpleton like you can experience the glories of Mojave and beyond!
+So something to keep in mind when running an unsupported GPU in macOS is will fall back on VESA drivers when no real drivers are present. These are very simple, CPU based drivers that are used as a stop-gap while you wait to install the correct drivers but many basic functions of macOS are broken when running this way including sleep and general stability. And since these GPUs have no drivers even outside of Apple, we need some way to stop the unsupported GPU from being recognized in macOS. So what do we do? Well I'm glad you ask. With my patent pending [How to disable your unsupported GPU for macOS Guide](https://dortania.github.io/OpenCore-Desktop-Guide/extras/spoof.html), even a simpleton like you can experience the glories of Mojave and beyond!
 
 > But can I render macOS on my iGPU but use the video outs on my unsupported GPU?
 
