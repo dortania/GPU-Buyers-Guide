@@ -54,7 +54,7 @@ module.exports = {
         editLinks: false,
         docsDir: '',
         editLinkText: '',
-        logo: 'homepage.png,
+        logo: '/homepage.png,
         nav: [{
             text: 'Dortania Guides',
             ariaLabel: 'Language Menu',
