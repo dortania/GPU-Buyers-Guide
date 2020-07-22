@@ -2,7 +2,7 @@
 
 ## Native nVidia GPUs
 
-**Kepler Series \(GTX 6xx, 7xx\) Highest Supported OS: Current/Catalina**
+**Kepler Series \(GTX 6xx, 7xx\) Highest Supported OS: Current/Big Sur**
 
 Currently the only 100% native Nvidia architecture that works with Catalina. Users have reported issues with the GTX 650Ti, 660, 660ti but this is caused by a driver issue on Apple’s end by not supporting the GK106 core\(or quite poorly as the issue seems to be memory leakage which also affects real Macs\). Another issue with this generation is lower end products marketed as first generation Kepler are actually using a Fermi core but have identical counterparts running Kepler cores as well\(GF 116 vs GK 107 found in the GT 640\). **AND PLEASE NOTICE THAT GTX 745, 750 and ti VARIANTS ARE NOT INCLUDED, THEY'RE NOT KEPLER**
 
