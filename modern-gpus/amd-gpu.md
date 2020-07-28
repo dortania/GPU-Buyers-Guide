@@ -2,7 +2,7 @@
 
 ## Native AMD GPUs
 
-**Navi 10 Series \(RX 5000\) Highest Supported OS: Current/Big Sur**
+### **Navi 10 Series \(RX 5000\) Highest Supported OS: Current/Big Sur**
 
 Currently, as of 10.15.1, Apple has finally added RDNA and Navi support!
 
@@ -27,7 +27,12 @@ Needed kexts:
 * [lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
-**Vega 20 series Highest Supported OS: Current/Big Sur**
+**Important note for MSI Navi users**: 
+
+* Apple currently has a VBIOS bug which crashes installers if an MSI Navi card is present, see here for more details: [Installer not working with 5700XT #901](https://github.com/acidanthera/bugtracker/issues/901)
+* MSI's Polaris and Vega line are not affected by this bug
+
+### **Vega 20 series Highest Supported OS: Current/Big Sur**
 
 So all Vega based GPUs are natively supported in macOS with Vega 20 GPUs starting in Mojave. While natively supported, it's recommended to still have WhateverGreen.kext installed as this helps with proper framebuffer connections and fixes other odd issues like proper ACPI mapping and such
 
@@ -40,7 +45,7 @@ Needed kexts:
 * [lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
-**Vega 10 series Highest Supported OS: Current/Big Sur**
+### **Vega 10 series Highest Supported OS: Current/Big Sur**
 
 Just like with Vega 20, Vega 10 GPUs are natively supported in macOS though these card's support starts in High Sierra. Similar to Vega 20, it's recommended to still have WhateverGreen.kext installed as this helps with proper framebuffer connections and fixes other odd issues like proper ACPI mapping and such.
 
@@ -65,7 +70,7 @@ Needed kexts:
 * [lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
-**Radeon 400/500 series \(Polaris\) Highest Supported OS: Current/Big Sur**
+### **Radeon 400/500 series \(Polaris\) Highest Supported OS: Current/Big Sur**
 
 Regarding Polaris, basically every model of card is supported as long as it’s running either a Polaris or Baffin core\(lower end cards like the RX550 run a Lexa core meaning no support in macOS\).
 
@@ -101,11 +106,11 @@ Needed kexts:
 * [lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
-**GCN 3 and older based Cards**
+### **GCN 3 and older based Cards**
 
 Regarding GCN 3 and older, cards from these generations theoretically will have support for Metal in Catalina but due to how fragmented some of the product stack became meant that some cards may not have support. Generally, HD 7XXX series of GPUs and up are metal compatible but I’ll only list GPUs that have been proven to work.
 
-**Radeon R7/R9 Current/Big Sur**
+### **Radeon R7/R9 Current/Big Sur**
 
 R7/R9 is also natively supported in Catalina without too much issue but we cannot guarantee the success of R5 and R7 cards due to not having many reports of success with them. Also, be wary that differing from the reference design of these cards have many more issues that require a lot of work to get them to run properly. Sapphire cards are your best bet
 
@@ -185,7 +190,7 @@ Extras:
 
 ## Unsupported AMD GPUs
 
-**Lexa Series \(RX 500\) Highest Supported OS: None**
+### **Lexa Series \(RX 500\) Highest Supported OS: None**
 
 While these GPUs may share the same family name as the Polaris GPUs, these cards are drastically different meaning no support in any version of macOS. Similar to Navi and unsupported Nvidia GPUs, you'll need to disable the Lexa GPU due to how the Vesa drivers that unsupported GPUs run off of break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://www.reddit.com/r/hackintosh/comments/bu1wf8/how_to_disable_your_unsupported_gpu_for_macos/)
 
@@ -198,7 +203,7 @@ Unsupported Cards:
 * RX 540X
 * RX 540
 
-**AMD APUs \(ALL VARIANTS\) Highest Supported OS: None**
+### **AMD APUs \(ALL VARIANTS\) Highest Supported OS: None**
 
 The integrated GPU found on lower end AMD CPUs have unfortunately never had official support with community support quite lacking. While possible to get a display out with some work, graphics acceleration is basically impossible making these APUs more of a hazard to macOS.
 
