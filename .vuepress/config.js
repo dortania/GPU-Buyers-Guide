@@ -6,7 +6,7 @@ module.exports = {
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#title
      */
-    title: 'GPU Guyers Guide',
+    title: 'GPU Buyers Guide',
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#description
      */
