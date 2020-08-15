@@ -113,7 +113,7 @@ module.exports = {
         {
             title: 'Legacy GPUs',
             collapsable: false,
-            sidebarDepth: 2,
+            sidebarDepth: 1,
             children: [
                 '/legacy-gpus/legacy-amd',
                 '/legacy-gpus/legacy-nvidia',
@@ -148,6 +148,7 @@ module.exports = {
     plugins: [
         '@vuepress/plugin-back-to-top',
         'vuepress-plugin-smooth-scroll',
+		'fulltext-search',
         ['vuepress-plugin-medium-zoom',
             {
                 selector: "img",

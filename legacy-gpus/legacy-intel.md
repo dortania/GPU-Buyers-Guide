@@ -1,23 +1,24 @@
 # Legacy Intel
 
-**Sandy Bridge i3/5/7-2XXX Highest Supported OS: High Sierra 10.13.6\(With a bit of work, current/Catalina\)**
+## **Sandy Bridge i3/5/7-2XXX**
+### Highest Supported OS: High Sierra 10.13.6(With a bit of work, current/Catalina)
 
-Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts\(though no Metal support so things are a bit iffy\). I won't link any of the files myself so do be wary when downloading kexts off the internet. Intial supported introduced with macOS 10.7 and is not supported by the [Intel framebuffer patch](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won't link any of the files myself so do be wary when downloading kexts off the internet. Intial supported introduced with macOS 10.7 and is not supported by the [Intel framebuffer patch](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 
 Supported iGPUs:
 
-* HD 2000\(Can only be used for Quicksync tasks, no full acceleration\)
+* HD 2000(Can only be used for Quicksync tasks, no full acceleration)
 * HD 3000
 * HD P3000
 
 Framebuffer
 
-* AAPL,snb-platform-id \(desktop\): 
-  * 0x00030010 \(default\)
-    * 10000300 \(hex swapped\)
-* AAPL,snb-platform-id \(laptop\): 
-  * 0x00010000 \(default\)
-    * 00000100 \(hex swapped\)
+* AAPL,snb-platform-id (desktop): 
+  * 0x00030010 (default)
+    * 10000300 (hex swapped)
+* AAPL,snb-platform-id (laptop): 
+  * 0x00010000 (default)
+    * 00000100 (hex swapped)
 
 Files needed for HD 2000:
 
@@ -42,11 +43,12 @@ Needed kexts:
 * [Intel FrameBuffer Patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 
 
-**Westmere i3/5/7-xxx Highest Supported OS: High Sierra 10.13.6**
+## **Westmere i3/5/7-xxx**
+### Highest Supported OS: High Sierra 10.13.6
 
-Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts\(though no Metal support so things are a bit iffy\). I won't link any of the files myself so do be wary when downloading kexts off the internet
+Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won't link any of the files myself so do be wary when downloading kexts off the internet
 
-* HD Graphics \(yup, that's all they called them\)
+* HD Graphics (yup, that's all they called them)
 
 Files needed:
 
@@ -59,9 +61,10 @@ Needed kexts:
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 
-**4th Gen GMA Highest Supported OS:Lion**
+## **4th Gen GMA**
+### Highest Supported OS:Lion
 
-Native\(Lion\):
+Native(Lion):
 
 * GMA X3100
 
@@ -75,13 +78,14 @@ Unsupported:
 * GMA X3000
 * GMA 3000
 
-**3rd Gen GMA Highest Supported OS: Snow Leopard/Lion**
+## **3rd Gen GMA**
+### Highest Supported OS: Snow Leopard/Lion
 
-Native\(Lion\):
+Native(Lion):
 
 * GMA 950
 
-With a bit of work\(Snow Leopard\):
+With a bit of work(Snow Leopard):
 
 * GMA 900
 

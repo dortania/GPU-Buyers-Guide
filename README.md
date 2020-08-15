@@ -28,11 +28,11 @@ This is a question comes up quite a bit in the Hackintosh community, and for goo
 
 ## So what are my options?
 
-So there’s still 2 routes for discrete GPUs you can go, either AMD or Nvidia\(Yes, there’s actually natively supported Nvidia cards in Catalina\). So I’ll be going over what GPUs are compatible and what features/drawbacks they hold.
+So there’s still 2 routes for discrete GPUs you can go, either AMD or Nvidia(Yes, there’s actually natively supported Nvidia cards in Catalina). So I’ll be going over what GPUs are compatible and what features/drawbacks they hold.
 
 Things to remember:
 
-* macOS does not support either SLI, Crossfire or GPUs will multiple main cores\(like the Radeon Pro Duo\). This may change with the release of the Radeon Pro Vega II Duo in the Mac Pro
+* macOS does not support either SLI, Crossfire or GPUs will multiple main cores(like the Radeon Pro Duo). This may change with the release of the Radeon Pro Vega II Duo in the Mac Pro
 * Getting audio through HDMI/DisplayPort may require extra work with both AppleALC.kext and some other IO-REG edits
 * GPU Overclocking is limited to Vega 10 GPUs with [PyVega](https://github.com/corpnewt/PyVega)
 * Running a supported GPU with an unsupported GPU can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.htmlS) for more info

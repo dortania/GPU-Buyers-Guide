@@ -2,17 +2,17 @@
 
 **Please make sure to read** [**GPUs to Avoid First**](gpu-avoid.md) **as there's important info there**
 
-So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris\(Rx 4xx, 5xx\) or newer as GCN 3 and older can loose support at any time and the same applies for Nvidia's Kepler. Here are the cards we recommend and do remember that reference cards are generally the safest solution
+So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx)or newer as GCN 3 and older can loose support at any time and the same applies for Nvidia's Kepler. Here are the cards we recommend and do remember that reference cards are generally the safest solution
 
-**Fanless GPUs\(0 DB\)**
+## Fanless GPUs(0 DB)
 
 Unfortunately the variety for fanless GPUs are quite small, while there are many GPUs with fan-stop these aren't perfect solutions. Models with no fan at all are limited to either GT 1030s which are unsupported past High Sierra or the GT 710 which could loose support some time soon
 
 Fanless models:
 
-* [GT 710](https://www.geforce.com/hardware/desktop-gpus/geforce-gt-710/specifications)\(basically every model is single slot, half height and many are fanless\)
+* [GT 710](https://www.geforce.com/hardware/desktop-gpus/geforce-gt-710/specifications)(basically every model is single slot, half height and many are fanless)
 
-Fan-Stop models\(no fan spin under 50/60C generally\):
+Fan-Stop models(no fan spin under 50/60C generally):
 
 Navi
 
@@ -36,26 +36,30 @@ Polaris
 * [Sapphire Nitro RX 580](https://www.sapphiretech.com/en/consumer/nitro-rx-580-8g-g5)
 * [Gigabyte RX 580 Gaming](https://www.gigabyte.com/Graphics-Card/GV-RX580GAMING-8GD-rev-10-11-12#kf)
 
-**Single Slot GPUs**
+## Single Slot GPUs
 
-Polaris
+**Polaris**:
 
-* [Sapphire Pulse RX 550 640SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1)\(make sure it's Polaris or Baffin based, this is one of the first RX 550 models that run a baffin core instead of Lexa\)
+* [Sapphire Pulse RX 550 640SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1)(make sure it's Polaris or Baffin based, this is one of the first RX 550 models that run a baffin core instead of Lexa)
 
-Radeon pro Vega
+**Radeon Pro Navi**:
+
+* [Radeon Pro W5500](https://www.amd.com/en/products/professional-graphics/radeon-pro-w5500)
+
+**Radeon Pro Vega**:
 
 * [Radeon Pro WX 7100](https://www.amd.com/en/products/professional-graphics/radeon-pro-wx-7100)
 
-Radeon Pro Polaris
+**Radeon Pro Polaris**:
 
 * [Radeon Pro WX 5100](https://www.amd.com/en/products/professional-graphics/radeon-pro-wx-5100)
 * [Radeon Pro WX 4100](https://www.amd.com/en/products/professional-graphics/radeon-pro-wx-4100)
 
-Nvidia
+**Nvidia**:
 
-* [GT 710](https://www.geforce.com/hardware/desktop-gpus/geforce-gt-710/specifications)\(basically every model is single slot, half height and many are fanless\)
+* [GT 710](https://www.geforce.com/hardware/desktop-gpus/geforce-gt-710/specifications)(basically every model is single slot, half height and many are fanless)
 
-Quadro
+**Quadro**:
 
 * [Quadro K4200](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/DS-NV-Quadro-K4200-JUL24-US-NV-r-HR.pdf)
 * [Quadro K2000D](https://www.nvidia.com/content/PDF/data-sheet/DS_NV_Quadro_K2000D_OCT13_NV_US_LR.pdf)
@@ -64,7 +68,7 @@ Quadro
 * [Quadro K420](http://www3.pny.com/file%20library/support/pny%20products/resource%20center/nvidia%20-%20quadro%20graphics%20cards/english/product-brochure/ds_nv_quadro_k420_2gb_sep_2015_us_pny.pdf)
 * [Quadro 410](https://www.nvidia.com/content/PDF/data-sheet/nv-quadro-410-lr.pdf)
 
-**Half-height GPUs**
+## Half-height GPUs
 
 Radeon Pro Polaris
 
@@ -72,7 +76,7 @@ Radeon Pro Polaris
 
 Nvidia
 
-* [GT 710](https://www.geforce.com/hardware/desktop-gpus/geforce-gt-710/specifications)\(basically every model is single slot, half height and many are fanless\)
+* [GT 710](https://www.geforce.com/hardware/desktop-gpus/geforce-gt-710/specifications)(basically every model is single slot, half height and many are fanless)
 
 Quadro
 
@@ -80,9 +84,9 @@ Quadro
 * [Quadro K420](http://www3.pny.com/file%20library/support/pny%20products/resource%20center/nvidia%20-%20quadro%20graphics%20cards/english/product-brochure/ds_nv_quadro_k420_2gb_sep_2015_us_pny.pdf)
 * [Quadro 410](https://www.nvidia.com/content/PDF/data-sheet/nv-quadro-410-lr.pdf)
 
-**The Most Powerful GPUs**
+## The Most Powerful GPUs
 
-While it may seem obvious that the most powerful GPU would be the Radeon VII, do keep in mind drivers aren't as mature as Vega 10's drivers. For the best reliability you'll want to either grab a Vega 10 series GPU\(RX Vega 64\) or wait for the issues with the MacPro 7,1 to be ironed out.
+While it may seem obvious that the most powerful GPU would be the Radeon VII, do keep in mind drivers aren't as mature as Vega 10's drivers. For the best reliability you'll want to either grab a Vega 10 series GPU(RX Vega 64)or wait for the issues with the MacPro 7,1 to be ironed out.
 
 * [Radeon VII](https://www.amd.com/en/products/graphics/amd-radeon-vii)
 * [Sapphire Nitro+ RX 5700 XT](https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-5700-xt-8g-gddr6)
@@ -119,8 +123,4 @@ Navi:
 * [Sapphire Pulse RX 5700 XT](https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-5700-xt-8g-gddr6)
 * [Gigabyte Gaming OC RX 5700 XT](https://www.gigabyte.com/ca/Graphics-Card/GV-R57XTGAMING-OC-8GD#kf)
 * [Asus Strix RX 5700 XT](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RX5700XT-O8G-GAMING/)
-
-Hopefully this little guide helps you, if you have anything else you'd like to add feel free to mention and I'll look into it
-
-* Your local neighbourhood Hackintosh Slav
 

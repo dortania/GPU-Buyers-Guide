@@ -12,7 +12,7 @@ This little section here is a short explainer on some of the more commonly usefu
 * `-raddvi`
   * Fixes DVI `connector-type` for  290X, 370, etc
 * `-radvesa`
-  * Forces GPU into VESA mode\(no GPU acceleration\), useful for troubleshooting
+  * Forces GPU into VESA mode(no GPU acceleration), useful for troubleshooting
   * Apple's built in version of this flag is `-amd_no_dgpu_accel`
 * `agdpmod=vit9696`
   * Disables `board-id` check, may be needed for when screen turns black after finishing booting
@@ -28,7 +28,7 @@ This little section here is a short explainer on some of the more commonly usefu
      * For OpenCore, use `NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> nvda_drv: <31>` in your config.plist.
   * The WebDrivers in Sierra and High Sierra also support another boot argument called `nvda_drv_vrl=1`, this will actually do the same thing as `nvda_drv=1` did in previous versions
 * `nv_disable=1`
-  * Forces GPU into VESA mode\(no GPU acceleration\), useful for troubleshooting and when having issues installing Nvidia's WebDrivers. This is a macOS flag so WEG is not needed.
+  * Forces GPU into VESA mode(no GPU acceleration), useful for troubleshooting and when having issues installing Nvidia's WebDrivers. This is a macOS flag so WEG is not needed.
 * `shikigva=40`
   * Swaps boardID with iMac14,2
   * Useful for SMBIOS that don't expect a Nvidia GPU
@@ -50,5 +50,5 @@ This little section here is a short explainer on some of the more commonly usefu
 * `-cdfon`
   * Performs numerous patches required for enabling HDMI 2.0 support
 * `-igfxvesa`
-  * Forces GPU into VESA mode\(no GPU acceleration\), useful for troubleshooting
+  * Forces GPU into VESA mode(no GPU acceleration), useful for troubleshooting
 

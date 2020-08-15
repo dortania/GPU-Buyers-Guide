@@ -10,7 +10,7 @@ So a MUX chip is a multiplexer which handles how the iGPU and dGPU are routed to
 
 > So where's the issue with normal laptops?
 
-Most laptops on the market _don't_ have this chip, instead opting for a software based solution like Nvidia Optimus where it will actually make a virtual window and reroute the dGPUs signal into the iGPU. This creates a delay and uses up more battery as you're running 2 GPUs at the same time, so Apple's solution is the most ideal but unfortunately costs more and is more complex to engineer. And the other solution means that there would need to be a lot of driver support on macOS for Optimus Support\(which there is none of\). [A bit more technical info on the matter](https://www.reddit.com/r/hackintosh/comments/6omyzc/nvidia_optimus_really_never_going_to_happen_for/dkj20xt/)
+Most laptops on the market _don't_ have this chip, instead opting for a software based solution like Nvidia Optimus where it will actually make a virtual window and reroute the dGPUs signal into the iGPU. This creates a delay and uses up more battery as you're running 2 GPUs at the same time, so Apple's solution is the most ideal but unfortunately costs more and is more complex to engineer. And the other solution means that there would need to be a lot of driver support on macOS for Optimus Support(which there is none of). [A bit more technical info on the matter](https://www.reddit.com/r/hackintosh/comments/6omyzc/nvidia_optimus_really_never_going_to_happen_for/dkj20xt/)
 
 > So how do I find out if my laptop has a MUX chips?
 

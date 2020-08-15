@@ -6,7 +6,8 @@ Also to note: InjectNvidia may be required for these GPUs, for OpenCore users yo
 
 And for those wondering, it is possible to run Mojave or even Catalina with these GPUs with a bit of work. Do keep in mind stability is not guaranteed and requires you to modify the macOS file system. Try at your own risk: [source](https://www.insanelymac.com/forum/topic/339035-pre-release-macos-catalina/?page=21&tab=comments#comment-2677545)
 
-**Fermi series \(4xx, 5xx\) Highest Supported OS: High Sierra**
+## **Fermi series (4xx, 5xx)**
+### Highest Supported OS: High Sierra
 
 Something to note with Fermi GPUs is while they may be supported in macOS High Sierra users have experienced issues with stability. If you're experiencing instability as well you'll want to downgrade to Sierra
 
@@ -19,7 +20,8 @@ Something to note with Fermi GPUs is while they may be supported in macOS High S
 * GTX 470
 
 
-**Tesla series \(1xx, 2xx, 3xx\) Highest Supported OS: High Sierra**
+## **Tesla series (1xx, 2xx, 3xx)**
+### Highest Supported OS: High Sierra
 
 Similar to Fermi, these GPUs are supported by High Sierra but don't generally experience the same issues that Fermi does in High Sierra
 
@@ -45,14 +47,16 @@ Similar to Fermi, these GPUs are supported by High Sierra but don't generally ex
 * GT 130
 * GT 120
 
-**GeForce 9 \(9xxx\) series Highest Supported OS: High Sierra**
+## **GeForce 9 (9xxx)series**
+### Highest Supported OS: High Sierra
 
 * 9800 GT
 * 9600 GT
 * 9400 GT
 * 9300 GT
 
-**GeForce 8 \(8xxx\) series Highest Supported OS: High Sierra**
+## **GeForce 8 (8xxx)series**
+### Highest Supported OS: High Sierra
 
 * GeForce 8800
 
@@ -60,7 +64,8 @@ Quadro:
 
 * FX 5600
 
-**GeForce 7 \(7xxx\) series Highest Supported OS: Lion**
+## **GeForce 7 (7xxx)series**
+### Highest Supported OS: Lion
 
 Reason for this is due to the kexts only being 32bit
 
@@ -71,6 +76,7 @@ Quadro:
 
 * FX 4500
 
-**GeForce 6 \(6xxx\) series Highest Supported OS: Lion**
+## **GeForce 6 (6xxx)series**
+### Highest Supported OS: Lion
 
 * 6600 GT 
