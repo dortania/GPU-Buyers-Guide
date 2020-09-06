@@ -5,9 +5,9 @@
 ### **Kepler Series (GTX 6xx, 7xx)**
 #### Highest Supported OS: Current/Big Sur
 
-Currently the only 100% native Nvidia architecture that works with Catalina. Users have reported issues with the GTX 650Ti, 660, 660ti but this is caused by a driver issue on Apple’s end by not supporting the GK106 core(or quite poorly as the issue seems to be memory leakage which also affects real Macs). Another issue with this generation is lower end products marketed as first generation Kepler are actually using a Fermi core but have identical counterparts running Kepler cores as well(GF 116 vs GK 107 found in the GT 640). **AND PLEASE NOTICE THAT GTX 745, 750 and ti VARIANTS ARE NOT INCLUDED, THEY'RE NOT KEPLER**
+Currently the only 100% native Nvidia architecture that works with macOS 11, Big Sur. Users have reported issues with the GTX 650Ti, 660, 660ti but this is caused by a driver issue on Apple’s end by not supporting the GK106 core(or quite poorly as the issue seems to be memory leakage which also affects real Macs). Another issue with this generation is lower end products marketed as first generation Kepler are actually using a Fermi core but have identical counterparts running Kepler cores as well(GF 116 vs GK 107 found in the GT 640). **AND PLEASE NOTICE THAT GTX 745, 750 and ti VARIANTS ARE NOT INCLUDED, THEY'RE NOT KEPLER**
 
-Also keep in mind that the following systems have a kepler GPU meaning that support will likely stay until all pre-Skylake hardware is dropped(so anything without USB-C):
+Also keep in mind that the following systems have a Kepler GPU meaning that support will likely stay until all pre-Skylake hardware is dropped(so anything without USB-C):
 
 | SMBIOS | GPU | Initial Release | Discontinued |
 | :--- | :--- | :--- | :--- |
@@ -71,10 +71,21 @@ Extras:
 
 ## Unsupported nVidia GPUs
 
+### **Ampere Series (RTX 30xx)**
+#### Highest Supported OS:NONE
+
+Unfortunately no support in any version of macOS as no drivers were ever written even for High Sierra. Not much else to add.
+
+These cards include:
+
+* RTX 3090
+* RTX 3080
+* RTX 3070
+
 ### **Turing Series (RTX 20xx, GTX 16xx)**
 #### Highest Supported OS:NONE
 
-Unfortunatel no support in any version of macOS as no drivers were ever written even for High Sierra. Not much else to add.
+Unfortunately no support in any version of macOS as no drivers were ever written even for High Sierra. Not much else to add.
 
 These cards include:
 
@@ -97,7 +108,8 @@ Quadro:
 * Quadro RTX 5000
 * Quadro RTX 4000
 
-**Volta Series Highest Supported OS:NONE**
+### **Volta Series(V)**
+#### Highest Supported OS:NONE
 
 The same idea as Turing, no drivers were ever written
 
@@ -112,7 +124,7 @@ Quadro:
 
 ### **Kepler Series(GK 106 Variants)**
 
-GPUs running the GK 106 core have the unfortunate concequene of having a serious issue regarding VRAM leakage. This means that there's a high chance of disotrion and overall instabilty when running these GPUs which unfortuanty have no real solution as even installing web drivers has no affect. A list of GPUs with this core can be found [here](https://www.techpowerup.com/gpu-specs/nvidia-gk106.g186)
+GPUs running the GK 106 core have the unfortunate consequence of having a serious issue regarding VRAM leakage. This means that there's a high chance of distortion and overall instability when running these GPUs which unfortunately have no real solution as even installing web drivers has no affect. A list of GPUs with this core can be found [here](https://www.techpowerup.com/gpu-specs/nvidia-gk106.g186)
 
 Second generation Kepler:
 

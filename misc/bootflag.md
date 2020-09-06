@@ -7,6 +7,7 @@ This little section here is a short explainer on some of the more commonly usefu
 * `shikigva=40` + `shiki-id=Mac-7BA5B2D9E42DDD94`
   * Swaps boardID with iMacPro1,1
   * Allows for Polaris, Vega and Navi GPUs to handle all types of rendering, useful for SMBIOS which expect an iGPU
+  * See here for more info: [Fixing DRM](https://dortania.github.io/OpenCore-Post-Install/universal/drm.html#testing-hardware-acceleration-and-decoding)
 * `radpg=15`
   * Fixes initialization for HD 7730/7750/7770/R7 250/R7 250X
 * `-raddvi`
@@ -17,7 +18,7 @@ This little section here is a short explainer on some of the more commonly usefu
 * `agdpmod=vit9696`
   * Disables `board-id` check, may be needed for when screen turns black after finishing booting
 * `agdpmod=pikera`
-  * Renames `board-id` to `board-ix` effectively disabling boardID checks, this is based off of Pikera's work [here](https://pikeralpha.wordpress.com/2015/11/23/patching-applegraphicsdevicepolicy-kext/)
+  * Renames `board-id` to `board-ix` effectively disabling boardID checks, this is based off of Pike.R.A's work [here](https://pikeralpha.wordpress.com/2015/11/23/patching-applegraphicsdevicepolicy-kext/)
   * This is also required for all Navi GPUs due to the difference in framework with the x6000 drivers
 
 ## Nvidia Boot Arguments
@@ -31,7 +32,7 @@ This little section here is a short explainer on some of the more commonly usefu
   * Forces GPU into VESA mode(no GPU acceleration), useful for troubleshooting and when having issues installing Nvidia's WebDrivers. This is a macOS flag so WEG is not needed.
 * `shikigva=40`
   * Swaps boardID with iMac14,2
-  * Useful for SMBIOS that don't expect a Nvidia GPU
+  * Useful for SMBIOS that don't expect a Nvidia GPU, however WhateverGreen should handleß patching by itself
 * `shikigva=1`
   * Needed when you're wanting to use your iGPU's display out along with the dGPU, allows the iGPU to handle hardware decoding even when not using a connector-less framebuffer
 * `shikigva=4`
@@ -44,11 +45,16 @@ This little section here is a short explainer on some of the more commonly usefu
 ## Intel Boot Arguments
 
 * `-wegnoegpu`
-  * disables all GPUs excluding the iGPU, most relavant for users with Nvidia wanting to run Mojave+
+  * disables all GPUs excluding the iGPU, most relevant for users with Nvidia wanting to run Mojave+
 * `-igfxnohdmi`
   * Disables DisplayPort to HDMI Audio Conversion
 * `-cdfon`
   * Performs numerous patches required for enabling HDMI 2.0 support
 * `-igfxvesa`
   * Forces GPU into VESA mode(no GPU acceleration), useful for troubleshooting
+* `igfxonln=1`
+  * Forces all displays online, useful for resolving screen wake issues in 10.15.4+ on Coffee and Comet Lake
+* `igfxfw=2`
+  * Enables loading Apple's GUC firmware for iGPUs, requires a 9th Gen chipset or newer(ie Z390)
+  * See here for more info: [Fixing DRM](https://dortania.github.io/OpenCore-Post-Install/universal/drm.html#testing-hardware-acceleration-and-decoding)
 

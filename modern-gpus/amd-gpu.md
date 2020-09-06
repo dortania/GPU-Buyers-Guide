@@ -190,7 +190,7 @@ Needed kexts
 
 Extras:
 
-* `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initiaization)
+* `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initialization)
 * InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
 
 ## Unsupported AMD GPUs

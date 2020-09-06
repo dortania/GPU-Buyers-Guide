@@ -252,7 +252,7 @@ Unsupported:
 * HD 500
 * HD 505
 
-### **Kabylake **
+### **Kabylake**
 ####Highest Supported OS: None
 
 Unsupported:
