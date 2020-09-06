@@ -15,6 +15,7 @@ Also keep in mind that the following systems have a Kepler GPU meaning that supp
 | iMac13,2 | GT 660M | October 23, 2012 | September 24, 2013 |
 | iMac14,1 | GT 750M | September 24, 2013 | October 13, 2015 |
 | iMac14,2 | GT 755M | September 24, 2013 | October 13, 2015 |
+| iMac14,3 | GT 750M | September 24, 2013 | October 13, 2015 |
 | MacBookPro9,1 | GT 650M | June 11, 2012 | October 22, 2013 |
 | MacBookPro10,1 | GT 650M | June 11, 2012 | October 22, 2013 |
 | MacBookPro11,3 | GT 750M | October 22, 2013 | May 19, 2015 |
