@@ -1,7 +1,8 @@
 # Legacy Intel
 
 ## **Sandy Bridge i3/5/7-2XXX**
-### Highest Supported OS: High Sierra 10.13.6(With a bit of work, current/Catalina)
+### Highest Supported OS: High Sierra(10.13.6)
+### Initial Supported OS: Snow Leopard(10.6)
 
 Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won't link any of the files myself so do be wary when downloading kexts off the internet. Intial supported introduced with macOS 10.7 and is not supported by the [Intel framebuffer patch](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 
@@ -44,7 +45,8 @@ Needed kexts:
 
 
 ## **Westmere i3/5/7-xxx**
-### Highest Supported OS: High Sierra 10.13.6
+### Highest Supported OS: High Sierra(10.13.6)
+### Initial Supported OS: Snow Leopard(10.6)
 
 Unfortunately, Mojave dropped support for these iGPUs but luckily we can actually get these iGPUs working by using old kexts(though no Metal support so things are a bit iffy). I won't link any of the files myself so do be wary when downloading kexts off the internet
 
@@ -62,7 +64,8 @@ Needed kexts:
 
 
 ## **4th Gen GMA**
-### Highest Supported OS:Lion
+### Highest Supported OS: Lion(10.7)
+### Initial Supported OS: Leopard(10.5)
 
 Native(Lion):
 
@@ -79,7 +82,8 @@ Unsupported:
 * GMA 3000
 
 ## **3rd Gen GMA**
-### Highest Supported OS: Snow Leopard/Lion
+### Highest Supported OS: Lion(10.7)
+### Initial Supported OS: Tiger(10.4)
 
 Native(Lion):
 

@@ -11,7 +11,8 @@ More info:
 ## Native Intel iGPUs
 
 ### **Ivy Bridge 3XXX**
-#### Highest Supported OS: Catalina
+#### Highest Supported OS: Catalina(10.15)
+#### Initial Supported OS: Lion(10.7)
 
 Regarding the HD 4000, it's completely native with Catalina(Though no longer supported with macOS 11: Big Sur). The HD 2500 on the other hand only has partial support in Mojave for quick sync features as hardware acceleration is [unsupported](https://olarila.com/forum/viewtopic.php?t=7714) so you will need a compatible dGPU for display purposes. Initial supported introduced with macOS 10.8
 
@@ -43,7 +44,8 @@ Needed kexts:
 * [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Haswell 4XXX**
-#### Highest Supported OS: Current/Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: Mountain Lion(10.8)
 
 Most iGPUs are supported here, only one to be concerned about is the HD4400 which requires either a spoofed DeviceID with WhateverGreen or a modified APCI path. Initial supported introduced with macOS 10.9
 
@@ -75,7 +77,8 @@ Needed kexts:
 * [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Broadwell 5XXX**
-#### Highest Supported OS: Current/Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: Yosemite(10.10)
 
 All iGPUs are supported here, no issues to report. Initial supported introduced with macOS 10.10.2
 
@@ -106,7 +109,8 @@ Needed kexts:
 * [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Skylake 6XXX**
-#### Highest Supported OS: Current/Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: El Capitan(10.11)
 
 All iGPUs are supported here, no issues to report. Initial supported introduced with macOS 10.11.4
 
@@ -140,7 +144,8 @@ Needed kexts:
 * [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Kabylake 7XXX**
-#### Highest Supported OS: Current/Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: Sierra(10.12)
 
 Most iGPUs are supported here excluding the HD 610 present in the Pentium G4560, initial support was introduced with macOS 10.12.6
 
@@ -170,7 +175,8 @@ Needed kexts:
 * [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Kabylake refresh/ Coffee Lake/ Cometlake 8XXX/9XXX**
-#### Highest Supported OS: Current/Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: High Sierra(10.13.6)
 
 All iGPUs are supported here, though pay attention as the [i3 8100 and 8350k use a different UHD 630(184 shader units vs 192)](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Whiskey_Lake) than the rest of the CPU family which requires spoofing for support in High Sierra(generally wanted for headless rendering on a Maxwell/Pascal GPUs). Initial supported introduced with macOS 10.13.6
 
@@ -203,7 +209,8 @@ Needed kexts:
 * [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Icelake 10XXX**
-#### Highest Supported OS: Current/Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: Catalina(10.15.4)
 
 All iGPUs present here have support starting in macOS 10.15.4, note that support is still quite early so there's likely still bugs to clean up and WhateverGreen will need some time to find and adapt patches to best suit these new iGPUs
 

@@ -7,7 +7,8 @@ Also to note: InjectNvidia may be required for these GPUs, for OpenCore users yo
 And for those wondering, it is possible to run Mojave or even Catalina with these GPUs with a bit of work. Do keep in mind stability is not guaranteed and requires you to modify the macOS file system. Try at your own risk: [source](https://www.insanelymac.com/forum/topic/339035-pre-release-macos-catalina/?page=21&tab=comments#comment-2677545)
 
 ## **Fermi series (4xx, 5xx)**
-### Highest Supported OS: High Sierra
+### Highest Supported OS: High Sierra(10.13.6)
+### Initial Supported OS: Lion(10.7)
 
 Something to note with Fermi GPUs is while they may be supported in macOS High Sierra users have experienced issues with stability. If you're experiencing instability as well you'll want to downgrade to Sierra
 
@@ -21,7 +22,8 @@ Something to note with Fermi GPUs is while they may be supported in macOS High S
 
 
 ## **Tesla series (1xx, 2xx, 3xx)**
-### Highest Supported OS: High Sierra
+### Highest Supported OS: High Sierra(10.13.6)
+### Initial Supported OS: Leopard(10.5)
 
 Similar to Fermi, these GPUs are supported by High Sierra but don't generally experience the same issues that Fermi does in High Sierra
 
@@ -48,7 +50,8 @@ Similar to Fermi, these GPUs are supported by High Sierra but don't generally ex
 * GT 120
 
 ## **GeForce 9 (9xxx)series**
-### Highest Supported OS: High Sierra
+### Highest Supported OS: High Sierra(10.13.6)
+### Initial Supported OS: Leopard(10.5)
 
 * 9800 GT
 * 9600 GT
@@ -56,7 +59,8 @@ Similar to Fermi, these GPUs are supported by High Sierra but don't generally ex
 * 9300 GT
 
 ## **GeForce 8 (8xxx)series**
-### Highest Supported OS: High Sierra
+### Highest Supported OS: High Sierra(10.13.6)
+### Initial Supported OS: Leopard(10.5)
 
 * GeForce 8800
 
@@ -65,7 +69,8 @@ Quadro:
 * FX 5600
 
 ## **GeForce 7 (7xxx)series**
-### Highest Supported OS: Lion
+### Highest Supported OS: Lion(10.7)
+### Initial Supported OS: Panther(10.3)
 
 Reason for this is due to the kexts only being 32bit
 
@@ -77,6 +82,7 @@ Quadro:
 * FX 4500
 
 ## **GeForce 6 (6xxx)series**
-### Highest Supported OS: Lion
+### Highest Supported OS: Lion(10.7)
+### Initial Supported OS: Panther(10.3)
 
 * 6600 GT 

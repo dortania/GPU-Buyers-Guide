@@ -4,7 +4,8 @@
 
 ### **Navi 10 Series**
 
-#### Highest Supported OS: Current/Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: Catalina(10.15)
 
 Currently, as of 10.15.1, Apple has finally added RDNA and Navi support!
 
@@ -36,7 +37,8 @@ Needed kexts:
 * MSI's Polaris and Vega line are not affected by this bug
 
 ### **Vega 20 series**
-#### Highest Supported OS: Current/Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: Mojave(10.14.5)
 
 So all Vega based GPUs are natively supported in macOS with Vega 20 GPUs starting in Mojave. While natively supported, it's recommended to still have WhateverGreen.kext installed as this helps with proper framebuffer connections and fixes other odd issues like proper ACPI mapping and such
 
@@ -50,7 +52,8 @@ Needed kexts:
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 ### **Vega 10 series**
-#### Highest Supported OS: Current/Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: High Sierra(10.13)
 
 Just like with Vega 20, Vega 10 GPUs are natively supported in macOS though these card's support starts in High Sierra. Similar to Vega 20, it's recommended to still have WhateverGreen.kext installed as this helps with proper framebuffer connections and fixes other odd issues like proper ACPI mapping and such.
 
@@ -76,7 +79,8 @@ Needed kexts:
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 ### **Polaris 10 and 20 series**
-####Highest Supported OS: Current/Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: Sierra(10.12)
 
 Regarding Polaris, basically every model of card is supported as long as it’s running either a Polaris or Baffin core(lower end cards like the RX550 run a Lexa core meaning no support in macOS).
 
@@ -113,7 +117,8 @@ Needed kexts:
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 ### **R7/R9**
-#### Current/Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: Yosemite(10.10)
 
 R7/R9 is also natively supported in Catalina without too much issue but we cannot guarantee the success of R5 and R7 cards due to not having many reports of success with them. Also, be wary that differing from the reference design of these cards have many more issues that require a lot of work to get them to run properly. Sapphire cards are your best bet
 
@@ -150,7 +155,8 @@ Extras:
 * [Applying a FakeID Guide](https://dortania.github.io/Getting-Started-With-ACPI/Universal/spoof.html)
 
 ### **HD 8000 Series(8xxx)**
-#### Highest Supported OS: Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: Mountain Lion(10.8)
 
 * HD 8740
 * HD 8760
@@ -163,7 +169,8 @@ Extras:
 * HD 8970
 
 ### **HD 7000 Series(7xxx)**
-#### Highest Supported OS: Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: Mountain Lion(10.8)
 
 * Dual AMD FirePro D300
 * Dual AMD FirePro D500

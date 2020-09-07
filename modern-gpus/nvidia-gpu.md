@@ -3,7 +3,8 @@
 ## Native nVidia GPUs
 
 ### **Kepler Series (GTX 6xx, 7xx)**
-#### Highest Supported OS: Current/Big Sur
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: Mountain Lion(10.8)
 
 Currently the only 100% native Nvidia architecture that works with macOS 11, Big Sur. Users have reported issues with the GTX 650Ti, 660, 660ti but this is caused by a driver issue on Apple’s end by not supporting the GK106 core(or quite poorly as the issue seems to be memory leakage which also affects real Macs). Another issue with this generation is lower end products marketed as first generation Kepler are actually using a Fermi core but have identical counterparts running Kepler cores as well(GF 116 vs GK 107 found in the GT 640). **AND PLEASE NOTICE THAT GTX 745, 750 and ti VARIANTS ARE NOT INCLUDED, THEY'RE NOT KEPLER**
 
@@ -143,6 +144,8 @@ Quadro:
 * K4000
 
 ### **Fermi rebranded(GF108, GF117 and GF119)**
+#### Highest Supported OS: High Sierra(10.13.6)
+#### Initial Supported OS: Lion(10.7)
 
 Well of course Nvidia can't keep naming straight, some
 
@@ -156,7 +159,8 @@ Well of course Nvidia can't keep naming straight, some
 * GT 610
 
 ### **Pascal Series (GTX 10xx)**
-#### Highest Supported OS: High Sierra 10.13.6
+#### Highest Supported OS: High Sierra(10.13.6)
+#### Initial Supported OS: Sierra(10.12.4)
 
 Well pretty sure most users know what going on with Pascal and Maxwell but I’ll just mention it quickly here. No support for these cards in Mojave/Catalina but macOS High Sierra 10.13.6 do support these cards with the combination of Nvidia’s somewhat shotty drivers and Lilu+WhateverGreen
 
@@ -197,7 +201,8 @@ Extras:
 * NvidiaWeb property: Forces `nvda_drv=1` on each boot, required for systems with non-native NVRAM(EmuVariableUEFI)
 
 ### **Maxwell Series (GTX 9xx, 745, 750/ti)**
-#### Highest Supported OS: High Sierra 10.13.6
+#### Highest Supported OS: High Sierra(10.13.6)
+#### Initial Supported OS: Yosemite(10.10.x)
 
 Same idea as Pascal, though the naming scheme is a bit odd as the GTX 745, 750 and 750ti are all Maxwell based even though they’re being marketed with the Kepler line so be wary when buying
 

@@ -5,7 +5,8 @@ So what's this section for? Well a decent chunk of users have been wondering wha
 Also to note: InjectATI may be required for these GPUs
 
 ## HD 6000 Series(6xxx)
-### Highest Supported OS: High Sierra
+### Highest Supported OS: High Sierra(10.13.6)
+### Initial Supported OS: Snow Leopard(10.6)
 
 * HD 6230
 * HD 6250
@@ -23,7 +24,8 @@ Also to note: InjectATI may be required for these GPUs
 * FirePro V7900
 
 ## HD 5000 Series(5xxx)
-### Highest Supported OS: High Sierra
+### Highest Supported OS: High Sierra(10.13.6)
+### Initial Supported OS: Snow Leopard(10.6)
 
 * HD 5450
 * HD 5470
@@ -37,25 +39,32 @@ Also to note: InjectATI may be required for these GPUs
 * HD 5870 
 
 ## HD 4000 Series(4xxx)
-### Highest Supported OS: High Sierra
+### Highest Supported OS: High Sierra(10.13.6)
+### Initial Supported OS: Snow Leopard(10.6)
 
 * HD 4870
 
 ## HD 3000 Series(3xxx)
-### Highest Supported OS: High Sierra
+### Highest Supported OS: High Sierra(10.13.6)
+### Initial Supported OS: Tiger(10.4)
 
 * HD 3870
 
 ## HD 2000 Series(2xxx)
-### Highest Supported OS: High Sierra
+### Highest Supported OS: High Sierra(10.13.6)
+### Initial Supported OS: Tiger(10.4)
 
 * HD 2600 XT
 * HD 2400 XT
 
 ## X1000 Series(1xxx)
-### Highest Supported OS: El Capitan
+### Highest Supported OS: Lion(10.7.5)
+### Initial Supported OS: Tiger(10.4)
 
 * X1900 XT
 * X1600
 * X1300
 
+## X800 Series(8xx)
+### Highest Supported OS: Lion(10.7.5)
+### Initial Supported OS: Panther(10.3)
