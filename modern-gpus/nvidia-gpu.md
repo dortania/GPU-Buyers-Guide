@@ -23,31 +23,32 @@ Also keep in mind that the following systems have a Kepler GPU meaning that supp
 
 Supported cards:
 
-Kepler Gen 2:
+700-Series:
 
 * GTX Titan (GK 110 Maxwell core)
 * GTX Titan Black(GK 110 Maxwell core)
-* GTX Titan Z (One of the few dual GPU cards supported in MacOs)
+* GTX Titan Z (One of the few dual GPU cards supported in macOS, but only one core will be in use)
 * GTX 780 Ti
 * GTX 780
 * GTX 770
 * GTX 760 Ti
 * GTX 760
 * GT 740
-* GT 730(GK208 variant)
+* GT 730 (GK208 variant)
 * GT 720
-* GT 710(GK208 variant)
+* GT 710 (GK208 variant)
 
-Kepler Gen 1:
+600-Series:
 
-* GTX 690(Another dual GPU card compatible with macOS)
+* GTX 690 (Another dual GPU card compatible with macOS, but only one core will be in use)
 * GTX 680
 * GTX 670
 * GTX 660 Ti
-* GTX 660(MUST BE RUNNING A GK 104 core, NOT GK 106)
-* GTX 650(GK 107 core)
-* GT 640(Kepler edition, GK 107/208 core)
-* GT 630(Kepler edition, GK 107/208 core)
+* GTX 660 (MUST BE RUNNING A GK 104 core, NOT GK 106)
+* GTX 650 (GK 107 core)
+* GT 640 (Kepler edition, GK 107/208 core)
+* GT 635
+* GT 630 (Kepler edition, GK 107/208 core)
 
 Quadro:
 
@@ -147,14 +148,14 @@ Quadro:
 #### Highest Supported OS: High Sierra(10.13.6)
 #### Initial Supported OS: Lion(10.7)
 
-Well of course Nvidia can't keep naming straight, some
+Since nVidia can't comply to any naming conventions, they decided to make some 600/700 series cards based on the older and not compatible Fermi architecture. These cards include:
 
-* GT 730(GF108 variant)
+* GT 730 (GF108 variant)
 * GT 720A
-* GT 710(GF119 variant)
+* GT 710 (GF119 variant)
 * GT 705
-* GT 640(GF108 and GF116)
-* GT 630(GF108 variant)
+* GT 640 (GF108 and GF116)
+* GT 630 (GF108 variant)
 * GT 620
 * GT 610
 
