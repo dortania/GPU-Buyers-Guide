@@ -137,6 +137,7 @@ module.exports = {
                 '/misc/bootflag',
                 '/misc/discrete-laptops',
 				'/misc/common-issues',
+				'/misc/kvm',
 				'misc/credit',
             ]
         },

@@ -32,6 +32,5 @@ Other sources:
 * [GK106 GPUs](https://www.techpowerup.com/gpu-specs/nvidia-gk106.g186)
 * [Intel Framebuffer Patching](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 * [Radeon Compatibility Guide - ATI/AMD Graphics Cards](https://www.tonymacx86.com/threads/radeon-compatibility-guide-ati-amd-graphics-cards.171291/)
-* [Running HD 2500 in Mojave](https://olarila.com/forum/viewtopic.php?t=7714)
 * [PCI IDs present in macOS Mojave](https://www.reddit.com/r/hackintosh/comments/9gn91k/all_supported_amd_gpus_from_macos_mojave_beta_11/)
-
+* [Passthrough Post's thread on GPUs](https://passthroughpo.st/finding-a-safe-mac-os-gpu-for-vms/)
