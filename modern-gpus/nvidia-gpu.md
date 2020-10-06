@@ -148,7 +148,7 @@ Quadro:
 #### Highest Supported OS: High Sierra(10.13.6)
 #### Initial Supported OS: Lion(10.7)
 
-Since nVidia can't comply to any naming conventions, they decided to make some 600/700 series cards based on the older and not compatible Fermi architecture. These cards include:
+Since nVidia can't comply to any naming conventions, they decided to make some 600/700 series cards based on the older and incompatible Fermi architecture. These cards include:
 
 * GT 730 (GF108 variant)
 * GT 720A
@@ -239,4 +239,3 @@ Extras:
 
 * `shikigva=40` boot flag: Swaps boardID to iMac14,2 for better Nvidia Support and whitelists patches
 * NvidiaWeb property: Forces `nvda_drv=1` on each boot, required for systems with non-native NVRAM(EmuVariableUEFI)
-
