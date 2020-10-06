@@ -23,7 +23,7 @@ Also keep in mind that the following systems have a Kepler GPU meaning that supp
 
 Supported cards:
 
-700-Series:
+700 Series:
 
 * GTX Titan (GK 110 Maxwell core)
 * GTX Titan Black(GK 110 Maxwell core)
