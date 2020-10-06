@@ -38,7 +38,7 @@ Supported cards:
 * GT 720
 * GT 710 (GK208 variant)
 
-600-Series:
+600 Series:
 
 * GTX 690 (Another dual GPU card compatible with macOS, but only one core will be in use)
 * GTX 680
