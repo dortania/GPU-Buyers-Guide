@@ -35,7 +35,7 @@ Things to remember:
 * macOS does not support either SLI, Crossfire or GPUs will multiple main cores(like the Radeon Pro Duo). This may change with the release of the Radeon Pro Vega II Duo in the Mac Pro
 * Getting audio through HDMI/DisplayPort may require extra work with both AppleALC.kext and some other IO-REG edits
 * GPU Overclocking is limited to Vega 10 GPUs with [PyVega](https://github.com/corpnewt/PyVega)
-* Running a supported GPU with an unsupported GPU can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.htmlS) for more info
+* Running supported GPUs alongside unsupported GPUs can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling unsupported GPUs Guide](https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.htmlS) for more info
 
 ## Can I run an unsupported GPU in my hack?
 
