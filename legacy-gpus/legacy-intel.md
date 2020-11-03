@@ -52,11 +52,6 @@ Unfortunately, Mojave dropped support for these iGPUs but luckily we can actuall
 
 * HD Graphics (yup, that's all they called them)
 
-Files needed:
-
-* GPUSupport.framework
-* OpenGL.framework
-
 Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
@@ -93,15 +88,10 @@ With a bit of work(Snow Leopard):
 
 * GMA 900
 
-Required files:
-
-* ElliottAppleIntelGMA950LegacyEnabler.kext
-* AppleIntelIntegratedFramebuffer.kext
-
-[Source](https://www.insanelymac.com/forum/topic/284885-guide-1068-on-a-dell-optiplex-gx280/)
 
 Unsupported:
 
 * GMA 3150
+  * Partialy supported, see here: [Legacy GPU Patching](https://dortania.github.io/OpenCore-Post-Install/gpu-patching/legacy-intel/)
 * GMA 3100
 
