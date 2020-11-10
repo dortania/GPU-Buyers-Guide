@@ -233,6 +233,12 @@ Needed kexts:
 
 ## Unsupported Intel iGPUs
 
+### **Cherry Trail**
+#### Highest Supported OS: None
+
+Unsupported:
+
+* Intel HD Graphics (Cherry Trail)
 
 All GPUs listed here are GT1 based meaning no support as display out whatsoever
 
