@@ -121,6 +121,7 @@ Needed kexts:
 #### Initial Supported OS: Yosemite(10.10)
 
 R7/R9 is also natively supported in Catalina without too much issue but we cannot guarantee the success of R5 and R7 cards due to not having many reports of success with them. Also, be wary that differing from the reference design of these cards have many more issues that require a lot of work to get them to run properly. Sapphire cards are your best bet
+Also, the R9 280x/380x are a hit or miss on compatibility.
 
 Supported cards:
 
@@ -130,7 +131,7 @@ Supported cards:
 * R9 390(FakeID needed)
 * R9 290X/390X
 * R9 290/390(FakeID needed)
-* R9 280x/380x
+* R9 280x/380x (Hit or miss)
 * R9 280/380(FakeID needed)
 * R9 270X/370X
 * R7 270/370(FakeID needed)
