@@ -32,7 +32,7 @@ This little section here is a short explainer on some of the more commonly usefu
   * Forces GPU into VESA mode(no GPU acceleration), useful for troubleshooting and when having issues installing Nvidia's WebDrivers. This is a macOS flag so WEG is not needed.
 * `shikigva=40`
   * Swaps boardID with iMac14,2
-  * Useful for SMBIOS that don't expect a Nvidia GPU, however WhateverGreen should handleß patching by itself
+  * Useful for SMBIOS that don't expect a Nvidia GPU, however WhateverGreen should handle patching by itself
 * `shikigva=1`
   * Needed when you're wanting to use your iGPU's display out along with the dGPU, allows the iGPU to handle hardware decoding even when not using a connector-less framebuffer
 * `shikigva=4`

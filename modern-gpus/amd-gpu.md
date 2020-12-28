@@ -203,6 +203,17 @@ Extras:
 
 ## Unsupported AMD GPUs
 
+### **Navi 20 series**
+#### Highest Supported OS: None
+
+These GPUs are slated for support sometime in the next few macOS releases as we have full confirmation on framebuffer and PCI ID support in the drivers. However, at this moment, there is limited functionality with these GPUs so we recommend holding off purchasing until proper acceleration has been achieved in the public.
+
+Unsupported Cards:
+
+* RX 6800
+* RX 6800 XT
+* RX 6900 XT
+
 ### **Lexa Series**
 #### Highest Supported OS: None
 

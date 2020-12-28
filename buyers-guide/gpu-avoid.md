@@ -2,7 +2,38 @@
 
 With GPUs to avoid it's a bit of a mixed bag - the specific brand to avoid 100% is Powercolor, HIS and VisionTek regardless of what core they runs. They're the most common GPUs to have instability issues and many users will outright not get any video out past the Clover boot-screen making a macOS install virtually impossible. XFX should also be avoided if you can, because people also have trouble with it, although most XFX cards will work with CSM/legacy mode turned off (XFX cards have an issue with VBIOS, but the UEFI VBIOS is fine.)(Though it is possible to get the XFX RX 460/560 working with a VBIOS flash, it's risky and not recommended). And while Sapphire may be the best brand for Polaris GPUs, Vega GPUs are quite a bit of a different story. While many have working systems with Sapphire Vega, a good chunk of users also experience instability and issues with macOS functioning correctly. **Update**: With the advent of macOS 10.14.5, support for Sapphire Vega has been greatly improved. But do note that these issues were quite serious so tread lightly as all the kinks may not have been truly resolved
 
-All 550s will **not** work except for the [Sapphire Pulse 550 640 SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1), as the other 550s are Lexa core, while the Sapphire Pulse 550 640 SP is Polaris.
+Most 550s will **not** work except for some models like [Sapphire Pulse 550 640 SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1), as most other 550s are Lexa core, while 640 SP variants are Polaris. See below for more info
+
+::: details Baffin vs Lexa Breakdown
+
+As mentioned above, RX 550 models come in 2 flavours known as Baffin and Lexa. The former is officially supported in macOS however the latter is not. Here we have a simple breakdown explaining how to determine which GPU is Baffin and which is Lexa even if OEMs do not openly mention.
+
+
+**Specification differences**:
+
+
+* **Old Lexa Core (incompatible)**:
+
+  * Stream Processors 512 (CUs 8)
+  * Memory Speed 1750MHz (7000Mz effective)
+  * Reference Clock 1183MHz
+
+* **Newer Baffin Core (compatible)**
+
+  * Stream Processors 640 (CUs 10)
+  * Memory Speed 1500MHz (6000Mz effective)
+  * Reference Clock 1071MHz
+
+**PCI ID Differences**:
+
+* Cards with the [Device ID of 0x67ff](https://devicehunt.com/view/type/pci/vendor/1002/device/67FF) should be supported OOB
+  * Device ID 0x699f = RX 550 512SP
+  * Device ID 0x67ff Rev FF = RX 550 640SP
+  * Device ID 0x67ff Rev CF = RX 560
+
+[Credit to cat2devnull for gathering such information](https://github.com/dortania/bugtracker/issues/129)
+
+:::
 
 And for those who are wondering why this list contradicts [Tonymacx86's buyers guide](https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/#AMD_Graphics_Cards), remember that their bottom line is to get users to buy hardware through their affiliate program. This is also the same website that recommended Pascal GPUs [5 months after Mojave's release](https://web.archive.org/web/20190213211919/https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/), would you really trust a website that's neither kept up-to date and offers _shivers_ the [beast tools](https://github.com/khronokernel/Tonymcx86-stance)?
 
@@ -12,7 +43,7 @@ And for those who are wondering why this list contradicts [Tonymacx86's buyers g
 * MSI's Polaris and Vega line are not affected by this bug
 
 ## Powercolor
-### **AVOID ALL MODELS**
+### **AVOID VEGA AND POLARIS MODELS**
 
 * [PowerColor Red Devil RX VEGA 56/64](https://www.powercolor.com/product?id=1511340918)
 * [PowerColor Red Dragon/Devil RX 580](https://www.powercolor.com/products?id=1492658578&type=1493173705)

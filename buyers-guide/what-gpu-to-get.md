@@ -32,7 +32,7 @@ Fan-Stop models(no fan spin under 50/60C generally):
 
 ### Polaris(Fan Stop)
 
-Fan-Stop models(no fan spin under 50/60C generally):ß
+Fan-Stop models(no fan spin under 50/60C generally):
 
 * [Asus Strix RX 580](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RX580-O8G-GAMING/)
 * [ASUS Dual series RX 580](https://www.asus.com/ca-en/Graphics-Cards/DUAL-RX580-O4G/)
@@ -54,9 +54,14 @@ Fan-Stop models(no fan spin under 50/60C generally):ß
 
 * [Radeon Pro WX 5100](https://www.amd.com/en/products/professional-graphics/radeon-pro-wx-5100)
 * [Radeon Pro WX 4100](https://www.amd.com/en/products/professional-graphics/radeon-pro-wx-4100)
-* [Sapphire Pulse RX 550 640SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1)(
-  * Ensure it's Polaris or Baffin based, this is one of the first RX 550 models that run a baffin core instead of Lexa
-* [Yeston RX 550 640 SP](https://www.aliexpress.com/item/33018130563.html)
+* [Yeston RX550-4G LP D5](http://www.yeston.net/product/details/234/272)
+* [Gigabyte RX 550 D5 2G (rev. 2.0)](https://www.gigabyte.com/Graphics-Card/GV-RX550D5-2GD-rev-20#kf)
+* [Sapphire PULSE RX 550 4G G5 640SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-4g-g5-1)
+* [Sapphire PULSE RX 550 2G G5 640SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1)
+* [ASUS AREZ-PH-RX550-2G](https://www.asus.com/Motherboards-Components/Graphics-Cards/All-series/AREZ-PH-RX550-2G)
+* [ASUS PH-RX550-4G-M7](https://www.asus.com/Motherboards-Components/Graphics-Cards/All-series/PH-RX550-4G-M7)
+  * For 550 models, ensure it's Baffin based, this is one of the first RX 550 models that run a baffin core instead of Lexa
+  * See [What GPUs to Avoid](./gpu-avoid.md) for more info
 
 ### Nvidia
 
