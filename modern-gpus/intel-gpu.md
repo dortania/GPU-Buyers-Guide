@@ -16,6 +16,8 @@ More info:
 
 Regarding the HD 4000, it's completely native with Catalina(Though no longer supported with macOS 11: Big Sur). The HD 2500 on the other hand only has partial support in Mojave for quick sync features as hardware acceleration is [unsupported](https://olarila.com/forum/viewtopic.php?t=7714) so you will need a compatible dGPU for display purposes. Initial supported introduced with macOS 10.8
 
+* Note: As of macOS 11.3, the HD 4000 drivers are still present in Big Sur. Please keep in mind future OS updates and releases may remove these drivers.
+
 Supported iGPUs:
 
 * HD 2500
