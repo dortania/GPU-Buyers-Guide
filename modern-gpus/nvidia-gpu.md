@@ -225,7 +225,7 @@ Quadro:
 * Quadro M5000
 * Quadro M4000
 * Quadro M2000
-* Quadro K220
+* Quadro K2200
 * Quadro K1200
 * Quadro K620
 
