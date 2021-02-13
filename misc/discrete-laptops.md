@@ -22,3 +22,4 @@ Luckily for us, the GPU passthrough site has a decent sized list with which GPUs
 
 ![MUX Configurations](../images/LaptopGPUs.png)
 
+* **Note**: You must be able to either set the MUX to your internal display in the BIOS, or be able to have physical outputs work with the dGPU by default. Otherwise, there is no software in macOS that can control your MUX's output.
