@@ -33,7 +33,7 @@ Supported cards:
 * GTX 770
 * GTX 760 Ti
 * GTX 760
-* GT 740
+* GT 740 (GK107 variant)
 * GT 730 (GK208 variant)
 * GT 720
 * GT 710 (GK208 variant)
@@ -131,7 +131,7 @@ GPUs running the GK 106 core have the unfortunate consequence of having a seriou
 
 Second generation Kepler:
 
-* GT 740
+* GT 740(GK106 variant)
 
 First generation Kepler:
 
