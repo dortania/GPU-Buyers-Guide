@@ -48,7 +48,7 @@ Supported Cards:
 
 Needed kexts:
 
-* [lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 ### **Vega 10 series**
