@@ -28,7 +28,7 @@ Note: Most Navi cards currently require the boot argument `agdpmod=pikera` to ge
 
 Needed kexts:
 
-* [lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 **Important note for MSI Navi users**: 
@@ -75,7 +75,7 @@ Radeon Pro:
 
 Needed kexts:
 
-* [lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 ### **Polaris 10 and 20 series**
@@ -113,7 +113,7 @@ Radeon Pro:
 
 Needed kexts:
 
-* [lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 ### **R7/R9**
@@ -145,7 +145,7 @@ Supported cards:
 
 Needed kexts
 
-* [lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 Extras:
@@ -192,7 +192,7 @@ Extras:
 
 Needed kexts
 
-* [lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 Extras:
