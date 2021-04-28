@@ -2,6 +2,19 @@
 
 ## Native AMD GPUs
 
+### **Navi 20 series (Big Navi)**
+#### Initial Supported OS: 11.4-Beta
+
+Initial Support for some of this GPUs have been announced in [the latest 11.4 big sur beta](https://developer.apple.com/documentation/macos-release-notes/macos-big-sur-11_4-beta-release-notes). Please note this is a beta release and is usually better to wait for a couple of more stable releases until the testing process is stable.
+
+Supported Cards:
+
+* RX 6800
+* RX 6800XT
+* RX 6900XT
+
+No information is available right now on which Kexts might be needed (If needed) or if any boot flag is needed, but similar to the Vega 10 familiy, there is a chance that macOS won't boot video from this GPUs during the install process.
+
 ### **Navi 10 Series**
 
 #### Highest Supported OS: Current/Big Sur(11)
@@ -201,17 +214,6 @@ Extras:
 * InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
 
 ## Unsupported AMD GPUs
-
-### **Navi 20 series**
-#### Highest Supported OS: None
-
-These GPUs are slated for support sometime in the next few macOS releases as we have full confirmation on framebuffer and PCI ID support in the drivers. However, at this moment, there is limited functionality with these GPUs so we recommend holding off purchasing until proper acceleration has been achieved in the public.
-
-Unsupported Cards:
-
-* RX 6800
-* RX 6800 XT
-* RX 6900 XT
 
 ### **Lexa Series**
 #### Highest Supported OS: None
