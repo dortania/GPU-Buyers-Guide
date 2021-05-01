@@ -2,7 +2,7 @@
 
 With GPUs to avoid it's a bit of a mixed bag - the specific brand to avoid 100% is Powercolor, HIS and VisionTek regardless of what core they runs. They're the most common GPUs to have instability issues and many users will outright not get any video out past the Clover boot-screen making a macOS install virtually impossible. XFX should also be avoided if you can, because people also have trouble with it, although most XFX cards will work with CSM/legacy mode turned off (XFX cards have an issue with VBIOS, but the UEFI VBIOS is fine.)(Though it is possible to get the XFX RX 460/560 working with a VBIOS flash, it's risky and not recommended). And while Sapphire may be the best brand for Polaris GPUs, Vega GPUs are quite a bit of a different story. While many have working systems with Sapphire Vega, a good chunk of users also experience instability and issues with macOS functioning correctly. **Update**: With the advent of macOS 10.14.5, support for Sapphire Vega has been greatly improved. But do note that these issues were quite serious so tread lightly as all the kinks may not have been truly resolved
 
-Most 550s will **not** work except for some models like [Sapphire Pulse 550 640 SP](https://www.sapphiretech.com/en/consumer/pulse-rx-550-2g-g5-1), as most other 550s are Lexa core, while 640 SP variants are Polaris. See below for more info
+Most 550s will work and several model need device id editing as most other 550s are Lexa core, while 640 SP variants are Polaris. See below for more info
 
 ::: details Baffin vs Lexa Breakdown
 
@@ -12,13 +12,13 @@ As mentioned above, RX 550 models come in 2 flavours known as Baffin and Lexa. T
 **Specification differences**:
 
 
-* **Old Lexa Core (incompatible)**:
+* **Old Lexa Core**:
 
   * Stream Processors 512 (CUs 8)
   * Memory Speed 1750MHz (7000Mz effective)
   * Reference Clock 1183MHz
 
-* **Newer Baffin Core (compatible)**
+* **Newer Baffin Core **
 
   * Stream Processors 640 (CUs 10)
   * Memory Speed 1500MHz (6000Mz effective)
@@ -30,6 +30,8 @@ As mentioned above, RX 550 models come in 2 flavours known as Baffin and Lexa. T
   * Device ID 0x699f = RX 550 512SP
   * Device ID 0x67ff Rev FF = RX 550 640SP
   * Device ID 0x67ff Rev CF = RX 560
+
+RX 550 with 0x699F will not get acceleration if you didn't change the device id to 0x67FF. Read this for guide https://www.insanelymac.com/forum/topic/337501-sapphire-rx-550-4gb-deviceid-0x699f-work-in-mojave-10143/
 
 [Credit to cat2devnull for gathering such information](https://github.com/dortania/bugtracker/issues/129)
 
