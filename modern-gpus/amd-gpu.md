@@ -2,6 +2,26 @@
 
 ## Native AMD GPUs
 
+### **Navi 21 Series**
+
+#### Initial Supported OS: Big Sur(11.4 beta 1)
+
+Currently, as of 11.4 beta 1, Apple has finally added RDNA2 and Big Navi support!
+
+Supported Cards:
+
+* RX 6800
+* RX 6800 XT
+* RX 6900
+* RX 6900 XT
+
+Note: There is some RX 6900 XTXH variants with a device-id of 0x73AF that is not currently supported.
+
+Needed kexts:
+
+* [lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+
 ### **Navi 10 Series**
 
 #### Highest Supported OS: Current/Big Sur(11)
