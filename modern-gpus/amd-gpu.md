@@ -132,9 +132,9 @@ Supported cards:
 * R9 290X/390X
 * R9 290/390(FakeID needed)
 * R9 280x/380x (Hit or miss)
-* R9 280/380(FakeID needed)
+* R9 280/380
 * R9 270X/370X
-* R7 270/370(FakeID needed)
+* R7 270/370
 * R7 265
 * R7 260x/360x
 * R9 260/360(FakeID may be required depending on model)
