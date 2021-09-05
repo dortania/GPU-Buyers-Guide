@@ -127,7 +127,7 @@ Supported cards:
 * RX 570
 * RX 560X
 * RX 560
-* RX 550 (only [512SP model](https://www.techpowerup.com/gpu-specs/radeon-rx-550-512sp.c3740) or [640SP model](https://www.techpowerup.com/gpu-specs/radeon-rx-550-640sp.c3083)
+* RX 550 (only the Baffin-based [512SP models](https://www.techpowerup.com/gpu-specs/radeon-rx-550-512sp.c3740) or [640SP models](https://www.techpowerup.com/gpu-specs/radeon-rx-550-640sp.c3083))
 
 Radeon Pro:
 
