@@ -2,6 +2,29 @@
 
 ## Native AMD GPUs
 
+### **Navi 20 series**
+#### Highest Supported OS: Current/Big Sur(11.4+)
+#### Initial Supported OS: Big Sur (11.4)
+
+As of Big Sur 11.4 and up these cards are now natively supported.
+
+* RX 6600 XT
+* RX 6700 XT
+* RX 6800
+* RX 6800 XT
+* RX 6900 XT
+
+Radeon Pro:
+
+* Radeon Pro W6800
+* Radeon Pro W6600
+
+Needed kexts:
+
+* [lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+
+
 ### **Navi 10 Series**
 
 #### Highest Supported OS: Current/Big Sur(11)
@@ -104,6 +127,7 @@ Supported cards:
 * RX 570
 * RX 560X
 * RX 560
+* RX 550 (only [512SP model](https://www.techpowerup.com/gpu-specs/radeon-rx-550-512sp.c3740) or [640SP model](https://www.techpowerup.com/gpu-specs/radeon-rx-550-640sp.c3083)
 
 Radeon Pro:
 
@@ -202,17 +226,6 @@ Extras:
 
 ## Unsupported AMD GPUs
 
-### **Navi 20 series**
-#### Highest Supported OS: None
-
-These GPUs are slated for support sometime in the next few macOS releases as we have full confirmation on framebuffer and PCI ID support in the drivers. However, at this moment, there is limited functionality with these GPUs so we recommend holding off purchasing until proper acceleration has been achieved in the public.
-
-Unsupported Cards:
-
-* RX 6800
-* RX 6800 XT
-* RX 6900 XT
-
 ### **Lexa Series**
 #### Highest Supported OS: None
 
@@ -223,7 +236,7 @@ Unsupported Cards:
 * WX 3100
 * WX 2100
 * RX 550X
-* RX 550
+* RX 550 (all [512 SP](https://www.techpowerup.com/gpu-specs/radeon-rx-550.c2947) models)
 * RX 540X
 * RX 540
 
@@ -236,6 +249,6 @@ Unsupported APUs:
 
 * Vega 11(Zen)
 * Vega 8(Zen)
-* GCN 3(Escavator Gen 2, Steamroller)
-* GCN 2(Escavator Gen 1, Puma, Puma +)
+* GCN 3(Excavator Gen 2, Steamroller)
+* GCN 2(Excavator Gen 1, Puma, Puma +)
 
