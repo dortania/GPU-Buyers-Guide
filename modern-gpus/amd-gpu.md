@@ -71,7 +71,6 @@ Radeon Pro:
 
 * Vega Frontier Edition
 * Radeon Pro WX 9100
-* Radeon Pro WX 7100
 
 Needed kexts:
 
@@ -107,6 +106,7 @@ Supported cards:
 
 Radeon Pro:
 
+* WX 7100
 * WX 5100
 * WX 4100
 * E9550
