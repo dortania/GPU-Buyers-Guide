@@ -2,6 +2,26 @@
 
 ## Native AMD GPUs
 
+### **Navi 21 series**
+
+#### Highest Supported OS: Current/Big Sur(11)
+#### Initial Supported OS: Big Sur (11)
+
+As of 11.4, Apple has added Navi 21 support!
+
+Supported Cards:
+
+* RX 6800
+* RX 6800 XT
+* RX 6900 XT
+
+Note: The XTXH variant (Device ID: `0x73AF`) currently does not work. Additionally, some Navi 21 cards currently require the boot argument `agdpmod=pikera` to get a display out.
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+
 ### **Navi 10 Series**
 
 #### Highest Supported OS: Current/Big Sur(11)
@@ -202,16 +222,16 @@ Extras:
 
 ## Unsupported AMD GPUs
 
-### **Navi 20 series**
+### **Navi 2X**
 #### Highest Supported OS: None
 
-These GPUs are slated for support sometime in the next few macOS releases as we have full confirmation on framebuffer and PCI ID support in the drivers. However, at this moment, there is limited functionality with these GPUs so we recommend holding off purchasing until proper acceleration has been achieved in the public.
+While Navi 21 is supported, the other cores are not at the time of writing.
 
 Unsupported Cards:
 
-* RX 6800
-* RX 6800 XT
-* RX 6900 XT
+* RX 6700 XT
+* RX 6600 XT
+* RX 6600
 
 ### **Lexa Series**
 #### Highest Supported OS: None
@@ -236,6 +256,6 @@ Unsupported APUs:
 
 * Vega 11(Zen)
 * Vega 8(Zen)
-* GCN 3(Escavator Gen 2, Steamroller)
-* GCN 2(Escavator Gen 1, Puma, Puma +)
+* GCN 3(Excavator Gen 2, Steamroller)
+* GCN 2(Excavator Gen 1, Puma, Puma +)
 
