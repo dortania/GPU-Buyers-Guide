@@ -15,7 +15,7 @@ Supported Cards:
 * RX 6800 XT
 * RX 6900 XT
 
-Note: The XTXH variant (Device ID: `0x73AF`) currently does not work. Some Navi 21 cards currently require the boot argument `agdpmod=pikera` to get a display out as well.
+Note: The XTXH variant (Device ID: `0x73AF`) currently does not work. Additionally, some Navi 21 cards currently require the boot argument `agdpmod=pikera` to get a display out.
 
 Needed kexts:
 
@@ -256,6 +256,6 @@ Unsupported APUs:
 
 * Vega 11(Zen)
 * Vega 8(Zen)
-* GCN 3(Escavator Gen 2, Steamroller)
-* GCN 2(Escavator Gen 1, Puma, Puma +)
+* GCN 3(Excavator Gen 2, Steamroller)
+* GCN 2(Excavator Gen 1, Puma, Puma +)
 
