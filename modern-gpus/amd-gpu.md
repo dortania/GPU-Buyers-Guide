@@ -2,10 +2,26 @@
 
 ## Native AMD GPUs
 
+### **Navi 23 series**
+
+#### Highest Supported OS: Current/Monterey (12)
+#### Initial Supported OS: Monterey (12.1)
+
+As of 12.1, Apple has added support for the RX 6600 XT.
+
+Supported Cards:
+
+* RX 6600 XT
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+
 ### **Navi 21 series**
 
-#### Highest Supported OS: Current/Big Sur(11)
-#### Initial Supported OS: Big Sur (11)
+#### Highest Supported OS: Current/Monterey (11)
+#### Initial Supported OS: Big Sur (11.4)
 
 As of 11.4, Apple has added Navi 21 support!
 
@@ -14,8 +30,9 @@ Supported Cards:
 * RX 6800
 * RX 6800 XT
 * RX 6900 XT
+  * The XTXH variant (Device ID: `0x73AF`) is supported with WhateverGreen 1.5.2 and spoofing `device-id` to `0x73AE`.
 
-Note: The XTXH variant (Device ID: `0x73AF`) currently does not work. Additionally, some Navi 21 cards currently require the boot argument `agdpmod=pikera` to get a display out.
+Note: Some Navi 21 cards currently require the boot argument `agdpmod=pikera` to get a display out.
 
 Needed kexts:
 
