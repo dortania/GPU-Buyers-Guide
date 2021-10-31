@@ -223,7 +223,7 @@ Extras:
 
 ## Unsupported AMD GPUs
 
-### **Navi 22**
+### **Navi 2X**
 #### Highest supported OS: None
 
 While Navi 21 is supported, the other cores are not at the time of writing.
