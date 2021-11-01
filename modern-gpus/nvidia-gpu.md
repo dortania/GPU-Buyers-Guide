@@ -184,7 +184,7 @@ Quadro:
 
 Needed kexts:
 
-* [Nvidia’s Web drivers](https://images.nvidia.com/mac/pkg/387/WebDriver-387.10.10.10.40.140.pkg)
+* [NVIDIA's web drivers](https://images.nvidia.com/mac/pkg/387/WebDriver-387.10.10.10.40.140.pkg)
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
@@ -223,7 +223,7 @@ Quadro:
 
 Needed kexts:
 
-* [Nvidia’s Web drivers](https://images.nvidia.com/mac/pkg/387/WebDriver-387.10.10.10.40.140.pkg)
+* [NVIDIA's web drivers](https://images.nvidia.com/mac/pkg/387/WebDriver-387.10.10.10.40.140.pkg)
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
