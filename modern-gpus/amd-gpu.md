@@ -157,28 +157,27 @@ Needed kexts:
 #### Highest Supported OS: Current/Monterey (12)
 #### Initial Supported OS: Yosemite (10.10)
 
-R7/R9 is also natively supported in Catalina without too much issue but we cannot guarantee the success of R5 and R7 cards due to not having many reports of success with them. Also, be wary that differing from the reference design of these cards have many more issues that require a lot of work to get them to run properly. Sapphire cards are your best bet
-Also, the R9 280x/380x are a hit or miss on compatibility.
+R7/R9 is also natively supported without too much issue, but we cannot guarantee the success of R5 and R7 cards due to not having many reports of success with them. Also, be wary that differing from the reference design of these cards has many more issues that require a lot of work to get them to run properly. Sapphire cards are your best bet. Also, the R9 280X/380X are hit or miss on compatibility.
 
 Supported cards:
 
 * R9 Fury X
 * R9 Fury
 * R9 Nano
-* R9 390(FakeID needed)
+* R9 390 (Fake ID needed)
 * R9 290X/390X
-* R9 290/390(FakeID needed)
-* R9 280x/380x (Hit or miss)
-* R9 280/380(FakeID needed)
+* R9 290/390 (Fake ID needed)
+* R9 280X/380X (Hit or miss)
+* R9 280/380 (Fake ID needed)
 * R9 270X/370X
-* R7 270/370(FakeID needed)
+* R7 270/370 (Fake ID needed)
 * R7 265
-* R7 260x/360x
-* R9 260/360(FakeID may be required depending on model)
+* R7 260X/360X
+* R9 260/360 (Fake ID may be required depending on model)
 * R9 255
 * R7 250X
-* R7 250(FakeID needed)
-* R7 240(FakeID needed)
+* R7 250 (Fake ID needed)
+* R7 240 (Fake ID needed)
 
 Needed kexts
 
@@ -212,7 +211,7 @@ Extras:
 * Dual AMD FirePro D300
 * Dual AMD FirePro D500
 * Dual AMD FirePro D700
-* FirePro W5100(FakeID needed)
+* FirePro W5100 (Fake ID needed)
 * FirePro W7000
 * FirePro W9000
 * HD 7700
@@ -270,8 +269,8 @@ The integrated GPU found on lower end AMD CPUs have unfortunately never had offi
 
 Unsupported APUs:
 
-* Vega 11(Zen)
-* Vega 8(Zen)
-* GCN 3(Excavator Gen 2, Steamroller)
-* GCN 2(Excavator Gen 1, Puma, Puma +)
+* Vega 11 (Zen)
+* Vega 8 (Zen)
+* GCN 3 (Excavator Gen 2, Steamroller)
+* GCN 2 (Excavator Gen 1, Puma, Puma +)
 
