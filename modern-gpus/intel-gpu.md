@@ -14,7 +14,7 @@ More info:
 #### Highest Supported OS: Big Sur (11)
 #### Initial Supported OS: Lion (10.7)
 
-Regarding the HD 4000, it's completely native though no longer supported with macOS Monterey. Note that you must be using an Ivy Bridge-compatible SMBIOS. The HD 2500, on the other hand, only has partial support in Mojave for quick sync features, but hardware acceleration is unsupported, so you will need a compatible dGPU for display purposes.
+The HD4000 is supported natively up to macOS Big Sur, with support dropped in macOS Monterey. Note that you must be using an Ivy Bridge-compatible SMBIOS. The HD 2500, on the other hand, only has partial support in Mojave for quick sync features. As the HD 2500 does not support hardware acceleration, you will need a compatible dGPU for display purposes.
 
 Supported iGPUs:
 
