@@ -10,7 +10,7 @@ So it's that time of year again, a new version of macOS has been released and th
 
 Well, you've come to the right place, we'll give a quick rundown on the situation and go into more detail on exact GPUs we recommend.
 
-## A quick refresher with NVIDIA and web drivers
+## A quick refresher with NVIDIA and Web Drivers
 
 ![WebDrivers](WebDrivers.gif)
 
