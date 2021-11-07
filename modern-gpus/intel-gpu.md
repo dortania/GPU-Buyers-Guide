@@ -11,10 +11,10 @@ More info:
 ## Native Intel iGPUs
 
 ### **Ivy Bridge 3XXX**
-#### Highest Supported OS: Catalina (10.15)
+#### Highest Supported OS: Big Sur (11)
 #### Initial Supported OS: Lion (10.7)
 
-Regarding the HD 4000, it's completely native with Catalina (though no longer supported with macOS Monterey). Note that you must be using an Ivy Bridge-compatible SMBIOS, such as MacPro6,1. The HD 2500, on the other hand, only has partial support in Mojave for quick sync features, but hardware acceleration is unsupported, so you will need a compatible dGPU for display purposes.
+Regarding the HD 4000, it's completely native though no longer supported with macOS Monterey. Note that you must be using an Ivy Bridge-compatible SMBIOS, such as MacPro6,1. The HD 2500, on the other hand, only has partial support in Mojave for quick sync features, but hardware acceleration is unsupported, so you will need a compatible dGPU for display purposes.
 
 * Note: As of macOS 11.3, the HD 4000 drivers are still present in Big Sur. Please keep in mind future OS updates and releases may remove these drivers.
 
