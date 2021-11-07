@@ -28,7 +28,7 @@ This question comes up quite a bit in the Hackintosh community, and for good rea
 
 ## So what are my options?
 
-macOS Monterey dropped support for all NVIDIA GPUs, including Kepler-based cards, meaning AMD is the only way to go for the latest version.
+macOS Monterey dropped support for all NVIDIA GPUs, including Kepler-based cards, meaning AMD dedicated GPUs and Intel integrated GPUs are the only way to go for the latest version.
 
 Things to remember:
 
