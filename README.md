@@ -22,7 +22,7 @@ And for those who want some reading to do: [When will the NVIDIA Web Drivers be 
 
 Great read as it shows how even upper management doesn't have a good answer for customers.
 
-## So if my GPU is natively supported, why do i need Lilu and WhateverGreen?
+## So if my GPU is natively supported, why do I need Lilu and WhateverGreen?
 
 This question comes up quite a bit in the Hackintosh community, and for good reason. Why in the world would these GPUs work out of the box on a Mac and not a Hackintosh? Well, the reason is that PCs and Macs have different internal wiring and so the ACPI layouts in a PC don't work well with macOS in different scenarios. To get around this, we use [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases) and it's companion [Lilu](https://github.com/acidanthera/Lilu/releases) to patch different parts of our Hackintosh, like renaming devices, assisting in framebuffer connections, patching audio connectors, allowing modifications to aty\_config, aty\_properties, cail\_properties via ACPI and so much more. With such a large feature set and developed by someone who knows what they're doing, there's no reason not to use it.
 
