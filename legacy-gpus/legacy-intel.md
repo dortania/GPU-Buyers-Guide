@@ -4,7 +4,7 @@
 ### Highest Supported OS: High Sierra (10.13.6)
 ### Initial Supported OS: Snow Leopard (10.6)
 
-Unfortunately, Mojave dropped support for these iGPUs, but luckily we can actually get these iGPUs working by using old kexts (though no Metal support so things are a bit iffy). The [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) is the best way to add support for these GPUs. However, OCLP is geared towards real Macs and while it will work on Hackintoshes, there is no official support. Intial support was introduced with macOS 10.7 and is not supported by the [Intel framebuffer patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
+Unfortunately, Mojave dropped support for these iGPUs, but luckily we can actually get these iGPUs working by using old kexts (though no Metal support so things are a bit iffy). The [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) is the best way to add support for these GPUs. However, OCLP is geared towards real Macs and while it will work on Hackintoshes, there is no official support. Initial support was introduced with macOS 10.7 and is not supported by the [Intel framebuffer patching guide](https://www.insanelymac.com/forum/topic/334899-intel-framebuffer-patching-using-whatevergreen/?tab=comments#comment-2626271)
 
 Supported iGPUs:
 
