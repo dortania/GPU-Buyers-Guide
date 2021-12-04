@@ -1,8 +1,8 @@
 # Intel GPUs
 
-So I'll be going over the compatible iGPUs present in Intel's CPUs, the main thing to note is that you'll need to apply the FrameBuffer patch to your system to get things to work properly. [Please refer to this post for more info on Framebuffer patching as it goes in depth on how to get your system running](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md). We will also be excluding iGPUs present in Pentiums, Celerons and Atom CPUs as these generally have never been supported natively and require quite a bit of extra work to get them working(to be more specific, GT1 based iGPUs don't work, Apple only uses GT2 and up in their macs)
+So we'll be going over the compatible iGPUs present in Intel's CPUs. The main thing to note is that you'll need to apply the framebuffer patches to your system to get things to work properly. [Please refer to this post for more info on framebuffer patching as it goes in depth on how to get your system running](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md). We will also be excluding iGPUs present in Pentiums, Celerons and Atom CPUs as these generally have never been supported natively and require quite a bit of extra work to get them working (to be more specific, GT1 based iGPUs don't work, Apple only uses GT2 and up in their Macs).
 
-**DRM Issues**: With Haswell and newer iGPUs, DRM is outright broken on them with macOS Catalina. This includes iTunes Movies, Apple TV+, Amazon Prime and Netflix, the only fix is getting a supported dGPU preferably Polaris or newer that supports HEVC.
+**DRM Issues**: With Haswell and newer iGPUs, DRM is outright broken on them with macOS Catalina. This includes iTunes Movies, Apple TV+, Amazon Prime and Netflix, the only fix is getting a supported dGPU, preferably Polaris or newer.
 
 More info:
 
@@ -11,12 +11,10 @@ More info:
 ## Native Intel iGPUs
 
 ### **Ivy Bridge 3XXX**
-#### Highest Supported OS: Catalina(10.15)
-#### Initial Supported OS: Lion(10.7)
+#### Highest Supported OS: Big Sur (11)
+#### Initial Supported OS: Lion (10.7)
 
-Regarding the HD 4000, it's completely native with Catalina(Though no longer supported with macOS 11: Big Sur). The HD 2500 on the other hand only has partial support for quick sync features as hardware acceleration is unsupported so you will need a compatible dGPU for display purposes. Initial supported introduced with macOS 10.8
-
-* Note: As of macOS 11.3, the HD 4000 drivers are still present in Big Sur. Please keep in mind future OS updates and releases may remove these drivers.
+The HD4000 is supported natively up to macOS Big Sur, with support dropped in macOS Monterey. The HD 2500, on the other hand, only has partial support in Mojave for quick sync features. As the HD 2500 does not support hardware acceleration, you will need a compatible dGPU for display purposes.
 
 Supported iGPUs:
 
@@ -43,23 +41,23 @@ Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
-* [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
+* [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Haswell 4XXX**
-#### Highest Supported OS: Current/Big Sur(11)
-#### Initial Supported OS: Mountain Lion(10.8)
+#### Highest Supported OS: Current/Monterey (12)
+#### Initial Supported OS: Mountain Lion (10.8)
 
-Most iGPUs are supported here, only one to be concerned about is the HD4400 which requires either a spoofed DeviceID with WhateverGreen or a modified APCI path. Initial supported introduced with macOS 10.9
+Most iGPUs are supported here, only one to be concerned about is the HD 4400, which requires either a fake ID with WhateverGreen or a modified APCI path.
 
 Supported iGPUs:
 
 * HD 4200
-* HD 4400(HD 4600 FakeID required for this iGPU)
+* HD 4400 (HD 4600 Fake ID required for this iGPU)
 * HD 4600
 * HD 5000
 * HD 5100
-* HD P4600(Theoretically)
-* HD P4700(Theoretically)
+* HD P4600 (Theoretically)
+* HD P4700 (Theoretically)
 
 Framebuffer:
 
@@ -76,13 +74,13 @@ Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
-* [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
+* [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Broadwell 5XXX**
-#### Highest Supported OS: Current/Big Sur(11)
-#### Initial Supported OS: Yosemite(10.10)
+#### Highest Supported OS: Current/Monterey (12)
+#### Initial Supported OS: Yosemite (10.10.2)
 
-All iGPUs are supported here, no issues to report. Initial supported introduced with macOS 10.10.2
+All iGPUs are supported here, no issues to report.
 
 Supported iGPUs:
 
@@ -92,7 +90,7 @@ Supported iGPUs:
 * HD 6000
 * HD 6100
 * HD 6200
-* HD P5700(Theoretically)
+* HD P5700 (Theoretically)
 * Iris Pro P6300
 
 Framebuffer:
@@ -108,13 +106,13 @@ Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
-* [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
+* [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Skylake 6XXX**
-#### Highest Supported OS: Current/Big Sur(11)
-#### Initial Supported OS: El Capitan(10.11)
+#### Highest Supported OS: Current/Monterey (12)
+#### Initial Supported OS: El Capitan (10.11.4)
 
-All iGPUs are supported here, no issues to report. Initial supported introduced with macOS 10.11.4
+All iGPUs are supported here, no issues to report.
 
 Supported iGPUs:
 
@@ -143,13 +141,13 @@ Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
-* [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
+* [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
-### **Kabylake 7XXX**
-#### Highest Supported OS: Current/Big Sur(11)
-#### Initial Supported OS: Sierra(10.12)
+### **Kaby Lake 7XXX**
+#### Highest Supported OS: Current/Monterey (12)
+#### Initial Supported OS: Sierra (10.12.6)
 
-Most iGPUs are supported here excluding the HD 610 present in the Pentium G4560, initial support was introduced with macOS 10.12.6
+Most iGPUs are supported here, excluding the HD 610 present in the Pentium G4560.
 
 Supported iGPUs:
 
@@ -174,13 +172,13 @@ Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
-* [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
+* [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
-### **Kabylake refresh/ Coffee Lake/ Cometlake 8XXX/9XXX**
-#### Highest Supported OS: Current/Big Sur(11)
+### **Kaby Lake refresh/Coffee Lake/Comet Lake 8XXX/9XXX**
+#### Highest Supported OS: Current/Monterey (12)
 #### Initial Supported OS: High Sierra(10.13.6)
 
-All iGPUs are supported here, though pay attention as the [i3 8100 and 8350k use a different UHD 630(184 shader units vs 192)](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Whiskey_Lake) than the rest of the CPU family which requires spoofing for support in High Sierra(generally wanted for headless rendering on a Maxwell/Pascal GPUs). Initial supported introduced with macOS 10.13.6
+All iGPUs are supported here, though pay attention as the [i3-8100 and i3-8350K use a different UHD 630 (184 shader units vs 192)](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Whiskey_Lake) than the rest of the CPU family which requires spoofing for support in High Sierra.
 
 Supported:
 
@@ -208,13 +206,13 @@ Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
-* [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
+* [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
-### **Icelake 10XXX**
-#### Highest Supported OS: Current/Big Sur(11)
+### **Ice Lake 10XXX**
+#### Highest Supported OS: Current/Monterey (12)
 #### Initial Supported OS: Catalina(10.15.4)
 
-All iGPUs present here have support starting in macOS 10.15.4, note that support is still quite early so there's likely still bugs to clean up and WhateverGreen will need some time to find and adapt patches to best suit these new iGPUs
+All iGPUs present here have support starting in macOS 10.15.4.
 
 Supported:
 
@@ -223,20 +221,19 @@ Supported:
 
 Framebuffer:
 
-* Currently no available
+* AAPL,ig-platform-id (laptop):
+  * 0x8A520000 (default)
 
 Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 * [Intel FrameBuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
-   * Guide needs to be updated to support Icelake framebuffers
-
 
 ## Unsupported Intel iGPUs
 
 
-All GPUs listed here are GT1 based meaning no support as display out whatsoever
+All GPUs listed here are GT1-based, meaning no support whatsoever.
 
 ### **Braswell**
 #### Highest Supported OS: None
@@ -261,14 +258,14 @@ Unsupported:
 * HD 500
 * HD 505
 
-### **Kabylake**
+### **Kaby Lake**
 #### Highest Supported OS: None
 
 Unsupported:
 
 * HD 610
 
-### **Kabylake refresh/ Coffee Lake/ Cometlake i3/5/7-8XXX/9XXX**
+### **Kaby Lake refresh/Coffee Lake/Comet Lake 8XXX/9XXX**
 #### Highest Supported OS: None
 
 Unsupported:
