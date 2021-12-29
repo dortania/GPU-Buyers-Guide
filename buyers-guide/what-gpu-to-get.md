@@ -2,15 +2,15 @@
 
 **Please make sure to read** [GPUs to Avoid First](gpu-avoid.md) **as there's important info there**
 
-So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx)or newer as GCN 3 and older can loose support at any time and the same applies for Nvidia's Kepler. Here are the cards we recommend and do remember that reference cards are generally the safest solution
+So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx)or newer as GCN 3 and older can loose support at any time. Here are the cards we recommend and do remember that reference cards are generally the safest solution
 
 ## Fanless GPUs(0 DB)
 
-Unfortunately the variety for fanless GPUs are quite small, while there are many GPUs with fan-stop these aren't perfect solutions. Models with no fan at all are limited to either GT 1030s which are unsupported past High Sierra or the GT 710 which could loose support some time soon.
+Unfortunately the variety for fanless GPUs are quite small, while there are many GPUs with fan-stop these aren't perfect solutions. Models with no fan at all are limited to either GT 1030s which are unsupported past High Sierra or the GT 710 which are unsupported past Big Sur.
 
 ### Fanless models:
 
-* [GT 710](https://www.geforce.com/hardware/desktop-gpus/geforce-gt-710/specifications)(basically every model is single slot, half height and many are fanless)
+None available
  
 ### Navi(Fan Stop)
 
@@ -63,18 +63,6 @@ Fan-Stop models(no fan spin under 50/60C generally):
   * For 550 models, ensure it's Baffin based, this is one of the first RX 550 models that run a baffin core instead of Lexa
   * See [What GPUs to Avoid](./gpu-avoid.md) for more info
 
-### Nvidia
-
-* [GT 710](https://www.geforce.com/hardware/desktop-gpus/geforce-gt-710/specifications)(basically every model is single slot, half height and many are fanless)
-
-### Quadro
-
-* [Quadro K4200](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/DS-NV-Quadro-K4200-JUL24-US-NV-r-HR.pdf)
-* [Quadro K2000D](https://www.nvidia.com/content/PDF/data-sheet/DS_NV_Quadro_K2000D_OCT13_NV_US_LR.pdf)
-* [Quadro K2000](https://www.nvidia.com/content/PDF/data-sheet/DS_NV_Quadro_K2000_OCT13_NV_US_LR.pdf)
-* [Quadro K600](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/DS_NV_Quadro_K600_OCT13_NV_US_lr.pdf)
-* [Quadro K420](http://www3.pny.com/file%20library/support/pny%20products/resource%20center/nvidia%20-%20quadro%20graphics%20cards/english/product-brochure/ds_nv_quadro_k420_2gb_sep_2015_us_pny.pdf)
-* [Quadro 410](https://www.nvidia.com/content/PDF/data-sheet/nv-quadro-410-lr.pdf)
 
 ## Half-height GPUs
 
@@ -89,12 +77,6 @@ Fan-Stop models(no fan spin under 50/60C generally):
 * [MSI RX 560 LP OC](https://www.msi.com/Graphics-card/radeon-rx-560-4gt-lp-oc.html)
 * [Yeston RX 550 640 SP](https://www.aliexpress.com/item/33018130563.html)
 
-### Nvidia: Kepler
-
-* [GT 710](https://www.geforce.com/hardware/desktop-gpus/geforce-gt-710/specifications)(basically every model is single slot, half height and many are fanless)
-* [Quadro K600](https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/DS_NV_Quadro_K600_OCT13_NV_US_lr.pdf)
-* [Quadro K420](http://www3.pny.com/file%20library/support/pny%20products/resource%20center/nvidia%20-%20quadro%20graphics%20cards/english/product-brochure/ds_nv_quadro_k420_2gb_sep_2015_us_pny.pdf)
-* [Quadro 410](https://www.nvidia.com/content/PDF/data-sheet/nv-quadro-410-lr.pdf)
 
 ## The Most Powerful GPUs
 
