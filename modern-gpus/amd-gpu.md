@@ -20,7 +20,7 @@ Needed kexts:
 
 ### **Navi 21 series**
 
-#### Highest Supported OS: Current/Monterey (11)
+#### Highest Supported OS: Current/Monterey (12)
 #### Initial Supported OS: Big Sur (11.4)
 
 As of 11.4, Apple has added Navi 21 support!
