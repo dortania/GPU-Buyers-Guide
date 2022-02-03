@@ -30,7 +30,7 @@ Supported Cards:
 * RX 6800
 * RX 6800 XT
 * RX 6900 XT
-  * The XTXH variant (Device ID: `0x73AF`) is supported with WhateverGreen 1.5.2 and spoofing `device-id` to `0x73AE`.
+  * The XTXH variant (Device ID: `0x73AF`) is supported with WhateverGreen 1.5.2 and spoofing `device-id` to `0x73BF`.
 
 Note: Some Navi 21 cards currently require the boot argument `agdpmod=pikera` to get a display out.
 
