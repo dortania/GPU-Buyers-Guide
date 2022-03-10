@@ -11,6 +11,7 @@ As of 12.1, Apple has added support for the RX 6600 XT.
 
 Supported Cards:
 
+* RX 6600
 * RX 6600 XT
 
 Needed kexts:
@@ -20,7 +21,7 @@ Needed kexts:
 
 ### **Navi 21 series**
 
-#### Highest Supported OS: Current/Monterey (11)
+#### Highest Supported OS: Current/Monterey (12)
 #### Initial Supported OS: Big Sur (11.4)
 
 As of 11.4, Apple has added Navi 21 support!
@@ -247,7 +248,6 @@ While Navi 21 and Navi 23 are supported, the other cores are not at the time of 
 Unsupported Cards:
 
 * RX 6700 XT
-* RX 6600
 
 ### **Lexa Series**
 #### Highest Supported OS: None
