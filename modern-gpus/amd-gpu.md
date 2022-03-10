@@ -248,7 +248,6 @@ While Navi 21 and Navi 23 are supported, the other cores are not at the time of 
 Unsupported Cards:
 
 * RX 6700 XT
-* RX 6600
 
 ### **Lexa Series**
 #### Highest Supported OS: None
