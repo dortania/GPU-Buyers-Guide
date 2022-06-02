@@ -73,6 +73,7 @@ These cards include:
 * RTX 3070
 * RTX 3060 Ti
 * RTX 3060
+* RTX 3050
 
 ### **Turing Series (RTX 20xx, GTX 16xx)**
 #### Highest Supported OS: None
