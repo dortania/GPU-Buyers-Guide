@@ -2,11 +2,11 @@
 
 **Please make sure to read** [GPUs to Avoid First](gpu-avoid.md) **as there's important info there**
 
-So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx)or newer as GCN 3 and older can loose support at any time and the same applies for Nvidia's Kepler. Here are the cards we recommend and do remember that reference cards are generally the safest solution
+So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx) or newer as GCN 3 and older can lose support at any time. Here are the cards we recommend and do remember that reference cards are generally the safest solution.
 
 ## Fanless GPUs(0 DB)
 
-Unfortunately the variety for fanless GPUs are quite small, while there are many GPUs with fan-stop these aren't perfect solutions. Models with no fan at all are limited to either GT 1030s which are unsupported past High Sierra or the GT 710 which could loose support some time soon.
+Unfortunately the variety for fanless GPUs are quite small, while there are many GPUs with fan-stop these aren't perfect solutions. Models with no fan at all are limited to either GT 1030s which are unsupported past High Sierra or the GT 710 which is unsupported past Big Sur.
 
 ### Fanless models:
 
