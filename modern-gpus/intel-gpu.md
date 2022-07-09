@@ -11,7 +11,9 @@ More info:
 ## Native Intel iGPUs
 
 ### **Ivy Bridge 3XXX**
+
 #### Highest Supported OS: Big Sur (11)
+
 #### Initial Supported OS: Lion (10.7)
 
 The HD4000 is supported natively up to macOS Big Sur, with support dropped in macOS Monterey. The HD 2500, on the other hand, only has partial support in Mojave for quick sync features. As the HD 2500 does not support hardware acceleration, you will need a compatible dGPU for display purposes.
@@ -44,7 +46,9 @@ Needed kexts:
 * [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Haswell 4XXX**
+
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: Mountain Lion (10.8)
 
 Most iGPUs are supported here, only one to be concerned about is the HD 4400, which requires either a fake ID with WhateverGreen or a modified APCI path.
@@ -61,10 +65,10 @@ Supported iGPUs:
 
 Framebuffer:
 
-* AAPL,ig-platform-id (desktop): 
+* AAPL,ig-platform-id (desktop):
   * 0x0D220003 (default)
     * 0300220D (hex swapped)
-* AAPL,ig-platform-id (laptop): 
+* AAPL,ig-platform-id (laptop):
   * 0x0A160000 (default)
     * 0000160A (hex swapped)
   * 0x0A260005 (recommended)
@@ -77,7 +81,9 @@ Needed kexts:
 * [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Broadwell 5XXX**
+
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: Yosemite (10.10.2)
 
 All iGPUs are supported here, no issues to report.
@@ -95,10 +101,10 @@ Supported iGPUs:
 
 Framebuffer:
 
-* AAPL,ig-platform-id (desktop): 
+* AAPL,ig-platform-id (desktop):
   * 0x16220007 (default)
     * 07002216 (hex swapped)
-* AAPL,ig-platform-id (laptop): 
+* AAPL,ig-platform-id (laptop):
   * 0x16260006 (default)
     * 06002616 (hex swapped)
 
@@ -109,7 +115,9 @@ Needed kexts:
 * [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Skylake 6XXX**
+
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: El Capitan (10.11.4)
 
 All iGPUs are supported here, no issues to report.
@@ -128,12 +136,12 @@ Supported iGPUs:
 
 Framebuffer:
 
-* AAPL,ig-platform-id (desktop): 
+* AAPL,ig-platform-id (desktop):
   * 0x19120000 (default)
     * 00001219 (hex swapped)
   * 0x19120001 (Headless)
     * 01001219 (hex swapped)
-* AAPL,ig-platform-id (laptop): 
+* AAPL,ig-platform-id (laptop):
   * 0x19160000 (default)
     * 00001619 (hex swapped)
 
@@ -144,7 +152,9 @@ Needed kexts:
 * [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Kaby Lake 7XXX**
+
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: Sierra (10.12.6)
 
 Most iGPUs are supported here, excluding the HD 610 present in the Pentium G4560.
@@ -159,12 +169,12 @@ Supported iGPUs:
 
 Framebuffer:
 
-* AAPL,ig-platform-id (desktop): 
+* AAPL,ig-platform-id (desktop):
   * 0x59160000 (default)
     * 00001659 (hex swapped)
   * 0x59120003 (Headless)
     * 03001259 (hex swapped)
-* AAPL,ig-platform-id (laptop): 
+* AAPL,ig-platform-id (laptop):
   * 0x591B0000 (default)
     * 00001B59 (hex swapped)
 
@@ -175,7 +185,9 @@ Needed kexts:
 * [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Kaby Lake refresh/Coffee Lake/Comet Lake 8XXX/9XXX**
+
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: High Sierra(10.13.6)
 
 All iGPUs are supported here, though pay attention as the [i3-8100 and i3-8350K use a different UHD 630 (184 shader units vs 192)](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Whiskey_Lake) than the rest of the CPU family which requires spoofing for support in High Sierra.
@@ -191,14 +203,14 @@ Supported:
 
 Framebuffer:
 
-* AAPL,ig-platform-id (desktop): 
+* AAPL,ig-platform-id (desktop):
   * 0x3EA50000 (default)
     * 0000A53E (hex swapped)
   * 0x3E9B0007 (desktop, recommended)
     * 07009B3E (hex swapped)
   * 0x3E920003 (Headless)
     * 0300923E (hex swapped)
-* AAPL,ig-platform-id (laptop): 
+* AAPL,ig-platform-id (laptop):
   * 0x3EA50009 (default)
     * 0900A53E (hex swapped)
 
@@ -209,7 +221,9 @@ Needed kexts:
 * [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
 ### **Ice Lake 10XXX**
+
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: Catalina(10.15.4)
 
 All iGPUs present here have support starting in macOS 10.15.4.
@@ -232,10 +246,10 @@ Needed kexts:
 
 ## Unsupported Intel iGPUs
 
-
 All GPUs listed here are GT1-based, meaning no support whatsoever.
 
 ### **Braswell**
+
 #### Highest Supported OS: None
 
 Unsupported:
@@ -244,6 +258,7 @@ Unsupported:
 * HD 405
 
 ### **Skylake**
+
 #### Highest Supported OS: None
 
 Unsupported:
@@ -251,6 +266,7 @@ Unsupported:
 * HD 510
 
 ### **Apollo Lake**
+
 #### Highest Supported OS: None
 
 Unsupported:
@@ -259,6 +275,7 @@ Unsupported:
 * HD 505
 
 ### **Kaby Lake**
+
 #### Highest Supported OS: None
 
 Unsupported:
@@ -266,6 +283,7 @@ Unsupported:
 * HD 610
 
 ### **Kaby Lake refresh/Coffee Lake/Comet Lake 8XXX/9XXX**
+
 #### Highest Supported OS: None
 
 Unsupported:
@@ -273,6 +291,7 @@ Unsupported:
 * UHD 610
 
 ### **Gemini Lake**
+
 #### Highest Supported OS: None
 
 Unsupported:
