@@ -8,9 +8,7 @@ Most 550s will **not** work except for some models like [Sapphire Pulse 550 640 
 
 As mentioned above, RX 550 models come in 2 flavours known as Baffin and Lexa. The former is officially supported in macOS however the latter is not. Here we have a simple breakdown explaining how to determine which GPU is Baffin and which is Lexa even if OEMs do not openly mention.
 
-
 **Specification differences**:
-
 
 * **Old Lexa Core (incompatible)**:
 
@@ -37,12 +35,13 @@ As mentioned above, RX 550 models come in 2 flavours known as Baffin and Lexa. T
 
 And for those who are wondering why this list contradicts [Tonymacx86's buyers guide](https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/#AMD_Graphics_Cards), remember that their bottom line is to get users to buy hardware through their affiliate program. This is also the same website that recommended Pascal GPUs [5 months after Mojave's release](https://web.archive.org/web/20190213211919/https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/), would you really trust a website that's neither kept up-to date and offers _shivers_ the [beast tools](https://github.com/khronokernel/Tonymcx86-stance)?
 
-**Important note for MSI Navi users**: 
+**Important note for MSI Navi users**:
 
 * 10.15.X installers and under currently have a VBIOS bug which crashes installers if an MSI Navi card is present. This can be resolved by injecting `ATY,Rom#` in your GPU's DeviceProperties with any value. See here for more details: [Installer not working with 5700XT #901](https://github.com/acidanthera/bugtracker/issues/901)
 * MSI's Polaris and Vega line are not affected by this bug
 
 ## Powercolor
+
 ### **AVOID VEGA AND POLARIS MODELS**
 
 * [PowerColor Red Devil RX VEGA 56/64](https://www.powercolor.com/product?id=1511340918)
@@ -50,6 +49,7 @@ And for those who are wondering why this list contradicts [Tonymacx86's buyers g
 * [PowerColor Red Dragon RX 560/570](https://www.powercolor.com/products?id=1492658578&type=1493173679)
 
 ## XFX
+
 ### **AVOID VEGA AND 590/560/460 MODELS**
 
 * [XFX Reference RX Vega 56/64](http://xfxforce.com/en-us/products/amd-radeon-vega#*)
@@ -60,6 +60,7 @@ And for those who are wondering why this list contradicts [Tonymacx86's buyers g
 * [XFX RX 460](http://xfxforce.com/en-us/products/amd-radeon-rx-400-series#*)
 
 ## HIS
+
 ### **AVOID ALL MODELS**
 
 * [HIS RX 580 IceQ X² OC](http://www.hisdigital.com/gb/product2-943.shtml)
@@ -67,9 +68,9 @@ And for those who are wondering why this list contradicts [Tonymacx86's buyers g
 * [HIS RX 560 iCooler OC](http://www.hisdigital.com/un/product2-958.shtml)
 
 ## VisionTek
+
 ### **AVOID ALL MODELS**
 
 * [VisionTek RX 590 OC Limited Edition](https://www.visiontek.com/radeon-rx-590-oc-limited-edition.html)
 * [VisionTek OCPC RX 580](https://www.visiontek.com/ocpc-radeon-rx-580-8gb-gddr5-metallic-shroud.html)
 * [VisionTek RX 560 Overclocked](https://www.visiontek.com/radeon-rx-560-2gb-gddr5-oc.html)
-

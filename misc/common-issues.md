@@ -19,9 +19,11 @@ So some things to verify:
 ## DRM Broken
 
 **Intel GPU Users**
+
 * No fix, this is due to differences in Apple's iGPU firmware
 
 **AMD and Nvidia GPU Users**
+
 * See WhateverGreen's [DRM Chart](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md)
 
 ## Broken GPU Acceleration on R7/R9 GPUs
