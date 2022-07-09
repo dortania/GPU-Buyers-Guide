@@ -1,7 +1,5 @@
 # Introduction
 
-
-
 ![](logo.png)
 
 So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
@@ -44,4 +42,3 @@ So, something to keep in mind when running an unsupported GPU in macOS is will f
 > But can I render macOS on my iGPU but use the video outs on my unsupported GPU?
 
 Unfortunately not, and the reason is actually quite similar to how NVIDIA's Optimus technology functions. You would first need a way to grab/encode the iGPU's signal, send it towards the discrete GPU, then have said GPU decode the signal and display it. One small problem, decoding the signal would require proper GPU acceleration which your unsupported GPU doesn't have. So you will need to use your motherboard's video out ports no matter what.
-

@@ -1,5 +1,5 @@
 {
-  "name": "OpenCore-Desktop-Guide",
+  "name": "GPU-Buyers-Guide",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "name": "",
     "email": ""
   },
-  "repository": "/OpenCore-Desktop-Guide",
+  "repository": "dortania/GPU-Buyers-Guide",
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",
@@ -30,20 +30,15 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.5.3",
-    "vuepress": "^1.5.3",
-    "vuepress-plugin-fulltext-search": "^2.0.5",
-    "vuepress-plugin-medium-zoom": "^1.1.8",
-    "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-book": "0.0.3",
-    "vuepress-theme-dark-new": "^0.1.2",
-    "vuepress-theme-succinct": "^1.5.3",
-    "markdown-link-check": "^3.8.7",
-    "markdownlint-cli": "^0.27.1",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-fulltext-search": "^2.2.1",
+    "vuepress-plugin-medium-zoom": "^1.1.9",
+    "vuepress-plugin-zooming": "^1.1.8",
+    "vuepress-theme-succinct": "^1.7.2",
+    "markdown-link-check": "^3.10.2",
+    "markdownlint-cli": "^0.31.1",
     "run-script-os": "^1.1.6",
-    "spellchecker-cli": "^4.8.0"
-  },
-  "dependencies": {
-    "vuepress-theme-yuu": "^2.3.0"
+    "spellchecker-cli": "^4.11.0"
   }
 }

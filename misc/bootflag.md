@@ -24,9 +24,9 @@ This little section here is a short explainer on some of the more commonly usefu
 ## Nvidia Boot Arguments
 
 * `nvda_drv=1`
-  * A boot flag that refuses to die, **STOP USING IT**. Used for enabling Nvidia's WebDrivers pre-macOS Sierra but no longer works as it was moved to an NVRAM variable instead. 
-     * For Clover, use `NvidiaWeb` under `System Parameters` in your config.plist. 
-     * For OpenCore, use `NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> nvda_drv: <31>` in your config.plist.
+  * A boot flag that refuses to die, **STOP USING IT**. Used for enabling Nvidia's WebDrivers pre-macOS Sierra but no longer works as it was moved to an NVRAM variable instead.
+    * For Clover, use `NvidiaWeb` under `System Parameters` in your config.plist.
+    * For OpenCore, use `NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> nvda_drv: <31>` in your config.plist.
   * The WebDrivers in Sierra and High Sierra also support another boot argument called `nvda_drv_vrl=1`, this will actually do the same thing as `nvda_drv=1` did in previous versions
 * `nv_disable=1`
   * Forces GPU into VESA mode(no GPU acceleration), useful for troubleshooting and when having issues installing Nvidia's WebDrivers. This is a macOS flag so WEG is not needed.
@@ -36,7 +36,7 @@ This little section here is a short explainer on some of the more commonly usefu
 * `shikigva=1`
   * Needed when you're wanting to use your iGPU's display out along with the dGPU, allows the iGPU to handle hardware decoding even when not using a connector-less framebuffer
 * `shikigva=4`
-  * Needed to support hardware accelerated video decoding on systems that are newer than Haswell, may need to be used with `shikigva=12` to patch the needed processes 
+  * Needed to support hardware accelerated video decoding on systems that are newer than Haswell, may need to be used with `shikigva=12` to patch the needed processes
 * `agdpmod=vit9696`
   * Disables `board-id` check, may be needed for when screen turns black after finishing booting
 * `agdpmod=pikera`
@@ -57,4 +57,3 @@ This little section here is a short explainer on some of the more commonly usefu
 * `igfxfw=2`
   * Enables loading Apple's GUC firmware for iGPUs, requires a 9th Gen chipset or newer(ie Z390)
   * See here for more info: [Fixing DRM](https://dortania.github.io/OpenCore-Post-Install/universal/drm.html#testing-hardware-acceleration-and-decoding)
-
