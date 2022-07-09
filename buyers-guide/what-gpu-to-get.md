@@ -2,16 +2,16 @@
 
 **Please make sure to read** [GPUs to Avoid First](gpu-avoid.md) **as there's important info there**
 
-So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx)or newer as GCN 3 and older can loose support at any time and the same applies for Nvidia's Kepler. Here are the cards we recommend and do remember that reference cards are generally the safest solution
+So you just want a GPU recommendation? Well honestly in the current situation the only cards we'd recommend would be from AMD that are either Polaris(Rx 4xx, 5xx) or newer as GCN 3 and older can lose support at any time. Here are the cards we recommend and do remember that reference cards are generally the safest solution.
 
 ## Fanless GPUs(0 DB)
 
-Unfortunately the variety for fanless GPUs are quite small, while there are many GPUs with fan-stop these aren't perfect solutions. Models with no fan at all are limited to either GT 1030s which are unsupported past High Sierra or the GT 710 which could loose support some time soon.
+Unfortunately the variety for fanless GPUs are quite small, while there are many GPUs with fan-stop these aren't perfect solutions. Models with no fan at all are limited to either GT 1030s which are unsupported past High Sierra or the GT 710 which is unsupported past Big Sur.
 
-### Fanless models:
+### Fanless models
 
 * [GT 710](https://www.geforce.com/hardware/desktop-gpus/geforce-gt-710/specifications)(basically every model is single slot, half height and many are fanless)
- 
+
 ### Navi(Fan Stop)
 
 Fan-Stop models(no fan spin under 50/60C generally):
@@ -135,4 +135,3 @@ While it may seem obvious that the most powerful GPU would be the Radeon VII, do
 * [Sapphire Pulse RX 5700 XT](https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-5700-xt-8g-gddr6)
 * [Gigabyte Gaming OC RX 5700 XT](https://www.gigabyte.com/ca/Graphics-Card/GV-R57XTGAMING-OC-8GD#kf)
 * [Asus Strix RX 5700 XT](https://www.asus.com/ca-en/Graphics-Cards/ROG-STRIX-RX5700XT-O8G-GAMING/)
-

@@ -5,6 +5,7 @@
 ### **Navi 23 series**
 
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: Monterey (12.1)
 
 As of 12.1, Apple has added support for the RX 6600 XT.
@@ -22,6 +23,7 @@ Needed kexts:
 ### **Navi 21 series**
 
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: Big Sur (11.4)
 
 As of 11.4, Apple has added Navi 21 support!
@@ -43,6 +45,7 @@ Needed kexts:
 ### **Navi 10 Series**
 
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: Catalina (10.15.1)
 
 Currently, as of 10.15.1, Apple has finally added RDNA and Navi support!
@@ -69,13 +72,15 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
-**Important note for MSI Navi users**: 
+**Important note for MSI Navi users**:
 
 * Catalina (10.15) installers and under currently have a VBIOS bug which crashes installers if an MSI Navi card is present. This can be resolved by injecting `ATY,Rom#` in your GPU's DeviceProperties with any value. See here for more details: [Installer not working with 5700XT #901](https://github.com/acidanthera/bugtracker/issues/901)
 * MSI's Polaris and Vega line are not affected by this bug.
 
 ### **Vega 20 series**
+
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: Mojave (10.14.5)
 
 All Vega based dedicated GPUs are natively supported in macOS with Vega 20 GPUs starting in Mojave.
@@ -90,7 +95,9 @@ Needed kexts:
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 ### **Vega 10 series**
+
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: High Sierra (10.13)
 
 Just like with Vega 20, Vega 10 GPUs are natively supported in macOS, though these cards' support starts in High Sierra.
@@ -116,7 +123,9 @@ Needed kexts:
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 ### **Polaris 10 and 20 series**
+
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: Sierra (10.12)
 
 Regarding Polaris, basically every model of card is supported as long as it’s running either a Polaris or Baffin core. Lower end cards like the RX 550 may run a Lexa core, meaning no support in macOS.
@@ -156,7 +165,9 @@ Needed kexts:
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 ### **R7/R9**
+
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: Yosemite (10.10)
 
 R7/R9 is also natively supported without too much issue, but we cannot guarantee the success of R5 and R7 cards due to few reports of success with them. Also, be wary that differing from the reference design of these cards has many more issues that require a lot of work to get them to run properly. Sapphire cards are your best bet. Also, the R9 280X/380X are hit or miss on compatibility.
@@ -194,7 +205,9 @@ Extras:
 * [Renaming GPUs (Fake ID)](https://dortania.github.io/Getting-Started-With-ACPI/Universal/spoof.html)
 
 ### **HD 8000 Series (8xxx)**
+
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: Mountain Lion (10.8)
 
 * HD 8740
@@ -207,7 +220,9 @@ Extras:
 * HD 8970
 
 ### **HD 7000 Series (7xxx)**
+
 #### Highest Supported OS: Current/Monterey (12)
+
 #### Initial Supported OS: Mountain Lion (10.8)
 
 * Dual AMD FirePro D300
@@ -241,6 +256,7 @@ Extras:
 ## Unsupported AMD GPUs
 
 ### **Navi 2X**
+
 #### Highest Supported OS: None
 
 While Navi 21 and Navi 23 are supported, the other cores are not at the time of writing.
@@ -250,6 +266,7 @@ Unsupported Cards:
 * RX 6700 XT
 
 ### **Lexa Series**
+
 #### Highest Supported OS: None
 
 While these GPUs may share the same family name as the Polaris GPUs, these cards are drastically different, meaning no support in any version of macOS. Similar to Navi and unsupported NVIDIA GPUs, you'll need to disable the Lexa GPU due to how the VESA drivers that unsupported GPUs run off of break sleep and other functions of macOS. Please refer to the [Disabling GPUs](https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.html) guide for more info.
@@ -264,6 +281,7 @@ Unsupported Cards:
 * RX 540
 
 ### **AMD APUs (ALL VARIANTS)**
+
 #### Highest Supported OS: None
 
 The integrated GPUs found on mobile and lower end desktop AMD CPUs have unfortunately never had official support with community support quite lacking. While possible to get a display out with some work, graphics acceleration is basically impossible.
