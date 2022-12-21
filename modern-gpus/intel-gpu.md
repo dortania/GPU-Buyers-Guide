@@ -51,7 +51,7 @@ Needed kexts:
 
 #### Initial Supported OS: Mountain Lion (10.8)
 
-Most iGPUs are supported here, only one to be concerned about is the HD 4400, which requires either a fake ID with WhateverGreen or a modified APCI path.
+Most iGPUs are supported here, only one to be concerned about is the HD 4400, which requires either a fake ID with WhateverGreen or a modified ACPI path.
 
 Supported iGPUs:
 
