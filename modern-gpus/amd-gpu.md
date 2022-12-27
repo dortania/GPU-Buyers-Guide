@@ -259,7 +259,7 @@ Extras:
 
 #### Highest Supported OS: None
 
-While Navi 21 and Navi 23 are supported, Navi 22 and Navi 3X are not at the time of writing.
+While Navi 21 and Navi 23 are supported, but Navi 22, Navi 24 and Navi 3X are not at the time of writing.
 
 Unsupported Cards:
 
@@ -267,6 +267,8 @@ Unsupported Cards:
 * RX 7900 XT
 * RX 6750 XT
 * RX 6700 XT
+* RX 6500 XT
+* RX 6400
 
 ### **Lexa Series**
 
