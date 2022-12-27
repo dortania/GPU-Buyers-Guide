@@ -255,15 +255,20 @@ Extras:
 
 ## Unsupported AMD GPUs
 
-### **Navi 2X**
+### **Navi 2X and Navi 3X**
 
 #### Highest Supported OS: None
 
-While Navi 21 and Navi 23 are supported, the other cores are not at the time of writing.
+While Navi 21 and Navi 23 are supported, Navi 22, Navi 24 and Navi 3X based graphic cards are not at the time of writing.
 
 Unsupported Cards:
 
+* RX 7900 XTX
+* RX 7900 XT
+* RX 6750 XT
 * RX 6700 XT
+* RX 6500 XT
+* RX 6400
 
 ### **Lexa Series**
 
