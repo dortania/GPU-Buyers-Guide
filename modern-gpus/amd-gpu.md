@@ -259,7 +259,7 @@ Extras:
 
 #### Highest Supported OS: None
 
-While Navi 21 and Navi 23 are supported, but Navi 22, Navi 24 and Navi 3X are not at the time of writing.
+While Navi 21 and Navi 23 are supported, Navi 22, Navi 24 and Navi 3X based graphic cards are not at the time of writing.
 
 Unsupported Cards:
 
