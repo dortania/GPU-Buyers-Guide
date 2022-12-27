@@ -11,7 +11,7 @@ Unfortunately the variety for fanless GPUs are quite small, while there are many
 ### Fanless models
 
 None available
- 
+
 ### Navi(Fan Stop)
 
 Fan-Stop models(no fan spin under 50/60C generally):
@@ -63,7 +63,6 @@ Fan-Stop models(no fan spin under 50/60C generally):
   * For 550 models, ensure it's Baffin based, this is one of the first RX 550 models that run a baffin core instead of Lexa
   * See [What GPUs to Avoid](./gpu-avoid.md) for more info
 
-
 ## Half-height GPUs
 
 ### AMD: GCN 1-3
@@ -76,7 +75,6 @@ Fan-Stop models(no fan spin under 50/60C generally):
 * [MSI RX 460 LP](https://www.msi.com/Graphics-card/Radeon-RX-460-2GT-LP.html)
 * [MSI RX 560 LP OC](https://www.msi.com/Graphics-card/radeon-rx-560-4gt-lp-oc.html)
 * [Yeston RX 550 640 SP](https://www.aliexpress.com/item/33018130563.html)
-
 
 ## The Most Powerful GPUs
 
