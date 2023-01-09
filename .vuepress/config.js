@@ -147,10 +147,10 @@ module.exports = {
      * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
      */
     plugins: [
-        '@vuepress/plugin-back-to-top',
+        '@vuepress/back-to-top',
         'vuepress-plugin-smooth-scroll',
-		'fulltext-search',
-        ['vuepress-plugin-medium-zoom',
+		'vuepress-plugin-fulltext-search',
+        ['@vuepress/medium-zoom',
             {
                 selector: "img",
                 options: {
