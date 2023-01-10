@@ -159,7 +159,7 @@ Needed kexts:
 
 ### **Kaby Lake 7XXX**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Current/Ventura (13)
 
 #### Initial Supported OS: Sierra (10.12.6)
 
@@ -192,7 +192,7 @@ Needed kexts:
 
 ### **Kaby Lake Refresh/Coffee Lake/Coffee Lake Refresh/Whiskey Lake/Comet Lake 8XXX/9XXX/10XXX**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Current/Ventura (13)
 
 #### Initial Supported OS: High Sierra(10.13.6)
 
@@ -228,7 +228,7 @@ Needed kexts:
 
 ### **Ice Lake 10XXX**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Current/Ventura (13)
 
 #### Initial Supported OS: Catalina(10.15.4)
 
