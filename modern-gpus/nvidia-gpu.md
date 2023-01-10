@@ -61,7 +61,6 @@ Extras:
 
 * `shikigva=40` boot flag: Swaps boardID to iMac14,2 for better Nvidia Support and whitelists patches
 
-
 ### **Lovelace Series (RTX 40xx)**
 
 #### Highest Supported OS: None
@@ -145,7 +144,7 @@ Quadro:
 
 #### Initial Supported OS: High Sierra 17G3025 (10.13.6)*
 
-It turns out that NVIDIA actually released one version of the Web Drivers with Volta support: 387.10.10.15.15.108. However, this version was reported as unstable and NVIDIA pulled it soon afterward. Ever since, no further versions of the Web Drivers have been released with Volta support. Because of the bugginess, the fact that only one build of macOS (which is now unsupported) has supported these GPUs, and that you can no longer obtain this version of the Web Drivers without resorting to shady sources, we're going to treat them as unsupported.
+It turns out that NVIDIA actually released one version of the Web Drivers with Volta support: [387.10.10.15.15.108](https://github.com/dortania/PatcherSupportPkg/blob/master/Universal-Binaries/WebDriver-387.10.10.10.40.140/WebDriver-387.10.10.15.15.108.pkg). However, this version was reported as unstable for some users and NVIDIA pulled it soon afterward. Ever since, no further versions of the Web Drivers have been released with Volta support. Because of the bugginess and that NVIDIA has pulled these drivers, we're going to treat them as unsupported.
 
 These cards include:
 
@@ -155,6 +154,12 @@ These cards include:
 Quadro:
 
 * Quadro GV100
+
+::: tip Note
+
+Some users have reported that version 387.10.10.15.15.108 of the Web Drivers may support all versions of High Sierra. However, since NVIDIA only released it for 17G3025, we are only specifying that version explicitly.
+
+:::
 
 ### **Kepler Series(GK106 Variants)**
 
