@@ -4,7 +4,7 @@
 
 So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
 
-**What GPUs are supported with macOS Monterey?**
+**What GPUs are supported with macOS Ventura?**
 
 Well, you've come to the right place, we'll give a quick rundown on the situation and go into more detail on exact GPUs we recommend.
 
@@ -33,7 +33,7 @@ Things to remember:
 * macOS does not support either SLI, Crossfire or GPUs with multiple main cores (like the Radeon Pro Duo). This may change with the release of the Radeon Pro Vega II Duo in the Mac Pro.
 * Getting audio through HDMI/DisplayPort may require extra work with both AppleALC.kext and some other IOReg edits
 * GPU overclocking is limited to Vega 10 GPUs with [PyVega](https://github.com/corpnewt/PyVega)
-* Running supported GPUs alongside unsupported GPUs can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling GPUs](https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.html) for more info.
+* Running supported GPUs alongside unsupported GPUs can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling GPUs](https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.html) guide for more info.
 
 ## Can I run an unsupported GPU in my hack?
 

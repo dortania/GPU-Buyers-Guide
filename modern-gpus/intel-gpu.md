@@ -47,7 +47,7 @@ Needed kexts:
 
 ### **Haswell 4XXX**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Monterey (12)
 
 #### Initial Supported OS: Mountain Lion (10.8)
 
@@ -82,7 +82,7 @@ Needed kexts:
 
 ### **Broadwell 5XXX**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Monterey (12)
 
 #### Initial Supported OS: Yosemite (10.10.2)
 
@@ -116,11 +116,17 @@ Needed kexts:
 
 ### **Skylake 6XXX**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Ventura (13)*
 
 #### Initial Supported OS: El Capitan (10.11.4)
 
-All iGPUs are supported here, no issues to report.
+::: tip macOS Ventura Note
+
+macOS Ventura drops support for Skylake iGPUs. However, since Skylake and Kaby Lake iGPUs are so similar, Skylake iGPUs can be spoofed as Kaby Lake in order to make use of the Kaby Lake kexts, which are still present in Ventura. Using WhateverGreen v1.6.1 and up, change your `device-id` and `AAPL,ig-platform-id` to the most similar Kaby Lake model, and if using the same EFI to boot Monterey and below, add `-igfxsklaskbl` to your boot args.
+
+:::
+
+Most iGPUs are supported here (excluding the HD 510), no issues to report.
 
 Supported iGPUs:
 
@@ -184,13 +190,13 @@ Needed kexts:
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 * [Intel Framebuffer Patching guide](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 
-### **Kaby Lake refresh/Coffee Lake/Comet Lake 8XXX/9XXX**
+### **Kaby Lake Refresh/Coffee Lake/Coffee Lake Refresh/Whiskey Lake/Comet Lake 8XXX/9XXX/10XXX**
 
 #### Highest Supported OS: Current/Monterey (12)
 
 #### Initial Supported OS: High Sierra(10.13.6)
 
-All iGPUs are supported here, though pay attention as the [i3-8100 and i3-8350K use a different UHD 630 (184 shader units vs 192)](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Whiskey_Lake) than the rest of the CPU family which requires spoofing for support in High Sierra.
+Most iGPUs are supported here (except the UHD 610 in the i5-10200H), though pay attention as the [i3-8100 and i3-8350K use a different UHD 630 (184 shader units vs 192)](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Kaby_Lake_Refresh_/_Amber_Lake_/_Coffee_Lake_/_Whiskey_Lake) than the rest of the CPU family which requires spoofing for support in High Sierra.
 
 Supported:
 
@@ -226,7 +232,7 @@ Needed kexts:
 
 #### Initial Supported OS: Catalina(10.15.4)
 
-All iGPUs present here have support starting in macOS 10.15.4.
+Most iGPUs present here have support (except the unsupported "UHD Graphics" G1) starting in macOS 10.15.4.
 
 Supported:
 
@@ -282,7 +288,7 @@ Unsupported:
 
 * HD 610
 
-### **Kaby Lake refresh/Coffee Lake/Comet Lake 8XXX/9XXX**
+### **Kaby Lake Refresh/Coffee Lake/Coffee Lake Refresh/Whiskey Lake/Comet Lake 8XXX/9XXX/10XXX**
 
 #### Highest Supported OS: None
 
@@ -298,3 +304,70 @@ Unsupported:
 
 * UHD 600
 * UHD 605
+
+### **Ice Lake 10XXX**
+
+#### Highest Supported OS: None
+
+Unsupported:
+
+* UHD Graphics (G1)
+
+The following GPUs are Xe based, with no support in **any** version of macOS:
+
+### **Tiger Lake/Rocket Lake**
+
+#### Highest Supported OS: None
+
+All of the iGPUs for these CPUs are unsupported, as they are Xe based.
+
+Unsupported cards include:
+
+* UHD Graphics for 11th Gen Intel Processors
+* Intel Xe Graphics
+
+### **Alder Lake/Rocket Lake**
+
+#### Highest Supported OS: None
+
+All of the iGPUs for these CPUs are unsupported, as they are Xe based.
+
+Unsupported cards include:
+
+* UHD Graphics for 12th Gen Intel Processors
+* Intel Xe Graphics
+
+### **Raptor Lake**
+
+#### Highest Supported OS: None
+
+All of the iGPUs for these CPUs are unsupported, as they are Xe based.
+
+Unsupported cards include:
+
+* UHD Graphics for 13th Gen Intel Processors
+* Intel Xe Graphics
+
+### Discrete GPUs
+
+#### Highest Supported OS: None
+
+So Intel finally made a discrete GPU. Lmao. All of them are unsupported.
+
+Unsupported cards include:
+
+##### Alchemist
+
+* Arc A310
+* Arc A380
+* Arc A580
+* Arc A750
+* Arc A770 (8GB/16GB)
+* Arc A350M
+* Arc A370M
+* Arc A550M
+* Arc A730M
+* Arc A770M
+* Arc A30M
+* Arc A40
+* Arc A50

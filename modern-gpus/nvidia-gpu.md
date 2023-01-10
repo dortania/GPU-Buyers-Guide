@@ -61,6 +61,38 @@ Extras:
 
 * `shikigva=40` boot flag: Swaps boardID to iMac14,2 for better Nvidia Support and whitelists patches
 
+
+### **Lovelace Series (RTX 40xx)**
+
+#### Highest Supported OS: None
+
+Unfortunately no support in any version of macOS as no drivers were ever written even for High Sierra. Not much else to add.
+
+These cards include:
+
+* RTX 4090
+* RTX 4080
+* RTX 4070 Ti
+* RTX 4070
+
+Workstation:
+
+* RTX 6000 Ada Generation
+
+Data Center:
+
+* L40
+
+### **Hopper Series (H)**
+
+#### Highest Supported OS: None
+
+Unfortunately no support in any version of macOS as no drivers were ever written even for High Sierra. Not much else to add.
+
+These cards include:
+
+* H100
+
 ### **Ampere Series (RTX 30xx)**
 
 #### Highest Supported OS: None
