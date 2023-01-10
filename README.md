@@ -1,6 +1,6 @@
 # Introduction
 
-![](logo.png)
+![Ventura image](header.jpg)
 
 So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
 
