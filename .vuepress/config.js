@@ -107,7 +107,7 @@ module.exports = {
             children: [
                 '/modern-gpus/amd-gpu',
                 '/modern-gpus/nvidia-gpu',
-				'/modern-gpus/intel-gpu',
+                '/modern-gpus/intel-gpu',
             ]
         },
         {
@@ -117,7 +117,7 @@ module.exports = {
             children: [
                 '/legacy-gpus/legacy-amd',
                 '/legacy-gpus/legacy-nvidia',
-				'/legacy-gpus/legacy-intel',
+                '/legacy-gpus/legacy-intel',
             ]
         },
         {
@@ -136,23 +136,23 @@ module.exports = {
             children: [
                 '/misc/bootflag',
                 '/misc/discrete-laptops',
-				'/misc/common-issues',
-				'/misc/kvm',
-				'misc/credit',
+                '/misc/common-issues',
+                '/misc/kvm',
+                'misc/credit',
             ]
         },
-    ],
-},
+        ],
+    },
     /**
      * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
      */
     plugins: [
         '@vuepress/back-to-top',
         'vuepress-plugin-smooth-scroll',
-		'vuepress-plugin-fulltext-search',
+        'vuepress-plugin-fulltext-search',
         ['@vuepress/medium-zoom',
             {
-                selector: "img",
+                selector: ".theme-succinct-content :not(a) > img",
                 options: {
                     background: 'var(--bodyBgColor)'
                 }
