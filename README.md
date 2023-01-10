@@ -1,6 +1,6 @@
 # Introduction
 
-![Ventura image](header.jpg)
+![Ventura image](./images/header.jpg)
 
 So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
 
@@ -10,7 +10,7 @@ Well, you've come to the right place, we'll give a quick rundown on the situatio
 
 ## A quick refresher with NVIDIA and Web Drivers
 
-![WebDrivers](WebDrivers.gif)
+![WebDrivers](./images/WebDrivers.gif)
 
 Well currently as of the time of writing, we've gone multiple OS cycles without official drivers from NVIDIA for their Maxwell, Pascal, Turing, or Ampere GPUs. What this means is that users of these GPUs have no support for Mojave or later, so they're stuck with macOS High Sierra. Who's to blame? Well it's 2 giant, egotistical companies who both refuse to work together so the blame can go both ways. Do keep in mind that the WebDrivers have a VRAM leakage issue that they've yet to address, so a theory to why Apple refuses Nvidia drivers in macOS may be due to how Nvidia refuses to hand over the driver stack. Think it's a coincidence that both AMD and Intel have open-sourced drivers? Well, either way, it doesn't change the fact there's no support.
 
