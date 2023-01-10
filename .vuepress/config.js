@@ -3,20 +3,7 @@ const {
 } = require('../package')
 
 module.exports = {
-    /**
-     * Ref：https://v1.vuepress.vuejs.org/config/#title
-     */
     title: 'GPU Buyers Guide',
-    /**
-     * Ref：https://v1.vuepress.vuejs.org/config/#description
-     */
-    description: description,
-
-    /**
-     * Extra tags to be injected to the page HTML `<head>`
-     *
-     * ref：https://v1.vuepress.vuejs.org/config/#head
-     */
     head: [
         ['meta', {
             name: 'theme-color',
@@ -37,12 +24,30 @@ module.exports = {
     ],
     base: '/GPU-Buyers-Guide/',
 
+    watch: {
+        $page(newPage, oldPage) {
+            if (newPage.key !== oldPage.key) {
+                requestAnimationFrame(() => {
+                    if (this.$route.hash) {
+                        const element = document.getElementById(this.$route.hash.slice(1));
 
-    /**
-     * Theme configuration, here is the default theme configuration for VuePress.
-     *
-     * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-     */
+                        if (element && element.scrollIntoView) {
+                            element.scrollIntoView();
+                        }
+                    }
+                });
+            }
+        }
+    },
+
+    markdown: {
+        extendMarkdown: md => {
+            md.use(require('markdown-it-multimd-table'), {
+                rowspan: true,
+            });
+        }
+    },
+
     theme: 'vuepress-theme-succinct',
     globalUIComponents: [
         'ThemeManager'
@@ -51,13 +56,11 @@ module.exports = {
     themeConfig: {
         lastUpdated: true,
         repo: 'https://github.com/dortania/GPU-Buyers-Guide',
-        editLinks: false,
-        docsDir: '',
-        editLinkText: '',
+        editLinks: true,
+        editLinkText: 'Help us improve this page!',
         logo: '/homepage.png',
         nav: [{
             text: 'Dortania Guides',
-            ariaLabel: 'Language Menu',
             items: [{
                 text: 'Home Site',
                 link: 'https://dortania.github.io/'
@@ -84,12 +87,6 @@ module.exports = {
             },
             ]
         },
-            /*
-              {
-                text: 'Github',
-                link: 'https://github.com/dortania/OpenCore-Install-Guide'
-              }
-            */
         ],
         sidebar: [{
             title: 'Introduction',
@@ -143,9 +140,6 @@ module.exports = {
         },
         ],
     },
-    /**
-     * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-     */
     plugins: [
         '@vuepress/back-to-top',
         'vuepress-plugin-smooth-scroll',
