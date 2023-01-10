@@ -61,6 +61,37 @@ Extras:
 
 * `shikigva=40` boot flag: Swaps boardID to iMac14,2 for better Nvidia Support and whitelists patches
 
+### **Lovelace Series (RTX 40xx)**
+
+#### Highest Supported OS: None
+
+Unfortunately no support in any version of macOS as no drivers were ever written even for High Sierra. Not much else to add.
+
+These cards include:
+
+* RTX 4090
+* RTX 4080
+* RTX 4070 Ti
+* RTX 4070
+
+Workstation:
+
+* RTX 6000 Ada Generation
+
+Data Center:
+
+* L40
+
+### **Hopper Series (H)**
+
+#### Highest Supported OS: None
+
+Unfortunately no support in any version of macOS as no drivers were ever written even for High Sierra. Not much else to add.
+
+These cards include:
+
+* H100
+
 ### **Ampere Series (RTX 30xx)**
 
 #### Highest Supported OS: None
@@ -109,9 +140,11 @@ Quadro:
 
 ### **Volta Series (V)**
 
-#### Highest Supported OS: None
+#### Highest Supported OS: High Sierra 17G3025 (10.13.6)*
 
-The same idea as Turing, no drivers were ever written
+#### Initial Supported OS: High Sierra 17G3025 (10.13.6)*
+
+It turns out that NVIDIA actually released one version of the Web Drivers with Volta support: [387.10.10.15.15.108](https://github.com/dortania/PatcherSupportPkg/blob/master/Universal-Binaries/WebDriver-387.10.10.10.40.140/WebDriver-387.10.10.15.15.108.pkg). However, this version was reported as unstable for some users and NVIDIA pulled it soon afterward. Ever since, no further versions of the Web Drivers have been released with Volta support. Because of the reported bugginess and that NVIDIA has pulled these drivers, we're going to treat them as unsupported.
 
 These cards include:
 
@@ -122,9 +155,15 @@ Quadro:
 
 * Quadro GV100
 
+::: tip Note
+
+Some users have reported that version 387.10.10.15.15.108 of the Web Drivers may support all versions of High Sierra. However, since NVIDIA only released it for 17G3025, we are only specifying that version explicitly.
+
+:::
+
 ### **Kepler Series(GK106 Variants)**
 
-GPUs running the GK106 core have the unfortunate consequence of having a serious issue regarding VRAM leakage. This means that there's a high chance of distortion and overall instability when running these GPUs, which unfortunately has no real solution as even installing web drivers has no affect. A list of GPUs with this core can be found [here](https://www.techpowerup.com/gpu-specs/nvidia-gk106.g186).
+GPUs running the GK106 core have the unfortunate consequence of having a serious issue regarding VRAM leakage. This means that there's a high chance of distortion and overall instability when running these GPUs, which unfortunately has no real solution as even installing the Web Drivers has no effect. A list of GPUs with this core can be found [here](https://www.techpowerup.com/gpu-specs/nvidia-gk106.g186).
 
 Second generation Kepler:
 
@@ -164,7 +203,7 @@ Since NVIDIA can't comply to any naming conventions, they decided to make some 6
 
 #### Initial Supported OS: Sierra (10.12.4)
 
-Well pretty sure most users know what going on with Pascal and Maxwell, but I’ll just mention it quickly here. No support for these cards in Mojave and up, but macOS Sierra and High Sierra do support these cards with NVIDIA's somewhat shoddy drivers and Lilu + WhateverGreen. Make sure to update to build 17G14042 from the App Store before installing web drivers on High Sierra.
+Well pretty sure most users know what going on with Pascal and Maxwell, but I’ll just mention it quickly here. No support for these cards in Mojave and up, but macOS Sierra and High Sierra do support these cards with NVIDIA's somewhat shoddy drivers and Lilu + WhateverGreen. Make sure to update to build 17G14042 from the App Store before installing the Web Drivers on High Sierra.
 
 Supported cards:
 
@@ -174,11 +213,11 @@ Supported cards:
 * GTX 1080
 * GTX 1070 Ti
 * GTX 1070
-* GTX 1060( **Note**: GP104/GDDR5X variants are not supported by the web drivers)
+* GTX 1060( **Note**: GP104/GDDR5X variants are not supported by the Web Drivers)
 * GTX 1050 Ti
 * GTX 1050
 * GT 1030
-* GT 1010
+* GT 1010 (should theoretically work, but unverified)
 
 Quadro:
 
@@ -201,7 +240,7 @@ Needed kexts:
 Extras:
 
 * `shikigva=40` boot flag: Swaps boardID to iMac14,2 for better Nvidia Support and whitelists patches
-* `nvda_drv_vrl=1` boot flag: Used for enabling the web drivers
+* `nvda_drv_vrl=1` boot flag: Used for enabling the Web Drivers
 
 ### **Maxwell Series (GTX 9xx, 745, 750/Ti)**
 
@@ -242,4 +281,4 @@ Needed kexts:
 Extras:
 
 * `shikigva=40` boot flag: Swaps boardID to iMac14,2 for better Nvidia Support and whitelists patches
-* `nvda_drv_vrl=1` boot flag: Used for enabling the web drivers
+* `nvda_drv_vrl=1` boot flag: Used for enabling the Web Drivers

@@ -1,16 +1,16 @@
 # Introduction
 
-![](logo.png)
+![Ventura image](./images/header.jpg)
 
 So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
 
-**What GPUs are supported with macOS Monterey?**
+**What GPUs are supported with macOS Ventura?**
 
 Well, you've come to the right place, we'll give a quick rundown on the situation and go into more detail on exact GPUs we recommend.
 
 ## A quick refresher with NVIDIA and Web Drivers
 
-![WebDrivers](WebDrivers.gif)
+![WebDrivers](./images/WebDrivers.gif)
 
 Well currently as of the time of writing, we've gone multiple OS cycles without official drivers from NVIDIA for their Maxwell, Pascal, Turing, or Ampere GPUs. What this means is that users of these GPUs have no support for Mojave or later, so they're stuck with macOS High Sierra. Who's to blame? Well it's 2 giant, egotistical companies who both refuse to work together so the blame can go both ways. Do keep in mind that the WebDrivers have a VRAM leakage issue that they've yet to address, so a theory to why Apple refuses Nvidia drivers in macOS may be due to how Nvidia refuses to hand over the driver stack. Think it's a coincidence that both AMD and Intel have open-sourced drivers? Well, either way, it doesn't change the fact there's no support.
 
@@ -33,7 +33,7 @@ Things to remember:
 * macOS does not support either SLI, Crossfire or GPUs with multiple main cores (like the Radeon Pro Duo). This may change with the release of the Radeon Pro Vega II Duo in the Mac Pro.
 * Getting audio through HDMI/DisplayPort may require extra work with both AppleALC.kext and some other IOReg edits
 * GPU overclocking is limited to Vega 10 GPUs with [PyVega](https://github.com/corpnewt/PyVega)
-* Running supported GPUs alongside unsupported GPUs can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling GPUs](https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.html) for more info.
+* Running supported GPUs alongside unsupported GPUs can have weird consequences as unsupported GPUs run off VESA drivers which have the issue in which it can break sleep and other functions in macOS. Please refer to the [Disabling GPUs](https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.html) guide for more info.
 
 ## Can I run an unsupported GPU in my hack?
 

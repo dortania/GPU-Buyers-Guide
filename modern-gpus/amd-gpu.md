@@ -4,7 +4,7 @@
 
 ### **Navi 23 series**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Current/Ventura (13)
 
 #### Initial Supported OS: Monterey (12.1)
 
@@ -22,7 +22,7 @@ Needed kexts:
 
 ### **Navi 21 series**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Current/Ventura (13)
 
 #### Initial Supported OS: Big Sur (11.4)
 
@@ -44,7 +44,7 @@ Needed kexts:
 
 ### **Navi 10 Series**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Current/Ventura (13)
 
 #### Initial Supported OS: Catalina (10.15.1)
 
@@ -79,7 +79,7 @@ Needed kexts:
 
 ### **Vega 20 series**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Current/Ventura (13)
 
 #### Initial Supported OS: Mojave (10.14.5)
 
@@ -96,7 +96,7 @@ Needed kexts:
 
 ### **Vega 10 series**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Current/Ventura (13)
 
 #### Initial Supported OS: High Sierra (10.13)
 
@@ -124,7 +124,7 @@ Needed kexts:
 
 ### **Polaris 10 and 20 series**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Current/Ventura (13)
 
 #### Initial Supported OS: Sierra (10.12)
 
@@ -166,7 +166,7 @@ Needed kexts:
 
 ### **R7/R9**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Monterey (12)
 
 #### Initial Supported OS: Yosemite (10.10)
 
@@ -206,7 +206,7 @@ Extras:
 
 ### **HD 8000 Series (8xxx)**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Monterey (12)
 
 #### Initial Supported OS: Mountain Lion (10.8)
 
@@ -221,7 +221,7 @@ Extras:
 
 ### **HD 7000 Series (7xxx)**
 
-#### Highest Supported OS: Current/Monterey (12)
+#### Highest Supported OS: Monterey (12)
 
 #### Initial Supported OS: Mountain Lion (10.8)
 
