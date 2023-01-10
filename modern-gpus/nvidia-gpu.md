@@ -144,7 +144,7 @@ Quadro:
 
 #### Initial Supported OS: High Sierra 17G3025 (10.13.6)*
 
-It turns out that NVIDIA actually released one version of the Web Drivers with Volta support: [387.10.10.15.15.108](https://github.com/dortania/PatcherSupportPkg/blob/master/Universal-Binaries/WebDriver-387.10.10.10.40.140/WebDriver-387.10.10.15.15.108.pkg). However, this version was reported as unstable for some users and NVIDIA pulled it soon afterward. Ever since, no further versions of the Web Drivers have been released with Volta support. Because of the bugginess and that NVIDIA has pulled these drivers, we're going to treat them as unsupported.
+It turns out that NVIDIA actually released one version of the Web Drivers with Volta support: [387.10.10.15.15.108](https://github.com/dortania/PatcherSupportPkg/blob/master/Universal-Binaries/WebDriver-387.10.10.10.40.140/WebDriver-387.10.10.15.15.108.pkg). However, this version was reported as unstable for some users and NVIDIA pulled it soon afterward. Ever since, no further versions of the Web Drivers have been released with Volta support. Because of the reported bugginess and that NVIDIA has pulled these drivers, we're going to treat them as unsupported.
 
 These cards include:
 
