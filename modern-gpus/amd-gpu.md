@@ -44,13 +44,6 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
-<details>
-  <summary>Navi 21 and 23 series without WhateverGreen</summary>
-  
- On macOS Ventura, by setting iMacPro1,1 or MacPro7,1 SMBIOS you can use Navi 21 and 23 cards without WhateverGreen or `agdpmod=pikera` in boot args.
-  
-</details>
-
 ### **Navi 10 Series**
 
 #### Highest Supported OS: Current/Ventura (13)
@@ -74,7 +67,7 @@ Radeon Pro:
 * Radeon Pro W5500
 * Radeon Pro W5700
 
-Note: Most Navi 10 cards currently require the boot argument `agdpmod=pikera` to get proper display out.
+Note: Most Navi 10 and 14 cards currently require the boot argument `agdpmod=pikera` to get proper display out.
 
 Needed kexts:
 
@@ -139,7 +132,7 @@ Needed kexts:
 
 Regarding Polaris, basically every model of card is supported as long as it’s running either a Polaris or Baffin core. Lower end cards like the RX 550 may run a Lexa core, meaning no support in macOS.
 
-The only brands **you should avoid with the Polaris series would be PowerColor, HIS and VisionTek** as many users have had bootloader and macOS boot issues. Other users have found fixes/workarounds, though nothing consistent. This seems to be caused by having an odd VBIOS that doesn't communicate well with macOS and the only real solution is flashing another VBIOS, which is not ideal for most users.
+The only brands **you should avoid with the Polaris series would be XFX (460/560 models), PowerColor, HIS and VisionTek** as many users have had bootloader and macOS boot issues. Other users have found fixes/workarounds, though nothing consistent. This seems to be caused by having an odd VBIOS that doesn't communicate well with macOS and the only real solution is flashing another VBIOS, which is not ideal for most users.
 
 Supported cards:
 
