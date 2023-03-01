@@ -28,7 +28,7 @@ Needed kexts:
 
 #### Initial Supported OS: Big Sur (11.4)
 
-As of 11.4, Apple has added Navi 21 support!
+As of 11.4, Apple has added Navi 21 support.
 
 Supported Cards:
 
@@ -50,7 +50,7 @@ Needed kexts:
 
 #### Initial Supported OS: Catalina (10.15.1)
 
-Currently, as of 10.15.1, Apple has finally added RDNA and Navi support!
+Currently, as of 10.15.1, Apple has finally added RDNA and Navi support.
 
 Supported Cards:
 
