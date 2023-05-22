@@ -70,6 +70,7 @@ Similar to Fermi, these GPUs are supported by High Sierra, but don't generally e
 ### Initial Supported OS: Leopard (10.5)
 
 * GeForce 8800
+* GeForce 8600GT
 
 Quadro:
 
