@@ -152,7 +152,7 @@ Supported cards:
 * RX 570
 * RX 560X
 * RX 560
-* RX 550 (Baffin core)
+* RX 550 (Baffin core and Polaris 21 core)
 
 Radeon Pro:
 
