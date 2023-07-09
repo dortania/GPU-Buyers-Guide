@@ -132,7 +132,7 @@ Needed kexts:
 
 Regarding Polaris, basically every model of card is supported as long as it’s running either a Polaris or Baffin core. Lower end cards like the RX 550 may run a Lexa core, meaning no support in macOS.
 
-The only brands **you should avoid with the Polaris series would be XFX (460/560 models), PowerColor, HIS and VisionTek** as many users have had bootloader and macOS boot issues. Other users have found fixes/workarounds, though nothing consistent. This seems to be caused by having an odd VBIOS that doesn't communicate well with macOS and the only real solution is flashing another VBIOS, which is not ideal for most users.
+The only brands **you should avoid with the Polaris series would be XFX (460/560 models), PowerColor, HIS and VisionTek**, and **you should avoid the RX 580 2048SP**, as many users have had bootloader and macOS boot issues. Other users have found fixes/workarounds, though nothing consistent. This seems to be caused by having an odd VBIOS that doesn't communicate well with macOS and the only real solution is flashing another VBIOS, which is not ideal for most users.
 
 Supported cards:
 
