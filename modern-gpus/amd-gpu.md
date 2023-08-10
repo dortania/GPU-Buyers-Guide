@@ -188,14 +188,19 @@ Radeon Pro:
 * WX 7100
 * WX 5100
 * WX 4100
-* WX 3100 (Lexa core) (Fake ID needed)
-* WX 2100 (Lexa core) (Fake ID needed)
+* WX 3100 (Fake ID needed)
+* WX 2100 (Fake ID needed)
 * E9550
 
 Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+
+Extras:
+
+* `-radcodec`: Allows spoofed GPUs to use the HW video encoder
+* [Renaming GPUs (Fake ID)](https://dortania.github.io/Getting-Started-With-ACPI/Universal/spoof.html)
 
 ### **R7/R9**
 
