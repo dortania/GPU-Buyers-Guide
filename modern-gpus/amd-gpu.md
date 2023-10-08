@@ -255,22 +255,24 @@ Extras:
 * `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initialization
 * InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
 
-## Unsupported AMD GPUs
-
 ### **Navi 2X and Navi 3X**
 
-#### Highest Supported OS: None
+#### Highest Supported OS: Current/Sonoma (14)
 
-While Navi 21 and Navi 23 are supported, Navi 22, Navi 24 and Navi 3X based graphic cards are not at the time of writing.
+While Navi 21 and Navi 23 are already supported, an experimental kext named NootRX for Navi 22 and Navi 24 is in development. The developers were already able to bring Navi 22 support to macOS, while Navi 24 support is still worked on and is non-functional. Navi 3X based graphic cards still remain unsupported at the time of writing.
 
-Unsupported Cards:
+### **AMD APUs (ALL VARIANTS)**
 
-* RX 7900 XTX
-* RX 7900 XT
-* RX 6750 XT
-* RX 6700 XT
-* RX 6500 XT
-* RX 6400
+#### Highest Supported OS: Current/Sonoma (14)
+#### Initial Supported OS: Catalina (10.15)
+
+Until mid 2023 the integrated GPUs found on mobile and lower end desktop AMD CPUs have unfortunately never had official support, however the community is working on it by developing the NootedRed kext. While getting graphics acceleration is possible, the kext is still a work-in-progress and may not work as expected.
+
+Supported APUs:
+
+All Ryzen processors with integrated GPU from 1xxx to 5xxx and 7x30 series.
+
+## Unsupported AMD GPUs
 
 ### **Lexa Series**
 
@@ -286,16 +288,3 @@ Unsupported Cards:
 * RX 550 (Lexa core)
 * RX 540X
 * RX 540
-
-### **AMD APUs (ALL VARIANTS)**
-
-#### Highest Supported OS: None
-
-The integrated GPUs found on mobile and lower end desktop AMD CPUs have unfortunately never had official support with community support quite lacking. While possible to get a display out with some work, graphics acceleration is basically impossible.
-
-Unsupported APUs:
-
-* Vega 11 (Zen)
-* Vega 8 (Zen)
-* GCN 3 (Excavator Gen 2, Steamroller)
-* GCN 2 (Excavator Gen 1, Puma, Puma +)
