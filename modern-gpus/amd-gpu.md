@@ -175,7 +175,7 @@ Needed kexts:
 R7/R9 is also natively supported without too much issue, but we cannot guarantee the success of R5 and R7 cards due to few reports of success with them. Also, be wary that differing from the reference design of these cards has many more issues that require a lot of work to get them to run properly. Sapphire cards are your best bet. Also, the R9 280X/380X are hit or miss on compatibility.
 
 Supported cards:
-
+* FirePro W5100 (Fake ID needed)
 * R9 Fury X
 * R9 Fury
 * R9 Nano
@@ -193,7 +193,7 @@ Supported cards:
 * R7 250X
 * R7 250 (Fake ID needed)
 * R7 240 (Fake ID needed)
-
+* HD 7790
 Needed kexts
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
@@ -230,14 +230,13 @@ Extras:
 * Dual AMD FirePro D300
 * Dual AMD FirePro D500
 * Dual AMD FirePro D700
-* FirePro W5100 (Fake ID needed)
+* FirePro W5000
 * FirePro W7000
 * FirePro W9000
 * HD 7700
 * HD 7730
 * HD 7750
 * HD 7770
-* HD 7790
 * HD 7850
 * HD 7870
 * HD 7870 XT
