@@ -44,6 +44,10 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
+### **Navi 22 Series**
+
+#### Highest Supported OS: Current/Sequoia (15)
+
 ### **Navi 10 Series**
 
 #### Highest Supported OS: Current/Sequoia (15)
@@ -127,6 +131,20 @@ Needed kexts:
 ### **Polaris 10 and 20 series**
 
 #### Highest Supported OS: Current/Sequoia (15)
+
+As of October 2023, a new community kext was released, NootRX, adding support for Navi 22 cards while also being compatible with Navi 21 and 23 cards already working with WhateverGreen. It's still a work-in-progress and has non-functional DRM.
+
+Supported Cards:
+* RX 6700
+* RX 6700 XT
+* RX 6750 GRE
+* RX 6950 XT
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [NootRX.kext](https://github.com/ChefKissInc/NootRX/releases)
+
 
 #### Initial Supported OS: Sierra (10.12)
 
@@ -270,7 +288,13 @@ Until mid 2023 the integrated GPUs found on mobile and lower end desktop AMD CPU
 
 Supported APUs:
 
-All Ryzen processors with integrated GPU from 1xxx to 5xxx and 7x30 series.
+* All Ryzen processors with integrated GPU from 1xxx to 5xxx and 7x30 series.
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [NootedRed.kext](https://github.com/ChefKissInc/NootedRed/releases)
+
 
 ## Unsupported AMD GPUs
 
