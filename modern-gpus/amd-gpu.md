@@ -288,7 +288,7 @@ Until mid 2023 the integrated GPUs found on mobile and lower end desktop AMD CPU
 
 Supported APUs:
 
-* All Ryzen processors with integrated GPU from 1xxx to 5xxx and 7x30 series.
+* All Vega iGPUs in AMD Zen processors from 1st to 5th generation and 7x30 series.
 
 Needed kexts:
 
