@@ -116,7 +116,7 @@ Needed kexts:
 
 ### **Vega 10 series**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sequoia (15)
 
 #### Initial Supported OS: High Sierra (10.13)
 
@@ -143,6 +143,8 @@ Needed kexts:
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
 ### **Polaris 10 and 20 series**
+
+#### Highest Supported OS: Current/Sequoia (15)
 
 #### Initial Supported OS: Sierra (10.12)
 
