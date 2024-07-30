@@ -4,7 +4,7 @@
 
 ### **Navi 23 series**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sequoia (15)
 
 #### Initial Supported OS: Monterey (12.1)
 
@@ -24,7 +24,7 @@ Needed kexts:
 
 ### **Navi 21 series**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sequoia (15)
 
 #### Initial Supported OS: Big Sur (11.4)
 
@@ -46,7 +46,7 @@ Needed kexts:
 
 ### **Navi 10 Series**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sequoia (15)
 
 #### Initial Supported OS: Catalina (10.15.1)
 
@@ -81,7 +81,7 @@ Needed kexts:
 
 ### **Vega 20 series**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sequoia (15)
 
 #### Initial Supported OS: Mojave (10.14.5)
 
@@ -126,7 +126,7 @@ Needed kexts:
 
 ### **Polaris 10 and 20 series**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sequoia (15)
 
 #### Initial Supported OS: Sierra (10.12)
 
@@ -257,13 +257,13 @@ Extras:
 
 ### **Navi 2X and Navi 3X**
 
-#### Highest Supported OS: Current/Sonoma (14)
+#### Highest Supported OS: Current/Sequoia (15)
 
 While Navi 21 and Navi 23 are already supported, an experimental kext named NootRX for Navi 22 and Navi 24 is in development. The developers were already able to bring Navi 22 support to macOS, while Navi 24 support is still worked on and is non-functional. Navi 3X based graphic cards still remain unsupported at the time of writing.
 
 ### **AMD APUs (ALL VARIANTS)**
 
-#### Highest Supported OS: Current/Sonoma (14)
+#### Highest Supported OS: Current/Sequoia (15)
 #### Initial Supported OS: Catalina (10.15)
 
 Until mid 2023 the integrated GPUs found on mobile and lower end desktop AMD CPUs have unfortunately never had official support, however the community is working on it by developing the NootedRed kext. While getting graphics acceleration is possible, the kext is still a work-in-progress and may not work as expected.
