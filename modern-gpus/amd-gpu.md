@@ -32,6 +32,8 @@ Supported Cards:
 
 * RX 6700
 * RX 6700 XT
+* RX 6750
+* RX 6750 XT
 * RX 6750 GRE
 * RX 6950 XT
 
