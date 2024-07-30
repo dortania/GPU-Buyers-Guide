@@ -22,6 +22,24 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
+### Navi 22 series
+
+#### Highest Supported OS: Current/Sequoia (15)
+
+As of October 2023, a new community kext was released, NootRX, adding support for Navi 22 cards while also being compatible with Navi 21 and 23 cards already working with WhateverGreen. It's still a work-in-progress and has non-functional DRM.
+
+Supported Cards:
+
+* RX 6700
+* RX 6700 XT
+* RX 6750 GRE
+* RX 6950 XT
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [NootRX.kext](https://github.com/ChefKissInc/NootRX/releases)
+
 ### **Navi 21 series**
 
 #### Highest Supported OS: Current/Sequoia (15)
@@ -43,24 +61,6 @@ Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
-
-### Navi 22 series
-
-#### Highest Supported OS: Current/Sequoia (15)
-
-As of October 2023, a new community kext was released, NootRX, adding support for Navi 22 cards while also being compatible with Navi 21 and 23 cards already working with WhateverGreen. It's still a work-in-progress and has non-functional DRM.
-
-Supported Cards:
-
-* RX 6700
-* RX 6700 XT
-* RX 6750 GRE
-* RX 6950 XT
-
-Needed kexts:
-
-* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
-* [NootRX.kext](https://github.com/ChefKissInc/NootRX/releases)
 
 ### **Navi 10 Series**
 
