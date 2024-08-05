@@ -124,13 +124,38 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
+### **AMD APUs (Vega)**
+
+#### Highest Supported OS: Current/Ventura (13)
+
+#### Initial Supported OS: Big Sur (11)
+
+Recently, NootedRed has brought full acceleration and display out to Vega APUs. These cards also have partial support in Catalina.
+
+It is important to not use WhateverGreen, as that kext conflicts with NootedRed. In addition, the system must not have a Vega or RDNA dGPU, as that will also conflict with the kext.
+
+Supported iGPUs:
+
+* Vega 3
+* Vega 6
+* Vega 8
+* Vega 9
+* RX Vega 10
+* RX Vega 11
+* Radeon Graphics (Vega)
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [NootedRed.kext](https://github.com/NootInc/NootedRed/actions)
+
 ### **Polaris 10 and 20 series**
 
 #### Highest Supported OS: Current/Ventura (13)
 
 #### Initial Supported OS: Sierra (10.12)
 
-Regarding Polaris, basically every model of card is supported as long as it’s running either a Polaris or Baffin core. Lower end cards like the RX 550 may run a Lexa core, meaning no support in macOS.
+Regarding Polaris, basically every model of card is supported as long as it’s running either a Polaris or Baffin core. Lower end cards like the RX 550 may run a Lexa core, meaning that spoofing the GPU to a Baffin core RX 550 is required.
 
 The only brands **you should avoid with the Polaris series would be XFX (460/560 models), PowerColor, HIS and VisionTek** as many users have had bootloader and macOS boot issues. Other users have found fixes/workarounds, though nothing consistent. This seems to be caused by having an odd VBIOS that doesn't communicate well with macOS and the only real solution is flashing another VBIOS, which is not ideal for most users.
 
@@ -153,18 +178,29 @@ Supported cards:
 * RX 560X
 * RX 560
 * RX 550 (Baffin core)
+* RX 550X (Fake ID needed)
+* RX 550 (Fake ID needed)
+* RX 540X (Fake ID needed)
+* RX 540 (Fake ID needed)
 
 Radeon Pro:
 
 * WX 7100
 * WX 5100
 * WX 4100
+* WX 3100 (Fake ID needed)
+* WX 2100 (Fake ID needed)
 * E9550
 
 Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+
+Extras:
+
+* `-radcodec`: Allows spoofed GPUs to use the HW video encoder
+* [Renaming GPUs (Fake ID)](https://dortania.github.io/Getting-Started-With-ACPI/Universal/spoof.html)
 
 ### **R7/R9**
 
@@ -272,22 +308,7 @@ Unsupported Cards:
 * RX 6500 XT
 * RX 6400
 
-### **Lexa Series**
-
-#### Highest Supported OS: None
-
-While these GPUs may share the same family name as the Polaris GPUs, these cards are drastically different, meaning no support in any version of macOS. Similar to Navi and unsupported NVIDIA GPUs, you'll need to disable the Lexa GPU due to how the VESA drivers that unsupported GPUs run off of break sleep and other functions of macOS. Please refer to the [Disabling GPUs](https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.html) guide for more info.
-
-Unsupported Cards:
-
-* WX 3100
-* WX 2100
-* RX 550X (Lexa core)
-* RX 550 (Lexa core)
-* RX 540X
-* RX 540
-
-### **AMD APUs (ALL VARIANTS)**
+### **AMD APUs (GCN 1-3 AND NAVI VARIANTS)**
 
 #### Highest Supported OS: None
 
@@ -295,7 +316,6 @@ The integrated GPUs found on mobile and lower end desktop AMD CPUs have unfortun
 
 Unsupported APUs:
 
-* Vega 11 (Zen)
-* Vega 8 (Zen)
+* AMD Radeon Graphics (Zen 4)
 * GCN 3 (Excavator Gen 2, Steamroller)
 * GCN 2 (Excavator Gen 1, Puma, Puma +)
