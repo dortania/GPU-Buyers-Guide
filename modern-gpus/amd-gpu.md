@@ -4,7 +4,7 @@
 
 ### **Navi 23 series**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sonoma (14)
 
 #### Initial Supported OS: Monterey (12.1)
 
@@ -24,7 +24,7 @@ Needed kexts:
 
 ### **Navi 21 series**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sonoma (14)
 
 #### Initial Supported OS: Big Sur (11.4)
 
@@ -46,7 +46,7 @@ Needed kexts:
 
 ### **Navi 10 Series**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sonoma (14)
 
 #### Initial Supported OS: Catalina (10.15.1)
 
@@ -81,7 +81,7 @@ Needed kexts:
 
 ### **Vega 20 series**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sonoma (14)
 
 #### Initial Supported OS: Mojave (10.14.5)
 
@@ -98,7 +98,7 @@ Needed kexts:
 
 ### **Vega 10 series**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sonoma (14)
 
 #### Initial Supported OS: High Sierra (10.13)
 
@@ -124,15 +124,9 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
-### **AMD APUs (Vega)**
+### **Vega APUs**
 
-#### Highest Supported OS: Current/Ventura (13)
-
-#### Initial Supported OS: Big Sur (11)
-
-Recently, NootedRed has brought full acceleration and display out to Vega APUs. These cards also have partial support in Catalina.
-
-It is important to not use WhateverGreen, as that kext conflicts with NootedRed. In addition, the system must not have a Vega or RDNA dGPU, as that will also conflict with the kext.
+AMD Vega APUs are not natively supported by macOS. However, there is a WIP alpha kext, NootedRed, that aims to patch the AMD graphics drivers to support Vega APUs. As this kext is in alpha, it is not recommended for daily use. Please see its GitHub page for more information.
 
 Supported iGPUs:
 
@@ -147,11 +141,11 @@ Supported iGPUs:
 Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
-* [NootedRed.kext](https://github.com/NootInc/NootedRed/actions)
+* [NootedRed.kext](https://github.com/NootInc/NootedRed)
 
 ### **Polaris 10 and 20 series**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Ventura (14)
 
 #### Initial Supported OS: Sierra (10.12)
 
