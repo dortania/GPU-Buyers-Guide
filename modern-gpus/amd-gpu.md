@@ -22,6 +22,26 @@ Needed kexts:
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
 
+### Navi 22 series
+
+#### Highest Supported OS: Current/Sequoia (15)
+
+As of October 2023, a new community kext was released, NootRX, adding support for Navi 22 cards while also being compatible with Navi 21 and 23 cards already working with WhateverGreen. It's still a work-in-progress and has non-functional DRM.
+
+Supported Cards:
+
+* RX 6700
+* RX 6700 XT
+* RX 6750
+* RX 6750 XT
+* RX 6750 GRE
+* RX 6950 XT
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [NootRX.kext](https://github.com/ChefKissInc/NootRX/releases)
+
 ### **Navi 21 series**
 
 #### Highest Supported OS: Current/Sonoma (14)
@@ -285,22 +305,30 @@ Extras:
 * `radpg=15`: Required for HD 7730/7750/7770/R7 250/R7 250X GPU initialization
 * InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
 
-## Unsupported AMD GPUs
-
 ### **Navi 2X and Navi 3X**
 
-#### Highest Supported OS: None
+#### Highest Supported OS: Current/Sequoia (15)
 
-While Navi 21 and Navi 23 are supported, Navi 22, Navi 24 and Navi 3X based graphic cards are not at the time of writing.
+While Navi 21 and Navi 23 are already supported, an experimental kext named NootRX for Navi 22 and Navi 24 is in development. The developers were already able to bring Navi 22 support to macOS, while Navi 24 support is still worked on and is non-functional. Navi 3X based graphic cards still remain unsupported at the time of writing.
 
-Unsupported Cards:
+### **AMD APUs (ALL VARIANTS)**
 
-* RX 7900 XTX
-* RX 7900 XT
-* RX 6750 XT
-* RX 6700 XT
-* RX 6500 XT
-* RX 6400
+#### Highest Supported OS: Current/Sequoia (15)
+#### Initial Supported OS: Catalina (10.15)
+
+Until mid 2023 the integrated GPUs found on mobile and lower end desktop AMD CPUs have unfortunately never had official support, however the community is working on it by developing the NootedRed kext. While getting graphics acceleration is possible, the kext is still a work-in-progress and may not work as expected.
+
+Supported APUs:
+
+* All Vega iGPUs in AMD Zen processors from 1st to 5th generation and 7x30 series.
+
+Needed kexts:
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [NootedRed.kext](https://github.com/ChefKissInc/NootedRed/releases)
+
+
+## Unsupported AMD GPUs
 
 ### **AMD APUs (GCN 1-3 AND NAVI VARIANTS)**
 
