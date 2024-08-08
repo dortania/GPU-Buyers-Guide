@@ -116,13 +116,13 @@ Needed kexts:
 
 ### **Skylake 6XXX**
 
-#### Highest Supported OS: Ventura (13)*
+#### Highest Supported OS: Sonoma (14)*
 
 #### Initial Supported OS: El Capitan (10.11.4)
 
-::: tip macOS Ventura Note
+::: tip macOS Ventura+ Note
 
-macOS Ventura drops support for Skylake iGPUs. However, since Skylake and Kaby Lake iGPUs are so similar, Skylake iGPUs can be spoofed as Kaby Lake in order to make use of the Kaby Lake kexts, which are still present in Ventura. Using WhateverGreen v1.6.1 and up, change your `device-id` and `AAPL,ig-platform-id` to the most similar Kaby Lake model, and if using the same EFI to boot Monterey and below, add `-igfxsklaskbl` to your boot args.
+macOS Ventura drops support for Skylake iGPUs. However, since Skylake and Kaby Lake iGPUs are so similar, Skylake iGPUs can be spoofed as Kaby Lake in order to make use of the Kaby Lake kexts, which are still present in Ventura and Sonoma. Using WhateverGreen v1.6.1 and up, change your `device-id` and `AAPL,ig-platform-id` to the most similar Kaby Lake model, and if using the same EFI to boot Monterey and below, add `-igfxsklaskbl` to your boot args.
 
 :::
 
@@ -159,7 +159,7 @@ Needed kexts:
 
 ### **Kaby Lake 7XXX**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sonoma (14)
 
 #### Initial Supported OS: Sierra (10.12.6)
 
@@ -192,7 +192,7 @@ Needed kexts:
 
 ### **Kaby Lake Refresh/Coffee Lake/Coffee Lake Refresh/Whiskey Lake/Comet Lake 8XXX/9XXX/10XXX**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sonoma (14)
 
 #### Initial Supported OS: High Sierra(10.13.6)
 
@@ -228,7 +228,7 @@ Needed kexts:
 
 ### **Ice Lake 10XXX**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sonoma (14)
 
 #### Initial Supported OS: Catalina(10.15.4)
 
