@@ -26,12 +26,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
-          cache-dependency-path: ./package.json
+          cache: 'yarn'
+          cache-dependency-path: ./yarn.json
       - name: Install Dependencies
-        run: npm ci
+        run: yarn ci
       - name: Build
-        run: npm run build
+        run: yarn run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
