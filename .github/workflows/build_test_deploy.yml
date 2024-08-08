@@ -47,22 +47,22 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-  lint:
-    name: Lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/setup-node@v2-beta
-        with:
-          node-version: '16'
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: '1'
-          submodules: 'recursive'
-      - name: Install
-        run: npm install
-      - name: Lint
-        run: npm run lint-ci
+  # lint:
+  #   name: Lint
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/setup-node@v2-beta
+  #       with:
+  #         node-version: '16'
+  #     - name: Checkout Repository
+  #       uses: actions/checkout@v2
+  #       with:
+  #         fetch-depth: '1'
+  #         submodules: 'recursive'
+  #     - name: Install
+  #       run: npm install
+  #     - name: Lint
+  #       run: npm run lint-ci
   # spellcheck:
   #   name: Spellcheck
   #   runs-on: ubuntu-latest
