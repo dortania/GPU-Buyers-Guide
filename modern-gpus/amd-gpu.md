@@ -279,11 +279,10 @@ Supported cards:
 * R7 270/370 (Fake ID needed)
 * R7 265
 * R7 260X/360X
-* R9 260/360 (Fake ID may be required depending on model)
+* R9 260 (Fake ID may be required depending on model)
 * R9 255
 * R7 250X
-* R7 250 (Fake ID needed)
-* R7 240 (Fake ID needed)
+* R7 250 (Fake ID may be needed to HD 7750)
 
 Needed kexts
 
@@ -296,6 +295,7 @@ Extras:
 * `-raddvi` boot flag: Fixes DVI, required for 290X, 370, etc
 * InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
 * [Renaming GPUs (Fake ID)](https://dortania.github.io/Getting-Started-With-ACPI/Universal/spoof.html)
+* Some XFX cards need earlier VBIOS versions to be flashed to be compatible; only 280X confirmed to need it so far
 
 ### **HD 8000 Series (8xxx)**
 
@@ -312,6 +312,16 @@ Extras:
 * HD 8950
 * HD 8970
 
+Needed kexts
+
+* [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+* [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+
+Extras:
+
+* `radpg=15`: Required for HD 8740/8760 initialization
+* InjectAMD: While deprecated, some users require this for proper initialization, avoid unless absolutely necessary
+
 ### **HD 7000 Series (7xxx)**
 
 #### Highest Supported OS: Monterey (12)
@@ -324,7 +334,6 @@ Extras:
 * FirePro W5100 (Fake ID needed)
 * FirePro W7000
 * FirePro W9000
-* HD 7700
 * HD 7730
 * HD 7750
 * HD 7770
