@@ -195,7 +195,7 @@ The only brands **you should avoid with the Polaris series would be XFX (460/560
 
 This is a non-exhaustive list, as there are many Polaris 10 and 20 cards. For a device not listed here, check the device ID and compare it to the list below.
 
-Additionally, a few cards may have device IDs that are uncommon. If your card's device ID does not match what is listed in the table, check the device ID support table.
+Additionally, a few cards may have device IDs that are uncommon. If your card's device ID does not match what is listed in the table, you may need to spoof the device ID.
 
 :::
 
@@ -360,7 +360,11 @@ Extras:
 
 ## Non-Native AMD GPUs
 
+:::warning
+
 As these cards are not supported by the native drivers, we do not recommend purchasing them for use with macOS.
+
+:::
 
 ### Navi 22 series
 
