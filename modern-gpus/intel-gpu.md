@@ -16,11 +16,11 @@ More info:
 
 #### Initial Supported OS: Lion (10.7)
 
-The HD4000 is supported natively up to macOS Big Sur, with support dropped in macOS Monterey. The HD 2500, on the other hand, only has partial support in Mojave for quick sync features. As the HD 2500 does not support hardware acceleration, you will need a compatible dGPU for display purposes.
+The HD 4000 is supported natively up to macOS Big Sur, with support dropped in macOS Monterey. The HD 2500, on the other hand, only has partial support in Mojave for quick sync features. As the HD 2500 does not support hardware acceleration, you will need a compatible dGPU for display purposes.
 
 Supported iGPUs:
 
-* HD 2500
+* HD 2500 (Quicksync only)
 * HD 4000
 * HD P4000
 
@@ -126,7 +126,7 @@ macOS Ventura drops support for Skylake iGPUs. However, since Skylake and Kaby L
 
 :::
 
-Most iGPUs are supported here (excluding the HD 510), no issues to report.
+Most iGPUs are supported here (excluding the HD 505 and 510), no issues to report.
 
 Supported iGPUs:
 
@@ -371,3 +371,4 @@ Unsupported cards include:
 * Arc A30M
 * Arc A40
 * Arc A50
+* DG1
