@@ -16,11 +16,11 @@ More info:
 
 #### Initial Supported OS: Lion (10.7)
 
-The HD4000 is supported natively up to macOS Big Sur, with support dropped in macOS Monterey. The HD 2500, on the other hand, only has partial support in Mojave for quick sync features. As the HD 2500 does not support hardware acceleration, you will need a compatible dGPU for display purposes.
+The HD 4000 is supported natively up to macOS Big Sur, with support dropped in macOS Monterey. The HD 2500, on the other hand, only has partial support in Mojave for quick sync features. As the HD 2500 does not support hardware acceleration, you will need a compatible dGPU for display purposes.
 
 Supported iGPUs:
 
-* HD 2500
+* HD 2500 (Quicksync only)
 * HD 4000
 * HD P4000
 
@@ -116,17 +116,17 @@ Needed kexts:
 
 ### **Skylake 6XXX**
 
-#### Highest Supported OS: Ventura (13)*
+#### Highest Supported OS: Sonoma (14)*
 
 #### Initial Supported OS: El Capitan (10.11.4)
 
-::: tip macOS Ventura Note
+::: tip macOS Ventura+ Note
 
-macOS Ventura drops support for Skylake iGPUs. However, since Skylake and Kaby Lake iGPUs are so similar, Skylake iGPUs can be spoofed as Kaby Lake in order to make use of the Kaby Lake kexts, which are still present in Ventura. Using WhateverGreen v1.6.1 and up, change your `device-id` and `AAPL,ig-platform-id` to the most similar Kaby Lake model, and if using the same EFI to boot Monterey and below, add `-igfxsklaskbl` to your boot args.
+macOS Ventura drops support for Skylake iGPUs. However, since Skylake and Kaby Lake iGPUs are so similar, Skylake iGPUs can be spoofed as Kaby Lake in order to make use of the Kaby Lake kexts, which are still present in Ventura and Sonoma. Using WhateverGreen v1.6.1 and up, change your `device-id` and `AAPL,ig-platform-id` to the most similar Kaby Lake model, and if using the same EFI to boot Monterey and below, add `-igfxsklaskbl` to your boot args.
 
 :::
 
-Most iGPUs are supported here (excluding the HD 510), no issues to report.
+Most iGPUs are supported here (excluding the HD 505 and 510), no issues to report.
 
 Supported iGPUs:
 
@@ -159,7 +159,7 @@ Needed kexts:
 
 ### **Kaby Lake 7XXX**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sonoma (14)
 
 #### Initial Supported OS: Sierra (10.12.6)
 
@@ -192,7 +192,7 @@ Needed kexts:
 
 ### **Kaby Lake Refresh/Coffee Lake/Coffee Lake Refresh/Whiskey Lake/Comet Lake 8XXX/9XXX/10XXX**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sonoma (14)
 
 #### Initial Supported OS: High Sierra(10.13.6)
 
@@ -228,7 +228,7 @@ Needed kexts:
 
 ### **Ice Lake 10XXX**
 
-#### Highest Supported OS: Current/Ventura (13)
+#### Highest Supported OS: Current/Sonoma (14)
 
 #### Initial Supported OS: Catalina(10.15.4)
 
@@ -336,6 +336,7 @@ Unsupported cards include:
 
 * UHD Graphics for 12th Gen Intel Processors
 * Intel Xe Graphics
+* Intel UHD Graphics
 
 ### **Raptor Lake**
 
@@ -346,7 +347,20 @@ All of the iGPUs for these CPUs are unsupported, as they are Xe based.
 Unsupported cards include:
 
 * UHD Graphics for 13th Gen Intel Processors
+* UHD Graphics for 14th Gen Intel Processors
+* Intel Graphics
 * Intel Xe Graphics
+
+### Meteor Lake
+
+#### Highest Supported OS: None
+
+All of the iGPUs for these CPUs are unsupported, as they are Xe based.
+
+Unsupported cards include:
+
+* Intel Graphics
+* Intel Arc Graphics
 
 ### Discrete GPUs
 
@@ -371,3 +385,4 @@ Unsupported cards include:
 * Arc A30M
 * Arc A40
 * Arc A50
+* DG1

@@ -1,10 +1,10 @@
 # Introduction
 
-![Ventura image](./images/header.jpg)
+<!-- ![Ventura image](./images/header.jpg) -->
 
 So it's that time of year again, a new version of macOS has been released and the age-old question will be asked once again:
 
-**What GPUs are supported with macOS Ventura?**
+**What GPUs are supported with macOS Sonoma?**
 
 Well, you've come to the right place, we'll give a quick rundown on the situation and go into more detail on exact GPUs we recommend.
 

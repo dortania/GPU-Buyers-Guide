@@ -30,15 +30,16 @@
     },
     "license": "MIT",
     "devDependencies": {
-        "@vuepress/plugin-back-to-top": "^1.9.8",
-        "@vuepress/plugin-medium-zoom": "^1.9.8",
-        "markdown-it-multimd-table": "^4.2.0",
-        "markdown-link-check": "^3.10.3",
-        "markdownlint-cli": "^0.33.0",
+        "@vuepress/plugin-back-to-top": "^1.9.10",
+        "@vuepress/plugin-medium-zoom": "^1.9.10",
+        "markdown-it-multimd-table": "^4.2.3",
+        "markdown-link-check": "^3.12.2",
+        "markdownlint-cli": "^0.41.0",
         "run-script-os": "^1.1.6",
-        "spellchecker-cli": "^6.1.1",
-        "vuepress": "^1.9.8",
+        "spellchecker-cli": "^6.2.0",
+        "vuepress": "^1.9.10",
         "vuepress-plugin-fulltext-search": "^2.2.1",
         "vuepress-theme-succinct": "^1.7.2"
-    }
+    },
+    "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }

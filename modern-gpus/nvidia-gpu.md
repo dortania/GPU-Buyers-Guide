@@ -1,5 +1,11 @@
 # NVIDIA GPUs
 
+:::warning
+
+There are no currently supported NVIDIA GPUs.
+
+:::
+
 ## Unsupported NVIDIA GPUs
 
 ### **Kepler Series (GTX 6xx, 7xx)**
