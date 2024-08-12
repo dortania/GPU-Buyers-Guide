@@ -8,6 +8,12 @@ Pro/workstation cards, as well as OEM or niche cards, may be missing on this lis
 
 <!-- TODO: Device ID table should include both known and unknown IDs -->
 
+* :white_check_mark: Verified: Works out of the box with confirmed reports
+* :ballot_box_with_check: Verified (spoof): Confirmed to work with a fake ID
+* :warning: Unverified: Should work (possibly with a fake ID), but no confirmed reports
+* :x: Unsupported: Does not work
+* :question: Unknown: No information available
+
 ## Native AMD GPUs
 
 ### Navi 23 series
@@ -47,7 +53,7 @@ As of 11.4, Apple has added Navi 21 support.
 Supported Cards:
 
 |Card Name|Device ID|Status|Notes|
-|---|---|---|
+|---|---|---|---|
 |RX 6800|`73BF`|:white_check_mark: Verified| |
 |RX 6800 XT|`73BF`|:white_check_mark: Verified| |
 |RX 6900 XT|`73BF`|:white_check_mark: Verified| |
@@ -76,7 +82,7 @@ As of 10.15.1, Apple has added RDNA and Navi support.
 Supported Cards:
 
 |Card Name|Core|Device ID|Status|Notes|
-|---|---|---|---|
+|---|---|---|---|---|
 |RX 5300 OEM|Navi 14|`7340`|:white_check_mark: Verified| |
 |RX 5300 XT OEM|Navi 14|?|:question: Unknown|No information on this card|
 |RX 5500 OEM|Navi 14|`7340`|:warning: Unverified| |
@@ -140,7 +146,7 @@ The only brand of GPUs to **avoid with Vega 10 is XFX**. The reason is VBIOS com
 Supported Cards:
 
 |Card Name|Device ID|Status|Notes|
-|---|---|---|
+|---|---|---|---|
 |RX Vega 56|`687F`|:white_check_mark: Verified| |
 |RX Vega 64|`687F`|:white_check_mark: Verified| |
 |RX Vega 64 Limited Edition|`687F`|:white_check_mark: Verified| |
@@ -180,21 +186,6 @@ This is a non-exhaustive list, as there are many Polaris 10 and 20 cards. For a 
 Additionally, a few cards may have device IDs that are uncommon. If your card's device ID does not match what is listed in the table, check the device ID support table.
 
 :::
-
-Status
-Verified (green)
-Verified (blue - spoof)
-Unverified (yellow)
-Unknown (red)
-Unsupported (red)
-
-Key:
-
-* :white_check_mark: Verified: Works out of the box with confirmed reports
-* :ballot_box_with_check: Verified (spoof): Confirmed to work with a fake ID
-* :warning: Unverified: Should work (possibly with a fake ID), but no confirmed reports
-* :x: Unsupported: Does not work
-* :question: Unknown: No information available
 
 |Card Name|Core|Device ID|Status|Notes|
 |---|---|---|---|---|
@@ -361,7 +352,7 @@ Extras:
 
 #### Highest Supported OS: Current/Sonoma (14)
 
-Navi 22 series graphics cards are not natively supported by macOS.However, there is a WIP kext, NootRX, that aims to patch the AMD graphics drivers to support Navi 22. It is not fully functional: please see its website for more information. As these cards are not supported by the native drivers, we do not recommend purchasing them for use with macOS.
+Navi 22 series graphics cards are not natively supported by macOS. However, there is a WIP kext, NootRX, that aims to patch the AMD graphics drivers to support Navi 22. It is not fully functional: please see its website for more information. As these cards are not supported by the native drivers, we do not recommend purchasing them for use with macOS.
 
 Supported Cards:
 
