@@ -34,7 +34,11 @@ As of 12.1, Apple has added Navi 23 support.
 
 <!-- TODO: Device ID table -->
 
-Note: Most Navi 23 cards currently require the boot argument `agdpmod=pikera` to get a display out.
+:::tip NOTE
+
+Most Navi 23 cards currently require the boot argument `agdpmod=pikera` to get a display out.
+
+:::
 
 Needed kexts:
 
@@ -61,7 +65,11 @@ Supported Cards:
 |RX 6950 XT|`73A5`|:ballot_box_with_check: Verified|Spoof to RX 6900 XT|
 |Radeon Pro W6800|`73A3`|:white_check_mark: Verified| |
 
-Note: Most Navi 21 cards currently require the boot argument `agdpmod=pikera` to get a display out.
+:::tip NOTE
+
+Most Navi 21 cards currently require the boot argument `agdpmod=pikera` to get a display out.
+
+:::
 
 <!-- TODO: Device ID table -->
 
@@ -95,7 +103,11 @@ Supported Cards:
 |Radeon Pro W5500|Navi 14|`7341`|:white_check_mark: Verified| |
 |Radeon Pro W5700|Navi 10|`7312`|:white_check_mark: Verified| |
 
-Note: Most Navi 10 and 14 cards currently require the boot argument `agdpmod=pikera` to get proper display out.
+:::tip NOTE
+
+Most Navi 10 and 14 cards currently require the boot argument `agdpmod=pikera` to get proper display out.
+
+:::
 
 <!-- TODO: Device ID table -->
 
@@ -348,11 +360,13 @@ Extras:
 
 ## Non-Native AMD GPUs
 
+As these cards are not supported by the native drivers, we do not recommend purchasing them for use with macOS.
+
 ### Navi 22 series
 
 #### Highest Supported OS: Current/Sonoma (14)
 
-Navi 22 series graphics cards are not natively supported by macOS. However, there is a WIP kext, NootRX, that aims to patch the AMD graphics drivers to support Navi 22. It is not fully functional: please see its website for more information. As these cards are not supported by the native drivers, we do not recommend purchasing them for use with macOS.
+Navi 22 series graphics cards are not natively supported by macOS. However, there is a WIP kext, NootRX, that aims to patch the AMD graphics drivers to support Navi 22. It is not fully functional: please see its website for more information.
 
 Supported Cards:
 
@@ -369,7 +383,7 @@ Needed kexts:
 
 ### Vega APUs
 
-AMD Vega APUs are not natively supported by macOS. However, there is a WIP alpha kext, NootedRed, that aims to patch the AMD graphics drivers to support Vega APUs. As this kext is in alpha, it is not recommended for daily use. Please see its website for more information.
+AMD Vega APUs are not natively supported by macOS. However, there is a WIP kext, NootedRed, that aims to patch the AMD graphics drivers to support Vega APUs. It is not fully functional: please see its website for more information.
 
 Supported iGPUs:
 
