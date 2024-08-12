@@ -336,6 +336,7 @@ Unsupported cards include:
 
 * UHD Graphics for 12th Gen Intel Processors
 * Intel Xe Graphics
+* Intel UHD Graphics
 
 ### **Raptor Lake**
 
@@ -346,7 +347,20 @@ All of the iGPUs for these CPUs are unsupported, as they are Xe based.
 Unsupported cards include:
 
 * UHD Graphics for 13th Gen Intel Processors
+* UHD Graphics for 14th Gen Intel Processors
+* Intel Graphics
 * Intel Xe Graphics
+
+### Meteor Lake
+
+#### Highest Supported OS: None
+
+All of the iGPUs for these CPUs are unsupported, as they are Xe based.
+
+Unsupported cards include:
+
+* Intel Graphics
+* Intel Arc Graphics
 
 ### Discrete GPUs
 
