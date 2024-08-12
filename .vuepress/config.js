@@ -20,7 +20,7 @@ module.exports = {
         ["link", {
             rel: "'stylesheet",
             href: "/styles/website.css"
-        },]
+        }]
     ],
     base: '/GPU-Buyers-Guide/',
 
@@ -46,6 +46,9 @@ module.exports = {
                 rowspan: true,
                 headerless: true,
             });
+            md.renderer.rules.emoji = function(token, idx) {
+                return '<span class="emoji emoji_' + token[idx].markup + '">' + token[idx].content + '</span>';
+            };
         }
     },
 
