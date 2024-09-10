@@ -383,7 +383,7 @@ Supported Cards:
 Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
-* [NootRX.kext](https://chefkissinc.github.io/en/applehax/nootrx/)
+* [NootRX.kext](https://chefkissinc.github.io/applehax/nootrx/)
 
 ### Vega APUs
 
@@ -405,7 +405,7 @@ These iGPUs can be found in Raven Ridge, Picasso, Renoir, Cezanne, and Barcelo A
 Needed kexts:
 
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
-* [NootedRed.kext](https://chefkissinc.github.io/en/applehax/nootedred/)
+* [NootedRed.kext](https://chefkissinc.github.io/applehax/nootedred/)
 
 ## Unsupported AMD GPUs
 
