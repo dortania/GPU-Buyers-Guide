@@ -53,7 +53,7 @@ Needed kexts:
 
 Unfortunately, Mojave dropped support for these iGPUs, but luckily we can actually get these iGPUs working by using old kexts (though no Metal support so things are a bit iffy). The [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/348) is the best way to add support for these GPUs. However, OCLP is geared towards real Macs and while it will work on Hackintoshes, there is no official support.
 
-* HD Graphics (yup, that's all they called them)
+* HD Graphics (yup, that's all they called them), also called Intel GMA 5700MHD by some
 
 Needed kexts:
 
