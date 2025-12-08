@@ -69,7 +69,8 @@ Similar to Fermi, these GPUs are supported by High Sierra, but don't generally e
 
 ### Initial Supported OS: Leopard (10.5)
 
-* GeForce 8800
+* 8800
+* 8600 GT
 
 Quadro:
 
@@ -79,7 +80,7 @@ Quadro:
 
 ### Highest Supported OS: Lion (10.7)
 
-### Initial Supported OS: Panther (10.3)
+### Initial Supported OS: Panther (10.4)
 
 Support was dropped in OS X Lion because the drivers were only compiled for 32-bit kernels.
 
@@ -94,6 +95,6 @@ Quadro:
 
 ### Highest Supported OS: Lion (10.7)
 
-### Initial Supported OS: Panther (10.3)
+### Initial Supported OS: Panther (10.4)
 
 * 6600 GT
