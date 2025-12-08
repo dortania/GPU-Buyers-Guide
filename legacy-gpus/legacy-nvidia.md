@@ -45,6 +45,7 @@ Similar to Fermi, these GPUs are supported by High Sierra, but don't generally e
 * GT 240
 * GT 230
 * GT 220
+* 210
 
 100 series:
 
