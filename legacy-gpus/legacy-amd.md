@@ -33,6 +33,7 @@ Also to note: `InjectATI` may be required for these GPUs.
 
 * HD 5450
 * HD 5470
+* HD 5550 (spoof to `68d9` if needed, spoofed card will also require [no-gfx-spoof](https://github.com/acidanthera/bugtracker/issues/1743) property
 * HD 5570
 * HD 5630
 * HD 5670
