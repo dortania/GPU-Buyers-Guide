@@ -136,6 +136,7 @@ Supported Cards:
 |---|---|---|---|
 |Radeon VII|`66AF`|:white_check_mark: Verified| |
 |Radeon Pro VII|`66A1`|:warning: Unverified| |
+|[Radeon Pro V420(MI50-32g)](https://www.techpowerup.com/vgabios/282000/282000)|`66A0`|:white_check_mark: Verified| |
 
 Needed kexts:
 
