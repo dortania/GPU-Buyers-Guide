@@ -212,7 +212,7 @@ Additionally, a few cards may have device IDs that are uncommon. If your card's 
 |^^|Baffin (Polaris 11)|`67FF`|:white_check_mark: Verified|Has 512SP and 640SP variants|
 |RX 550X|Lexa (Polaris 23)|`699F`|:warning: Unverified| Spoof to RX 550 (Baffin), may need `no-gfx-spoof`.|
 |RX 560|Baffin (Polaris 21)|`67FF`<br/>Some models `67EF`|:white_check_mark: Verified| |
-|RX 560D|Baffin (Polaris 21)|`67EF`|:warning: Unverified| |
+|RX 560D|Baffin (Polaris 21)|`67EF`|:white_check_mark: Verified|896SP variant|
 |RX 560X|Baffin (Polaris 21)|`67FF`<br/>Some models `67EF`|:warning: Unverified| |
 |RX 560 XT|Ellesmere (Polaris 10)|`67DF`|:warning: Unverified| |
 |RX 570|Ellesmere (Polaris 20)|`67DF`|:white_check_mark: Verified| |
