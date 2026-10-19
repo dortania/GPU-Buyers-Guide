@@ -2,7 +2,9 @@
 
 :::warning
 
-There are no currently supported NVIDIA GPUs.
+NVIDIA GPUs are not natively supported by modern versions of macOS. However, a community-developed driver, [NullMoth NVIDIA Driver](https://github.com/nullmoth/nvidia-macos-driver), provides experimental support for newer NVIDIA GPUs on macOS.
+
+This driver is not an official Apple or NVIDIA driver. It is still under active development, and functionality, stability, and application compatibility vary. We do not recommend purchasing an NVIDIA GPU specifically for use with macOS.
 
 :::
 
@@ -283,6 +285,120 @@ Needed kexts:
 * [NVIDIA's Web Drivers](https://images.nvidia.com/mac/pkg/387/WebDriver-387.10.10.10.40.140.pkg)
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
 * [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+
+## Non-Native NVIDIA GPUs
+
+### Turing and newer (GTX 16xx, RTX 20xx/30xx/40xx/50xx)
+
+NVIDIA Turing and newer GPUs are not natively supported by macOS. However, the community-developed [NullMoth NVIDIA Driver](https://github.com/nullmoth/nvidia-macos-driver) implements a custom graphics driver stack that enables GPU acceleration on compatible system.
+
+The project uses NVIDIA's open GPU kernel modules alongside a custom Metal driver and a Mesa NVK-based Vulkan backend. It aims to provide Metal acceleration and support for other graphics APIs.
+
+::: warning
+
+**This is not native GPU support, and not all features are functional.** You should not be considered a drop-in replacement for a natively supported AMD GPU.
+
+Consult the project's documentation and release notes for the latest compatibility information before attempting installation.
+
+Known limitations include, but are not limited to:
+
+- **FairPlay DRM and protected media:** Compatibility with DRM-protected streaming services has not been established. Protected playback may fail even when ordinary video playback works.
+- **Hardware video encoding and decoding:** Do not assume that NVENC, NVDEC, or their integration with macOS VideoToolbox is fully supported. Codec acceleration and application compatibility remain limited and may vary by workload.
+- **Application compatibility:** Some games, browsers, and graphics applications may exhibit rendering errors, reduced performance, or other issues.
+- **Display output:** HDMI/DisplayPort audio, certain external GPU configurations, and some laptop internal displays may not work correctly.
+- **Stability:** Some hardware configurations may experience boot failures, display corruption, or other driver-related issues.
+
+Check the project's [known issues and troubleshooting documentation](https://github.com/nullmoth/nvidia-macos-driver) before installing the driver. Back up your OpenCore configuration and ensure that you can boot without the NVIDIA driver before making changes.
+
+:::
+
+### **Turing Series (RTX 20xx, GTX 16xx)**
+
+#### Highest Supported OS: Current/Tahoe (26)
+
+Turing series graphics cards are not natively supported by macOS. However, there is a WIP driver, NullMoth NVIDIA Driver provide experimental support for Metal acceleration. It is not fully functional: please see its website for more information.
+
+Supported Cards:
+
+* Titan RTX
+* RTX 2080 Ti
+* RTX 2080 SUPER
+* RTX 2080
+* RTX 2070 SUPER
+* RTX 2070
+* RTX 2060 SUPER
+* RTX 2060
+* GTX 1660 Ti
+* GTX 1660 SUPER
+* GTX 1660
+* GTX 1650 SUPER
+* GTX 1650
+
+Quadro:
+
+* Quadro RTX 8000
+* Quadro RTX 6000
+* Quadro RTX 5000
+* Quadro RTX 4000
+
+### **Ampere Series (RTX 30xx)**
+
+#### Highest Supported OS: Current/Tahoe (26)
+
+Ampere series graphics cards are not natively supported by macOS. However, there is a WIP driver, NullMoth NVIDIA Driver provide experimental support for Metal acceleration. It is not fully functional: please see its website for more information.
+
+These cards include:
+
+* RTX 3090
+* RTX 3080 Ti
+* RTX 3080
+* RTX 3070 Ti
+* RTX 3070
+* RTX 3060 Ti
+* RTX 3060
+* RTX 3050
+
+### **Lovelace Series (RTX 40xx)**
+
+#### Highest Supported OS: Current/Tahoe (26)
+
+Lovelace series graphics cards are not natively supported by macOS. However, there is a WIP driver, NullMoth NVIDIA Driver provide experimental support for Metal acceleration. It is not fully functional: please see its website for more information.
+
+These cards include:
+
+* RTX 4090
+* RTX 4080 Ti
+* RTX 4080
+* RTX 4070 Ti
+* RTX 4070
+* RTX 4060 Ti
+* RTX 4060
+* RTX 4050
+
+Workstation:
+
+* RTX 6000 Ada Generation
+
+Data Center:
+
+* L40
+
+### **Blackwell Series (RTX 50xx)**
+
+#### Highest Supported OS: Current/Tahoe (26)
+
+Blackwell series graphics cards are not natively supported by macOS. However, there is a WIP driver, NullMoth NVIDIA Driver provide experimental support for Metal acceleration. It is not fully functional: please see its website for more information.
+
+These cards include:
+
+* RTX 5090
+* RTX 5080 Ti
+* RTX 5080
+* RTX 5070 Ti
+* RTX 5070
+* RTX 5060 Ti
+* RTX 5060
+* RTX 5050
 
 Extras:
 
